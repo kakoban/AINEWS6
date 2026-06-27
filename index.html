@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>داشبورد روزانه هوش مصنوعی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0f17;
+    --surface: #161926;
+    --surface2: #1e2235;
+    --border: #2a3050;
+    --text: #e8eaf6;
+    --text-dim: #8891b8;
+    --accent: #6c8fff;
+    --green: #4ade80;
+    --orange: #fb923c;
+    --pink: #f472b6;
+    --purple: #a78bfa;
+    --yellow: #fbbf24;
+    --red: #f87171;
+    --cyan: #22d3ee;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Vazirmatn', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, #161926 0%, #1a1f35 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .brand-icon {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, var(--accent), var(--purple));
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+
+  .brand-text h1 { font-size: 1.2rem; font-weight: 700; }
+  .brand-text p  { font-size: 0.75rem; color: var(--text-dim); margin-top: 2px; }
+
+  .header-meta {
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  }
+
+  .meta-badge {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    display: flex; align-items: center; gap: 6px;
+  }
+
+  .meta-badge span { color: var(--text); font-weight: 600; }
+
+  /* ── Stats Bar ── */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    padding: 20px 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .stat-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    text-align: center;
+  }
+
+  .stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  /* ── Filters ── */
+  .filters {
+    padding: 16px 32px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 81px;
+    z-index: 90;
+  }
+
+  .filter-label {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  .filter-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 0.78rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .filter-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .sort-select {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 0.78rem;
+    font-family: inherit;
+    cursor: pointer;
+    margin-right: auto;
+  }
+
+  /* ── Main Content ── */
+  main {
+    padding: 24px 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  #items-count {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+  }
+
+  /* ── Item Card ── */
+  .item-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 14px;
+    transition: border-color 0.2s, transform 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .item-card::before {
+    content: '';
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 3px;
+    border-radius: 0 14px 14px 0;
+    background: var(--score-color, var(--border));
+  }
+
+  .item-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+
+  .item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .item-badges {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .badge {
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .badge-source  { background: #1e2235; color: var(--text-dim); border: 1px solid var(--border); }
+  .badge-model   { background: #1a2a4a; color: var(--accent); }
+  .badge-tool    { background: #1a3a2a; color: var(--green); }
+  .badge-research{ background: #2a1a4a; color: var(--purple); }
+  .badge-startup { background: #3a2a1a; color: var(--orange); }
+  .badge-hackathon{background: #3a1a2a; color: var(--pink); }
+  .badge-viral   { background: #3a2a1a; color: var(--yellow); }
+  .badge-free-resource { background: #1a3a3a; color: var(--cyan); }
+
+  .score-pill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--surface2);
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .viral-high   { color: var(--yellow); }
+  .viral-medium { color: var(--orange); }
+  .viral-low    { color: var(--text-dim); }
+
+  .item-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  .item-summary {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+
+  .item-why {
+    background: var(--surface2);
+    border-right: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 8px 12px;
+    font-size: 0.82rem;
+    color: var(--text);
+    margin-bottom: 10px;
+  }
+
+  .item-why strong { color: var(--accent); }
+
+  .opportunity-box {
+    background: rgba(74, 222, 128, 0.08);
+    border: 1px solid rgba(74, 222, 128, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.82rem;
+    color: var(--green);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .item-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .item-tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2px 7px;
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    direction: ltr;
+  }
+
+  .item-link {
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    transition: opacity 0.2s;
+    white-space: nowrap;
+  }
+
+  .item-link:hover { opacity: 0.85; }
+
+  /* ── Empty State ── */
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-dim);
+  }
+
+  .empty-state div { font-size: 3rem; margin-bottom: 16px; }
+
+  /* ── Loading ── */
+  .loading {
+    text-align: center;
+    padding: 80px;
+    color: var(--text-dim);
+  }
+
+  .spinner {
+    width: 40px; height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    header, .stats-bar, .filters, main { padding-left: 16px; padding-right: 16px; }
+    .stats-bar { grid-template-columns: repeat(3, 1fr); }
+    .filters { top: 72px; }
+  }
+
+  /* ── Fetch Button & Overlay Styles ── */
+  .fetch-btn {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--purple) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: opacity 0.2s, transform 0.15s;
+    box-shadow: 0 4px 12px rgba(108, 143, 255, 0.2);
+  }
+
+  .fetch-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+
+  .fetch-btn:active {
+    transform: translateY(0);
+  }
+
+  .fetch-btn:disabled {
+    background: var(--surface2) !important;
+    color: var(--text-dim) !important;
+    border: 1px solid var(--border);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* Fullscreen Loading Overlay */
+  .loading-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(13, 15, 23, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .loading-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .overlay-content {
+    text-align: center;
+    max-width: 500px;
+    padding: 32px;
+  }
+
+  .overlay-content h2 {
+    font-size: 1.3rem;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  .overlay-content p {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+
+  .overlay-content .sub-text {
+    font-size: 0.78rem;
+    margin-top: 16px;
+    color: var(--orange);
+  }
+
+  .spinner.large {
+    width: 60px; height: 60px;
+    border-width: 4px;
+  }
+
+  /* GitHub Guide Modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  .modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 550px;
+    padding: 28px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.25s ease;
+  }
+
+  .modal-overlay.active .modal-box {
+    transform: scale(1);
+  }
+
+  .modal-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .modal-body {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    line-height: 1.8;
+  }
+
+  .modal-body ol {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .modal-body li {
+    margin-bottom: 8px;
+  }
+
+  .modal-body strong {
+    color: var(--text);
+  }
+
+  .code-badge {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.82rem;
+    color: var(--pink);
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+
+  .close-modal-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .close-modal-btn:hover {
+    background: var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <div class="brand-icon">🤖</div>
+    <div class="brand-text">
+      <h1>داشبورد روزانه هوش مصنوعی</h1>
+      <p>پایش خودکار اکوسیستم AI — به‌روزرسانی هر روز ساعت ۸:۳۰ صبح</p>
+    </div>
+  </div>
+  <div class="header-meta">
+    <button id="btn-fetch" class="fetch-btn">🔄 به‌روزرسانی فوری</button>
+    <div class="meta-badge">📅 تاریخ: <span id="meta-date">—</span></div>
+    <div class="meta-badge">🕐 آخرین به‌روزرسانی: <span id="meta-time">—</span></div>
+    <div class="meta-badge">🔍 منابع: <span id="meta-sources">—</span></div>
+  </div>
+</header>
+
+
+<div class="stats-bar" id="stats-bar">
+  <div class="stat-card">
+    <div class="stat-value" id="stat-displayed" style="color:var(--accent)">—</div>
+    <div class="stat-label">خبر مهم امروز</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" id="stat-viral" style="color:var(--yellow)">—</div>
+    <div class="stat-label">پتانسیل وایرال بالا</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" id="stat-opp" style="color:var(--green)">—</div>
+    <div class="stat-label">فرصت عملی</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" id="stat-topscore" style="color:var(--pink)">—</div>
+    <div class="stat-label">بالاترین امتیاز</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" id="stat-processed" style="color:var(--purple)">—</div>
+    <div class="stat-label">آیتم پردازش شده</div>
+  </div>
+</div>
+
+<div class="filters">
+  <span class="filter-label">فیلتر:</span>
+  <button class="filter-btn active" data-filter="all">همه</button>
+  <button class="filter-btn" data-filter="model">🧠 مدل‌ها</button>
+  <button class="filter-btn" data-filter="tool">🔧 ابزارها</button>
+  <button class="filter-btn" data-filter="research">📄 تحقیقات</button>
+  <button class="filter-btn" data-filter="startup">🚀 استارتاپ</button>
+  <button class="filter-btn" data-filter="hackathon">🏆 هکاتون</button>
+  <button class="filter-btn" data-filter="viral">🔥 وایرال</button>
+  <button class="filter-btn" data-filter="free-resource">💚 رایگان</button>
+  <button class="filter-btn" data-filter="opportunity">⚡ فرصت</button>
+
+  <select class="sort-select" id="sort-select">
+    <option value="score">مرتب بر اساس: امتیاز اهمیت</option>
+    <option value="viral">مرتب بر اساس: پتانسیل وایرال</option>
+    <option value="date">مرتب بر اساس: جدیدترین</option>
+  </select>
+</div>
+
+<main>
+  <div id="items-count"></div>
+  <div id="items-container">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>در حال بارگذاری داده‌های امروز...</p>
+    </div>
+  </div>
+</main>
+
+<script>
+let allItems = [];
+let currentFilter = 'all';
+let currentSort = 'score';
+
+// ── بارگذاری داده ──
+async function loadData() {
+  try {
+    const res = await fetch('daily_digest.json?t=' + Date.now());
+    if (!res.ok) throw new Error('فایل پیدا نشد');
+    const data = await res.json();
+    initDashboard(data);
+  } catch (e) {
+    // نمایش داده نمونه برای تست
+    initDashboard(getSampleData());
+  }
+}
+
+function initDashboard(data) {
+  // متادیتا
+  document.getElementById('meta-date').textContent = data.date || '—';
+  const t = new Date(data.generated_at);
+  document.getElementById('meta-time').textContent =
+    t.toLocaleTimeString('fa-IR', { hour: '2-digit', minute: '2-digit' });
+  document.getElementById('meta-sources').textContent = data.stats?.total_sources || '—';
+
+  // آمار
+  document.getElementById('stat-displayed').textContent  = data.stats?.total_displayed || 0;
+  document.getElementById('stat-viral').textContent      = data.stats?.high_viral_count || 0;
+  document.getElementById('stat-opp').textContent        = data.stats?.opportunities_count || 0;
+  document.getElementById('stat-topscore').textContent   = (data.stats?.top_score || 0).toFixed(1);
+  document.getElementById('stat-processed').textContent  = data.stats?.total_processed || 0;
+
+  allItems = data.items || [];
+  renderItems();
+}
+
+// ── رندر کارت‌ها ──
+function renderItems() {
+  const container = document.getElementById('items-container');
+  let items = [...allItems];
+
+  // فیلتر
+  if (currentFilter === 'opportunity') {
+    items = items.filter(i => i.opportunity && i.opportunity.startsWith('yes'));
+  } else if (currentFilter !== 'all') {
+    items = items.filter(i => (i.categories || []).includes(currentFilter));
+  }
+
+  // مرتب‌سازی
+  if (currentSort === 'score') {
+    items.sort((a, b) => (b.importance_score || 0) - (a.importance_score || 0));
+  } else if (currentSort === 'viral') {
+    const vmap = { high: 3, medium: 2, low: 1 };
+    items.sort((a, b) => (vmap[b.viral_potential] || 0) - (vmap[a.viral_potential] || 0));
+  } else if (currentSort === 'date') {
+    items.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+  }
+
+  document.getElementById('items-count').textContent =
+    `${items.length} خبر نمایش داده می‌شود`;
+
+  if (items.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div>🔍</div>
+        <p>موردی با این فیلتر یافت نشد</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = items.map(renderCard).join('');
+}
+
+function renderCard(item) {
+  const score = item.importance_score || 0;
+  const scoreColor = score >= 8 ? 'var(--pink)' : score >= 6 ? 'var(--orange)' : 'var(--text-dim)';
+  const cats = item.categories || [item.base_category || 'viral'];
+
+  const viralIcon  = { high: '🔥', medium: '📈', low: '📌' }[item.viral_potential] || '📌';
+  const viralClass = `viral-${item.viral_potential || 'low'}`;
+
+  const catBadges = cats.map(c => {
+    const labels = { model: '🧠 مدل', tool: '🔧 ابزار', research: '📄 تحقیق',
+      startup: '🚀 استارتاپ', hackathon: '🏆 هکاتون', viral: '🔥 وایرال', 'free-resource': '💚 رایگان' };
+    return `<span class="badge badge-${c}">${labels[c] || c}</span>`;
+  }).join('');
+
+  const opportunityBox = item.opportunity && item.opportunity.startsWith('yes')
+    ? `<div class="opportunity-box">⚡ <span>${item.opportunity.replace(/^yes\s*[—-]?\s*/i, '')}</span></div>`
+    : '';
+
+  const tags = (item.tags || []).slice(0, 6).map(t => `<span class="tag">${t}</span>`).join('');
+
+  return `
+    <div class="item-card" style="--score-color:${scoreColor}">
+      <div class="item-top">
+        <div class="item-badges">
+          <span class="badge badge-source">${item.source || '—'}</span>
+          ${catBadges}
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;flex-shrink:0">
+          <span class="score-pill" style="color:${scoreColor}">⭐ ${score.toFixed(1)}</span>
+          <span class="score-pill ${viralClass}">${viralIcon} ${
+            { high: 'وایرال', medium: 'متوسط', low: 'معمولی' }[item.viral_potential] || '—'
+          }</span>
+        </div>
+      </div>
+
+      <h2 class="item-title">${item.headline_fa || item.title || '—'}</h2>
+      <p class="item-summary">${item.summary_fa || ''}</p>
+
+      <div class="item-why">
+        <strong>چرا مهمه؟</strong> ${item.why_it_matters || '—'}
+      </div>
+
+      ${opportunityBox}
+
+      <div class="item-footer">
+        <div class="item-tags">${tags}</div>
+        <a href="${item.url || '#'}" target="_blank" class="item-link">مشاهده منبع ↗</a>
+      </div>
+    </div>`;
+}
+
+// ── فیلترها ──
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderItems();
+  });
+});
+
+document.getElementById('sort-select').addEventListener('change', e => {
+  currentSort = e.target.value;
+  renderItems();
+});
+
+// ── داده نمونه ──
+function getSampleData() {
+  return {
+    date: new Date().toLocaleDateString('en-CA'),
+    generated_at: new Date().toISOString(),
+    stats: { total_sources: 15, total_fetched: 280, total_processed: 80,
+             total_displayed: 24, top_score: 9.4, high_viral_count: 7, opportunities_count: 5 },
+    items: [
+      {
+        id: "demo1", source: "Hugging Face Blog", base_category: "model",
+        categories: ["model", "free-resource"],
+        headline_fa: "متا مدل Llama ۴ را با ۴۰۰ میلیارد پارامتر رایگان منتشر کرد",
+        summary_fa: "متا یک مدل زبانی ۴۰۰ میلیارد پارامتری را به صورت کاملاً متن‌باز منتشر کرد. این مدل در بیشتر بنچمارک‌ها از GPT-4o پیشی گرفته است.",
+        why_it_matters: "اولین مدل متن‌باز در کلاس GPT-4 که می‌توان آن را به صورت محلی اجرا کرد",
+        opportunity: "yes — می‌توان با Ollama روی سرور ۱۶۰ دلاری/ماه اجرا کرد و سرویس API ارائه داد",
+        viral_potential: "high", importance_score: 9.4,
+        tags: ["llama4", "open-source", "meta", "free"],
+        url: "#", published_at: new Date().toISOString()
+      },
+      {
+        id: "demo2", source: "Lablab.ai", base_category: "hackathon",
+        categories: ["hackathon"],
+        headline_fa: "هکاتون ۱۰ هزار دلاری عوامل هوش مصنوعی — ثبت‌نام رایگان",
+        summary_fa: "Lablab.ai یک هکاتون ۷۲ ساعته با جوایز نقدی ۱۰,۰۰۰ دلار و ۵۰۰ دلار اعتبار ابری برگزار می‌کند. موضوع: ساخت عوامل خودمختار با Anthropic API.",
+        why_it_matters: "فرصت کسب درآمد و رزومه با ساخت یک پروتوتایپ کاربردی در ۷۲ ساعت",
+        opportunity: "yes — ثبت‌نام رایگان، اعتبار API رایگان، جایزه نقدی تا ۱۰ هزار دلار",
+        viral_potential: "high", importance_score: 8.9,
+        tags: ["hackathon", "agents", "anthropic", "prize"],
+        url: "#", published_at: new Date().toISOString()
+      },
+      {
+        id: "demo3", source: "r/LocalLLaMA", base_category: "viral",
+        categories: ["tool", "viral"],
+        headline_fa: "آموزش اجرای Claude روی لپ‌تاپ معمولی با ۸ گیگ رم",
+        summary_fa: "یک توسعه‌دهنده روشی برای اجرای مدل کوانتیزه Claude-equivalent روی سخت‌افزار معمولی پیدا کرده. پست با ۳۴۰۰ رأی در r/LocalLLaMA ترند شده.",
+        why_it_matters: "این روش هزینه API ماهانه را به صفر می‌رساند بدون کاهش محسوس کیفیت",
+        opportunity: "yes — می‌توان از این روش برای پروژه‌های نیازمند حریم خصوصی استفاده کرد",
+        viral_potential: "high", importance_score: 8.1,
+        tags: ["local-llm", "ollama", "quantization", "free"],
+        url: "#", published_at: new Date().toISOString()
+      },
+      {
+        id: "demo4", source: "ArXiv CS.AI", base_category: "research",
+        categories: ["research", "model"],
+        headline_fa: "روش جدید RLHF که مدل‌ها را ۴۰ درصد صادق‌تر می‌کند",
+        summary_fa: "محققان دانشگاه MIT روشی جدید برای آموزش مدل‌های زبانی معرفی کردند که تمایل مدل به توافق با کاربر را به شدت کاهش می‌دهد.",
+        why_it_matters: "این پیشرفت می‌تواند استانداردهای ارزیابی مدل‌های تجاری را تغییر دهد",
+        opportunity: "no",
+        viral_potential: "medium", importance_score: 7.8,
+        tags: ["rlhf", "alignment", "mit", "research"],
+        url: "#", published_at: new Date().toISOString()
+      },
+      {
+        id: "demo5", source: "TechCrunch AI", base_category: "startup",
+        categories: ["startup"],
+        headline_fa: "استارتاپ AI امنیت سایبری ۱۲۰ میلیون دلار سرمایه جذب کرد",
+        summary_fa: "شرکت CyberSense AI در دور Series B خود ۱۲۰ میلیون دلار جمع‌آوری کرد. این شرکت از LLM برای شناسایی تهدیدات پیچیده در لحظه استفاده می‌کند.",
+        why_it_matters: "نشانه‌ای از رشد سریع بازار AI امنیتی که هنوز رقبای کمی دارد",
+        opportunity: "no",
+        viral_potential: "low", importance_score: 7.2,
+        tags: ["cybersecurity", "funding", "series-b", "llm"],
+        url: "#", published_at: new Date().toISOString()
+      }
+    ]
+  };
+}
+
+// ── مدیریت به‌روزرسانی فوری (دکمه هدر) ──
+function toggleGithubModal(show) {
+  const modal = document.getElementById('github-guide-modal');
+  if (modal) {
+    if (show) modal.classList.add('active');
+    else modal.classList.remove('active');
+  }
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const btnFetch = document.getElementById('btn-fetch');
+  const loadingOverlay = document.getElementById('loading-overlay');
+
+  async function pollStatus() {
+    try {
+      const r = await fetch('/api/status');
+      const state = await r.json();
+      return state;
+    } catch (e) {
+      return { status: 'error', message: 'ارتباط با سرور قطع شد.' };
+    }
+  }
+
+  if (btnFetch) {
+    btnFetch.addEventListener('click', async () => {
+      if (!isLocalhost) {
+        toggleGithubModal(true);
+        return;
+      }
+
+      // چک کن آیا قبلاً در حال اجراست
+      const currentState = await pollStatus();
+      if (currentState.status === 'running') {
+        if (loadingOverlay) loadingOverlay.classList.add('active');
+      } else {
+        // شروع واکشی جدید
+        try {
+          await fetch('/api/fetch', { method: 'POST' });
+        } catch(e) {
+          alert('ارتباط با سرور محلی برقرار نشد.\nمطمئن شوید که دستور python collector.py --server در ترمینال در حال اجراست.');
+          return;
+        }
+        if (loadingOverlay) loadingOverlay.classList.add('active');
+      }
+
+      btnFetch.disabled = true;
+
+      // polling تا اتمام کار
+      const interval = setInterval(async () => {
+        const state = await pollStatus();
+        if (state.status === 'success') {
+          clearInterval(interval);
+          btnFetch.disabled = false;
+          if (loadingOverlay) loadingOverlay.classList.remove('active');
+          await loadData();
+          alert('به‌روزرسانی موفقیت‌آمیز بود!\n' + state.message);
+        } else if (state.status === 'error') {
+          clearInterval(interval);
+          btnFetch.disabled = false;
+          if (loadingOverlay) loadingOverlay.classList.remove('active');
+          alert('خطا در واکشی اخبار:\n' + state.message);
+        }
+        // اگر status === 'running' باشد، ادامه polling
+      }, 3000);
+    });
+  }
+
+  const githubModal = document.getElementById('github-guide-modal');
+  if (githubModal) {
+    githubModal.addEventListener('click', (e) => {
+      if (e.target === githubModal) {
+        toggleGithubModal(false);
+      }
+    });
+  }
+});
+
+
+// ── اجرا ──
+loadData();
+</script>
+
+<!-- لایه بارگذاری لودینگ فوری اخبار -->
+<div id="loading-overlay" class="loading-overlay">
+  <div class="overlay-content">
+    <div class="spinner large"></div>
+    <h2>در حال واکشی و تحلیل اخبار زنده هوش مصنوعی</h2>
+    <p>برنامه پایتون در حال حاضر با استفاده از مدل هوش مصنوعی (GPT-4o Mini) در حال اسکرپ، ترجمه و پردازش بیش از ۷۰ منبع خبری است...</p>
+    <p class="sub-text">این فرآیند حدود ۱ الی ۲ دقیقه طول می‌کشد. لطفاً منتظر بمانید و این صفحه را نبندید.</p>
+  </div>
+</div>
+
+<!-- پاپ‌آپ راهنمای به‌روزرسانی در گیت‌هاب (برای نسخه آنلاین) -->
+<div id="github-guide-modal" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-title">🌐 راهنمای به‌روزرسانی نسخه آنلاین (گیت‌هاب)</div>
+    <div class="modal-body">
+      <p>شما در حال حاضر در حال مشاهده نسخه آنلاین داشبورد هستید. از آنجا که داشبورد آنلاین استاتیک است، مرورگر امکان اجرای مستقیم فرآیند جمع‌آوری را ندارد. برای به‌روزرسانی امن و آنلاین اخبار، مراحل زیر را طی کنید:</p>
+      <ol>
+        <li>وارد حساب کاربری خود در <strong>GitHub</strong> و مخزن (Repository) این پروژه شوید.</li>
+        <li>به تب <strong>Actions</strong> در بالای صفحه بروید.</li>
+        <li>از منوی سمت چپ، گردش کار <strong>Daily AI Digest</strong> را انتخاب کنید.</li>
+        <li>روی دکمه کشویی <strong>Run workflow</strong> کلیک کرده و دکمه سبز رنگ را فشار دهید.</li>
+      </ol>
+      <p>سرورهای گیت‌هاب در پشت‌صحنه فعال شده و پس از حدود ۲ دقیقه، این صفحه به صورت خودکار با داده‌های تازه به‌روزرسانی خواهد شد. شما نیازی به ورود کلید API خود در مرورگر ندارید.</p>
+    </div>
+    <div class="modal-footer">
+      <button class="close-modal-btn" onclick="toggleGithubModal(false)">متوجه شدم</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

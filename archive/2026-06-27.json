@@ -1,0 +1,1270 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T15:38:52.214470+00:00",
+  "stats": {
+    "total_sources": 41,
+    "total_fetched": 111,
+    "total_processed": 50,
+    "total_displayed": 50,
+    "top_score": 9,
+    "high_viral_count": 8,
+    "opportunities_count": 47
+  },
+  "items": [
+    {
+      "id": "e05f150685",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary_raw": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "published_at": "Fri, 26 Jun 2026 10:00:00 GMT",
+      "importance_score": 9,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "معرفی GPT-5.6 Sol: مدل نسل بعدی هوش مصنوعی",
+      "summary_fa": "OpenAI مدل جدید GPT-5.6 Sol را معرفی کرد که قابلیت‌های بهتری در برنامه‌نویسی، علم و امنیت سایبری دارد. این مدل با پیشرفته‌ترین سیستم‌های ایمنی خود همراه است.",
+      "why_it_matters": "این مدل می‌تواند به پیشرفت‌های قابل توجهی در حوزه‌های مختلف کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "GPT-5.6",
+        "AI",
+        "OpenAI",
+        "cybersecurity",
+        "coding"
+      ]
+    },
+    {
+      "id": "e724c5a9e6",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "summary_raw": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "published_at": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "importance_score": 9,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "ابزارهای جدید OpenAI برای امنیت سازمان‌ها",
+      "summary_fa": "OpenAI ابزارهای جدیدی به نام Daybreak معرفی کرده است که شامل Codex Security و GPT-5.5-Cyber می‌باشد. این ابزارها به سازمان‌ها کمک می‌کنند تا آسیب‌پذیری‌ها را در مقیاس وسیع شناسایی و برطرف کنند.",
+      "why_it_matters": "این ابزارها می‌توانند به بهبود امنیت سایبری سازمان‌ها کمک کنند و خطرات را کاهش دهند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "security",
+        "AI",
+        "vulnerabilities",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "158637af2f",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "summary_raw": "",
+      "published_at": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research",
+        "tool"
+      ],
+      "headline_fa": "آیا مدل‌های باز به اندازه کافی کارآمد هستند؟",
+      "summary_fa": "این مقاله به بررسی عملکرد مدل‌های باز در ابزارهای مختلف می‌پردازد. نتایج به ما کمک می‌کند تا نقاط قوت و ضعف این مدل‌ها را شناسایی کنیم.",
+      "why_it_matters": "این موضوع به بهبود ابزارهای هوش مصنوعی و کارایی مدل‌ها کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "benchmarking",
+        "open models",
+        "AI tools"
+      ]
+    },
+    {
+      "id": "3301e1d95a",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "summary_raw": "",
+      "published_at": "Tue, 09 Jun 2026 14:10:19 +0000",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "معرفی مدل چندرسانه‌ای Gemma 4 12B بدون انکودر",
+      "summary_fa": "مدل جدید Gemma 4 12B از DeepMind به عنوان یک مدل چندرسانه‌ای معرفی شده است. این مدل بدون استفاده از انکودر طراحی شده و قابلیت‌های جدیدی را ارائه می‌دهد.",
+      "why_it_matters": "این مدل می‌تواند به پیشرفت‌های قابل توجهی در حوزه هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "DeepMind",
+        "Gemma",
+        "AI",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "12e19c7621",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "summary_raw": "",
+      "published_at": "Wed, 24 Jun 2026 16:00:13 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "شتاب‌دهی به فاین‌تونینگ ترنسفورمرها با NVIDIA NeMo",
+      "summary_fa": "NVIDIA NeMo AutoModel به کاربران کمک می‌کند تا فرآیند فاین‌تونینگ ترنسفورمرها را سریع‌تر انجام دهند. این ابزار به ویژه برای محققان و توسعه‌دهندگان هوش مصنوعی مفید است.",
+      "why_it_matters": "این ابزار می‌تواند به تسریع پیشرفت‌های تحقیقاتی و کاربردی در زمینه هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "NVIDIA",
+        "NeMo",
+        "transformers",
+        "AI",
+        "fine-tuning"
+      ]
+    },
+    {
+      "id": "f0b562107e",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "summary_raw": "",
+      "published_at": "Wed, 24 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "معرفی لیدربورد FFASR: ارزیابی ASR در دنیای واقعی",
+      "summary_fa": "لیدربورد FFASR به بررسی و ارزیابی سیستم‌های تشخیص گفتار می‌پردازد. این ابزار به محققان کمک می‌کند تا عملکرد مدل‌های مختلف را در شرایط واقعی مقایسه کنند.",
+      "why_it_matters": "این ارزیابی‌ها می‌توانند به بهبود کیفیت و دقت سیستم‌های تشخیص گفتار کمک کنند.",
+      "opportunity": "yes — فرصت برای توسعه و بهبود مدل‌های ASR در کاربردهای واقعی.",
+      "viral_potential": "medium",
+      "tags": [
+        "ASR",
+        "benchmarking",
+        "HuggingFace",
+        "speechRecognition"
+      ]
+    },
+    {
+      "id": "1f29dff412",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "summary_raw": "",
+      "published_at": "Tue, 23 Jun 2026 12:51:55 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "ایجاد اپلیکیشن‌های هوشمند با CUGA: ۲۴ مثال کاربردی",
+      "summary_fa": "این پست به معرفی CUGA می‌پردازد که ابزاری سبک برای ساخت اپلیکیشن‌های هوشمند است. همچنین، ۲۴ مثال عملی برای استفاده از این ابزار ارائه شده است.",
+      "why_it_matters": "این ابزار می‌تواند به توسعه‌دهندگان کمک کند تا اپلیکیشن‌های هوشمند و کارآمد بسازند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "CUGA",
+        "AI",
+        "applications",
+        "examples",
+        "HuggingFace"
+      ]
+    },
+    {
+      "id": "5a66fabdf6",
+      "source": "VentureBeat AI",
+      "base_category": "startup",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "summary_raw": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools. \"Cowork lets you complete non-technical tasks much like how developers use Claude Code,\" the company announced via its official Claude account on X. The feature arrives as a research preview available exclusively to Claude Max",
+      "published_at": "Mon, 12 Jan 2026 11:30:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "startup"
+      ],
+      "headline_fa": "انتشار Cowork: دستیار هوش مصنوعی جدید Anthropic",
+      "summary_fa": "شرکت Anthropic روز دوشنبه Cowork را معرفی کرد، یک قابلیت جدید که قدرت ابزار Claude Code را به کاربران غیرتخصصی می‌آورد. این ویژگی در حدود یک هفته و نیم توسعه یافته و به کاربران کمک می‌کند بدون نیاز به کدنویسی از آن استفاده کنند.",
+      "why_it_matters": "این اقدام می‌تواند دسترسی به هوش مصنوعی را برای کاربران عادی تسهیل کند.",
+      "opportunity": "yes — این ابزار می‌تواند به کسب‌وکارها کمک کند تا بهره‌وری خود را افزایش دهند.",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Cowork",
+        "Claude",
+        "productivity"
+      ]
+    },
+    {
+      "id": "031f81e4c9",
+      "source": "VentureBeat AI",
+      "base_category": "startup",
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "summary_raw": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics processors . The model, called NousCoder-14B , is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code , the agentic programming tool from rival Anthropic, has dominated social media discussion since New Year's Day, with developers posting breathless testimonials about its capabilities . The simultaneous developments underscore how quickly AI-assisted software development is evolving — and how fiercely companies large and small are comp",
+      "published_at": "Wed, 07 Jan 2026 20:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "startup",
+        "tool"
+      ],
+      "headline_fa": "مدل کدنویسی NousCoder-14B به صورت متن‌باز منتشر شد",
+      "summary_fa": "شرکت Nous Research یک مدل کدنویسی جدید به نام NousCoder-14B را منتشر کرده است. این مدل در مدت چهار روز با استفاده از 48 پردازنده گرافیکی Nvidia B200 آموزش دیده است.",
+      "why_it_matters": "این مدل می‌تواند رقابت را در زمینه ابزارهای کدنویسی هوش مصنوعی افزایش دهد.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "coding",
+        "open-source",
+        "NousCoder",
+        "programming"
+      ]
+    },
+    {
+      "id": "2438f508da",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "summary_raw": "",
+      "published_at": "Wed, 24 Jun 2026 16:30:01 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "model"
+      ],
+      "headline_fa": "معرفی قابلیت‌های جدید Gemini 3.5 Flash",
+      "summary_fa": "Gemini 3.5 Flash امکانات جدیدی برای استفاده از کامپیوتر ارائه می‌دهد. این ابزار به کاربران کمک می‌کند تا بهره‌وری بیشتری داشته باشند.",
+      "why_it_matters": "این بهبودها می‌توانند تجربه کاربری را به طرز چشمگیری افزایش دهند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Gemini",
+        "AI",
+        "DeepMind",
+        "technology"
+      ]
+    },
+    {
+      "id": "94b10bfdca",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Securing the future of AI agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "summary_raw": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "published_at": "Tue, 16 Jun 2026 15:46:31 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "تامین امنیت آینده عامل‌های هوش مصنوعی",
+      "summary_fa": "این پست به بررسی نقشه‌راه کنترل هوش مصنوعی برای ایمن‌سازی سیستم‌های داخلی می‌پردازد. ترکیب تدابیر سنتی و نظارت در زمان واقعی از نکات کلیدی این رویکرد است.",
+      "why_it_matters": "این موضوع به حفظ امنیت و کنترل بر روی سیستم‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes — فرصت‌های جدیدی برای توسعه ابزارهای امنیتی در حوزه هوش مصنوعی ایجاد می‌شود.",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "security",
+        "DeepMind"
+      ]
+    },
+    {
+      "id": "714deb535c",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "summary_raw": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "published_at": "Wed, 10 Jun 2026 10:21:19 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "سرمایه‌گذاری ۱۰ میلیون دلاری در تحقیق ایمنی هوش مصنوعی چندعاملی",
+      "summary_fa": "گوگل دیپ‌مایند و شرکای آن از فراخوان تأمین مالی ۱۰ میلیون دلاری برای تحقیق در زمینه ایمنی هوش مصنوعی چندعاملی خبر دادند. این تحقیق به بررسی چالش‌های ایمنی در تعاملات بین چند عامل هوش مصنوعی می‌پردازد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود ایمنی و کارایی سیستم‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "safety",
+        "research",
+        "DeepMind"
+      ]
+    },
+    {
+      "id": "17fcb07527",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "summary_raw": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "published_at": "Tue, 09 Jun 2026 15:16:25 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "model"
+      ],
+      "headline_fa": "ترجمه صوتی طبیعی و سریع با Gemini 3.5",
+      "summary_fa": "نسخه Gemini 3.5 Live Translate امکان ترجمه صوتی نزدیک به زمان واقعی را فراهم می‌کند. این ابزار در Google AI Studio، Google Translate و Google Meet قابل استفاده است.",
+      "why_it_matters": "این فناوری می‌تواند ارتباطات بین‌المللی را تسهیل کند و به کاهش موانع زبانی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "translation",
+        "AI",
+        "Google",
+        "speech"
+      ]
+    },
+    {
+      "id": "fef111cd06",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "summary_raw": "",
+      "published_at": "Thu, 21 May 2026 19:46:42 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "راه‌اندازی برنامه شتاب‌دهنده دیپ‌مایند در آسیا و اقیانوسیه",
+      "summary_fa": "برنامه شتاب‌دهنده دیپ‌مایند با هدف مقابله با خطرات زیست‌محیطی در منطقه آسیا و اقیانوسیه راه‌اندازی می‌شود. این برنامه به دنبال توسعه راه‌حل‌های نوآورانه و پایدار است.",
+      "why_it_matters": "این برنامه می‌تواند به کاهش خطرات زیست‌محیطی و بهبود کیفیت زندگی در منطقه کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "DeepMind",
+        "environment",
+        "AsiaPacific",
+        "sustainability"
+      ]
+    },
+    {
+      "id": "34c3a4fcab",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary_raw": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "published_at": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحول کار با هوش مصنوعی: افزایش بهره‌وری و پیچیدگی وظایف",
+      "summary_fa": "مقاله جدید OpenAI نشان می‌دهد که چگونه عوامل هوش مصنوعی در حال تغییر کار هستند. این فناوری امکان انجام وظایف طولانی‌تر و پیچیده‌تر را فراهم می‌کند.",
+      "why_it_matters": "این موضوع به بهبود بهره‌وری و کارایی در محیط‌های کاری کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "productivity",
+        "work",
+        "research"
+      ]
+    },
+    {
+      "id": "3079893c53",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary_raw": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "published_at": "Wed, 24 Jun 2026 06:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "چیپ هوش مصنوعی جدید OpenAI و Broadcom معرفی شد",
+      "summary_fa": "OpenAI و Broadcom چیپ هوش مصنوعی جدیدی به نام Jalapeño را معرفی کردند. این چیپ برای بهبود عملکرد و کارایی در سیستم‌های هوش مصنوعی طراحی شده است.",
+      "why_it_matters": "این چیپ می‌تواند به بهبود عملکرد مدل‌های زبان بزرگ کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "chip",
+        "inference",
+        "LLM"
+      ]
+    },
+    {
+      "id": "1a26808321",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary_raw": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "published_at": "Tue, 23 Jun 2026 17:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "چگونه GPT-5 معمای ایمنی‌شناسی را حل کرد؟",
+      "summary_fa": "GPT-5 Pro به دانشمند ایمنی‌شناسی، دریا اونتماز، در حل یک معما کمک کرد. این پیشرفت می‌تواند به تحقیقات سرطان و بیماری‌های خودایمنی کمک کند.",
+      "why_it_matters": "این کشف می‌تواند به پیشرفت‌های مهمی در درمان بیماری‌ها منجر شود.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "GPT-5",
+        "immunology",
+        "cancer",
+        "research"
+      ]
+    },
+    {
+      "id": "b85952cd72",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary_raw": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published_at": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "startup"
+      ],
+      "headline_fa": "سامسونگ از ChatGPT و Codex برای کارمندانش استفاده می‌کند",
+      "summary_fa": "شرکت سامسونگ الکترونیکس ChatGPT Enterprise و Codex را به کارمندان خود در سراسر جهان معرفی کرد. این اقدام یکی از بزرگترین راه‌اندازی‌های هوش مصنوعی در سطح شرکتی OpenAI به شمار می‌رود.",
+      "why_it_matters": "این موضوع نشان‌دهنده رشد و نفوذ هوش مصنوعی در صنایع بزرگ است.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Samsung",
+        "ChatGPT",
+        "Codex"
+      ]
+    },
+    {
+      "id": "815861b513",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Improving health intelligence in ChatGPT",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "summary_raw": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "published_at": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "بهبود هوش سلامت در چت‌جی‌پی‌تی",
+      "summary_fa": "نسخه جدید چت‌جی‌پی‌تی با نام GPT-5.5 Instant پاسخ‌های بهتری در زمینه سلامت ارائه می‌دهد. این بهبودها شامل استدلال قوی‌تر و ارزیابی‌های مبتنی بر پزشکان است.",
+      "why_it_matters": "این بهبودها می‌تواند به افزایش دقت و کیفیت اطلاعات سلامت کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "health",
+        "AI",
+        "ChatGPT",
+        "GPT-5.5"
+      ]
+    },
+    {
+      "id": "fddccc6c22",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "summary_raw": "",
+      "published_at": "Fri, 26 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "راه‌اندازی سرور vLLM با یک دستور در HF Jobs",
+      "summary_fa": "این مقاله به شما نشان می‌دهد چگونه می‌توانید یک سرور vLLM را تنها با یک دستور در HF Jobs راه‌اندازی کنید. این روش به توسعه‌دهندگان کمک می‌کند تا به راحتی از مدل‌های هوش مصنوعی استفاده کنند.",
+      "why_it_matters": "این موضوع به تسهیل استفاده از مدل‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "vLLM",
+        "HuggingFace",
+        "AI",
+        "server"
+      ]
+    },
+    {
+      "id": "1f3075acbb",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "summary_raw": "",
+      "published_at": "Thu, 25 Jun 2026 16:11:42 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "model"
+      ],
+      "headline_fa": "کدام توکن‌ها در مدل‌های هیبریدی بهتر پیش‌بینی می‌شوند؟",
+      "summary_fa": "این مقاله به بررسی عملکرد مدل‌های هیبریدی در پیش‌بینی توکن‌ها می‌پردازد. نتایج نشان می‌دهد که برخی توکن‌ها در این مدل‌ها دقت بیشتری دارند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "hybrid",
+        "model",
+        "tokens",
+        "AI"
+      ]
+    },
+    {
+      "id": "fc601f0b91",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "summary_raw": "",
+      "published_at": "Thu, 18 Jun 2026 18:13:13 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "آیا عامل تحقیق شما می‌تواند راز نگه دارد؟",
+      "summary_fa": "مقاله جدید Hugging Face به بررسی قابلیت‌های MosaicLeaks می‌پردازد. این ابزار به محققان کمک می‌کند تا اطلاعات حساس را به‌طور امن مدیریت کنند.",
+      "why_it_matters": "این موضوع به حفظ حریم خصوصی و امنیت داده‌ها در تحقیقات علمی کمک می‌کند.",
+      "opportunity": "yes — امکان توسعه ابزارهای جدید برای مدیریت اطلاعات حساس وجود دارد.",
+      "viral_potential": "medium",
+      "tags": [
+        "MosaicLeaks",
+        "privacy",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "97ead4e0ec",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "url": "https://huggingface.co/blog/peft-beyond-lora",
+      "summary_raw": "",
+      "published_at": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "فراتر از LoRA: آیا می‌توانید تکنیک‌های جدید را امتحان کنید؟",
+      "summary_fa": "این مقاله به بررسی تکنیک‌های جدید فاین‌تونیگ می‌پردازد و مقایسه‌ای با LoRA انجام می‌دهد. هدف این است که به دنبال روش‌های بهتری برای بهینه‌سازی مدل‌ها باشیم.",
+      "why_it_matters": "این موضوع به پیشرفت‌های جدید در بهینه‌سازی مدل‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes — فرصت برای توسعه ابزارهای جدید فاین‌تونیگ وجود دارد.",
+      "viral_potential": "medium",
+      "tags": [
+        "fine-tuning",
+        "AI",
+        "LoRA",
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "ca8f750e86",
+      "source": "IEEE Spectrum AI",
+      "base_category": "research",
+      "title": "IEEE Rolls Out Large Language Models Virtual Training Course",
+      "url": "https://spectrum.ieee.org/large-language-models-ieee-course",
+      "summary_raw": "Large language models have moved out of the research lab and into engineers’ daily workflow. LLMs serve as reasoning engines that can orchestrate complex tasks including identifying vulnerabilities in source code and transforming fragmented project discussions into rigorous technical specifications. While the general public uses AI tools to write email and plan vacations, technical professionals use LLMs as core architectural elements that are fundamentally changing how digital infrastructures are built and maintained. As the AI models move into mainstream engineering practice, the demand for technical expertise is rising. The LLM technology market is expected to grow by about 33 percent every year through 2030 , according to MarketsandMarkets . The rapid expansion suggests that proficienc",
+      "published_at": "Fri, 19 Jun 2026 18:00:01 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "دوره آموزشی رایگان مدل‌های زبانی بزرگ از IEEE",
+      "summary_fa": "IEEE دوره‌ای آموزشی برای مدل‌های زبانی بزرگ ارائه کرده است. این دوره به مهندسان کمک می‌کند تا از LLMها در کارهای روزمره خود بهره‌برداری کنند.",
+      "why_it_matters": "این دوره می‌تواند به بهبود مهارت‌های فنی و افزایش بهره‌وری در پروژه‌های مهندسی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "training",
+        "AI",
+        "IEEE"
+      ]
+    },
+    {
+      "id": "b3ccdbc51a",
+      "source": "IEEE Spectrum AI",
+      "base_category": "research",
+      "title": "Visual Language Models Train Robots to Read Human Emotions",
+      "url": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+      "summary_raw": "This article is part of our exclusive IEEE Journal Watch series in partnership with IEEE Xplore. As robots advance in terms of dexterity and other physical capabilities , it becomes more likely that humans may find themselves working alongside them. If that happens, how will robots’ emotional capabilities need to advance for them to successfully work with people? In a recent study, researchers trained collaborative robots to read human emotions by not only accounting for facial expressions, but also contextual factors in the interactions as well. Through experiments with 40 volunteers, the researchers then evaluated how a robot’s ability to read human emotions and adjust its behavior in turn impacted a human’s perception of the robot and its capabilities as the two collaborated on tasks. T",
+      "published_at": "Sat, 13 Jun 2026 13:00:01 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "ربات‌ها چگونه احساسات انسانی را می‌خوانند؟",
+      "summary_fa": "محققان ربات‌های همکاری را آموزش داده‌اند تا احساسات انسانی را شناسایی کنند. این آموزش شامل تحلیل حالت‌های چهره و دیگر نشانه‌ها است.",
+      "why_it_matters": "این پیشرفت می‌تواند همکاری انسان و ربات را بهبود بخشد.",
+      "opportunity": "yes — امکان توسعه نرم‌افزارهای هوش مصنوعی برای شناسایی احساسات.",
+      "viral_potential": "medium",
+      "tags": [
+        "emotion",
+        "robotics",
+        "AI",
+        "collaboration"
+      ]
+    },
+    {
+      "id": "8f2f0e901d",
+      "source": "VentureBeat AI",
+      "base_category": "startup",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "summary_raw": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code , Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose , an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a so",
+      "published_at": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "رقابت هوش مصنوعی: کلاود کد در برابر گوس رایگان",
+      "summary_fa": "کلاود کد، ابزار هوش مصنوعی برای برنامه‌نویسی، هزینه‌ای بین ۲۰ تا ۲۰۰ دلار در ماه دارد. در مقابل، گوس به عنوان یک جایگزین رایگان در حال محبوب شدن است.",
+      "why_it_matters": "این موضوع نشان‌دهنده فشار بر قیمت‌گذاری ابزارهای هوش مصنوعی است.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "coding",
+        "free",
+        "alternative"
+      ]
+    },
+    {
+      "id": "34c9237a1f",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "summary_raw": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+      "published_at": "Sat, 27 Jun 2026 12:00:00 +0000",
+      "importance_score": 8,
+      "categories": [
+        "startup",
+        "model"
+      ],
+      "headline_fa": "استارتاپ‌های آسیایی مدل‌های مشابه Mythos را راه‌اندازی کردند",
+      "summary_fa": "مدل‌های جدیدی در آسیا راه‌اندازی شده‌اند که قابلیت‌های مشابه Mythos را بدون نگرانی از ممنوعیت صادرات ارائه می‌دهند. این موضوع می‌تواند بازار بزرگی را برای آزمایشگاه‌های هوش مصنوعی آمریکا از دست بدهد.",
+      "why_it_matters": "این خبر نشان‌دهنده رقابت فزاینده در بازار هوش مصنوعی است.",
+      "opportunity": "yes - فرصت برای سرمایه‌گذاری و همکاری با استارتاپ‌های آسیایی وجود دارد.",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "startup",
+        "Mythos",
+        "export ban"
+      ]
+    },
+    {
+      "id": "d614137c4e",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "summary_raw": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "published_at": "Thu, 25 Jun 2026 23:34:39 +0000",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "کاخ سفید از OpenAI خواسته تا مدل جدیدش را کندتر معرفی کند",
+      "summary_fa": "OpenAI قصد دارد مدل جدید خود، GPT 5.6، را فقط با گروهی از شرکا به اشتراک بگذارد. این تصمیم به دلیل نگرانی‌های ایمنی از سوی دولت ترامپ اتخاذ شده است.",
+      "why_it_matters": "این موضوع نشان‌دهنده نگرانی‌های جدی درباره ایمنی هوش مصنوعی و تأثیرات آن بر جامعه است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "GPT",
+        "safety",
+        "Trump",
+        "AI"
+      ]
+    },
+    {
+      "id": "174471921a",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "summary_raw": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+      "published_at": "Thu, 25 Jun 2026 17:38:27 +0000",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "startup"
+      ],
+      "headline_fa": "کلود آنتروپیک در حال جذب کاربران پرداختی است",
+      "summary_fa": "با وجود برتری بازار چت‌جی‌پی‌تی، کاربران پرداختی به سمت کلود آنتروپیک روی آورده‌اند. داده‌ها نشان می‌دهد که این روند در حال افزایش است.",
+      "why_it_matters": "این تغییر می‌تواند رقابت در بازار هوش مصنوعی را تغییر دهد.",
+      "opportunity": "yes — فرصت برای توسعه و بهبود مدل‌های هوش مصنوعی جدید وجود دارد.",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Claude",
+        "Anthropic",
+        "ChatGPT",
+        "market"
+      ]
+    },
+    {
+      "id": "c4e6b92336",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "summary_raw": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "published_at": "Tue, 16 Jun 2026 21:29:50 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "توسعه مسکن در بریتانیا با هوش مصنوعی",
+      "summary_fa": "دولت بریتانیا با همکاری گوگل دیپ‌مایند، پروتوتایپی جدید برای تسریع در تصمیم‌گیری‌های مسکن ایجاد کرده است. این فناوری می‌تواند به بهبود فرآیند برنامه‌ریزی مسکن کمک کند.",
+      "why_it_matters": "این پروژه می‌تواند به حل بحران مسکن در بریتانیا کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "housing",
+        "DeepMind",
+        "UK",
+        "government"
+      ]
+    },
+    {
+      "id": "d77fcfb0bf",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "summary_raw": "",
+      "published_at": "Wed, 10 Jun 2026 16:24:11 +0000",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "تولید متن ۴ برابر سریع‌تر با DiffusionGemma",
+      "summary_fa": "DiffusionGemma یک مدل جدید است که سرعت تولید متن را ۴ برابر افزایش می‌دهد. این پیشرفت می‌تواند به بهبود کارایی در برنامه‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این تکنولوژی می‌تواند به تسریع فرآیندهای تولید محتوا و بهبود تجربه کاربری در سیستم‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "text-generation",
+        "DeepMind",
+        "innovation"
+      ]
+    },
+    {
+      "id": "793b2431fc",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "summary_raw": "",
+      "published_at": "Tue, 09 Jun 2026 14:02:33 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "قدرت‌دهی به آینده رباتیک در اروپا",
+      "summary_fa": "این پست به بررسی پیشرفت‌های جدید در حوزه رباتیک در اروپا می‌پردازد. DeepMind به دنبال ارتقاء فناوری‌های رباتیک و هوش مصنوعی است.",
+      "why_it_matters": "این موضوع به توسعه فناوری‌های نوین و بهبود کیفیت زندگی انسان‌ها کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "robotics",
+        "AI",
+        "DeepMind",
+        "Europe"
+      ]
+    },
+    {
+      "id": "47e80b2e50",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "summary_raw": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+      "published_at": "Mon, 08 Jun 2026 13:04:59 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "افزایش یادگیری با هوش مصنوعی در سیرالئون",
+      "summary_fa": "نتایج یک آزمایش کنترل‌شده تصادفی نشان می‌دهد که ویژگی Guided Learning در Gemini می‌تواند درگیری و یادگیری را تسریع کند. این مطالعه پتانسیل بالای هوش مصنوعی در آموزش را به نمایش می‌گذارد.",
+      "why_it_matters": "این تحقیق نشان‌دهنده تأثیر مثبت هوش مصنوعی بر فرآیند یادگیری است.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "education",
+        "learning",
+        "Gemini",
+        "SierraLeone"
+      ]
+    },
+    {
+      "id": "99e0d2f4c9",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "summary_raw": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "published_at": "Mon, 18 May 2026 18:21:39 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تسریع در شناسایی عوامل جوان‌سازی سلول‌های انسانی",
+      "summary_fa": "زیست‌شناسان با استفاده از Co-Scientist عوامل جدیدی را برای جوان‌سازی سلول‌های انسانی شناسایی کردند. این یافته‌ها می‌تواند به بهبود روش‌های درمانی کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در علم پیری و درمان بیماری‌های مرتبط با آن منجر شود.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "genetics",
+        "cellular aging",
+        "rejuvenation",
+        "biotechnology"
+      ]
+    },
+    {
+      "id": "cdc0620195",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "summary_raw": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "published_at": "Tue, 23 Jun 2026 13:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "استانداردهای مشترک برای هوش مصنوعی پیشرفته",
+      "summary_fa": "OpenAI در حال ایجاد استانداردهای مشترک برای ارزیابی و ایمنی هوش مصنوعی است. این تلاش‌ها از طریق بنیاد آپیا به همکاری جهانی کمک می‌کند.",
+      "why_it_matters": "این موضوع به پیشرفت ایمن و موثر هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "standards",
+        "safety",
+        "cooperation"
+      ]
+    },
+    {
+      "id": "f6327f7f3b",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "summary_raw": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "startup",
+        "tool"
+      ],
+      "headline_fa": "آموزش سفرهای گفتگویی با هوش مصنوعی توسط Omio",
+      "summary_fa": "Omio از OpenAI برای ایجاد تجربیات سفر گفتگویی استفاده می‌کند. این شرکت در حال تحول به یک شرکت بومی هوش مصنوعی است.",
+      "why_it_matters": "این تحول می‌تواند به بهبود تجربه سفر و نوآوری در صنعت گردشگری کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Omio",
+        "AI",
+        "travel",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "2ec2449180",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "summary_raw": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "published_at": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "پچ کردن سیاره: ابتکار OpenAI برای حمایت از نگهداران کدهای باز",
+      "summary_fa": "OpenAI ابتکار Patch the Planet را معرفی کرده که به نگهداران کدهای باز کمک می‌کند تا آسیب‌پذیری‌ها را شناسایی و اصلاح کنند. این برنامه با استفاده از هوش مصنوعی و بررسی کارشناسانه انجام می‌شود.",
+      "why_it_matters": "این ابتکار به تقویت امنیت نرم‌افزارهای متن‌باز و حمایت از جامعه توسعه‌دهندگان کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "opensource",
+        "security",
+        "AI"
+      ]
+    },
+    {
+      "id": "e9d6447930",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "summary_raw": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "published_at": "Mon, 22 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "استفاده از Codex برای مدیریت پروژه‌های پیچیده",
+      "summary_fa": "جیسون لیو از Codex برای حفظ زمینه و مدیریت پروژه‌های پیچیده استفاده می‌کند. این ابزار به او کمک می‌کند تا کارها را فراتر از یک درخواست ادامه دهد.",
+      "why_it_matters": "این موضوع به بهبود کارایی و مدیریت پروژه‌ها با استفاده از هوش مصنوعی اشاره دارد.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Codex",
+        "AI",
+        "project-management"
+      ]
+    },
+    {
+      "id": "26c71a6482",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "summary_raw": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "published_at": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "مدیریت هزینه‌ها و آنالیز استفاده در ChatGPT Enterprise",
+      "summary_fa": "OpenAI ابزارهای جدیدی برای کنترل هزینه و آنالیز استفاده در ChatGPT Enterprise معرفی کرده است. این ابزارها به سازمان‌ها کمک می‌کند تا با اطمینان بیشتری از هوش مصنوعی بهره‌برداری کنند.",
+      "why_it_matters": "این تغییرات به سازمان‌ها کمک می‌کند تا هزینه‌های خود را بهتر مدیریت کنند و از هوش مصنوعی به طور مؤثرتری استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "enterprise",
+        "analytics",
+        "cost-management"
+      ]
+    },
+    {
+      "id": "aecc799a4f",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "summary_raw": "",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "تحول در ارائه ابزارهای هوش مصنوعی با Hugging Face",
+      "summary_fa": "Hugging Face هر هفته ابزارهای جدید هوش مصنوعی را ارائه می‌دهد. این ابزارها شامل منابع باز و تعامل انسانی هستند.",
+      "why_it_matters": "این موضوع به پیشرفت سریع‌تر و دسترسی آسان‌تر به فناوری‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes — امکان استفاده از این ابزارها برای توسعه پروژه‌های هوش مصنوعی وجود دارد.",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "tools",
+        "Hugging Face",
+        "open source"
+      ]
+    },
+    {
+      "id": "b09c23321c",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "summary_raw": "",
+      "published_at": "Mon, 22 Jun 2026 13:18:56 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "tool",
+        "research"
+      ],
+      "headline_fa": "مدل PP-OCRv6: OCR چند زبانه با ۳۴.۵ میلیون پارامتر",
+      "summary_fa": "مدل PP-OCRv6 در Hugging Face ارائه شده و قابلیت شناسایی متن در ۵۰ زبان را دارد. این مدل از ۱.۵ میلیون به ۳۴.۵ میلیون پارامتر افزایش یافته است.",
+      "why_it_matters": "این پیشرفت می‌تواند دقت و کارایی شناسایی متن را به طور قابل توجهی افزایش دهد.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "OCR",
+        "AI",
+        "HuggingFace",
+        "PP-OCRv6",
+        "multilingual"
+      ]
+    },
+    {
+      "id": "aaa5c7366c",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: luongnv89/claude-howto — ⭐38,497",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "summary_raw": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "published_at": "2026-06-27T15:35:44.008911+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "راهنمای تصویری و کاربردی کلاود",
+      "summary_fa": "این راهنما به شما کمک می‌کند تا با کلاود آشنا شوید. شامل مثال‌ها و الگوهای کپی‌پیست برای استفاده سریع است.",
+      "why_it_matters": "این منبع می‌تواند به تسهیل یادگیری و استفاده از کلاود کمک کند.",
+      "opportunity": "yes — می‌توانید از این راهنما برای یادگیری سریع و بهبود مهارت‌های خود استفاده کنید.",
+      "viral_potential": "medium",
+      "tags": [
+        "Claude",
+        "guide",
+        "AI",
+        "templates"
+      ]
+    },
+    {
+      "id": "3f1b319136",
+      "source": "awesome-evals (GitHub commits)",
+      "base_category": "research",
+      "title": "[awesome-evals] Scan 2026-06-26: 3 new eval finds (#11)\n\n- §6: Life After Benchmark Saturation (CORE-Bench follow-up, Princeton)\n- §8: Counsel meta-eval dataset for L",
+      "url": "https://github.com/benchflow-ai/awesome-evals/commit/ce30ffa",
+      "summary_raw": "۴۴۳+ منبع ارزیابی عامل‌های AI — به‌روزرسانی چند بار در هفته — Scan 2026-06-26: 3 new eval finds (#11)\n\n- §6: Life After Benchmark Saturation (CORE-Bench follow-up, Princeton)\n- §8: Counsel meta-eval dataset for L",
+      "published_at": "2026-06-26T22:19:56Z",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "کشف‌های جدید ارزیابی هوش مصنوعی در ۲۶ ژوئن ۲۰۲۶",
+      "summary_fa": "این به‌روزرسانی شامل ۳ کشف جدید در ارزیابی عامل‌های هوش مصنوعی است. همچنین به بررسی وضعیت پس از اشباع بنچمارک‌ها پرداخته می‌شود.",
+      "why_it_matters": "این اطلاعات به پیشرفت‌های جدید در ارزیابی هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "eval",
+        "AI",
+        "benchmark",
+        "research"
+      ]
+    },
+    {
+      "id": "5f5a7715a4",
+      "source": "awesome-ai-agents-2026 (GitHub commits)",
+      "base_category": "tool",
+      "title": "[awesome-ai-agents-2026] Merge PR #15: Add iGPT to RAG and Knowledge Bases\n\nAdd iGPT to RAG and Knowledge Bases",
+      "url": "https://github.com/caramaschiHG/awesome-ai-agents-2026/commit/e3cc5ba",
+      "summary_raw": "۳۰۰+ فریم‌ورک و ابزار Agentic AI — Merge PR #15: Add iGPT to RAG and Knowledge Bases\n\nAdd iGPT to RAG and Knowledge Bases",
+      "published_at": "2026-04-02T23:17:50Z",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "tool",
+        "research"
+      ],
+      "headline_fa": "اضافه شدن iGPT به RAG و پایگاه‌های دانش",
+      "summary_fa": "در این به‌روزرسانی، iGPT به فریم‌ورک‌های RAG و پایگاه‌های دانش اضافه شده است. این تغییر می‌تواند به بهبود عملکرد سیستم‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این به‌روزرسانی می‌تواند قابلیت‌های هوش مصنوعی را به طور قابل توجهی افزایش دهد.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "iGPT",
+        "RAG",
+        "AI",
+        "knowledge-bases"
+      ]
+    },
+    {
+      "id": "1d9d34e93e",
+      "source": "MIT Technology Review",
+      "base_category": "research",
+      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+      "summary_raw": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confirmed, it felt like 39 °C. It’s frightening that we are seeing such temperatures in…",
+      "published_at": "Fri, 26 Jun 2026 09:00:00 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "viral"
+      ],
+      "headline_fa": "موج گرما و تأثیر آن بر مغز انسان",
+      "summary_fa": "هفته گذشته لندن با موج گرما مواجه شد و دما به ۳۶.۱ درجه سانتی‌گراد رسید. دانشمندان در حال بررسی تأثیرات این گرما بر عملکرد مغز هستند.",
+      "why_it_matters": "این موضوع به سلامت روانی و جسمی افراد در شرایط آب و هوایی شدید مرتبط است.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "heatwave",
+        "brain",
+        "research",
+        "health"
+      ]
+    },
+    {
+      "id": "58ec7b0362",
+      "source": "MIT Technology Review",
+      "base_category": "research",
+      "title": "Repositioning retail for the AI era",
+      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "summary_raw": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and…",
+      "published_at": "Thu, 25 Jun 2026 14:22:59 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "تحول خرده‌فروشی در عصر هوش مصنوعی",
+      "summary_fa": "هوش مصنوعی به‌طور سریع در حال تغییر خرده‌فروشی است. این تغییرات بیشتر در تصمیم‌گیری‌های پشت صحنه اتفاق می‌افتد.",
+      "why_it_matters": "این تحولات می‌توانند به بهبود کارایی و تجربه مشتریان کمک کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "retail",
+        "transformation",
+        "supply_chain"
+      ]
+    },
+    {
+      "id": "787cb261a8",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "summary_raw": "",
+      "published_at": "Mon, 22 Jun 2026 00:00:00 GMT",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "مدل‌های محلی برای مدیریت رایگان مخزن OpenClaw!",
+      "summary_fa": "این خبر از ارائه مدل‌های محلی برای مدیریت مخزن OpenClaw به صورت رایگان خبر می‌دهد. این ابزار می‌تواند به توسعه‌دهندگان در بهبود کارایی پروژه‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این موضوع به توسعه‌دهندگان امکان می‌دهد تا به راحتی از منابع رایگان برای پروژه‌های خود استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenClaw",
+        "local models",
+        "AI",
+        "free"
+      ]
+    },
+    {
+      "id": "a598070652",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "summary_raw": "",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "آزمایش API ذخیره‌سازی Cross-Origin در Transformers.js",
+      "summary_fa": "این مقاله به بررسی API جدید ذخیره‌سازی Cross-Origin در کتابخانه Transformers.js می‌پردازد. این تکنولوژی می‌تواند به بهبود عملکرد و امنیت برنامه‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این موضوع به توسعه‌دهندگان امکان می‌دهد تا به‌طور بهینه‌تری از منابع ذخیره‌سازی استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Cross-Origin",
+        "API",
+        "Transformers.js",
+        "storage"
+      ]
+    },
+    {
+      "id": "1a891999f5",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "summary_raw": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "published_at": "Sun, 17 May 2026 19:53:18 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "پروژه جینی: شبیه‌سازی مکان‌های واقعی با هوش مصنوعی",
+      "summary_fa": "گوگل دسترسی به مشترکین AI Ultra را گسترش می‌دهد و قابلیت جدیدی را معرفی می‌کند. این قابلیت با استفاده از Street View به شبیه‌سازی مکان‌های واقعی کمک می‌کند.",
+      "why_it_matters": "این فناوری می‌تواند به بهبود تجربه‌های واقعیت مجازی و آموزش کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "StreetView",
+        "ProjectGenie"
+      ]
+    },
+    {
+      "id": "1c4f827ed9",
+      "source": "MIT Technology Review",
+      "base_category": "research",
+      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "summary_raw": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western…",
+      "published_at": "Fri, 26 Jun 2026 12:10:00 +0000",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "موج گرما و تأثیرات آن بر مغز انسان",
+      "summary_fa": "موج گرمای خطرناکی لندن را تحت تأثیر قرار داده است. دانشمندان در حال بررسی تأثیرات این گرما بر مغز انسان هستند.",
+      "why_it_matters": "این موضوع به درک بهتر تأثیرات تغییرات اقلیمی بر سلامت انسان کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "heatwave",
+        "brain",
+        "research",
+        "climate"
+      ]
+    }
+  ]
+}
