@@ -1,16 +1,41 @@
 {
-  "date": "2026-06-29",
-  "generated_at": "2026-06-29T19:48:51.147417+00:00",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T08:10:00.836328+00:00",
   "stats": {
     "total_sources": 41,
     "total_fetched": 148,
     "total_processed": 50,
     "total_displayed": 50,
-    "top_score": 8,
-    "high_viral_count": 8,
+    "top_score": 9,
+    "high_viral_count": 7,
     "opportunities_count": 49
   },
   "items": [
+    {
+      "id": "e05f150685",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary_raw": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "published_at": "Fri, 26 Jun 2026 10:00:00 GMT",
+      "importance_score": 9,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "معرفی مدل نسل بعدی GPT-5.6 Sol",
+      "summary_fa": "OpenAI مدل GPT-5.6 Sol را معرفی کرد که در زمینه‌های کدنویسی، علم و امنیت سایبری توانمندی‌های بیشتری دارد. این مدل با پیشرفته‌ترین سیستم‌های ایمنی همراه است.",
+      "why_it_matters": "این مدل می‌تواند تحولی در کاربردهای هوش مصنوعی ایجاد کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "GPT-5.6",
+        "AI",
+        "OpenAI",
+        "cybersecurity"
+      ]
+    },
     {
       "id": "158637af2f",
       "source": "Hugging Face Blog",
@@ -21,18 +46,17 @@
       "published_at": "Thu, 18 Jun 2026 00:00:00 GMT",
       "importance_score": 8,
       "categories": [
-        "model",
         "research",
         "tool"
       ],
-      "headline_fa": "آیا مدل‌های باز به اندازه کافی کارآمد هستند؟",
-      "summary_fa": "این مقاله به بررسی مدل‌های باز و کارایی آن‌ها در ابزارهای مختلف می‌پردازد. نتایج می‌تواند به بهبود توسعه و استفاده از این مدل‌ها کمک کند.",
-      "why_it_matters": "این موضوع به بهینه‌سازی ابزارهای هوش مصنوعی و افزایش کارایی آن‌ها کمک می‌کند.",
+      "headline_fa": "آزمون مدل‌های باز: آیا ابزار شما کافی است؟",
+      "summary_fa": "این مقاله به بررسی عملکرد مدل‌های باز در ابزارهای مختلف می‌پردازد. نتایج به ما کمک می‌کند تا کیفیت و کارایی این مدل‌ها را ارزیابی کنیم.",
+      "why_it_matters": "این موضوع به بهبود ابزارهای هوش مصنوعی و انتخاب مدل‌های مناسب کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "open-models",
         "benchmarking",
+        "open-models",
         "AI-tools"
       ]
     },
@@ -49,42 +73,16 @@
         "model",
         "research"
       ],
-      "headline_fa": "معرفی مدل چندرسانه‌ای Gemma 4 12B بدون انکودر",
-      "summary_fa": "مدل جدید Gemma 4 12B توسط DeepMind معرفی شده است که قابلیت پردازش چندرسانه‌ای را بدون نیاز به انکودر فراهم می‌کند. این مدل می‌تواند به بهبود کاربردهای هوش مصنوعی در زمینه‌های مختلف کمک کند.",
-      "why_it_matters": "این مدل می‌تواند تحولی در پردازش داده‌های چندرسانه‌ای ایجاد کند.",
+      "headline_fa": "معرفی مدل چندوجهی جدید Gemma 4 12B",
+      "summary_fa": "مدل Gemma 4 12B یک مدل چندوجهی و بدون انکودر است که قابلیت‌های جدیدی را ارائه می‌دهد. این مدل می‌تواند در زمینه‌های مختلف هوش مصنوعی کاربرد داشته باشد.",
+      "why_it_matters": "این مدل می‌تواند به پیشرفت‌های قابل توجهی در پردازش داده‌های چندرسانه‌ای منجر شود.",
       "opportunity": "yes",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "tags": [
         "DeepMind",
         "Gemma",
         "AI",
-        "multimodal",
-        "model"
-      ]
-    },
-    {
-      "id": "e05f150685",
-      "source": "OpenAI Blog",
-      "base_category": "model",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "summary_raw": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "published_at": "Fri, 26 Jun 2026 10:00:00 GMT",
-      "importance_score": 8,
-      "categories": [
-        "model",
-        "research"
-      ],
-      "headline_fa": "معرفی مدل نسل بعدی GPT-5.6 Sol",
-      "summary_fa": "OpenAI مدل جدید GPT-5.6 Sol را معرفی کرده که در زمینه‌های کدنویسی، علم و امنیت سایبری توانمندی‌های بیشتری دارد. این مدل با پیشرفته‌ترین سیستم‌های ایمنی خود همراه است.",
-      "why_it_matters": "این مدل می‌تواند به پیشرفت‌های قابل توجهی در حوزه‌های مختلف فناوری کمک کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "GPT-5.6",
-        "OpenAI",
-        "AI",
-        "technology"
+        "multimodal"
       ]
     },
     {
@@ -100,9 +98,9 @@
         "tool",
         "research"
       ],
-      "headline_fa": "تسریع در فاین‌تونینگ ترنسفورمرها با NVIDIA NeMo",
-      "summary_fa": "NVIDIA NeMo AutoModel به توسعه‌دهندگان کمک می‌کند تا فرایند فاین‌تونینگ مدل‌های ترنسفورمر را سریع‌تر انجام دهند. این ابزار به ویژه برای پروژه‌های هوش مصنوعی کاربردی است.",
-      "why_it_matters": "این ابزار می‌تواند به بهبود کارایی و سرعت توسعه مدل‌های هوش مصنوعی کمک کند.",
+      "headline_fa": "شتاب‌دهی به تنظیم دقیق ترنسفورمرها با NVIDIA NeMo",
+      "summary_fa": "NVIDIA NeMo AutoModel به توسعه‌دهندگان کمک می‌کند تا تنظیم دقیق مدل‌های ترنسفورمر را سریع‌تر انجام دهند. این ابزار با بهینه‌سازی فرآیند، کارایی را افزایش می‌دهد.",
+      "why_it_matters": "این ابزار می‌تواند به تسریع پیشرفت‌های تحقیقاتی و صنعتی در زمینه هوش مصنوعی کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -127,15 +125,15 @@
         "tool"
       ],
       "headline_fa": "معرفی جدول رده‌بندی FFASR: ارزیابی ASR در دنیای واقعی",
-      "summary_fa": "جدول رده‌بندی FFASR به بررسی و ارزیابی سیستم‌های تشخیص گفتار می‌پردازد. این ابزار به توسعه‌دهندگان کمک می‌کند تا عملکرد مدل‌های خود را در شرایط واقعی بسنجند.",
-      "why_it_matters": "این ابزار می‌تواند به بهبود کیفیت سیستم‌های تشخیص گفتار کمک کند.",
-      "opportunity": "yes",
+      "summary_fa": "جدول رده‌بندی FFASR به بررسی عملکرد سیستم‌های تشخیص گفتار در شرایط واقعی می‌پردازد. این ابزار به محققان و توسعه‌دهندگان کمک می‌کند تا کیفیت مدل‌های خود را بسنجند.",
+      "why_it_matters": "این جدول می‌تواند به بهبود تکنولوژی‌های تشخیص گفتار و افزایش دقت آن‌ها کمک کند.",
+      "opportunity": "yes - این ابزار می‌تواند به شرکت‌ها در بهینه‌سازی محصولات خود و جذب مشتریان بیشتر کمک کند.",
       "viral_potential": "medium",
       "tags": [
         "ASR",
         "benchmarking",
-        "FFASR",
-        "Hugging Face"
+        "HuggingFace",
+        "FFASR"
       ]
     },
     {
@@ -152,15 +150,16 @@
         "free-resource"
       ],
       "headline_fa": "ساخت اپلیکیشن‌های هوشمند با CUGA: ۲۴ مثال کاربردی",
-      "summary_fa": "CUGA ابزاری سبک برای ساخت اپلیکیشن‌های هوش مصنوعی است. این پست شامل ۲۴ مثال کاربردی برای استفاده از آن می‌باشد.",
-      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا اپلیکیشن‌های هوشمند را سریع‌تر و آسان‌تر بسازند.",
-      "opportunity": "yes",
+      "summary_fa": "CUGA ابزاری سبک برای ساخت اپلیکیشن‌های هوشمند است. این پست شامل دو دوجین مثال عملی برای استفاده از آن می‌باشد.",
+      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا سریع‌تر و آسان‌تر اپلیکیشن‌های هوش مصنوعی بسازند.",
+      "opportunity": "yes — فرصت خوبی برای توسعه‌دهندگان برای ایجاد اپلیکیشن‌های جدید و درآمدزایی.",
       "viral_potential": "medium",
       "tags": [
         "CUGA",
         "AI",
         "applications",
-        "examples"
+        "examples",
+        "Hugging Face"
       ]
     },
     {
@@ -170,15 +169,15 @@
       "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
       "url": "https://arxiv.org/abs/2606.27483",
       "summary_raw": "arXiv:2606.27483v1 Announce Type: new \nAbstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitment, standard agents lack an internal world model to simulate future outcomes. Therefore, we propose to internalize future-aware planning by training a single autoregressive model to verbalize both a prospective state rollout and a plan-conditioned success estimate-a textual analogue of the Q-value. Crucially, we identify a format-capability gap: simply fine-tuning agents on look-ahead traces during post-training leads to superficial mimicry of foresight without genuine predictive grounding. To ",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
       "importance_score": 8,
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌های هوش مصنوعی: برنامه‌ریزی آینده‌نگر با مدل‌های داخلی",
-      "summary_fa": "این تحقیق به بررسی توانایی مدل‌های زبانی بزرگ در تصمیم‌گیری‌های طولانی‌مدت می‌پردازد. نویسندگان یک رویکرد جدید برای برنامه‌ریزی آینده‌نگر با استفاده از مدل‌های خودرگرسیو پیشنهاد می‌دهند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد مدل‌های هوش مصنوعی در وظایف پیچیده کمک کند.",
-      "opportunity": "yes",
+      "headline_fa": "مدل‌های زبانی و برنامه‌ریزی آینده‌نگر",
+      "summary_fa": "این تحقیق به بررسی توانایی مدل‌های زبانی بزرگ در تصمیم‌گیری‌های طولانی‌مدت می‌پردازد. نویسندگان یک مدل جدید برای شبیه‌سازی نتایج آینده پیشنهاد می‌دهند.",
+      "why_it_matters": "این رویکرد می‌تواند به بهبود عملکرد هوش مصنوعی در وظایف پیچیده کمک کند.",
+      "opportunity": "yes — امکان توسعه ابزارهای هوش مصنوعی با قابلیت برنامه‌ریزی پیشرفته.",
       "viral_potential": "medium",
       "tags": [
         "AI",
@@ -194,21 +193,71 @@
       "title": "Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents",
       "url": "https://arxiv.org/abs/2606.27806",
       "summary_raw": "arXiv:2606.27806v1 Announce Type: new \nAbstract: World models for language agents come in two useful forms. An agent-based world model calls an LLM API and reasons flexibly in language, but its errors appear as hallucinated state changes that are hard to score with ordinary regression losses. A parameterized world model is a trained transition predictor; its errors are easier to measure with quantities such as NodeMSE, delta accuracy, and validity accuracy, but it is usually weaker as a standalone planner. We compare these two families on four graph-structured planning benchmarks and introduce operational hallucination metrics for the agent-based case. The comparison motivates \\textbf{Grounded Iterative Language Planning} (GILP), which trains only a small parameterized backbone and combine",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
       "importance_score": 8,
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌های جهانی پارامتری و کاهش خطاهای هوش مصنوعی",
-      "summary_fa": "این مقاله به بررسی مدل‌های جهانی برای عوامل زبانی می‌پردازد که می‌توانند خطاهای ناشی از توهم را کاهش دهند. دو نوع مدل جهانی معرفی شده‌اند که هر کدام مزایا و معایب خاص خود را دارند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی مدل‌های زبان کمک کند.",
-      "opportunity": "yes — امکان توسعه ابزارهای هوش مصنوعی با دقت بالاتر.",
+      "headline_fa": "کاهش خطاهای توهمی در مدل‌های زبانی با مدل‌های جهانی پارامتری",
+      "summary_fa": "این مقاله به بررسی مدل‌های جهانی برای عامل‌های زبانی می‌پردازد و دو نوع آن را معرفی می‌کند. مدل‌های پارامتری به کاهش خطاهای توهمی کمک می‌کنند و ارزیابی آن‌ها آسان‌تر است.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی مدل‌های زبانی کمک کند.",
+      "opportunity": "yes — فرصت برای توسعه ابزارهای هوش مصنوعی دقیق‌تر.",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "language model",
+        "language models",
         "research",
         "hallucination"
+      ]
+    },
+    {
+      "id": "1f83cad858",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "Can AI Draw Science? A Benchmark for Evaluating Scientific Figure Generation by Text-to-Image and Multimodal Models",
+      "url": "https://arxiv.org/abs/2606.28406",
+      "summary_raw": "arXiv:2606.28406v1 Announce Type: new \nAbstract: Text-to-image and multimodal generative models are increasingly used to produce scientific figures such as mechanism diagrams, experimental-design schematics, conceptual frameworks, and graphical abstracts. Yet existing image-generation benchmarks (e.g., GenEval, T2I-CompBench, DPG-Bench) evaluate natural images and measure compositionality, object counting, or photorealism. None of them measure what makes a generated scientific figure usable: correct and legible text labels, faithful depiction of entities and their relations, coherent diagrammatic structure, and adherence to disciplinary drawing conventions. We introduce SciDraw-Bench, a benchmark of 32 structured scientific-figure generation tasks spanning eight figure types and ten discip",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "معیار جدید برای ارزیابی تولید تصاویر علمی با هوش مصنوعی",
+      "summary_fa": "مدل‌های تولید تصویر متنی و چندرسانه‌ای به تولید تصاویر علمی می‌پردازند. این تحقیق به بررسی معیارهای جدید برای ارزیابی کارایی این تصاویر می‌پردازد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کیفیت و کاربرد تصاویر علمی تولید شده توسط هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "science",
+        "image-generation",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "00fbfe6ea4",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations",
+      "url": "https://arxiv.org/abs/2606.28467",
+      "summary_raw": "arXiv:2606.28467v1 Announce Type: new \nAbstract: Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series forecasting, variational anomaly detection, and LLM-based reasoning to generate prioritized, actionable maintenance recommendations. The system tracks seven office appliances using a hybrid Singular Spectrum Analysis (SSA) and Long Short-Term Memory (LSTM) forecasting model, and applies a per-appliance LSTM Variational Autoencoder (VAE) with attention to flag abnormal daily consumption episodes. A three-stage LangChain pipeline begins with a Context Agent that always retrieves three core RAG sources (model reliability, hourly baseline, ",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "تشخیص ناهنجاری انرژی با هوش مصنوعی در ساختمان‌های اداری",
+      "summary_fa": "این مقاله یک سیستم هوش مصنوعی برای تشخیص ناهنجاری‌های انرژی در لوازم اداری ارائه می‌دهد. این سیستم با استفاده از پیش‌بینی‌های زمانی و تحلیل‌های پیشرفته، توصیه‌های عملی برای نگهداری ارائه می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود مدیریت انرژی و کاهش هزینه‌ها در ساختمان‌های اداری کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "energy",
+        "anomaly detection",
+        "AI",
+        "maintenance"
       ]
     },
     {
@@ -225,16 +274,16 @@
         "startup"
       ],
       "headline_fa": "انتشار Cowork: دستیار هوش مصنوعی جدید Anthropic",
-      "summary_fa": "Anthropic روز دوشنبه Cowork را معرفی کرد، یک قابلیت جدید که قدرت ابزار Claude Code را به کاربران غیرتخصصی می‌آورد. این ویژگی در مدت زمان کوتاهی و با استفاده از خود Claude Code ساخته شده است.",
-      "why_it_matters": "این راه‌اندازی نقطه عطفی در ارائه دستیاران هوش مصنوعی به کاربران عادی است.",
-      "opportunity": "yes — این ابزار می‌تواند به کاربران غیرتخصصی کمک کند تا به راحتی از هوش مصنوعی بهره‌برداری کنند.",
+      "summary_fa": "Anthropic روز دوشنبه Cowork را معرفی کرد که به کاربران غیرتخصصی امکان استفاده از ابزار Claude Code را می‌دهد. این ویژگی در حدود یک هفته و نیم ساخته شده و به رقابت با OpenAI و Google کمک می‌کند.",
+      "why_it_matters": "این ابزار می‌تواند دسترسی به هوش مصنوعی را برای کاربران عادی تسهیل کند.",
+      "opportunity": "yes — این ابزار می‌تواند به کسب‌وکارها در بهبود بهره‌وری کمک کند.",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "Anthropic",
         "Cowork",
         "Claude",
-        "tool"
+        "productivity"
       ]
     },
     {
@@ -251,9 +300,9 @@
         "startup",
         "tool"
       ],
-      "headline_fa": "مدل کدنویسی NousCoder-14B به صورت متن‌باز منتشر شد",
-      "summary_fa": "شرکت Nous Research مدل کدنویسی جدیدی به نام NousCoder-14B را منتشر کرده است. این مدل در مدت چهار روز با استفاده از ۴۸ پردازنده گرافیکی Nvidia آموزش دیده است.",
-      "why_it_matters": "این مدل می‌تواند رقابت را در زمینه ابزارهای کدنویسی هوش مصنوعی افزایش دهد.",
+      "headline_fa": "معرفی مدل کدنویسی NousCoder-14B از Nous Research",
+      "summary_fa": "Nous Research مدل جدیدی به نام NousCoder-14B را معرفی کرد که می‌تواند با سیستم‌های بزرگ‌تر رقابت کند. این مدل در مدت چهار روز با استفاده از پردازشگرهای گرافیکی Nvidia آموزش دیده است.",
+      "why_it_matters": "این مدل در زمانی معرفی شده که رقابت در زمینه ابزارهای کدنویسی هوش مصنوعی به اوج خود رسیده است.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -261,7 +310,7 @@
         "coding",
         "open-source",
         "NousCoder",
-        "programming"
+        "Nous Research"
       ]
     },
     {
@@ -280,7 +329,7 @@
       ],
       "headline_fa": "معرفی استفاده از کامپیوتر در Gemini 3.5 Flash",
       "summary_fa": "نسخه جدید Gemini 3.5 Flash قابلیت‌های جدیدی برای استفاده از کامپیوتر ارائه می‌دهد. این بهبودها می‌تواند کارایی و دقت مدل‌های هوش مصنوعی را افزایش دهد.",
-      "why_it_matters": "این پیشرفت‌ها می‌تواند به توسعه فناوری‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این پیشرفت‌ها می‌تواند به توسعه و بهبود ابزارهای هوش مصنوعی کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -303,10 +352,10 @@
         "research",
         "tool"
       ],
-      "headline_fa": "تضمین امنیت سیستم‌های هوش مصنوعی با نقشه‌راه کنترل",
-      "summary_fa": "این پست به بررسی راهکارهای امنیتی برای سیستم‌های هوش مصنوعی می‌پردازد. ترکیب روش‌های سنتی و نظارت در زمان واقعی به عنوان یک نقشه‌راه معرفی شده است.",
-      "why_it_matters": "این موضوع به حفظ امنیت و کارایی سیستم‌های هوش مصنوعی کمک می‌کند.",
-      "opportunity": "yes",
+      "headline_fa": "تضمین آینده ایمن برای عامل‌های هوش مصنوعی",
+      "summary_fa": "DeepMind با ارائه نقشه‌راه کنترل هوش مصنوعی، به ایمن‌سازی سیستم‌های داخلی می‌پردازد. این نقشه‌راه شامل تدابیر سنتی و نظارت در زمان واقعی است.",
+      "why_it_matters": "این موضوع به امنیت و کنترل بهتر سیستم‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
@@ -326,8 +375,8 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "سرمایه‌گذاری در تحقیق ایمنی هوش مصنوعی چندعاملی",
-      "summary_fa": "گوگل دیپ‌مایند و شرکای آن از فراخوان تأمین مالی ۱۰ میلیون دلاری برای تحقیق در زمینه ایمنی هوش مصنوعی چندعاملی خبر دادند. این تحقیق به بررسی چالش‌های ایمنی در تعاملات بین چند عامل هوش مصنوعی می‌پردازد.",
+      "headline_fa": "سرمایه‌گذاری در تحقیق ایمنی هوش مصنوعی چندعامله",
+      "summary_fa": "گوگل دیپ‌مایند و شرکای آن از فراخوان تأمین مالی ۱۰ میلیون دلاری برای تحقیق در زمینه ایمنی هوش مصنوعی چندعامله خبر دادند. این تحقیق به بررسی چالش‌های ایمنی در تعاملات بین چند عامل هوش مصنوعی می‌پردازد.",
       "why_it_matters": "این تحقیق می‌تواند به بهبود ایمنی و کارایی سیستم‌های هوش مصنوعی کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
@@ -335,7 +384,7 @@
         "AI",
         "safety",
         "research",
-        "DeepMind"
+        "funding"
       ]
     },
     {
@@ -351,16 +400,16 @@
         "tool",
         "model"
       ],
-      "headline_fa": "ترجمه صوتی طبیعی و زنده با Gemini 3.5",
-      "summary_fa": "نسخه Gemini 3.5 Live Translate امکان ترجمه صوتی نزدیک به زمان واقعی را به Google AI Studio و Google Meet اضافه می‌کند. این ابزار به کاربران کمک می‌کند تا به راحتی با زبان‌های مختلف ارتباط برقرار کنند.",
-      "why_it_matters": "این تکنولوژی می‌تواند ارتباطات بین‌المللی را تسهیل کند و به کاهش موانع زبانی کمک کند.",
+      "headline_fa": "ترجمه صوتی طبیعی و سریع با Gemini 3.5",
+      "summary_fa": "Gemini 3.5 Live Translate ترجمه گفتار را به صورت نزدیک به زمان واقعی ارائه می‌دهد. این ابزار در Google AI Studio، Google Translate و Google Meet قابل استفاده است.",
+      "why_it_matters": "این فناوری می‌تواند ارتباطات بین‌المللی را تسهیل کند.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
         "translation",
         "AI",
-        "Google",
-        "speech"
+        "speech",
+        "Google"
       ]
     },
     {
@@ -377,16 +426,40 @@
         "startup"
       ],
       "headline_fa": "راه‌اندازی برنامه شتاب‌دهنده دیپ‌مایند در آسیا و اقیانوسیه",
-      "summary_fa": "دیپ‌مایند برنامه شتاب‌دهنده‌ای را برای مقابله با خطرات زیست‌محیطی در آسیا و اقیانوسیه راه‌اندازی می‌کند. این برنامه به دنبال نوآوری‌های جدید در حوزه هوش مصنوعی است.",
-      "why_it_matters": "این برنامه می‌تواند به کاهش خطرات زیست‌محیطی و ارتقاء فناوری‌های پایدار کمک کند.",
+      "summary_fa": "برنامه شتاب‌دهنده دیپ‌مایند با هدف مقابله با خطرات زیست‌محیطی در آسیا و اقیانوسیه راه‌اندازی می‌شود. این برنامه به دنبال حمایت از نوآوری‌ها و راه‌حل‌های پایدار است.",
+      "why_it_matters": "این برنامه می‌تواند به کاهش خطرات زیست‌محیطی و ارتقاء فناوری‌های سبز کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "DeepMind",
-        "AI",
         "environment",
-        "accelerator",
-        "AsiaPacific"
+        "Asia",
+        "innovation"
+      ]
+    },
+    {
+      "id": "104f85d502",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "summary_raw": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "published_at": "Sun, 28 Jun 2026 17:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "startup",
+        "tool"
+      ],
+      "headline_fa": "شراکت استراتژیک HP و OpenAI برای هوش مصنوعی",
+      "summary_fa": "شرکت HP Inc. همکاری خود با OpenAI را گسترش می‌دهد تا هوش مصنوعی را در تجربه مشتریان و توسعه نرم‌افزار به کار گیرد. این شراکت به بهبود عملیات سازمانی کمک خواهد کرد.",
+      "why_it_matters": "این همکاری می‌تواند به تحول دیجیتال در صنایع مختلف کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "HP",
+        "OpenAI",
+        "AI",
+        "partnership"
       ]
     },
     {
@@ -401,14 +474,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "چگونه هوش مصنوعی کارها را متحول می‌کند",
-      "summary_fa": "مقاله جدید OpenAI نشان می‌دهد که عوامل هوش مصنوعی چگونه کارها را تغییر می‌دهند. این فناوری به انجام وظایف پیچیده‌تر و افزایش بهره‌وری کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی و نوآوری در محیط‌های کاری کمک کند.",
+      "headline_fa": "تحول کار با هوش مصنوعی: نقش عوامل هوشمند",
+      "summary_fa": "یک مقاله جدید از OpenAI نشان می‌دهد که چگونه عوامل هوش مصنوعی در حال تغییر شیوه کار هستند. این فناوری توانایی انجام وظایف پیچیده‌تر و افزایش بهره‌وری را فراهم می‌کند.",
+      "why_it_matters": "این موضوع به بهبود کارایی و نوآوری در محیط‌های کاری کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
         "AI",
         "productivity",
+        "work",
         "research"
       ]
     },
@@ -426,8 +500,8 @@
         "research"
       ],
       "headline_fa": "چیپ هوش مصنوعی جدید OpenAI و Broadcom معرفی شد",
-      "summary_fa": "OpenAI و Broadcom چیپ هوش مصنوعی جدیدی به نام Jalapeño معرفی کردند. این چیپ برای بهبود عملکرد و مقیاس‌پذیری سیستم‌های هوش مصنوعی طراحی شده است.",
-      "why_it_matters": "این چیپ می‌تواند به بهبود کارایی و سرعت پردازش مدل‌های زبان بزرگ کمک کند.",
+      "summary_fa": "OpenAI و Broadcom چیپ هوش مصنوعی جدیدی به نام Jalapeño معرفی کردند. این چیپ برای بهبود عملکرد و کارایی در سیستم‌های هوش مصنوعی طراحی شده است.",
+      "why_it_matters": "این چیپ می‌تواند به بهبود سرعت و کارایی مدل‌های زبان بزرگ کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -451,9 +525,9 @@
         "research",
         "tool"
       ],
-      "headline_fa": "چگونه GPT-5 معمای ایمنی‌شناسی را حل کرد؟",
-      "summary_fa": "مدل GPT-5 Pro به دانشمند ایمنی‌شناسی در حل یک معما کمک کرد. این پیشرفت می‌تواند به تحقیقات سرطان و بیماری‌های خودایمنی کمک کند.",
-      "why_it_matters": "این کشف می‌تواند تأثیر زیادی بر روی درمان بیماری‌های جدی داشته باشد.",
+      "headline_fa": "چگونه GPT-5 معماهای ایمنی‌شناسی را حل کرد؟",
+      "summary_fa": "GPT-5 Pro به دانشمند ایمنی‌شناسی، دریا اونوتماز، در حل یک معمای ۳ ساله کمک کرد. این پیشرفت می‌تواند به تحقیقات سرطان و بیماری‌های خودایمنی کمک کند.",
+      "why_it_matters": "این کشف می‌تواند به پیشرفت‌های مهمی در درمان بیماری‌ها منجر شود.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -461,7 +535,7 @@
         "immunology",
         "research",
         "cancer",
-        "AI"
+        "autoimmune"
       ]
     },
     {
@@ -477,17 +551,17 @@
         "tool",
         "startup"
       ],
-      "headline_fa": "سامسونگ از ChatGPT و Codex برای کارکنانش استفاده می‌کند",
-      "summary_fa": "شرکت سامسونگ الکترونیکس ChatGPT Enterprise و Codex را برای کارکنان خود در سطح جهانی راه‌اندازی کرده است. این اقدام یکی از بزرگترین پیاده‌سازی‌های هوش مصنوعی در شرکت‌ها به شمار می‌رود.",
-      "why_it_matters": "این خبر نشان‌دهنده روند رو به رشد استفاده از هوش مصنوعی در محیط‌های کاری است.",
+      "headline_fa": "سامسونگ ChatGPT و Codex را به کارکنان معرفی کرد",
+      "summary_fa": "شرکت سامسونگ الکترونیکس ChatGPT Enterprise و Codex را به کارکنان خود در سرتاسر جهان ارائه کرد. این اقدام یکی از بزرگ‌ترین راه‌اندازی‌های هوش مصنوعی در سطح سازمانی از سوی OpenAI است.",
+      "why_it_matters": "این خبر نشان‌دهنده گسترش استفاده از هوش مصنوعی در شرکت‌های بزرگ است.",
       "opportunity": "yes",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "tags": [
         "AI",
+        "Samsung",
         "ChatGPT",
         "Codex",
-        "Samsung",
-        "Enterprise"
+        "enterprise"
       ]
     },
     {
@@ -504,15 +578,16 @@
         "free-resource"
       ],
       "headline_fa": "راه‌اندازی سرور vLLM با یک دستور در HF Jobs",
-      "summary_fa": "این مقاله به شما نشان می‌دهد چگونه می‌توانید یک سرور vLLM را به سادگی با یک دستور راه‌اندازی کنید. این روش به توسعه‌دهندگان کمک می‌کند تا به راحتی از مدل‌های هوش مصنوعی استفاده کنند.",
-      "why_it_matters": "این ابزار به تسهیل استفاده از مدل‌های پیشرفته هوش مصنوعی کمک می‌کند.",
-      "opportunity": "yes — این امکان برای توسعه‌دهندگان فراهم است که به راحتی پروژه‌های هوش مصنوعی خود را راه‌اندازی کنند.",
+      "summary_fa": "این مقاله به شما نشان می‌دهد که چگونه می‌توانید یک سرور vLLM را به سادگی با یک دستور در HF Jobs راه‌اندازی کنید. این روش به توسعه‌دهندگان کمک می‌کند تا به راحتی از مدل‌های هوش مصنوعی استفاده کنند.",
+      "why_it_matters": "این مطلب به تسهیل دسترسی به ابزارهای هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes — این امکان برای توسعه‌دهندگان فراهم می‌شود تا به سرعت پروژه‌های خود را راه‌اندازی کنند.",
       "viral_potential": "medium",
       "tags": [
         "vLLM",
-        "HF Jobs",
+        "HuggingFace",
         "AI",
-        "server"
+        "server",
+        "jobs"
       ]
     },
     {
@@ -528,16 +603,16 @@
         "research",
         "tool"
       ],
-      "headline_fa": "آیا عامل پژوهشی شما می‌تواند راز نگه دارد؟",
-      "summary_fa": "مقاله جدید در مورد MosaicLeaks به بررسی توانایی‌های یک عامل پژوهشی در حفظ اطلاعات محرمانه می‌پردازد. این ابزار می‌تواند به پژوهشگران در مدیریت داده‌های حساس کمک کند.",
-      "why_it_matters": "این موضوع به امنیت اطلاعات در تحقیقات علمی اهمیت ویژه‌ای می‌دهد.",
-      "opportunity": "yes - این ابزار می‌تواند به پژوهشگران و شرکت‌ها در حفاظت از داده‌های حساس کمک کند.",
+      "headline_fa": "آیا عامل تحقیقاتی شما می‌تواند راز نگه دارد؟",
+      "summary_fa": "این مقاله به بررسی قابلیت‌های MosaicLeaks در حفظ اطلاعات محرمانه می‌پردازد. این ابزار می‌تواند به محققان در مدیریت داده‌های حساس کمک کند.",
+      "why_it_matters": "حفظ امنیت اطلاعات در تحقیقات علمی از اهمیت بالایی برخوردار است.",
+      "opportunity": "yes — امکان توسعه ابزارهای مشابه برای حفاظت از داده‌ها وجود دارد.",
       "viral_potential": "medium",
       "tags": [
         "MosaicLeaks",
         "AI",
-        "research",
-        "security"
+        "privacy",
+        "research"
       ]
     },
     {
@@ -553,16 +628,16 @@
         "research",
         "tool"
       ],
-      "headline_fa": "فراتر از LoRA: آیا می‌توانید تکنیک‌های جدید را امتحان کنید؟",
-      "summary_fa": "این مقاله به بررسی تکنیک‌های جدید در بهینه‌سازی مدل‌های هوش مصنوعی می‌پردازد. همچنین به مقایسه آن‌ها با روش محبوب LoRA می‌پردازد.",
-      "why_it_matters": "این موضوع به پیشرفت‌های جدید در بهینه‌سازی مدل‌های هوش مصنوعی کمک می‌کند.",
-      "opportunity": "yes — با یادگیری تکنیک‌های جدید، می‌توان به بهبود عملکرد مدل‌ها دست یافت.",
+      "headline_fa": "فراتر از LoRA: آیا می‌توانید تکنیک‌های جدید را آزمایش کنید؟",
+      "summary_fa": "این مقاله به بررسی تکنیک‌های جدید تنظیم دقیق مدل‌های هوش مصنوعی می‌پردازد. هدف آن مقایسه روش‌های مختلف با LoRA است.",
+      "why_it_matters": "این موضوع به پیشرفت‌های بیشتر در بهینه‌سازی مدل‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes — امکان توسعه ابزارهای جدید برای بهینه‌سازی مدل‌ها وجود دارد.",
       "viral_potential": "medium",
       "tags": [
         "fine-tuning",
         "AI",
         "LoRA",
-        "machine learning"
+        "machine-learning"
       ]
     },
     {
@@ -572,44 +647,20 @@
       "title": "ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents",
       "url": "https://arxiv.org/abs/2606.27814",
       "summary_raw": "arXiv:2606.27814v1 Announce Type: new \nAbstract: Training small language-model agents for long-horizon interactive tasks requires both fast imitation and reward-driven improvement. On-policy distillation (OPD) provides dense teacher guidance and typically improves rapidly in the early stage, but its gains saturate once the student approaches the teacher, limiting the final performance ceiling. Reinforcement learning (RL) directly optimizes environment rewards and encourages exploratory improvement toward a higher reward-defined ceiling, but sparse and delayed feedback makes early-stage learning much less efficient than OPD. In this paper, we propose ATOD (Annealed Turn-aware On-policy Distillation), a hybrid online distillation algorithm that explicitly exploits this complementarity. (1) A",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
       "importance_score": 8,
       "categories": [
         "research"
       ],
-      "headline_fa": "تحقیق جدید در بهینه‌سازی مدل‌های زبانی چندنوبتی",
-      "summary_fa": "این تحقیق به بررسی روش جدیدی برای آموزش مدل‌های زبانی در وظایف تعاملی بلندمدت می‌پردازد. نتایج نشان می‌دهد که این روش می‌تواند به بهبود عملکرد مدل‌ها کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در هوش مصنوعی و تعاملات انسانی-ماشینی منجر شود.",
+      "headline_fa": "توسعه مدل‌های زبانی برای وظایف تعاملی بلندمدت",
+      "summary_fa": "این تحقیق به بهبود آموزش مدل‌های زبانی کوچک برای وظایف تعاملی بلندمدت می‌پردازد. روش جدیدی به نام OPD برای افزایش کارایی این مدل‌ها معرفی شده است.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد سیستم‌های هوش مصنوعی در تعاملات پیچیده کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "language-model",
         "reinforcement-learning",
-        "research"
-      ]
-    },
-    {
-      "id": "65ab5d3bfa",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents",
-      "url": "https://arxiv.org/abs/2606.27472",
-      "summary_raw": "arXiv:2606.27472v1 Announce Type: new \nAbstract: Large language model (LLM) agents operate over long, multi-session interactions in which facts change: a user moves, a price updates, a plan is revised. Acting correctly requires using the current value of a fact and discarding values that have been superseded. We isolate this ability on real conversational data and show that it is a distinct, unsolved failure. On the knowledge-update subset of LongMemEval, replacing an agent's full context with a bounded, self-maintained memory drops accuracy from 92% to 77% even on a frontier model (gpt-5.4), a gap that is statistically significant (paired McNemar p<0.005) and persists across model scale while full-context accuracy saturates near 92%. The bottleneck is therefore memory maintenance, not com",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
-      "importance_score": 8,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "تشخیص و آموزش شکاف به‌روزرسانی حافظه در مدل‌های زبانی",
-      "summary_fa": "این تحقیق به بررسی چالش‌های به‌روزرسانی اطلاعات در مدل‌های زبانی بزرگ می‌پردازد. نتایج نشان می‌دهد که این مشکل هنوز حل نشده است و نیاز به توجه بیشتری دارد.",
-      "why_it_matters": "این موضوع به بهبود دقت و کارایی مدل‌های زبانی در تعاملات طولانی کمک می‌کند.",
-      "opportunity": "yes — بهبود الگوریتم‌ها و توسعه ابزارهای جدید برای مدیریت اطلاعات.",
-      "viral_potential": "medium",
-      "tags": [
-        "LLM",
-        "memory",
-        "update",
         "research"
       ]
     },
@@ -626,9 +677,9 @@
         "research",
         "tool"
       ],
-      "headline_fa": "رشد سرمایه‌گذاری در هوش مصنوعی و فرصت‌های جدید",
-      "summary_fa": "سرمایه‌گذاری شرکت‌ها در هوش مصنوعی در حال افزایش است. سال ۲۰۲۶ به عنوان سالی کلیدی برای هم‌راستایی پروژه‌های هوش مصنوعی با اهداف تجاری معرفی شده است.",
-      "why_it_matters": "این موضوع نشان‌دهنده اهمیت هوش مصنوعی در بهبود نتایج مالی شرکت‌ها است.",
+      "headline_fa": "سرمایه‌گذاری در هوش مصنوعی در حال افزایش است",
+      "summary_fa": "سرمایه‌گذاری شرکت‌ها در هوش مصنوعی به شدت در حال رشد است. سال 2026 به عنوان سال تغییر در هم‌راستایی پروژه‌های هوش مصنوعی با اهداف تجاری معرفی شده است.",
+      "why_it_matters": "این موضوع نشان‌دهنده اهمیت هوش مصنوعی در بهبود نتایج مالی کسب‌وکارهاست.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -651,15 +702,15 @@
         "tool",
         "free-resource"
       ],
-      "headline_fa": "دوره آموزشی رایگان مدل‌های زبانی بزرگ در IEEE",
-      "summary_fa": "IEEE یک دوره آموزشی مجازی برای مدل‌های زبانی بزرگ راه‌اندازی کرده است. این دوره به مهندسان کمک می‌کند تا از LLMها در کارهای روزمره خود بهره‌برداری کنند.",
-      "why_it_matters": "این دوره به بهبود مهارت‌های فنی و افزایش بهره‌وری در صنعت کمک می‌کند.",
+      "headline_fa": "دوره آموزشی رایگان مدل‌های زبانی بزرگ از IEEE",
+      "summary_fa": "IEEE یک دوره آموزشی مجازی برای مدل‌های زبانی بزرگ ارائه کرده است. این دوره به مهندسان کمک می‌کند تا از LLMها در کارهای روزمره خود بهره‌برداری کنند.",
+      "why_it_matters": "این دوره می‌تواند به بهبود مهارت‌های فنی و افزایش بهره‌وری در پروژه‌های دیجیتال کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "AI",
         "LLM",
         "training",
+        "AI",
         "IEEE"
       ]
     },
@@ -676,13 +727,13 @@
         "research"
       ],
       "headline_fa": "ربات‌ها توانایی خواندن احساسات انسانی را یاد می‌گیرند",
-      "summary_fa": "محققان ربات‌های همکاری را آموزش داده‌اند تا احساسات انسانی را از روی حرکات صورت تشخیص دهند. این پیشرفت می‌تواند به بهبود تعامل انسان و ربات کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به توسعه ربات‌هایی با قابلیت‌های عاطفی کمک کند که در محیط‌های کاری با انسان‌ها همکاری کنند.",
-      "opportunity": "yes — این فناوری می‌تواند به ایجاد ربات‌های هوشمندتر و کارآمدتر منجر شود.",
+      "summary_fa": "محققان ربات‌های همکاری را برای شناسایی احساسات انسانی آموزش داده‌اند. این ربات‌ها نه تنها به حالت‌های چهره، بلکه به سایر نشانه‌ها نیز توجه می‌کنند.",
+      "why_it_matters": "این پیشرفت می‌تواند تعامل انسان و ربات را بهبود بخشد.",
+      "opportunity": "yes — این فناوری می‌تواند در صنایع مختلف مانند خدمات مشتری و مراقبت‌های بهداشتی کاربرد داشته باشد.",
       "viral_potential": "medium",
       "tags": [
         "emotion",
-        "robots",
+        "robotics",
         "AI",
         "collaboration"
       ]
@@ -701,9 +752,9 @@
         "startup",
         "free-resource"
       ],
-      "headline_fa": "رقابت هوش مصنوعی: Claude Code در برابر Goose رایگان",
-      "summary_fa": "Claude Code یک عامل هوش مصنوعی برای نوشتن و اشکال‌زدایی کد است که هزینه‌اش بین ۲۰ تا ۲۰۰ دلار در ماه است. در مقابل، Goose به عنوان یک گزینه رایگان در حال جلب توجه برنامه‌نویسان است.",
-      "why_it_matters": "این موضوع نشان‌دهنده فشار بر قیمت‌گذاری خدمات هوش مصنوعی و نیاز به گزینه‌های مقرون‌به‌صرفه است.",
+      "headline_fa": "رقابت بین Claude Code و Goose: کدام بهتر است؟",
+      "summary_fa": "Claude Code یک ابزار هوش مصنوعی برای برنامه‌نویسی است که هزینه‌اش تا ۲۰۰ دلار در ماه می‌رسد. در مقابل، Goose به عنوان یک گزینه رایگان در حال جلب توجه برنامه‌نویسان است.",
+      "why_it_matters": "این موضوع نشان‌دهنده فشار بر قیمت‌گذاری ابزارهای هوش مصنوعی و نیاز به گزینه‌های مقرون‌به‌صرفه‌تر است.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
@@ -712,6 +763,32 @@
         "free",
         "Claude Code",
         "Goose"
+      ]
+    },
+    {
+      "id": "a6ddbae340",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "Gemini’s personalized AI image generation is now free for US users",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "summary_raw": "Google is expanding Gemini’s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your interests and data from connected Google apps.",
+      "published_at": "Mon, 29 Jun 2026 20:12:59 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "تولید تصویر هوش مصنوعی شخصی‌سازی‌شده Gemini رایگان شد",
+      "summary_fa": "گوگل امکان تولید تصویر هوش مصنوعی شخصی‌سازی‌شده Gemini را برای کاربران رایگان در آمریکا فراهم کرده است. این چت‌بات می‌تواند بر اساس علایق شما و داده‌های اپلیکیشن‌های متصل به گوگل، تصاویر بسازد.",
+      "why_it_matters": "این ویژگی می‌تواند تجربه کاربری را به طور قابل توجهی بهبود بخشد و دسترسی به ابزارهای هوش مصنوعی را آسان‌تر کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "image-generation",
+        "Google",
+        "Gemini",
+        "free"
       ]
     },
     {
@@ -724,12 +801,12 @@
       "published_at": "Tue, 16 Jun 2026 21:29:50 +0000",
       "importance_score": 8,
       "categories": [
-        "tool",
-        "research"
+        "research",
+        "tool"
       ],
-      "headline_fa": "توسعه مسکن در بریتانیا با هوش مصنوعی",
-      "summary_fa": "دولت بریتانیا با همکاری گوگل دیپ‌مایند، پروتوتایپی هوش مصنوعی برای تسریع در تصمیم‌گیری‌های مسکن ایجاد کرده است. این فناوری می‌تواند روند ساخت و ساز را بهبود بخشد.",
-      "why_it_matters": "این همکاری می‌تواند به حل بحران مسکن در بریتانیا کمک کند.",
+      "headline_fa": "توسعه سریع مسکن در بریتانیا با هوش مصنوعی",
+      "summary_fa": "دولت بریتانیا با همکاری گوگل دیپ‌مایند یک پروتوتایپ جدید مبتنی بر هوش مصنوعی را برای تسریع در تصمیم‌گیری‌های مسکن ایجاد کرده است. این اقدام می‌تواند به حل بحران مسکن در این کشور کمک کند.",
+      "why_it_matters": "این پروژه می‌تواند به بهبود فرآیند برنامه‌ریزی مسکن و کاهش زمان تصمیم‌گیری کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -750,12 +827,12 @@
       "published_at": "Wed, 10 Jun 2026 16:24:11 +0000",
       "importance_score": 8,
       "categories": [
-        "research",
-        "tool"
+        "model",
+        "research"
       ],
       "headline_fa": "تولید متن ۴ برابر سریع‌تر با DiffusionGemma",
-      "summary_fa": "DiffusionGemma یک مدل جدید است که سرعت تولید متن را به ۴ برابر افزایش می‌دهد. این فناوری می‌تواند به بهبود کارایی در تولید محتوا کمک کند.",
-      "why_it_matters": "این پیشرفت می‌تواند به تسریع فرآیندهای تولید محتوا و بهبود کیفیت آن کمک کند.",
+      "summary_fa": "DiffusionGemma یک مدل جدید برای تولید متن است که سرعت آن چهار برابر بیشتر از مدل‌های قبلی است. این پیشرفت می‌تواند به بهبود کارایی در تولید محتوا کمک کند.",
+      "why_it_matters": "این تکنولوژی می‌تواند به توسعه سریع‌تر و بهینه‌تر محتوا در صنایع مختلف کمک کند.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
@@ -778,14 +855,14 @@
         "tool"
       ],
       "headline_fa": "قدرت‌بخشی به آینده رباتیک در اروپا",
-      "summary_fa": "این پست به بررسی پیشرفت‌های هوش مصنوعی در رباتیک در اروپا می‌پردازد. DeepMind به دنبال ایجاد راهکارهای نوآورانه برای بهبود عملکرد ربات‌هاست.",
-      "why_it_matters": "این موضوع به توسعه فناوری‌های رباتیک و بهبود کیفیت زندگی کمک می‌کند.",
+      "summary_fa": "این پست به بررسی پیشرفت‌های DeepMind در حوزه رباتیک می‌پردازد. تمرکز بر روی نوآوری‌ها و کاربردهای هوش مصنوعی در ربات‌ها است.",
+      "why_it_matters": "این موضوع به توسعه فناوری‌های رباتیک و بهبود کارایی آن‌ها کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "AI",
-        "robotics",
         "DeepMind",
+        "robotics",
+        "AI",
         "Europe"
       ]
     },
@@ -803,16 +880,16 @@
         "tool"
       ],
       "headline_fa": "افزایش یادگیری با هوش مصنوعی در سیرالئون",
-      "summary_fa": "نتایج یک آزمایش کنترل‌شده نشان می‌دهد که ویژگی یادگیری هدایت‌شده Gemini می‌تواند تعامل و یادگیری را تسریع کند. این مطالعه پتانسیل‌های هوش مصنوعی در آموزش را بررسی می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود روش‌های آموزشی در کشورهای در حال توسعه کمک کند.",
+      "summary_fa": "نتایج یک آزمایش کنترل‌شده تصادفی نشان می‌دهد که ویژگی یادگیری هدایت‌شده Gemini می‌تواند تعامل و یادگیری را تسریع کند. این تحقیق می‌تواند به بهبود آموزش در مناطق مختلف کمک کند.",
+      "why_it_matters": "این تحقیق نشان‌دهنده پتانسیل هوش مصنوعی در بهبود فرآیندهای آموزشی است.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "education",
+        "learning",
         "Gemini",
-        "Sierra Leone",
-        "learning"
+        "SierraLeone"
       ]
     },
     {
@@ -829,40 +906,15 @@
         "tool"
       ],
       "headline_fa": "کشف عوامل نوین برای جوان‌سازی سلول‌های انسانی",
-      "summary_fa": "زیست‌شناسان با استفاده از Co-Scientist عوامل جدیدی را برای جوان‌سازی سلول‌های انسانی شناسایی کردند. این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در علم پیری کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به درمان بیماری‌های مرتبط با پیری کمک کند و کیفیت زندگی را افزایش دهد.",
+      "summary_fa": "زیست‌شناسان با استفاده از Co-Scientist عوامل جدیدی را برای جوان‌سازی سلول‌های انسانی شناسایی کردند. این یافته‌ها می‌تواند به بهبود سلامت و طول عمر انسان‌ها کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های چشمگیری در علم پزشکی و درمان بیماری‌های مرتبط با پیری منجر شود.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
-        "AI",
-        "biology",
-        "aging",
-        "research"
-      ]
-    },
-    {
-      "id": "1a891999f5",
-      "source": "DeepMind Blog",
-      "base_category": "model",
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-      "summary_raw": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "published_at": "Sun, 17 May 2026 19:53:18 +0000",
-      "importance_score": 8,
-      "categories": [
-        "tool",
-        "research"
-      ],
-      "headline_fa": "پروژه جینی: شبیه‌سازی مکان‌های واقعی با هوش مصنوعی",
-      "summary_fa": "گوگل قابلیت جدیدی را با استفاده از Street View معرفی کرده است. این ویژگی به کاربران Google AI Ultra در سطح جهانی دسترسی بیشتری می‌دهد.",
-      "why_it_matters": "این پیشرفت می‌تواند به بهبود تجربه کاربری در شبیه‌سازی‌های واقعیت مجازی کمک کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "StreetView",
-        "DeepMind",
-        "ProjectGenie"
+        "genetics",
+        "cellular aging",
+        "rejuvenation",
+        "biotechnology"
       ]
     },
     {
@@ -878,8 +930,8 @@
         "research"
       ],
       "headline_fa": "فرصت‌های شغلی هوش مصنوعی در اروپا",
-      "summary_fa": "گزارش جدید OpenAI نشان می‌دهد که هوش مصنوعی چگونه می‌تواند مشاغل را در اتحادیه اروپا تحت تأثیر قرار دهد. این گزارش به شناسایی مشاغلی می‌پردازد که ممکن است با اتوماسیون، رشد یا تغییرات در روند کار مواجه شوند.",
-      "why_it_matters": "این گزارش به درک بهتر تأثیرات هوش مصنوعی بر بازار کار کمک می‌کند.",
+      "summary_fa": "گزارش جدید OpenAI نشان می‌دهد که هوش مصنوعی چگونه می‌تواند مشاغل را در اتحادیه اروپا تغییر دهد. این گزارش به بررسی مشاغلی می‌پردازد که ممکن است با اتوماسیون، رشد یا تغییرات در روند کار مواجه شوند.",
+      "why_it_matters": "این گزارش به درک بهتر تأثیر هوش مصنوعی بر بازار کار کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -903,8 +955,8 @@
         "tool"
       ],
       "headline_fa": "استانداردهای مشترک برای هوش مصنوعی پیشرفته",
-      "summary_fa": "OpenAI در حال ایجاد استانداردهای مشترک برای هوش مصنوعی پیشرفته است. این اقدام شامل چارچوب‌های ارزیابی، شیوه‌های ایمنی و همکاری جهانی می‌شود.",
-      "why_it_matters": "این موضوع به ارتقاء ایمنی و کارایی هوش مصنوعی در سطح جهانی کمک می‌کند.",
+      "summary_fa": "OpenAI در تلاش است تا استانداردهای مشترکی برای هوش مصنوعی پیشرفته ایجاد کند. این اقدام شامل چارچوب‌های ارزیابی و همکاری جهانی است.",
+      "why_it_matters": "این موضوع به بهبود ایمنی و کارایی هوش مصنوعی کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -927,16 +979,16 @@
         "startup",
         "tool"
       ],
-      "headline_fa": "چگونه اومیو آینده سفرهای گفتگویی را می‌سازد",
-      "summary_fa": "اومیو از OpenAI برای ایجاد تجربیات سفر گفتگویی استفاده می‌کند. این شرکت در حال تحول به یک شرکت بومی هوش مصنوعی است.",
-      "why_it_matters": "این تحول می‌تواند نحوه سفر و تعاملات مشتریان را به طور قابل توجهی تغییر دهد.",
+      "headline_fa": "آینده سفرهای گفتگویی با Omio و OpenAI",
+      "summary_fa": "Omio از OpenAI برای ایجاد تجربه‌های سفر گفتگویی استفاده می‌کند. این شرکت در حال تسریع توسعه محصولات و تبدیل به یک شرکت بومی هوش مصنوعی است.",
+      "why_it_matters": "این موضوع نشان‌دهنده تحول صنعت سفر با استفاده از هوش مصنوعی است.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "Omio",
         "OpenAI",
-        "AI",
-        "travel"
+        "travel",
+        "AI"
       ]
     },
     {
@@ -960,8 +1012,8 @@
       "tags": [
         "security",
         "AI",
-        "OpenAI",
-        "vulnerabilities"
+        "vulnerability",
+        "OpenAI"
       ]
     },
     {
@@ -977,9 +1029,9 @@
         "tool",
         "research"
       ],
-      "headline_fa": "پچ کردن سیاره: ابتکار OpenAI برای حمایت از نگهداری کدهای باز",
-      "summary_fa": "OpenAI ابتکار Patch the Planet را معرفی کرده است که به نگهدارندگان کدهای باز کمک می‌کند تا آسیب‌پذیری‌ها را شناسایی و اصلاح کنند. این برنامه با استفاده از هوش مصنوعی و بررسی کارشناسانه انجام می‌شود.",
-      "why_it_matters": "این ابتکار به بهبود امنیت نرم‌افزارهای متن‌باز و حمایت از توسعه‌دهندگان کمک می‌کند.",
+      "headline_fa": "پچ کردن سیاره: ابتکار جدید OpenAI برای حمایت از نگهداری‌کنندگان متن‌باز",
+      "summary_fa": "OpenAI با ابتکار Patch the Planet به نگهداری‌کنندگان متن‌باز کمک می‌کند تا آسیب‌پذیری‌ها را شناسایی و برطرف کنند. این برنامه از هوش مصنوعی و بررسی کارشناسان بهره می‌برد.",
+      "why_it_matters": "این ابتکار به تقویت امنیت نرم‌افزارهای متن‌باز و حمایت از جامعه توسعه‌دهندگان کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -1004,14 +1056,14 @@
         "research"
       ],
       "headline_fa": "استفاده از Codex برای مدیریت پروژه‌های پیچیده",
-      "summary_fa": "جیسون لیو از Codex برای حفظ زمینه و مدیریت پروژه‌های پیچیده استفاده می‌کند. این ابزار به او کمک می‌کند تا کارها را فراتر از یک درخواست ادامه دهد.",
-      "why_it_matters": "این موضوع به بهبود کارایی و مدیریت پروژه‌ها در دنیای هوش مصنوعی کمک می‌کند.",
+      "summary_fa": "جیسون لیو از Codex برای حفظ زمینه و مدیریت پروژه‌های پیچیده استفاده می‌کند. این ابزار به او کمک می‌کند تا کارها را فراتر از یک درخواست واحد ادامه دهد.",
+      "why_it_matters": "این موضوع به بهبود کارایی و مدیریت پروژه‌ها در زمینه هوش مصنوعی کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "Codex",
         "AI",
-        "project-management"
+        "project management"
       ]
     },
     {
@@ -1024,70 +1076,19 @@
       "published_at": "Mon, 29 Jun 2026 18:02:48 GMT",
       "importance_score": 8,
       "categories": [
-        "research",
-        "model"
+        "model",
+        "research"
       ],
-      "headline_fa": "معرفی DiScoFormer: ترنسفورمر جدید برای توزیع‌ها",
-      "summary_fa": "DiScoFormer یک مدل ترنسفورمر است که به طور همزمان برای چگالی و امتیازدهی در توزیع‌های مختلف عمل می‌کند. این مدل می‌تواند به بهبود عملکرد در وظایف مختلف یادگیری ماشین کمک کند.",
-      "why_it_matters": "این مدل می‌تواند به پیشرفت‌های قابل توجهی در زمینه یادگیری عمیق منجر شود.",
+      "headline_fa": "معرفی DiScoFormer: یک ترنسفورمر جدید برای توزیع‌ها",
+      "summary_fa": "DiScoFormer یک مدل ترنسفورمر است که برای محاسبه چگالی و امتیاز در توزیع‌های مختلف طراحی شده است. این مدل می‌تواند به بهبود دقت پیش‌بینی‌ها در یادگیری ماشین کمک کند.",
+      "why_it_matters": "این مدل به محققان و توسعه‌دهندگان در بهبود الگوریتم‌های یادگیری ماشین کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "transformer",
-        "AI",
-        "machine learning",
-        "research"
-      ]
-    },
-    {
-      "id": "aecc799a4f",
-      "source": "Hugging Face Blog",
-      "base_category": "model",
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "summary_raw": "",
-      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
-      "importance_score": 8,
-      "categories": [
-        "tool",
-        "research"
-      ],
-      "headline_fa": "انتشار هفتگی ابزارهای هوش مصنوعی Hugging Face",
-      "summary_fa": "Hugging Face به‌طور هفتگی ابزارهای جدید هوش مصنوعی را منتشر می‌کند. این ابزارها به توسعه‌دهندگان کمک می‌کند تا پروژه‌های خود را سریع‌تر پیش ببرند.",
-      "why_it_matters": "این موضوع به پیشرفت سریع‌تر فناوری هوش مصنوعی و دسترسی آسان‌تر به ابزارهای جدید کمک می‌کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "Hugging Face",
-        "AI",
-        "tools",
-        "innovation"
-      ]
-    },
-    {
-      "id": "b09c23321c",
-      "source": "Hugging Face Blog",
-      "base_category": "model",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "summary_raw": "",
-      "published_at": "Mon, 22 Jun 2026 13:18:56 GMT",
-      "importance_score": 8,
-      "categories": [
-        "model",
-        "tool",
-        "research"
-      ],
-      "headline_fa": "معرفی PP-OCRv6: OCR چند زبانه با ۳۴.۵ میلیون پارامتر",
-      "summary_fa": "مدل PP-OCRv6 در هاجینگ فیس به ۵۰ زبان مختلف قابلیت شناسایی متن دارد. این مدل از ۱.۵ میلیون به ۳۴.۵ میلیون پارامتر ارتقا یافته است.",
-      "why_it_matters": "این پیشرفت می‌تواند دقت و کارایی شناسایی متن در زبان‌های مختلف را بهبود بخشد.",
-      "opportunity": "yes",
-      "viral_potential": "high",
-      "tags": [
-        "OCR",
-        "AI",
-        "HuggingFace",
-        "language"
+        "density",
+        "score",
+        "machine-learning"
       ]
     },
     {
@@ -1103,9 +1104,9 @@
         "tool",
         "free-resource"
       ],
-      "headline_fa": "مدل‌های محلی برای بررسی رایگان مخزن OpenClaw!",
-      "summary_fa": "این خبر از ارائه مدل‌های محلی برای مدیریت مخزن OpenClaw به صورت رایگان خبر می‌دهد. این ابزار به توسعه‌دهندگان کمک می‌کند تا به راحتی به منابع دسترسی پیدا کنند.",
-      "why_it_matters": "این موضوع به تسهیل دسترسی به ابزارهای هوش مصنوعی و افزایش همکاری در جامعه توسعه‌دهندگان کمک می‌کند.",
+      "headline_fa": "مدل‌های محلی برای مدیریت رایگان مخزن OpenClaw!",
+      "summary_fa": "این خبر از ارائه مدل‌های محلی برای مدیریت مخزن OpenClaw به صورت رایگان خبر می‌دهد. این ابزار می‌تواند به توسعه‌دهندگان کمک کند تا به راحتی به منابع دسترسی پیدا کنند.",
+      "why_it_matters": "این موضوع به تسهیل دسترسی به ابزارهای هوش مصنوعی کمک می‌کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
@@ -1113,31 +1114,6 @@
         "local-models",
         "AI-tools",
         "free"
-      ]
-    },
-    {
-      "id": "104f85d502",
-      "source": "OpenAI Blog",
-      "base_category": "model",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "url": "https://openai.com/index/hp-frontier-partnership",
-      "summary_raw": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "published_at": "Sun, 28 Jun 2026 17:00:00 GMT",
-      "importance_score": 7,
-      "categories": [
-        "startup",
-        "tool"
-      ],
-      "headline_fa": "شراکت استراتژیک HP با OpenAI برای هوش مصنوعی",
-      "summary_fa": "شرکت HP Inc. همکاری خود با OpenAI را گسترش می‌دهد تا هوش مصنوعی را در تجربه‌های مشتری، توسعه نرم‌افزار و عملیات شرکتی به کار گیرد. این اقدام به بهبود کارایی و نوآوری در خدمات HP کمک خواهد کرد.",
-      "why_it_matters": "این همکاری می‌تواند تحولی در نحوه ارائه خدمات و محصولات HP ایجاد کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "HP",
-        "OpenAI",
-        "AI",
-        "partnership"
       ]
     },
     {
@@ -1155,14 +1131,14 @@
       ],
       "headline_fa": "آزمایش API ذخیره‌سازی Cross-Origin در Transformers.js",
       "summary_fa": "این پست به بررسی API جدید ذخیره‌سازی Cross-Origin در کتابخانه Transformers.js می‌پردازد. این فناوری می‌تواند به بهبود عملکرد مدل‌های هوش مصنوعی کمک کند.",
-      "why_it_matters": "این موضوع به توسعه‌دهندگان امکان می‌دهد تا بهینه‌سازی‌های جدیدی در پروژه‌های خود اعمال کنند.",
+      "why_it_matters": "این فناوری می‌تواند به توسعه‌دهندگان در بهینه‌سازی و افزایش کارایی برنامه‌های هوش مصنوعی کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "Cross-Origin",
         "API",
         "Transformers.js",
-        "storage"
+        "AI"
       ]
     },
     {
@@ -1172,21 +1148,20 @@
       "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
       "url": "https://arxiv.org/abs/2606.27443",
       "summary_raw": "arXiv:2606.27443v1 Announce Type: new \nAbstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, while those prompted with high agreeableness become cooperative, but the relationship between communication style and task performance has not been systematically examined across multiple domains. In this work, we investigate whether personality composition matters for multi-agent team performance by manipulating personality traits across frontier LLMs on three task domains: structured coding, open-ended research collaboration, and competitive bargaining. We find that personality effects depend c",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
       "importance_score": 7,
       "categories": [
         "research"
       ],
       "headline_fa": "تأثیر ترکیب شخصیت بر تیم‌های LLM چندعاملی",
-      "summary_fa": "تحقیقات جدید نشان می‌دهد که نحوه تعامل مدل‌های زبانی بزرگ تحت تأثیر شخصیت آنها قرار دارد. این مطالعه به بررسی رابطه بین سبک ارتباط و عملکرد در وظایف مختلف می‌پردازد.",
-      "why_it_matters": "این موضوع می‌تواند به بهبود همکاری و کارایی مدل‌های هوش مصنوعی کمک کند.",
-      "opportunity": "yes — امکان توسعه ابزارهای جدید برای بهینه‌سازی تعاملات مدل‌ها.",
+      "summary_fa": "این تحقیق به بررسی تأثیر نوع شخصیت بر ارتباطات مدل‌های زبانی بزرگ می‌پردازد. نتایج نشان می‌دهد که شخصیت مدل‌ها می‌تواند بر همکاری و عملکرد آنها در وظایف مختلف تأثیر بگذارد.",
+      "why_it_matters": "این موضوع می‌تواند به بهبود کارایی تیم‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes — فرصت برای توسعه ابزارهای هوش مصنوعی با شخصیت‌های بهینه.",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "LLM",
         "personality",
-        "communication",
         "research"
       ]
     },
@@ -1197,45 +1172,21 @@
       "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
       "url": "https://arxiv.org/abs/2606.27652",
       "summary_raw": "arXiv:2606.27652v1 Announce Type: new \nAbstract: We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable. Specifically, for reasoning-based MLLMs, fast thinking by triggering direct answers often outperforms slow thinking after deliberative reasoning. Our empirical analyses show that fast thinking improves recall with broader and more confident predictions, whereas slow thinking favors precision through conservative filtering of incorrect categories. Building on these insights, we propose MER-R1, a reinforcement learning framework that turns slow-fast complementarity into explicit optimization. Dual-objective disentanglement separates recall and precision into two optimizat",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 -0400",
       "importance_score": 7,
       "categories": [
         "research"
       ],
-      "headline_fa": "تحلیل احساسات چندرسانه‌ای با تفکر سریع و کند",
-      "summary_fa": "این تحقیق نشان می‌دهد که تفکر سریع در شناسایی احساسات چندرسانه‌ای بهتر از تفکر کند عمل می‌کند. همچنین، تفکر سریع پیش‌بینی‌های دقیق‌تر و با اعتماد بیشتری ارائه می‌دهد.",
+      "headline_fa": "تحلیل جدیدی در شناسایی احساسات چندرسانه‌ای",
+      "summary_fa": "این تحقیق نشان می‌دهد که استدلال صریح لزوماً به دقت بالاتر در شناسایی احساسات چندرسانه‌ای منجر نمی‌شود. نتایج نشان می‌دهند که تفکر سریع در برخی موارد بهتر از تفکر کند عمل می‌کند.",
       "why_it_matters": "این یافته‌ها می‌توانند به بهبود الگوریتم‌های شناسایی احساسات کمک کنند.",
-      "opportunity": "yes — فرصت توسعه ابزارهای هوش مصنوعی برای شناسایی احساسات.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "emotion",
         "reasoning",
-        "AI",
+        "MLLM",
         "multimodal"
-      ]
-    },
-    {
-      "id": "bd50847f87",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents",
-      "url": "https://arxiv.org/abs/2606.27595",
-      "summary_raw": "arXiv:2606.27595v1 Announce Type: new \nAbstract: Web-agent benchmarks overwhelmingly measure depth -- pinning one obscure answer behind a chain of constraints -- while breadth, exhaustively enumerating a closed set and filling each item's attributes, is barely evaluated, especially outside English. Breadth is also hard to build: certifying that a gold set is complete and every cell correct is far costlier than checking a single answer. I introduce \\textsc{Ko-WideSearch}, a Korean breadth-search benchmark built by an automated synthesize-and-verify pipeline. Each task names a set-parent entity -- a TV season, a dynasty, a league, an administrative region, an election -- and asks for its full membership plus a per-item attribute table, graded by Item-, Column-, and Row-F1. It spans 228 table",
-      "published_at": "Mon, 29 Jun 2026 00:00:00 -0400",
-      "importance_score": 7,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "معرفی Ko-WideSearch: بنچمارک جستجوی گسترده کره‌ای",
-      "summary_fa": "Ko-WideSearch یک بنچمارک جدید برای جستجوی گسترده در زبان کره‌ای است. این ابزار به ارزیابی مجموعه‌های بسته و ویژگی‌های هر مورد می‌پردازد.",
-      "why_it_matters": "این تحقیق به بهبود جستجوهای وب در زبان‌های غیرانگلیسی کمک می‌کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "benchmark",
-        "Korean",
-        "search",
-        "web agents"
       ]
     },
     {
@@ -1252,14 +1203,64 @@
         "research"
       ],
       "headline_fa": "هوش مصنوعی همکار شما نیست!",
-      "summary_fa": "این مقاله به بررسی نقش ابزارهای هوش مصنوعی در محیط کار می‌پردازد. نویسنده تأکید می‌کند که این ابزارها نمی‌توانند جایگزین همکاران انسانی شوند.",
-      "why_it_matters": "این موضوع به درک بهتر از تعامل انسان و هوش مصنوعی در محیط کار کمک می‌کند.",
-      "opportunity": "no",
+      "summary_fa": "این مقاله به بررسی نقش ابزارهای هوش مصنوعی در محیط کار می‌پردازد. همچنین به چالش‌های ناشی از انتظارات نادرست از این ابزارها اشاره می‌کند.",
+      "why_it_matters": "درک صحیح از توانایی‌های هوش مصنوعی می‌تواند به بهبود بهره‌وری و کاهش سوءتفاهم‌ها کمک کند.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "workplace",
         "technology"
+      ]
+    },
+    {
+      "id": "5d27c5b129",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "summary_raw": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model — with hopes that it will eventually outperform frontier models.",
+      "published_at": "Tue, 30 Jun 2026 02:28:41 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model",
+        "startup"
+      ],
+      "headline_fa": "پلتفرم کدنویسی Base44 مدل هوش مصنوعی خود را راه‌اندازی کرد",
+      "summary_fa": "پلتفرم Base44 که متعلق به Wix است، مدل هوش مصنوعی خود را راه‌اندازی کرده است. هدف این پلتفرم این است که در نهایت از مدل‌های پیشرفته‌تر پیشی بگیرد.",
+      "why_it_matters": "این اقدام نشان‌دهنده تلاش استارتاپ‌ها برای ایجاد تمایز و دفاع از خود در بازار رقابتی هوش مصنوعی است.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Base44",
+        "startup",
+        "Wix"
+      ]
+    },
+    {
+      "id": "1a891999f5",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "summary_raw": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "published_at": "Sun, 17 May 2026 19:53:18 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "معرفی قابلیت جدید پروژه جینی برای شبیه‌سازی مکان‌ها",
+      "summary_fa": "گوگل دسترسی به مشترکین AI Ultra را گسترش می‌دهد و قابلیت جدیدی را معرفی می‌کند. این قابلیت با استفاده از تصاویر Street View به شبیه‌سازی مکان‌های واقعی کمک می‌کند.",
+      "why_it_matters": "این فناوری می‌تواند به بهبود تجربه‌های مجازی و آموزش کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "StreetView",
+        "ProjectGenie",
+        "Google"
       ]
     }
   ]
