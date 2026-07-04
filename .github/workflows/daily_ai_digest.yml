@@ -2,8 +2,8 @@ name: Daily AI Digest
 
 on:
   schedule:
-    - cron: '30 4 * * *'   # هر روز 04:30 UTC = 08:00 تهران
-  workflow_dispatch:        # اجرای دستی از GitHub UI
+    - cron: "30 4 * * *"  # Every day 04:30 UTC = 08:00 Tehran
+  workflow_dispatch:
 
 jobs:
   collect-and-publish:
@@ -18,18 +18,33 @@ jobs:
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install feedparser requests beautifulsoup4 supabase
 
       - name: Run collector
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python collector.py
+        run: |
+          echo '{}' > output/seen_ids.json
+          python collector.py
+
+      - name: Sync to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python sync_supabase.py
+        continue-on-error: true
+
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_telegram.py
+        continue-on-error: true
 
       - name: Copy dashboard to output
         run: cp dashboard.html output/index.html
@@ -40,3 +55,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
           commit_message: "Daily AI Digest"
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          cp dashboard.html cloudflare-site/index.html
+          npx wrangler pages deploy cloudflare-site --project-name ai-news-digest --commit-dirty=true
+        continue-on-error: true

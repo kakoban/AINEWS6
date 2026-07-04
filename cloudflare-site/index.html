@@ -718,7 +718,14 @@
                 border-color: var(--accent);
             }
         </style>
-    </head>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        const SUPABASE_URL = 'https://pqwmmwvglxsvuzndkrgj.supabase.co';
+        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxd21td3ZnbHhzdnV6bmRrcmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMxNTQ0NTgsImV4cCI6MjA5ODczMDQ1OH0.QGAulr7mzFp_3ssUif0hrSXczq5ZPcq_f7zSJ96q86w';
+        const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    </script>
+</head>
     <body>
         <header>
             <div class="header-brand">
@@ -876,22 +883,54 @@
 
             // ── بارگذاری داده ──
             async function loadData() {
-                const urls = [
-                    "daily_digest.json?t=" + Date.now(),
-                    "output/daily_digest.json?t=" + Date.now(),
-                ];
+                try {
+                    // Load from Supabase
+                    const { data: items, error } = await sb
+                        .from('news_items')
+                        .select('*')
+                        .order('importance_score', { ascending: false })
+                        .limit(100);
+
+                    if (error) throw error;
+
+                    const { data: stats } = await sb
+                        .from('digest_stats')
+                        .select('*')
+                        .order('date', { ascending: false })
+                        .limit(1)
+                        .single();
+
+                    if (items && items.length > 0) {
+                        initDashboard({
+                            date: stats?.date || new Date().toISOString().slice(0,10),
+                            generated_at: stats?.created_at || new Date().toISOString(),
+                            stats: {
+                                total_sources: stats?.total_sources || 0,
+                                total_fetched: stats?.total_fetched || 0,
+                                total_displayed: items.length,
+                                top_score: stats?.top_score || 0,
+                                high_viral_count: items.filter(i => i.viral_potential === 'high').length,
+                                opportunities_count: items.filter(i => i.opportunity?.startsWith('yes')).length,
+                            },
+                            items: items,
+                        });
+                        return;
+                    }
+                } catch (e) { console.log('Supabase fallback:', e); }
+
+                // Try local JSON fallback
+                const urls = ["daily_digest.json", "output/daily_digest.json"];
                 for (const url of urls) {
                     try {
-                        const res = await fetch(url);
+                        const res = await fetch(url + "?t=" + Date.now());
                         if (!res.ok) continue;
                         const data = await res.json();
                         if (data && data.items && data.items.length > 0) {
                             initDashboard(data);
                             return;
                         }
-                    } catch (e) { /* try next */ }
+                    } catch (e) {}
                 }
-                // اگر هیچ فایلی پیدا نشد، داده نمونه
                 initDashboard(getSampleData());
             }
 
