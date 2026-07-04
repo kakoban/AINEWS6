@@ -2,7 +2,7 @@ name: Daily AI Digest
 
 on:
   schedule:
-    - cron: "30 4 * * *"  # Every day 04:30 UTC = 08:00 Tehran
+    - cron: "30 4 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,17 +13,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Install dependencies
-        run: |
-          pip install feedparser requests beautifulsoup4 supabase
+        run: pip install feedparser requests beautifulsoup4 supabase
 
       - name: Run collector
         env:
