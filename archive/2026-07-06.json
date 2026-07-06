@@ -1,636 +1,1022 @@
 {
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T08:50:42.472824+00:00",
+  "generated_at": "2026-07-06T16:07:49.804698+00:00",
   "stats": {
-    "total_sources": 105,
-    "total_fetched": 173,
+    "total_sources": 41,
+    "total_fetched": 111,
     "total_processed": 50,
-    "total_displayed": 30,
+    "total_displayed": 50,
     "top_score": 8,
-    "high_viral_count": 2,
-    "opportunities_count": 10
+    "high_viral_count": 15,
+    "opportunities_count": 48
   },
   "items": [
+    {
+      "id": "3301e1d95a",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "summary_raw": "",
+      "published_at": "Tue, 09 Jun 2026 14:10:19 +0000",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "معرفی مدل چندرسانه‌ای جِما ۴ با ۱۲ میلیارد پارامتر",
+      "summary_fa": "مدل جِما ۴ یک مدل چندرسانه‌ای بدون انکودر است که قابلیت‌های جدیدی را ارائه می‌دهد. این مدل می‌تواند به بهبود تعاملات هوش مصنوعی کمک کند.",
+      "why_it_matters": "این مدل می‌تواند تحولی در نحوه پردازش داده‌های چندرسانه‌ای ایجاد کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Gemma",
+        "DeepMind",
+        "AI",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "e05f150685",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary_raw": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "published_at": "Fri, 26 Jun 2026 10:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "معرفی مدل نسل جدید GPT-5.6 Sol",
+      "summary_fa": "OpenAI مدل GPT-5.6 Sol را معرفی کرد که قابلیت‌های قوی‌تری در کدنویسی، علم و امنیت سایبری دارد. این مدل با پیشرفته‌ترین سیستم ایمنی خود همراه است.",
+      "why_it_matters": "این مدل می‌تواند تحولی در حوزه‌های مختلف فناوری ایجاد کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "GPT-5.6",
+        "AI",
+        "OpenAI",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "6a50af4dcb",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary_raw": "",
+      "published_at": "Tue, 30 Jun 2026 18:32:50 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "معرفی ScarfBench: ابزار سنجش هوش مصنوعی برای مهاجرت فریم‌ورک‌های جاوا",
+      "summary_fa": "ScarfBench ابزاری جدید برای ارزیابی عملکرد عوامل هوش مصنوعی در مهاجرت فریم‌ورک‌های جاوا به شمار می‌رود. این ابزار می‌تواند به شرکت‌ها در تسهیل فرآیند مهاجرت کمک کند.",
+      "why_it_matters": "این ابزار می‌تواند به بهبود کارایی و کاهش هزینه‌های مهاجرت نرم‌افزارهای جاوا کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Java",
+        "migration",
+        "benchmarking",
+        "tool"
+      ]
+    },
+    {
+      "id": "12e19c7621",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "summary_raw": "",
+      "published_at": "Wed, 24 Jun 2026 16:00:13 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "شتاب‌دهی به فاین‌تیونینگ ترنسفورمرها با NVIDIA NeMo",
+      "summary_fa": "NVIDIA NeMo AutoModel به توسعه‌دهندگان کمک می‌کند تا فرایند فاین‌تیونینگ مدل‌های ترنسفورمر را سریع‌تر انجام دهند. این ابزار به بهبود کارایی و کاهش زمان آموزش مدل‌ها می‌انجامد.",
+      "why_it_matters": "این ابزار می‌تواند به تسریع پیشرفت‌های تحقیقاتی و توسعه در حوزه هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "NVIDIA",
+        "NeMo",
+        "Transformers",
+        "AI",
+        "Fine-Tuning"
+      ]
+    },
+    {
+      "id": "f0b562107e",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "summary_raw": "",
+      "published_at": "Wed, 24 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "معرفی جدول رده‌بندی FFASR: ارزیابی ASR در دنیای واقعی",
+      "summary_fa": "جدول رده‌بندی FFASR به بررسی عملکرد سیستم‌های تشخیص گفتار در شرایط واقعی می‌پردازد. این ابزار به محققان و توسعه‌دهندگان کمک می‌کند تا پیشرفت‌ها را بهتر ارزیابی کنند.",
+      "why_it_matters": "این موضوع به بهبود کیفیت و دقت سیستم‌های تشخیص گفتار کمک می‌کند.",
+      "opportunity": "yes - این ابزار می‌تواند به شرکت‌ها در بهبود محصولات و خدمات خود کمک کند.",
+      "viral_potential": "medium",
+      "tags": [
+        "ASR",
+        "benchmarking",
+        "Hugging Face",
+        "FFASR"
+      ]
+    },
     {
       "id": "8b3ac28cee",
       "source": "GitHub Trending AI",
       "base_category": "tool",
-      "title": "GitHub Trending: cheahjs/free-llm-api-resources — ⭐25,575",
+      "title": "GitHub Trending: cheahjs/free-llm-api-resources — ⭐25,746",
       "url": "https://github.com/cheahjs/free-llm-api-resources",
       "summary_raw": "A list of free LLM inference resources accessible via API.",
-      "published_at": "2026-07-06T08:47:13.254534+00:00",
+      "published_at": "2026-07-06T16:04:21.121141+00:00",
       "importance_score": 8,
       "categories": [
-        "free-resource"
+        "free-resource",
+        "tool"
       ],
-      "headline_fa": "منابع رایگان API برای LLM ها معرفی شد",
-      "summary_fa": "این لیست شامل منابع رایگان برای استنتاج LLM است که از طریق API قابل دسترسی هستند. توسعه‌دهندگان می‌توانند از این منابع برای پروژه‌های خود استفاده کنند.",
-      "why_it_matters": "این منابع به توسعه‌دهندگان کمک می‌کند تا به راحتی از مدل‌های LLM استفاده کنند و هزینه‌های خود را کاهش دهند.",
+      "headline_fa": "منابع رایگان API برای مدل‌های زبانی بزرگ",
+      "summary_fa": "این لیست شامل منابع رایگان برای استنتاج مدل‌های زبانی بزرگ است. کاربران می‌توانند به راحتی از این APIها استفاده کنند.",
+      "why_it_matters": "این منابع به توسعه‌دهندگان کمک می‌کند تا به راحتی به فناوری‌های هوش مصنوعی دسترسی پیدا کنند.",
       "opportunity": "yes",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "tags": [
-        "LLM",
         "API",
-        "free-resource"
+        "LLM",
+        "free",
+        "resources"
       ]
     },
     {
-      "id": "822a7fe302",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "An agentic artificially intelligent X-ray scientist",
-      "url": "https://www.nature.com/articles/s42256-026-01261-5",
-      "summary_raw": "Nature Machine Intelligence, Published online: 01 July 2026; doi:10.1038/s42256-026-01261-5 Chen et al. demonstrate an AI X-ray scientist that autonomously aligns single crystals at a real synchrotron beamline, showing how large language models can enable adaptive closed-loop experimentation at large-scale scientific facilities.",
-      "published_at": "2026-07-06T08:46:42.221032+00:00",
+      "id": "5a66fabdf6",
+      "source": "VentureBeat AI",
+      "base_category": "startup",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "summary_raw": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users, positioning Anthropic to compete not just with OpenAI and Google in conversational AI, but with Microsoft's Copilot in the burgeoning market for AI-powered productivity tools. \"Cowork lets you complete non-technical tasks much like how developers use Claude Code,\" the company announced via its official Claude account on X. The feature arrives as a research preview available exclusively to Claude Max",
+      "published_at": "Mon, 12 Jan 2026 11:30:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "startup"
+      ],
+      "headline_fa": "انتشار Cowork: دستیار هوش مصنوعی جدید Anthropic",
+      "summary_fa": "Anthropic روز دوشنبه Cowork را معرفی کرد، یک قابلیت جدید که قدرت ابزار Claude Code را به کاربران غیر فنی می‌آورد. این ویژگی در حدود یک هفته و نیم ساخته شده و نشان‌دهنده پیشرفت در ارائه دستیارهای هوش مصنوعی به کاربران عادی است.",
+      "why_it_matters": "این موضوع به رقابت Anthropic با OpenAI و Google در زمینه هوش مصنوعی مکالمه‌ای کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Cowork",
+        "Claude",
+        "tool"
+      ]
+    },
+    {
+      "id": "031f81e4c9",
+      "source": "VentureBeat AI",
+      "base_category": "startup",
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "summary_raw": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics processors . The model, called NousCoder-14B , is another entry in a crowded field of AI coding assistants, but arrives at a particularly charged moment: Claude Code , the agentic programming tool from rival Anthropic, has dominated social media discussion since New Year's Day, with developers posting breathless testimonials about its capabilities . The simultaneous developments underscore how quickly AI-assisted software development is evolving — and how fiercely companies large and small are comp",
+      "published_at": "Wed, 07 Jan 2026 20:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "startup",
+        "tool"
+      ],
+      "headline_fa": "مدل کدنویسی NousCoder-14B به دنیای هوش مصنوعی وارد شد",
+      "summary_fa": "شرکت Nous Research مدل کدنویسی جدیدی به نام NousCoder-14B را معرفی کرد. این مدل در عرض چهار روز با استفاده از ۴۸ پردازنده گرافیکی Nvidia آموزش دیده است.",
+      "why_it_matters": "این مدل می‌تواند رقابت را در بازار ابزارهای کدنویسی هوش مصنوعی افزایش دهد.",
+      "opportunity": "yes — این مدل می‌تواند به توسعه‌دهندگان و استارتاپ‌ها کمک کند تا ابزارهای بهتری بسازند.",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "coding",
+        "open-source",
+        "NousCoder",
+        "Nous Research"
+      ]
+    },
+    {
+      "id": "d4d989f110",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "summary_raw": "",
+      "published_at": "Tue, 30 Jun 2026 16:02:40 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "model"
+      ],
+      "headline_fa": "معرفی Nano Banana 2 Lite و Gemini Omni Flash",
+      "summary_fa": "Nano Banana 2 Lite و Gemini Omni Flash ابزارهای جدیدی برای توسعه‌دهندگان هستند. این ابزارها امکانات پیشرفته‌ای برای ساخت برنامه‌های هوش مصنوعی فراهم می‌کنند.",
+      "why_it_matters": "این ابزارها می‌توانند به تسریع فرآیند توسعه هوش مصنوعی کمک کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "tools",
+        "development"
+      ]
+    },
+    {
+      "id": "2438f508da",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "summary_raw": "",
+      "published_at": "Wed, 24 Jun 2026 16:30:01 +0000",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "tool",
+        "research"
+      ],
+      "headline_fa": "معرفی استفاده از کامپیوتر در Gemini 3.5 Flash",
+      "summary_fa": "مدل جدید Gemini 3.5 Flash قابلیت‌های جدیدی برای استفاده از کامپیوتر ارائه می‌دهد. این بهبودها می‌تواند به توسعه‌دهندگان و محققان در پروژه‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این پیشرفت می‌تواند به تسریع روند تحقیق و توسعه در زمینه هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Gemini",
+        "AI",
+        "DeepMind",
+        "technology"
+      ]
+    },
+    {
+      "id": "94b10bfdca",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Securing the future of AI agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "summary_raw": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "published_at": "Tue, 16 Jun 2026 15:46:31 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "تأمین امنیت آینده عامل‌های هوش مصنوعی",
+      "summary_fa": "این پست به بررسی نقشه راه کنترل هوش مصنوعی برای تأمین امنیت سیستم‌های داخلی می‌پردازد. ترکیب تدابیر سنتی و نظارت در زمان واقعی از نکات کلیدی این رویکرد است.",
+      "why_it_matters": "این موضوع به حفظ امنیت و کنترل هوش مصنوعی در آینده کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "security",
+        "DeepMind"
+      ]
+    },
+    {
+      "id": "714deb535c",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "summary_raw": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "published_at": "Wed, 10 Jun 2026 10:21:19 +0000",
       "importance_score": 8,
       "categories": [
         "research"
       ],
-      "headline_fa": "دانشمند ایکس‌ری هوش مصنوعی با قابلیت خودکارسازی آزمایشات",
-      "summary_fa": "محققان یک دانشمند هوش مصنوعی ایکس‌ری را معرفی کردند که به‌طور خودکار بلورهای تک‌بلور را در یک خط پرتو سنکرترون تنظیم می‌کند. این فناوری نشان می‌دهد که مدل‌های زبانی بزرگ می‌توانند آزمایش‌های بسته‌ی تطبیقی را در تأسیسات علمی بزرگ تسهیل کنند.",
-      "why_it_matters": "این پیشرفت می‌تواند به بهبود کارایی و دقت در تحقیقات علمی کمک کند.",
+      "headline_fa": "سرمایه‌گذاری در تحقیق ایمنی هوش مصنوعی چندعاملی",
+      "summary_fa": "گوگل دیپ‌مایند و شرکای آن فراخوانی به مبلغ ۱۰ میلیون دلار برای تحقیق در زمینه ایمنی هوش مصنوعی چندعاملی اعلام کردند. این تحقیق به بررسی چالش‌های ایمنی در تعاملات هوش‌های مصنوعی می‌پردازد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود ایمنی و کنترل هوش مصنوعی در آینده کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "X-ray",
+        "safety",
         "research",
-        "automation"
+        "DeepMind"
       ]
     },
     {
-      "id": "28db620461",
-      "source": "r/MachineLearning",
-      "base_category": "research",
-      "title": "Competence Gate: gating tool-use on a small model's internal confidence signal instead of its verbalised one — Qwen3.5-4B, open weights [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/",
-      "summary_raw": "I made a 10MB LoRA adapter for Qwen3.5-4B plus a small orchestration layer. It decides, per query, whether to answer directly, search the web, or retrieve from your own local documents and it refuses to make things up when it can't verify an answer. It runs locally (Apple Silicon / MLX, with a GGUF build for llama.cpp/Ollama). Basically small instruct models are poor at telling users how confident they really are. They can't verbalise it and tend to say they are confident for everyhting. In my past research I tested seven 3-9b models and they all hit a confidence ceiling. But the information i",
-      "published_at": "2026-07-05T07:49:09+00:00",
-      "importance_score": 8,
-      "categories": [
-        "tool",
-        "free-resource"
-      ],
-      "headline_fa": "ابزار جدید برای بهبود پاسخ‌دهی مدل‌های کوچک هوش مصنوعی",
-      "summary_fa": "یک آداپتور LoRA 10MB برای مدل Qwen3.5-4B ساخته شده که تصمیم می‌گیرد چگونه به پرسش‌ها پاسخ دهد. این ابزار به کاربران کمک می‌کند تا از اطلاعات معتبر استفاده کنند و از ارائه پاسخ‌های نادرست خودداری کند.",
-      "why_it_matters": "این ابزار به بهبود دقت و اعتمادپذیری مدل‌های کوچک هوش مصنوعی کمک می‌کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "tool",
-        "Qwen3.5-4B",
-        "LoRA",
-        "confidence"
-      ]
-    },
-    {
-      "id": "e66836d002",
-      "source": "HF Trending Models",
+      "id": "17fcb07527",
+      "source": "DeepMind Blog",
       "base_category": "model",
-      "title": "مدل ترند: baidu/Unlimited-OCR",
-      "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "summary_raw": "likes: 1763 | downloads: 1044217 | pipeline: image-text-to-text",
-      "published_at": "2026-07-06T08:47:11.844842+00:00",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "summary_raw": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "published_at": "Tue, 09 Jun 2026 15:16:25 +0000",
       "importance_score": 8,
       "categories": [
-        "model",
-        "free-resource"
+        "tool",
+        "model"
       ],
-      "headline_fa": "مدل جدید OCR بی‌حد و مرز بایدو معرفی شد",
-      "summary_fa": "مدل baidu/Unlimited-OCR به کاربران این امکان را می‌دهد که تصاویر را به متن تبدیل کنند. این مدل با بیش از یک میلیون دانلود، ابزاری کارآمد برای پردازش متن از تصاویر است.",
-      "why_it_matters": "این مدل به عنوان یک منبع رایگان و متن‌باز، به توسعه‌دهندگان کمک می‌کند تا به راحتی از قابلیت‌های OCR بهره‌برداری کنند.",
+      "headline_fa": "ترجمه صوتی طبیعی و آنی با Gemini 3.5",
+      "summary_fa": "Gemini 3.5 Live Translate ترجمه گفتار طبیعی و نزدیک به آنی را به Google AI Studio و Google Meet می‌آورد. این ابزار می‌تواند به بهبود ارتباطات چندزبانه کمک کند.",
+      "why_it_matters": "این فناوری می‌تواند به تسهیل ارتباطات بین‌المللی و کاهش موانع زبانی کمک کند.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
-        "OCR",
-        "Baidu",
+        "translation",
         "AI",
-        "free-resource"
+        "speech",
+        "Google"
       ]
     },
     {
-      "id": "f57230398a",
-      "source": "HF Trending Models",
+      "id": "fef111cd06",
+      "source": "DeepMind Blog",
       "base_category": "model",
-      "title": "مدل ترند: deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-      "summary_raw": "likes: 742 | downloads: 394164 | pipeline: text-generation",
-      "published_at": "2026-07-06T08:47:11.844845+00:00",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "summary_raw": "",
+      "published_at": "Thu, 21 May 2026 19:46:42 +0000",
       "importance_score": 8,
       "categories": [
-        "model",
-        "free-resource"
+        "research",
+        "tool"
       ],
-      "headline_fa": "مدل جدید Ornith-1.0-35B-GGUF برای تولید متن",
-      "summary_fa": "مدل Ornith-1.0-35B-GGUF به تازگی منتشر شده و قابلیت تولید متن را دارد. این مدل با ۳۹۴,۱۶۴ دانلود و ۷۴۲ لایک، به عنوان یک منبع رایگان برای توسعه‌دهندگان به شمار می‌رود.",
-      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا از یک ابزار پیشرفته برای تولید متن استفاده کنند.",
+      "headline_fa": "برنامه شتاب‌دهنده دیپ‌مایند برای مقابله با خطرات محیطی",
+      "summary_fa": "دیپ‌مایند برنامه شتاب‌دهنده‌ای را در منطقه آسیا و اقیانوسیه راه‌اندازی می‌کند. هدف این برنامه کاهش خطرات زیست‌محیطی با استفاده از هوش مصنوعی است.",
+      "why_it_matters": "این برنامه می‌تواند به بهبود وضعیت محیط زیست و کاهش خطرات ناشی از تغییرات اقلیمی کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "model",
-        "text-generation",
-        "free-resource"
+        "DeepMind",
+        "AI",
+        "environment",
+        "Asia Pacific"
       ]
     },
     {
-      "id": "1e61851c7e",
-      "source": "GitHub Trending AI",
-      "base_category": "tool",
-      "title": "GitHub Trending: anthropics/claude-code — ⭐136,439",
-      "url": "https://github.com/anthropics/claude-code",
-      "summary_raw": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "published_at": "2026-07-06T08:47:13.254394+00:00",
+      "id": "2166bf39bc",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "summary_raw": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "published_at": "Tue, 30 Jun 2026 09:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "viral"
+      ],
+      "headline_fa": "رشد جهانی استفاده از ChatGPT در حال افزایش است",
+      "summary_fa": "داده‌های جدید OpenAI نشان می‌دهد که کاربران به طور فزاینده‌ای از ChatGPT استفاده می‌کنند. این روند در مناطق و زبان‌های مختلف در حال گسترش است.",
+      "why_it_matters": "این موضوع نشان‌دهنده تأثیر روزافزون هوش مصنوعی در زندگی روزمره است.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "adoption",
+        "growth"
+      ]
+    },
+    {
+      "id": "34c3a4fcab",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary_raw": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "published_at": "Thu, 25 Jun 2026 02:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحول کار با هوش مصنوعی: افزایش بهره‌وری و پیچیدگی وظایف",
+      "summary_fa": "مقاله جدید OpenAI نشان می‌دهد که چگونه عوامل هوش مصنوعی در حال تغییر کار هستند. این فناوری امکان انجام وظایف طولانی‌تر و پیچیده‌تر را فراهم می‌کند.",
+      "why_it_matters": "این موضوع به بهبود بهره‌وری و کارایی در محیط‌های کاری کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "productivity",
+        "work",
+        "research"
+      ]
+    },
+    {
+      "id": "3079893c53",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary_raw": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "published_at": "Wed, 24 Jun 2026 06:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "چیپ هوش مصنوعی جدید OpenAI و Broadcom معرفی شد",
+      "summary_fa": "OpenAI و Broadcom چیپ هوش مصنوعی جدیدی به نام Jalapeño معرفی کردند. این چیپ برای بهبود عملکرد و کارایی در سیستم‌های هوش مصنوعی طراحی شده است.",
+      "why_it_matters": "این چیپ می‌تواند به بهبود سرعت و کارایی مدل‌های زبان بزرگ کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "chip",
+        "LLM",
+        "OpenAI",
+        "Broadcom"
+      ]
+    },
+    {
+      "id": "1a26808321",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary_raw": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "published_at": "Tue, 23 Jun 2026 17:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "چگونه GPT-5 معمای ایمنی‌شناسی را حل کرد؟",
+      "summary_fa": "مدل GPT-5 Pro به دانشمند ایمنی‌شناسی، دریا اونوتماز، در حل یک معما کمک کرد. این پیشرفت می‌تواند به تحقیقات سرطان و بیماری‌های خودایمنی کمک کند.",
+      "why_it_matters": "این کشف می‌تواند به بهبود درمان‌های پزشکی و درک بهتر سیستم ایمنی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "GPT-5",
+        "immunology",
+        "research",
+        "cancer",
+        "autoimmune"
+      ]
+    },
+    {
+      "id": "d8dd05c35a",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "summary_raw": "",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "tool",
+        "research"
+      ],
+      "headline_fa": "معرفی نتایج ارزیابی مدل‌ها در صفحات هاجینگ فیس",
+      "summary_fa": "هاجینگ فیس نتایج ارزیابی مدل‌های هوش مصنوعی را در صفحات خود به نمایش گذاشته است. این اقدام به کاربران کمک می‌کند تا انتخاب‌های بهتری داشته باشند.",
+      "why_it_matters": "این موضوع به شفافیت و بهبود انتخاب مدل‌ها در پروژه‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes - این امکان وجود دارد که توسعه‌دهندگان از این اطلاعات برای بهبود مدل‌های خود استفاده کنند.",
+      "viral_potential": "medium",
+      "tags": [
+        "HuggingFace",
+        "AI",
+        "model evaluation",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "fddccc6c22",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "summary_raw": "",
+      "published_at": "Fri, 26 Jun 2026 00:00:00 GMT",
       "importance_score": 8,
       "categories": [
         "tool",
         "free-resource"
       ],
-      "headline_fa": "ابزار کدنویسی هوش مصنوعی Claude Code معرفی شد",
-      "summary_fa": "Claude Code یک ابزار کدنویسی هوش مصنوعی است که در ترمینال شما قرار می‌گیرد و به شما در کدنویسی سریع‌تر کمک می‌کند. این ابزار با استفاده از دستورات زبان طبیعی، وظایف روتین را انجام می‌دهد و کدهای پیچیده را توضیح می‌دهد.",
-      "why_it_matters": "این ابزار می‌تواند به توسعه‌دهندگان کمک کند تا بهره‌وری خود را در کدنویسی افزایش دهند.",
+      "headline_fa": "راه‌اندازی سرور vLLM با یک دستور در HF Jobs",
+      "summary_fa": "این مقاله به شما نشان می‌دهد چگونه می‌توانید سرور vLLM را با یک دستور ساده در HF Jobs راه‌اندازی کنید. این کار به توسعه‌دهندگان و محققان کمک می‌کند تا به راحتی از مدل‌های هوش مصنوعی استفاده کنند.",
+      "why_it_matters": "این موضوع به تسهیل دسترسی به ابزارهای هوش مصنوعی و افزایش بهره‌وری در پروژه‌ها کمک می‌کند.",
       "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "vLLM",
+        "HF Jobs",
+        "AI",
+        "server"
+      ]
+    },
+    {
+      "id": "8f2f0e901d",
+      "source": "VentureBeat AI",
+      "base_category": "startup",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "summary_raw": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code , Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month depending on usage — has sparked a growing rebellion among the very programmers it aims to serve. Now, a free alternative is gaining traction. Goose , an open-source AI agent developed by Block (the financial technology company formerly known as Square), offers nearly identical functionality to Claude Code but runs entirely on a user's local machine. No subscription fees. No cloud dependency. No rate limits that reset every five hours. \"Your data stays with you, period,\" said Parth Sareen, a so",
+      "published_at": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "startup",
+        "free-resource"
+      ],
+      "headline_fa": "رقابت بین Claude Code و Goose: یکی پولی و دیگری رایگان!",
+      "summary_fa": "Claude Code یک ابزار هوش مصنوعی برای برنامه‌نویسی است که هزینه‌اش تا ۲۰۰ دلار در ماه می‌رسد. در مقابل، Goose به عنوان یک جایگزین رایگان در حال محبوب شدن است.",
+      "why_it_matters": "این موضوع نشان‌دهنده نیاز به گزینه‌های مقرون‌به‌صرفه در بازار ابزارهای هوش مصنوعی است.",
+      "opportunity": "yes - توسعه‌دهندگان می‌توانند از Goose به عنوان یک ابزار رایگان بهره‌برداری کنند.",
       "viral_potential": "high",
       "tags": [
         "AI",
         "coding",
-        "tool",
-        "Claude Code"
+        "free",
+        "Claude Code",
+        "Goose"
       ]
     },
     {
-      "id": "afdace39e7",
-      "source": "GitHub Trending AI",
-      "base_category": "tool",
-      "title": "GitHub Trending: TauricResearch/TradingAgents — ⭐91,186",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "summary_raw": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "published_at": "2026-07-06T08:47:13.254676+00:00",
+      "id": "18a90b9394",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "summary_raw": "",
+      "published_at": "Fri, 03 Jul 2026 14:25:43 +0000",
       "importance_score": 8,
       "categories": [
-        "tool",
-        "free-resource"
+        "research"
       ],
-      "headline_fa": "چارچوب معاملاتی مالی با هوش مصنوعی برای چندین عامل",
-      "summary_fa": "TradingAgents یک چارچوب معاملاتی مالی مبتنی بر LLM برای چندین عامل است که به توسعه‌دهندگان کمک می‌کند تا استراتژی‌های معاملاتی خود را پیاده‌سازی کنند. این ابزار می‌تواند در بهینه‌سازی معاملات و تحلیل داده‌های مالی مورد استفاده قرار گیرد.",
-      "why_it_matters": "این ابزار به توسعه‌دهندگان امکان می‌دهد تا با استفاده از هوش مصنوعی، معاملات مالی خود را بهبود بخشند.",
+      "headline_fa": "شراکت تحقیقاتی بی‌نظیر گوگل دیپ‌مایند و A24",
+      "summary_fa": "گوگل دیپ‌مایند و A24 یک همکاری تحقیقاتی جدید را آغاز کرده‌اند. این شراکت به بررسی تقاطع هوش مصنوعی و هنر می‌پردازد.",
+      "why_it_matters": "این همکاری می‌تواند به پیشرفت‌های نوآورانه در صنعت سرگرمی منجر شود.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "DeepMind",
+        "A24",
+        "AI",
+        "research",
+        "partnership"
+      ]
+    },
+    {
+      "id": "c4e6b92336",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "summary_raw": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "published_at": "Tue, 16 Jun 2026 21:29:50 +0000",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "توسعه مسکن در بریتانیا با هوش مصنوعی",
+      "summary_fa": "دولت بریتانیا با همکاری گوگل دیپ‌مایند یک پروتوتایپ جدید مبتنی بر هوش مصنوعی ایجاد کرده است. این ابزار به تسریع تصمیم‌گیری‌های مسکن کمک می‌کند.",
+      "why_it_matters": "این پروژه می‌تواند به حل بحران مسکن در بریتانیا کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "trading",
-        "financial",
-        "multi-agent",
-        "LLM"
+        "housing",
+        "DeepMind",
+        "UK",
+        "government"
       ]
     },
     {
-      "id": "c2b3cc629f",
-      "source": "Vercel Blog",
-      "base_category": "tool",
-      "title": "Claude Sonnet 5 now available on Vercel AI Gateway",
-      "url": "https://vercel.com/changelog/claude-sonnet-5-ai-gateway",
-      "summary_raw": "Claude Sonnet 5 from Anthropic is now available on AI Gateway . Sonnet 5 improves on Sonnet 4.6 across coding and agentic work, reaching outcomes on many tasks that previously needed an Opus model, at Sonnet pricing. The model is more agentic and follows instructions more closely. Document parsing and long-context memory use are also stronger. Sonnet 5 also uses an updated tokenizer, like the recent Opus models, which can map the same input to more tokens. Launch pricing of $2 per million input tokens and $10 per million output tokens runs through August 31, 2026. Standard list price will be $3/M input tokens, $15/M output tokens. To use Sonnet 5, set model to anthropic/claude-sonnet-5 in the AI SDK : You can also try Sonnet 5 in the model playground . AI Gateway provides a unified API for",
-      "published_at": "2026-07-06T08:46:44.048034+00:00",
+      "id": "d77fcfb0bf",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "summary_raw": "",
+      "published_at": "Wed, 10 Jun 2026 16:24:11 +0000",
       "importance_score": 8,
       "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل Claude Sonnet 5 در Vercel AI Gateway منتشر شد",
-      "summary_fa": "Claude Sonnet 5 از Anthropic به تازگی در AI Gateway در دسترس قرار گرفته است. این مدل بهبودهای قابل توجهی در کارهای کدنویسی و دستوری ارائه می‌دهد و به نتایج بهتری نسبت به مدل‌های قبلی می‌رسد.",
-      "why_it_matters": "این مدل به توسعه‌دهندگان کمک می‌کند تا با کارایی بیشتری به وظایف خود بپردازند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "Claude",
-        "Sonnet5",
-        "Vercel",
-        "AI",
-        "model"
-      ]
-    },
-    {
-      "id": "72339137e7",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-      "summary_raw": "likes: 1035 | downloads: 355871 | pipeline: text-generation",
-      "published_at": "2026-07-06T08:47:11.844863+00:00",
-      "importance_score": 7,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل جدید yuxinlu1 با قابلیت‌های پیشرفته معرفی شد",
-      "summary_fa": "مدل yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF به تازگی منتشر شده و قابلیت تولید متن را دارد. این مدل با 355871 دانلود و 1035 لایک، نشان‌دهنده توجه جامعه به آن است.",
-      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در تولید محتوای متنی کمک کند و نشان‌دهنده پیشرفت‌های جدید در زمینه هوش مصنوعی است.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
         "model",
-        "text-generation"
-      ]
-    },
-    {
-      "id": "caa021b2a0",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-      "summary_raw": "likes: 1584 | downloads: 1533844 | pipeline: image-text-to-text",
-      "published_at": "2026-07-06T08:47:11.844819+00:00",
-      "importance_score": 7,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل جدید empero-ai/Qwythos-9B رونمایی شد",
-      "summary_fa": "مدل empero-ai/Qwythos-9B با قابلیت تبدیل تصویر به متن و متن به متن معرفی شده است. این مدل با بیش از 1.5 میلیون دانلود، به توسعه‌دهندگان امکان استفاده از قابلیت‌های پیشرفته هوش مصنوعی را می‌دهد.",
-      "why_it_matters": "این مدل به دلیل کاربردهای متنوعش در پردازش تصویر و متن اهمیت دارد.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "model",
-        "image-text",
-        "text-to-text"
-      ]
-    },
-    {
-      "id": "602ecaa7fd",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: InternScience/Agents-A1",
-      "url": "https://huggingface.co/InternScience/Agents-A1",
-      "summary_raw": "likes: 311 | downloads: 7010 | pipeline: text-generation",
-      "published_at": "2026-07-06T08:47:11.844848+00:00",
-      "importance_score": 7,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل جدید InternScience/Agents-A1 برای تولید متن",
-      "summary_fa": "مدل InternScience/Agents-A1 به تازگی منتشر شده و قابلیت تولید متن را دارد. این مدل با ۷۰۱۰ دانلود و ۳۱۱ لایک، توجه بسیاری از توسعه‌دهندگان را جلب کرده است.",
-      "why_it_matters": "این مدل می‌تواند به بهبود پروژه‌های تولید متن و کاربردهای مختلف هوش مصنوعی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "model",
-        "text-generation"
-      ]
-    },
-    {
-      "id": "1464fa38fa",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "summary_raw": "likes: 2504 | downloads: 2910241 | pipeline: image-text-to-text",
-      "published_at": "2026-07-06T08:47:11.844872+00:00",
-      "importance_score": 7,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل جدید HauhauCS/Qwen3.6-35B-A3B منتشر شد",
-      "summary_fa": "مدل HauhauCS/Qwen3.6-35B-A3B یک مدل ترند در زمینه هوش مصنوعی است که قابلیت تبدیل تصویر به متن را دارد. این مدل با بیش از ۲.۹ میلیون دانلود، ابزار مفیدی برای توسعه‌دهندگان در پروژه‌های AI به شمار می‌رود.",
-      "why_it_matters": "این مدل به دلیل محبوبیت و تعداد دانلود بالا، می‌تواند به پیشرفت پروژه‌های هوش مصنوعی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "model",
-        "HauhauCS",
-        "Qwen3.6"
-      ]
-    },
-    {
-      "id": "c49f081a6f",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Reshaping biomolecular structure prediction through strategic conformational exploration with HelixFold-S1",
-      "url": "https://www.nature.com/articles/s42256-026-01264-2",
-      "summary_raw": "Nature Machine Intelligence, Published online: 02 July 2026; doi:10.1038/s42256-026-01264-2 Liu and colleagues introduce HelixFold-S1, a guided sampling strategy for biomolecular complex structure prediction that targets high-probability interaction regions. The method achieves higher accuracy than traditional unguided methods while reducing computational costs.",
-      "published_at": "2026-07-06T08:46:42.220961+00:00",
-      "importance_score": 7,
-      "categories": [
         "research"
       ],
-      "headline_fa": "پیشرفت در پیش‌بینی ساختار بیومولکولی با HelixFold-S1",
-      "summary_fa": "محققان HelixFold-S1 را به عنوان یک استراتژی نمونه‌گیری هدایت‌شده برای پیش‌بینی ساختارهای بیومولکولی معرفی کردند. این روش با هدف‌گذاری نواحی تعامل با احتمال بالا، دقت بیشتری نسبت به روش‌های سنتی ارائه می‌دهد.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت پیش‌بینی ساختارهای بیومولکولی کمک کند و هزینه‌های محاسباتی را کاهش دهد.",
-      "opportunity": "no",
-      "viral_potential": "medium",
+      "headline_fa": "تولید متن ۴ برابر سریع‌تر با DiffusionGemma",
+      "summary_fa": "مدل جدید DiffusionGemma قادر است تولید متن را چهار برابر سریع‌تر انجام دهد. این پیشرفت می‌تواند به بهبود کارایی در کاربردهای مختلف هوش مصنوعی کمک کند.",
+      "why_it_matters": "این تکنولوژی می‌تواند زمان تولید محتوا را به طرز چشمگیری کاهش دهد.",
+      "opportunity": "yes",
+      "viral_potential": "high",
       "tags": [
-        "biomolecular",
-        "structure prediction",
         "AI",
-        "research"
+        "text-generation",
+        "DeepMind",
+        "innovation"
       ]
     },
     {
-      "id": "4f788df2db",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Autonomous navigation of intelligent microrobotic swarms in unknown environments",
-      "url": "https://www.nature.com/articles/s42256-026-01252-6",
-      "summary_raw": "Nature Machine Intelligence, Published online: 22 June 2026; doi:10.1038/s42256-026-01252-6 An, Luo, Zhang and colleagues present Turbo, a transformer-based reinforcement learning framework that enables simulation-to-real transfer for autonomous navigation and obstacle avoidance in physical microrobotic swarms operating in unknown environments.",
-      "published_at": "2026-07-06T08:46:42.221311+00:00",
-      "importance_score": 7,
+      "id": "793b2431fc",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "summary_raw": "",
+      "published_at": "Tue, 09 Jun 2026 14:02:33 +0000",
+      "importance_score": 8,
       "categories": [
-        "research"
+        "research",
+        "tool"
       ],
-      "headline_fa": "ناوبری خودکار کلونی‌های رباتیک میکرو در محیط‌های ناشناخته",
-      "summary_fa": "محققان فریم‌ورک یادگیری تقویتی Turbo را معرفی کردند که انتقال شبیه‌سازی به واقعیت را برای ناوبری خودکار و اجتناب از موانع در کلونی‌های رباتیک میکرو ممکن می‌سازد. این تکنولوژی می‌تواند در محیط‌های ناشناخته به کار گرفته شود.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در رباتیک و ناوبری خودکار منجر شود.",
-      "opportunity": "no",
+      "headline_fa": "قدرت‌دهی به آینده رباتیک در اروپا",
+      "summary_fa": "این مقاله به بررسی پیشرفت‌های اخیر در زمینه رباتیک در اروپا می‌پردازد. DeepMind به نقش خود در توسعه فناوری‌های رباتیک اشاره کرده است.",
+      "why_it_matters": "این موضوع به دلیل تأثیر آن بر آینده فناوری و صنعت رباتیک اهمیت دارد.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
+        "DeepMind",
         "robotics",
-        "reinforcement_learning",
-        "navigation",
-        "research"
+        "Europe",
+        "AI"
       ]
     },
     {
-      "id": "5b102ec8dc",
-      "source": "The Decoder",
-      "base_category": "viral",
-      "title": "Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%",
-      "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
-      "summary_raw": "The open-source tool pxpipe converts long text prompts for Claude Code into compact PNGs, exploiting the fact that Anthropic charges for images by pixel size, not text content. Developer Steven Chong reports cost savings of 59 to 70 percent, at the price of accuracy and speed. The article Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70% appeared first on The Decoder .",
-      "published_at": "Sat, 04 Jul 2026 18:11:33 +0000",
-      "importance_score": 7,
+      "id": "47e80b2e50",
+      "source": "DeepMind Blog",
+      "base_category": "model",
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "summary_raw": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+      "published_at": "Mon, 08 Jun 2026 13:04:59 +0000",
+      "importance_score": 8,
       "categories": [
-        "tool",
-        "free-resource"
+        "research",
+        "tool"
       ],
-      "headline_fa": "ابزار متن‌باز pxpipe هزینه‌های Claude Code را کاهش می‌دهد",
-      "summary_fa": "ابزار متن‌باز pxpipe متن‌های طولانی را به فرمت PNG تبدیل می‌کند تا هزینه‌های Claude Code را تا ۷۰ درصد کاهش دهد. این ابزار با استفاده از قیمت‌گذاری بر اساس اندازه پیکسل، به توسعه‌دهندگان کمک می‌کند تا هزینه‌های خود را به طور قابل توجهی کاهش دهند.",
-      "why_it_matters": "این ابزار می‌تواند به توسعه‌دهندگان در کاهش هزینه‌های استفاده از خدمات هوش مصنوعی کمک کند.",
+      "headline_fa": "افزایش یادگیری با هوش مصنوعی در سیرالئون",
+      "summary_fa": "نتایج یک آزمایش کنترل‌شده تصادفی نشان می‌دهد که ویژگی یادگیری هدایت‌شده Gemini می‌تواند تعامل و یادگیری را تسریع کند. این یافته‌ها می‌تواند به بهبود آموزش در مناطق مختلف کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود روش‌های آموزشی در کشورهای در حال توسعه کمک کند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "tool",
-        "cost-saving",
-        "open-source"
+        "education",
+        "learning",
+        "Gemini",
+        "Sierra Leone"
       ]
     },
     {
-      "id": "46ba0cfe18",
-      "source": "HF Trending Models",
+      "id": "e2a00076ac",
+      "source": "OpenAI Blog",
       "base_category": "model",
-      "title": "مدل ترند: zai-org/GLM-5.2",
-      "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "summary_raw": "likes: 3483 | downloads: 220379 | pipeline: text-generation",
-      "published_at": "2026-07-06T08:47:11.844838+00:00",
-      "importance_score": 7,
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "summary_raw": "",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
       "categories": [
-        "model"
+        "research",
+        "tool"
       ],
-      "headline_fa": "مدل ترند جدید GLM-5.2 معرفی شد",
-      "summary_fa": "مدل GLM-5.2 به تازگی منتشر شده و قابلیت تولید متن را دارد. این مدل با ۳۴۸۳ لایک و ۲۲۰۳۷۹ دانلود در حال جلب توجه توسعه‌دهندگان است.",
-      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در پروژه‌های تولید محتوا کمک کند.",
-      "opportunity": "no",
+      "headline_fa": "معرفی Genebench-Pro: ابزاری نوین در هوش مصنوعی",
+      "summary_fa": "Genebench-Pro یک ابزار پیشرفته برای ارزیابی مدل‌های هوش مصنوعی است. این ابزار به پژوهشگران کمک می‌کند تا عملکرد مدل‌های خود را بهبود بخشند.",
+      "why_it_matters": "این ابزار می‌تواند به تسریع پیشرفت‌های علمی در زمینه هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
+        "benchmarking",
+        "research",
+        "tools"
+      ]
+    },
+    {
+      "id": "218d8783b0",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "summary_raw": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "معرفی GeneBench-Pro: ابزار جدید سنجش هوش مصنوعی در ژنتیک",
+      "summary_fa": "GeneBench-Pro یک معیار جدید برای ارزیابی عملکرد هوش مصنوعی در حوزه‌های ژنتیک و بیولوژی است. این ابزار با استفاده از داده‌های پیچیده و واقعی طراحی شده است.",
+      "why_it_matters": "این ابزار می‌تواند به بهبود تحقیقات علمی و پیشرفت‌های پزشکی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "genomics",
+        "benchmark",
+        "research"
+      ]
+    },
+    {
+      "id": "4b8ef97c4f",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "summary_raw": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "published_at": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "رفع یک باگ ۱۸ ساله با تحلیل کر دامپ",
+      "summary_fa": "مهندسان OpenAI با تحلیل گسترده کر دامپ‌ها به رفع مشکلات نادر زیرساختی پرداختند. این فرایند باعث شناسایی یک نقص سخت‌افزاری و یک باگ نرم‌افزاری قدیمی شد.",
+      "why_it_matters": "این کشف می‌تواند به بهبود پایداری و کارایی زیرساخت‌های فناوری اطلاعات کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "bugfix",
+        "infrastructure",
+        "core dump"
+      ]
+    },
+    {
+      "id": "353d7409c5",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "summary_raw": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "نقشه‌برداری از فرصت‌های شغلی هوش مصنوعی در اروپا",
+      "summary_fa": "گزارش جدید OpenAI نشان می‌دهد که هوش مصنوعی چگونه می‌تواند مشاغل را در اتحادیه اروپا تغییر دهد. این گزارش به شغل‌هایی که ممکن است با اتوماسیون، رشد یا تغییرات در روند کار مواجه شوند، می‌پردازد.",
+      "why_it_matters": "این گزارش می‌تواند به کارفرمایان و کارجویان در برنامه‌ریزی برای آینده شغلی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Europe",
+        "jobs",
+        "automation",
+        "report"
+      ]
+    },
+    {
+      "id": "cdc0620195",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "summary_raw": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "published_at": "Tue, 23 Jun 2026 13:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "استانداردهای مشترک برای هوش مصنوعی پیشرفته",
+      "summary_fa": "OpenAI در حال ایجاد استانداردهای مشترک برای ارزیابی و ایمنی هوش مصنوعی است. این تلاش‌ها از طریق بنیاد Appia و همکاری‌های جهانی انجام می‌شود.",
+      "why_it_matters": "این موضوع به بهبود ایمنی و کارایی هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "standards",
+        "safety",
+        "global cooperation"
+      ]
+    },
+    {
+      "id": "f6327f7f3b",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "summary_raw": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "startup",
+        "tool"
+      ],
+      "headline_fa": "چگونه اومیو آینده سفرهای گفتگویی را می‌سازد",
+      "summary_fa": "اومیو از OpenAI برای ایجاد تجربیات سفر گفتگویی استفاده می‌کند. این شرکت در حال تحول به یک شرکت بومی هوش مصنوعی است.",
+      "why_it_matters": "این تحول می‌تواند به بهبود تجربه سفر و تسریع در توسعه محصولات کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Omio",
+        "OpenAI",
+        "AI",
+        "travel"
+      ]
+    },
+    {
+      "id": "2faf3d77ff",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "summary_raw": "",
+      "published_at": "Tue, 07 Jul 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "نسخه جدید LeRobot: تصور، ارزیابی و بهبود",
+      "summary_fa": "نسخه 0.6.0 LeRobot ابزارهای جدیدی برای تصور و ارزیابی مدل‌های هوش مصنوعی ارائه می‌دهد. این نسخه به کاربران کمک می‌کند تا بهبودهای لازم را در پروژه‌های خود اعمال کنند.",
+      "why_it_matters": "این ابزار می‌تواند به توسعه‌دهندگان در بهینه‌سازی مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "LeRobot",
+        "AI",
+        "tool",
+        "update"
+      ]
+    },
+    {
+      "id": "af4889c920",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "🤗 Kernels: Major Updates",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "summary_raw": "",
+      "published_at": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "به‌روزرسانی‌های مهم Kernels در Hugging Face",
+      "summary_fa": "Hugging Face به‌روزرسانی‌های جدیدی برای Kernels معرفی کرده است که امکانات بیشتری را به کاربران ارائه می‌دهد. این تغییرات به بهبود تجربه کاربری و کارایی کمک می‌کند.",
+      "why_it_matters": "این به‌روزرسانی‌ها می‌تواند به توسعه‌دهندگان و محققان در بهبود پروژه‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes — با استفاده از این ابزار، می‌توان پروژه‌های جدیدی را با هزینه کم راه‌اندازی کرد.",
+      "viral_potential": "medium",
+      "tags": [
+        "HuggingFace",
+        "Kernels",
+        "AI",
+        "updates"
+      ]
+    },
+    {
+      "id": "1ecfda5267",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "summary_raw": "",
+      "published_at": "Wed, 01 Jul 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
         "model",
-        "text-generation"
+        "tool",
+        "startup"
+      ],
+      "headline_fa": "هوش مصنوعی Gemma 4 برای صدا به واقعیت پیوست",
+      "summary_fa": "شرکت Hugging Face و Cerebras به تازگی مدل Gemma 4 را برای هوش مصنوعی صوتی معرفی کردند. این مدل قابلیت پردازش صدا در زمان واقعی را دارد.",
+      "why_it_matters": "این پیشرفت می‌تواند به بهبود تعاملات صوتی و تجربه کاربری در برنامه‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "voice",
+        "technology",
+        "HuggingFace",
+        "Cerebras"
+      ]
+    },
+    {
+      "id": "285c2ec0ce",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "summary_raw": "",
+      "published_at": "Tue, 30 Jun 2026 14:39:11 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "چرا تخصص‌گرایی در هوش مصنوعی اجتناب‌ناپذیر است؟",
+      "summary_fa": "این مقاله به بررسی ضرورت تخصص‌گرایی در حوزه هوش مصنوعی می‌پردازد. نویسنده استدلال می‌کند که با پیشرفت فناوری، نیاز به تخصص‌های خاص افزایش می‌یابد.",
+      "why_it_matters": "تخصص‌گرایی می‌تواند به بهبود کیفیت و کارایی مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes — با توجه به نیاز به تخصص‌های خاص، فرصت‌های شغلی جدیدی در این حوزه ایجاد می‌شود.",
+      "viral_potential": "medium",
+      "tags": [
+        "specialization",
+        "AI",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "id": "a6710788c7",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "summary_raw": "",
+      "published_at": "Mon, 29 Jun 2026 18:02:48 GMT",
+      "importance_score": 8,
+      "categories": [
+        "research",
+        "model"
+      ],
+      "headline_fa": "معرفی DiScoFormer: یک ترنسفورمر برای توزیع‌های مختلف",
+      "summary_fa": "DiScoFormer یک مدل ترنسفورمر جدید است که می‌تواند به طور همزمان چگالی و نمره را در توزیع‌های مختلف محاسبه کند. این مدل به بهبود کارایی در یادگیری ماشین کمک می‌کند.",
+      "why_it_matters": "این مدل می‌تواند به پیشرفت‌های قابل توجهی در زمینه یادگیری عمیق منجر شود.",
+      "opportunity": "yes - این تکنولوژی می‌تواند در پروژه‌های تحقیقاتی و صنعتی به کار گرفته شود.",
+      "viral_potential": "medium",
+      "tags": [
+        "transformer",
+        "density",
+        "score",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "aecc799a4f",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "summary_raw": "",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "model"
+      ],
+      "headline_fa": "انتشار هفتگی ابزارهای هوش مصنوعی در Hugging Face",
+      "summary_fa": "Hugging Face هر هفته ابزارهای جدید هوش مصنوعی را منتشر می‌کند. این ابزارها به توسعه‌دهندگان کمک می‌کنند تا پروژه‌های خود را سریع‌تر پیش ببرند.",
+      "why_it_matters": "این موضوع به پیشرفت سریع‌تر فناوری هوش مصنوعی و دسترسی بیشتر به ابزارهای آن کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "tools",
+        "HuggingFace",
+        "innovation"
       ]
     },
     {
       "id": "8b826b177e",
       "source": "GitHub Trending AI",
       "base_category": "tool",
-      "title": "GitHub Trending: alirezarezvani/claude-skills — ⭐20,820",
+      "title": "GitHub Trending: alirezarezvani/claude-skills — ⭐21,008",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "summary_raw": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "published_at": "2026-07-06T08:47:13.253516+00:00",
-      "importance_score": 7,
+      "published_at": "2026-07-06T16:04:21.120183+00:00",
+      "importance_score": 8,
       "categories": [
-        "tool"
-      ],
-      "headline_fa": "ابزارهای جدید Claude Code با ۳۳۷ مهارت و ۳۰+ عامل",
-      "summary_fa": "ابزار Claude Code شامل ۳۳۷ مهارت و ۳۰+ عامل برای بهبود کارایی در زمینه‌های مختلف است. این ابزار به توسعه‌دهندگان کمک می‌کند تا با استفاده از دستورات سفارشی و مهارت‌های قابل تنظیم، پروژه‌های خود را بهینه کنند.",
-      "why_it_matters": "این ابزار می‌تواند به توسعه‌دهندگان در افزایش بهره‌وری و کارایی در پروژه‌های هوش مصنوعی کمک کند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "Claude",
-        "AI",
         "tool",
-        "productivity"
-      ]
-    },
-    {
-      "id": "910edc1cf9",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Principled approaches for extending neural architectures to function spaces for operator learning",
-      "url": "https://www.nature.com/articles/s42256-026-01267-z",
-      "summary_raw": "Nature Machine Intelligence, Published online: 03 July 2026; doi:10.1038/s42256-026-01267-z Berner et al. show how to adapt popular neural networks into discretization-agnostic neural operators that learn from continuous scientific data, enabling scientific simulations that generalize more reliably across resolutions.",
-      "published_at": "2026-07-06T08:46:42.220778+00:00",
-      "importance_score": 7,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "رویکردهای اصولی برای گسترش معماری‌های عصبی در یادگیری اپراتور",
-      "summary_fa": "مقاله‌ای از برنر و همکاران نشان می‌دهد که چگونه می‌توان شبکه‌های عصبی محبوب را به اپراتورهای عصبی مستقل از گسسته‌سازی تبدیل کرد. این رویکرد به شبیه‌سازی‌های علمی کمک می‌کند تا به طور قابل اعتمادتری در مقیاس‌های مختلف عمل کنند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی شبیه‌سازی‌های علمی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "neural networks",
-        "operator learning",
-        "scientific simulations"
-      ]
-    },
-    {
-      "id": "910d112563",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Empowering biomedical evidence exploration and synthesis with deep knowledge graph research",
-      "url": "https://www.nature.com/articles/s42256-026-01266-0",
-      "summary_raw": "Nature Machine Intelligence, Published online: 02 July 2026; doi:10.1038/s42256-026-01266-0 Wang et al. develop DeepEvidence, a biomedical deep research agent for exploring and synthesizing evidence across various knowledge sources to support drug discovery, clinical trials and evidence-based medicine.",
-      "published_at": "2026-07-06T08:46:42.220882+00:00",
-      "importance_score": 7,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "تحقیق جدید در استفاده از گراف دانش عمیق در پزشکی",
-      "summary_fa": "محققان DeepEvidence را توسعه داده‌اند که یک عامل تحقیقاتی عمیق بیومدیکال است. این ابزار به کاوش و ترکیب شواهد از منابع مختلف برای حمایت از کشف دارو و پزشکی مبتنی بر شواهد کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به تسریع فرآیند کشف دارو و بهبود نتایج بالینی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "biomedical",
-        "deep learning",
-        "knowledge graph",
-        "drug discovery"
-      ]
-    },
-    {
-      "id": "cf16a92b4a",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Data-driven surrogates of rational design enable antimicrobial peptide optimization",
-      "url": "https://www.nature.com/articles/s42256-026-01258-0",
-      "summary_raw": "Nature Machine Intelligence, Published online: 25 June 2026; doi:10.1038/s42256-026-01258-0 Rising pathogen drug resistance makes next-generation antimicrobial peptides a global priority. Generative AI accelerates discovery by rapidly proposing new peptides with high therapeutic potential. The key question is no longer whether broad data-driven exploration is possible, but whether it can refine biologically complex activity scaffolds.",
-      "published_at": "2026-07-06T08:46:42.221103+00:00",
-      "importance_score": 7,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "بهینه‌سازی پپتیدهای ضد میکروبی با هوش مصنوعی",
-      "summary_fa": "این مقاله به بررسی استفاده از هوش مصنوعی برای کشف و بهینه‌سازی پپتیدهای ضد میکروبی می‌پردازد. با استفاده از داده‌های گسترده، این روش می‌تواند به تسریع در طراحی درمان‌های جدید کمک کند.",
-      "why_it_matters": "با افزایش مقاومت دارویی پاتوژن‌ها، بهینه‌سازی پپتیدهای ضد میکروبی اهمیت بالایی دارد.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "antimicrobial",
-        "peptides",
-        "research"
-      ]
-    },
-    {
-      "id": "b76233236d",
-      "source": "Vercel Blog",
-      "base_category": "tool",
-      "title": "Agent Runs now available in the Vercel MCP and CLI",
-      "url": "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
-      "summary_raw": "Your agent can now inspect Agent Runs via the Vercel MCP and CLI for eve , the open-source agent framework. eve traces are automatically ingested when deployed to Vercel and available as Agent Runs. The new Vercel MCP tools and Vercel CLI commands let you find projects with runs, list recent runs, and retrieve full traces, including reasoning, tool calls, and token usage. Vercel MCP tools: list_agent_run_projects : Find projects in a team with Agent Runs activity. list_agent_runs : List recent runs for a project. get_agent_run : Inspect metadata, lifecycle events, usage, and subagent data. get_agent_run_trace : Retrieve trace data for a run, including turns, messages, reasoning, tool calls, token usage, and tool input/output. Vercel CLI commands: vercel agent-runs projects vercel agent-run",
-      "published_at": "2026-07-06T08:46:44.034240+00:00",
-      "importance_score": 7,
-      "categories": [
-        "tool"
-      ],
-      "headline_fa": "ابزار جدید Vercel برای بررسی Agent Runs معرفی شد",
-      "summary_fa": "ابزار جدید Vercel MCP و CLI به توسعه‌دهندگان این امکان را می‌دهد که Agent Runs را بررسی کنند. این ابزار شامل قابلیت‌هایی برای یافتن پروژه‌ها و دریافت جزئیات کامل از ردیابی‌ها است.",
-      "why_it_matters": "این ابزار به بهبود کارایی و نظارت بر عملکرد پروژه‌های هوش مصنوعی کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "Vercel",
-        "Agent Runs",
-        "CLI",
-        "MCP"
-      ]
-    },
-    {
-      "id": "600fcc3cee",
-      "source": "Vercel Blog",
-      "base_category": "tool",
-      "title": "Claude Fable 5 access restored on AI Gateway",
-      "url": "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
-      "summary_raw": "Access to Claude Fable 5, the Mythos-class model, has now been restored on AI Gateway following the US Government's decision to lift the export controls. Fable 5 is the same model that was available between June 9 and June 12. What has changed is the safety classifiers, which are now updated and more robust. In the near term, some routine tasks such as coding and debugging may trigger safety classifiers. To ensure requests are still serviced when the safety classifiers are triggered, use model fallbacks . AI Gateway will try each model in models in the stated order if Anthropic refuses the request to Fable 5. To call Fable 5, use model name anthropic/claude-fable-5 : Model fallbacks work on every API format: for more information on how to configure these, see the docs . Anthropic does not ",
-      "published_at": "2026-07-06T08:46:44.036407+00:00",
-      "importance_score": 7,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "دسترسی به مدل Claude Fable 5 دوباره فعال شد",
-      "summary_fa": "دسترسی به مدل Claude Fable 5 پس از لغو محدودیت‌های صادراتی دولت آمریکا دوباره فعال شده است. این مدل اکنون دارای سیستم‌های ایمنی به‌روز و قوی‌تری است که ممکن است در برخی وظایف کدنویسی و اشکال‌زدایی فعال شوند.",
-      "why_it_matters": "این خبر نشان‌دهنده پیشرفت‌های جدید در ایمنی و قابلیت‌های مدل‌های هوش مصنوعی است.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "Claude Fable 5",
-        "AI Gateway",
-        "safety classifiers"
-      ]
-    },
-    {
-      "id": "6d563eab9e",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: nvidia/Qwen3.6-27B-NVFP4",
-      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
-      "summary_raw": "likes: 278 | downloads: 297130 | pipeline: text-generation",
-      "published_at": "2026-07-06T08:47:11.844852+00:00",
-      "importance_score": 6,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل جدید nvidia/Qwen3.6-27B-NVFP4 منتشر شد",
-      "summary_fa": "مدل nvidia/Qwen3.6-27B-NVFP4 برای تولید متن به تازگی منتشر شده است. این مدل با ۲۹۷۱۳۰ دانلود و ۲۷۸ لایک، توجه زیادی را جلب کرده است.",
-      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در پروژه‌های تولید متن کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "Nvidia",
-        "Qwen",
-        "text-generation",
-        "AI model"
-      ]
-    },
-    {
-      "id": "c19ba93b1a",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: deepseek-ai/DeepSeek-V4-Pro-DSpark",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
-      "summary_raw": "likes: 397 | downloads: 12580 | pipeline: text-generation",
-      "published_at": "2026-07-06T08:47:11.844868+00:00",
-      "importance_score": 6,
-      "categories": [
-        "model",
         "free-resource"
       ],
-      "headline_fa": "مدل DeepSeek-V4-Pro-DSpark برای تولید متن معرفی شد",
-      "summary_fa": "مدل DeepSeek-V4-Pro-DSpark به تازگی منتشر شده و قابلیت تولید متن را دارد. این مدل با ۱۲۵۸۰ دانلود و ۳۹۷ لایک، منبع مفیدی برای توسعه‌دهندگان است.",
-      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا از یک ابزار جدید و رایگان برای تولید متن استفاده کنند.",
+      "headline_fa": "مهارت‌های کلاود: ۳۳۷ مهارت و پلاگین رایگان",
+      "summary_fa": "این پروژه شامل ۳۳۷ مهارت و پلاگین برای کد نویسی است. با استفاده از این ابزار می‌توانید کارایی خود را در زمینه‌های مختلف افزایش دهید.",
+      "why_it_matters": "این ابزار می‌تواند به بهبود بهره‌وری و کارایی در پروژه‌های کدنویسی کمک کند.",
       "opportunity": "yes",
-      "viral_potential": "medium",
+      "viral_potential": "high",
       "tags": [
         "AI",
-        "text-generation",
-        "model",
-        "free-resource"
-      ]
-    },
-    {
-      "id": "8be72aa634",
-      "source": "r/MachineLearning",
-      "base_category": "research",
-      "title": "Does anyone have a name for that subtle \"Sameness\" creeping into model outputs lately? [R]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uon503/does_anyone_have_a_name_for_that_subtle_sameness/",
-      "summary_raw": "I've been running a lot of comparative evals across recent model releases—both API and open-weight—and there's a pattern I can't unsee. After a certain number of turns, or when you push into niche territory, the outputs start converging. Same cadence. Same hedging phrases. Same blind spots. It's not full collapse. It's a kind of... homogenization. A creep. My working theory: we're deep enough into the synthetic data flywheel now that we're seeing the first-generation effects. Not model collapse in the catastrophic sense, but a gradual loss of \"texture\" across models that share overlapping synt",
-      "published_at": "2026-07-06T04:27:28+00:00",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "همگن‌سازی خروجی‌های مدل‌های هوش مصنوعی",
-      "summary_fa": "نویسنده به بررسی الگوهای مشابه در خروجی‌های مدل‌های جدید پرداخته و به همگن‌سازی آن‌ها اشاره می‌کند. این پدیده ممکن است ناشی از تأثیرات داده‌های سنتزی باشد.",
-      "why_it_matters": "این موضوع می‌تواند به درک بهتر از چالش‌های فعلی در توسعه مدل‌های هوش مصنوعی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "model",
-        "machine learning",
-        "research"
+        "coding",
+        "skills",
+        "plugins",
+        "productivity"
       ]
     },
     {
       "id": "fbb6c6e2ca",
       "source": "GitHub Trending AI",
       "base_category": "tool",
-      "title": "GitHub Trending: bradautomates/claude-video — ⭐3,698",
+      "title": "GitHub Trending: bradautomates/claude-video — ⭐3,981",
       "url": "https://github.com/bradautomates/claude-video",
       "summary_raw": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "published_at": "2026-07-06T08:47:13.254832+00:00",
-      "importance_score": 6,
+      "published_at": "2026-07-06T16:04:21.120706+00:00",
+      "importance_score": 8,
       "categories": [
         "tool",
-        "free-resource"
+        "viral"
       ],
       "headline_fa": "ابزار جدید: کلود ویدیو را تماشا می‌کند!",
-      "summary_fa": "ابزار bradautomates/claude-video این امکان را به کلود می‌دهد که هر ویدیو را تماشا کند و از آن فریم‌ها استخراج کند. این ابزار می‌تواند ویدیوها را دانلود و متن آن‌ها را نیز ترنسکرایب کند.",
-      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا از ویدیوها اطلاعات بیشتری استخراج کنند.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
+      "summary_fa": "این ابزار به کلود این امکان را می‌دهد که هر ویدیویی را تماشا کند. با دانلود و استخراج فریم‌ها و نوشتن متن، اطلاعات را به کلود منتقل می‌کند.",
+      "why_it_matters": "این ابزار می‌تواند به بهبود تعاملات هوش مصنوعی و تحلیل ویدیو کمک کند.",
+      "opportunity": "yes — امکان توسعه اپلیکیشن‌های جدید بر اساس این ابزار وجود دارد.",
+      "viral_potential": "high",
       "tags": [
         "AI",
         "video",
@@ -639,97 +1025,253 @@
       ]
     },
     {
-      "id": "e1ec5378d8",
-      "source": "TechCrunch AI",
-      "base_category": "startup",
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "summary_raw": "Alibaba has reportedly classified Claude Code as high-risk software.",
-      "published_at": "Sat, 04 Jul 2026 16:32:08 +0000",
-      "importance_score": 6,
-      "categories": [],
-      "headline_fa": "علی‌بابا استفاده از Claude Code را ممنوع کرد",
-      "summary_fa": "علی‌بابا به تازگی نرم‌افزار Claude Code را به عنوان نرم‌افزار پرخطر طبقه‌بندی کرده و استفاده از آن را برای کارکنان خود ممنوع کرده است. این اقدام نشان‌دهنده نگرانی‌های امنیتی و ریسک‌های مرتبط با این نرم‌افزار است.",
-      "why_it_matters": "این خبر نشان‌دهنده نگرانی‌های جدی در صنعت فناوری درباره امنیت نرم‌افزارهای هوش مصنوعی است.",
-      "opportunity": "no",
-      "viral_potential": "medium",
+      "id": "afdace39e7",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: TauricResearch/TradingAgents — ⭐91,319",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary_raw": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "published_at": "2026-07-06T16:04:21.120930+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "چارچوب معاملاتی مالی با هوش مصنوعی چندعاملی",
+      "summary_fa": "TradingAgents یک چارچوب معاملاتی مالی مبتنی بر هوش مصنوعی است که از مدل‌های چندعاملی استفاده می‌کند. این ابزار می‌تواند به معامله‌گران کمک کند تا تصمیمات بهتری بگیرند.",
+      "why_it_matters": "این پروژه می‌تواند به بهبود استراتژی‌های معاملاتی و افزایش سودآوری کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
       "tags": [
-        "Alibaba",
-        "Claude Code",
+        "trading",
         "AI",
-        "software risk"
+        "finance",
+        "multi-agent"
       ]
     },
     {
-      "id": "86fc1c9d38",
-      "source": "Towards Data Science",
-      "base_category": "research",
-      "title": "Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs",
-      "url": "https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/",
-      "summary_raw": "Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call The post Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs appeared first on Towards Data Science .",
-      "published_at": "Sun, 05 Jul 2026 15:00:00 +0000",
-      "importance_score": 6,
+      "id": "dd574e98fc",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: karpathy/nanoGPT — ⭐60,831",
+      "url": "https://github.com/karpathy/nanoGPT",
+      "summary_raw": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+      "published_at": "2026-07-06T16:04:21.121348+00:00",
+      "importance_score": 8,
       "categories": [
-        "research"
+        "tool",
+        "model",
+        "free-resource"
       ],
-      "headline_fa": "ترکیب پرامپت‌های RAG با قوانین سوالات",
-      "summary_fa": "این مقاله به بررسی نحوه ساخت پرامپت‌های RAG از یک پرامپت پایه و قوانین مورد نیاز هر سوال می‌پردازد. این رویکرد می‌تواند به بهبود دقت و کارایی مدل‌های زبان کمک کند.",
-      "why_it_matters": "این موضوع به بهینه‌سازی تعاملات با مدل‌های زبان کمک می‌کند و می‌تواند در پروژه‌های هوش مصنوعی کاربردی باشد.",
-      "opportunity": "no",
+      "headline_fa": "آموزش سریع و ساده GPT با nanoGPT",
+      "summary_fa": "nanoGPT یک مخزن ساده و سریع برای آموزش و تنظیم مدل‌های متوسط GPT است. این ابزار به توسعه‌دهندگان کمک می‌کند تا به راحتی مدل‌های خود را ایجاد و بهینه‌سازی کنند.",
+      "why_it_matters": "این پروژه به تسهیل فرآیند آموزش مدل‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "GPT",
+        "training",
+        "AI",
+        "repository"
+      ]
+    },
+    {
+      "id": "ec2b5bfa19",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: hesreallyhim/awesome-claude-code — ⭐48,687",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "summary_raw": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "published_at": "2026-07-06T16:04:21.121644+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "مجموعه‌ای برتر از منابع کلاود کد",
+      "summary_fa": "این مجموعه شامل بهترین منابع برای کلاود کد است. این ابزار از تیم Anthropic PBC به عنوان یک همراه کدنویسی برجسته شناخته می‌شود.",
+      "why_it_matters": "این مجموعه می‌تواند به توسعه‌دهندگان در بهبود مهارت‌های کدنویسی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "ClaudeCode",
+        "resources",
+        "AI",
+        "development"
+      ]
+    },
+    {
+      "id": "104f85d502",
+      "source": "OpenAI Blog",
+      "base_category": "model",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "summary_raw": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "published_at": "Sun, 28 Jun 2026 17:00:00 GMT",
+      "importance_score": 7,
+      "categories": [
+        "startup",
+        "tool"
+      ],
+      "headline_fa": "شراکت استراتژیک HP با OpenAI برای توسعه هوش مصنوعی",
+      "summary_fa": "شرکت HP Inc. همکاری خود با OpenAI را برای به‌کارگیری هوش مصنوعی در تجربه مشتریان و توسعه نرم‌افزار گسترش می‌دهد. این همکاری به بهبود عملیات سازمانی نیز کمک خواهد کرد.",
+      "why_it_matters": "این همکاری می‌تواند به تحول در نحوه ارائه خدمات و محصولات HP کمک کند.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "RAG",
+        "HP",
+        "OpenAI",
+        "AI",
+        "partnership"
+      ]
+    },
+    {
+      "id": "70ea4ca7ae",
+      "source": "MIT Technology Review",
+      "base_category": "research",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "summary_raw": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it…",
+      "published_at": "Wed, 01 Jul 2026 14:35:16 +0000",
+      "importance_score": 7,
+      "categories": [
+        "startup",
+        "research"
+      ],
+      "headline_fa": "استارتاپی برای خروج از تفکر گروهی LLMها",
+      "summary_fa": "این مقاله به بررسی مشکلات تفکر گروهی در مدل‌های زبانی بزرگ می‌پردازد. یک استارتاپ در تلاش است تا این مشکل را حل کند.",
+      "why_it_matters": "این موضوع به بهبود دقت و تنوع پاسخ‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes — ایجاد راهکارهای جدید برای بهبود عملکرد LLMها.",
+      "viral_potential": "medium",
+      "tags": [
         "LLM",
         "AI",
-        "prompt-engineering"
+        "startup",
+        "innovation"
       ]
     },
     {
-      "id": "eee824e426",
-      "source": "Towards Data Science",
-      "base_category": "research",
-      "title": "Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination",
-      "url": "https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/",
-      "summary_raw": "Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable The post Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination appeared first on Towards Data Science .",
-      "published_at": "Sat, 04 Jul 2026 13:00:00 +0000",
-      "importance_score": 6,
+      "id": "ca62f9714d",
+      "source": "Hugging Face Blog",
+      "base_category": "model",
+      "title": "PRX Part 4: Our Data Strategy",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "summary_raw": "",
+      "published_at": "Mon, 06 Jul 2026 15:30:55 GMT",
+      "importance_score": 7,
       "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "استراتژی داده‌ای جدید Hugging Face",
+      "summary_fa": "این پست به بررسی استراتژی داده‌ای Hugging Face می‌پردازد. اطلاعات مهمی درباره نحوه مدیریت و استفاده از داده‌ها ارائه می‌دهد.",
+      "why_it_matters": "این استراتژی می‌تواند به بهبود مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "data",
+        "strategy",
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "55b0a6f7f6",
+      "source": "awesome-evals (GitHub commits)",
+      "base_category": "research",
+      "title": "[awesome-evals] Scan 2026-06-29: 6 new eval finds (#33)\n\nAdd six new entries across five sections:\n\n§3 model/harness/skill:\n- Anthropic VirBench: empirical proof that",
+      "url": "https://github.com/benchflow-ai/awesome-evals/commit/1de16e1",
+      "summary_raw": "۴۴۳+ منبع ارزیابی عامل‌های AI — به‌روزرسانی چند بار در هفته — Scan 2026-06-29: 6 new eval finds (#33)\n\nAdd six new entries across five sections:\n\n§3 model/harness/skill:\n- Anthropic VirBench: empirical proof that",
+      "published_at": "2026-07-01T18:23:33Z",
+      "importance_score": 7,
+      "categories": [
+        "research",
+        "tool"
+      ],
+      "headline_fa": "شناسایی ۶ ارزیابی جدید در هوش مصنوعی",
+      "summary_fa": "این به‌روزرسانی شامل شش ورودی جدید در پنج بخش مختلف است. یکی از این ورودی‌ها، Anthropic VirBench، شواهد تجربی را ارائه می‌دهد.",
+      "why_it_matters": "این اطلاعات به پیشرفت ارزیابی‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "evaluation",
+        "research"
+      ]
+    },
+    {
+      "id": "9d7d66e90d",
+      "source": "awesome-evals (GitHub commits)",
+      "base_category": "research",
+      "title": "[awesome-evals] Bypass Claude App-token exchange; post via GITHUB_TOKEN (#29)\n\nThe OIDC->app-token exchange (anthropics/claude-code-action) started returning\n401 'Inv",
+      "url": "https://github.com/benchflow-ai/awesome-evals/commit/54a392b",
+      "summary_raw": "۴۴۳+ منبع ارزیابی عامل‌های AI — به‌روزرسانی چند بار در هفته — Bypass Claude App-token exchange; post via GITHUB_TOKEN (#29)\n\nThe OIDC->app-token exchange (anthropics/claude-code-action) started returning\n401 'Inv",
+      "published_at": "2026-06-28T09:05:18Z",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "hackathon"
+      ],
+      "headline_fa": "دور زدن تبادل توکن اپ کلود با GITHUB_TOKEN",
+      "summary_fa": "تبادل OIDC->app-token در پروژه Claude شروع به بازگشت کد خطای 401 کرده است. این تغییر می‌تواند بر روی دسترسی به API تأثیر بگذارد.",
+      "why_it_matters": "این موضوع به توسعه‌دهندگان و کاربران API کلود تأثیر می‌گذارد و نیاز به راهکارهای جدید دارد.",
+      "opportunity": "yes — فرصت برای توسعه ابزارهای جدید برای مدیریت توکن‌ها.",
+      "viral_potential": "medium",
+      "tags": [
+        "Claude",
+        "OIDC",
+        "API",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "4f38cd8318",
+      "source": "awesome-evals (GitHub commits)",
+      "base_category": "research",
+      "title": "[awesome-evals] Daily scan: post a Slack thread (started -> finds preview + PR link) (#32)\n\nAdds two plain workflow steps around the Claude scan step:\n- 'scan started",
+      "url": "https://github.com/benchflow-ai/awesome-evals/commit/34c4436",
+      "summary_raw": "۴۴۳+ منبع ارزیابی عامل‌های AI — به‌روزرسانی چند بار در هفته — Daily scan: post a Slack thread (started -> finds preview + PR link) (#32)\n\nAdds two plain workflow steps around the Claude scan step:\n- 'scan started",
+      "published_at": "2026-06-28T09:05:08Z",
+      "importance_score": 7,
+      "categories": [
+        "tool",
         "research"
       ],
-      "headline_fa": "قرارداد پاسخ تایپ‌شده برای جلوگیری از هالوسیناسیون",
-      "summary_fa": "این مقاله به بررسی قرارداد پاسخ تایپ‌شده در سیستم‌های هوش مصنوعی می‌پردازد که به جلوگیری از تولید اطلاعات نادرست کمک می‌کند. این رویکرد می‌تواند به بهبود دقت مدل‌های هوش مصنوعی در پردازش اسناد کمک کند.",
-      "why_it_matters": "این موضوع به بهبود کیفیت پاسخ‌های مدل‌های هوش مصنوعی و کاهش خطاهای اطلاعاتی کمک می‌کند.",
-      "opportunity": "no",
+      "headline_fa": "به‌روزرسانی جدید در ارزیابی عامل‌های هوش مصنوعی",
+      "summary_fa": "این به‌روزرسانی شامل دو مرحله جدید در فرآیند اسکن Claude است. این مراحل به بهبود کارایی و شفافیت ارزیابی‌ها کمک می‌کند.",
+      "why_it_matters": "این تغییرات می‌توانند به توسعه‌دهندگان در بهبود ابزارهای هوش مصنوعی کمک کنند.",
+      "opportunity": "yes — این به‌روزرسانی می‌تواند فرصت‌هایی برای توسعه ابزارهای جدید ایجاد کند.",
       "viral_potential": "medium",
       "tags": [
-        "RAG",
-        "hallucination",
         "AI",
-        "document intelligence"
+        "evaluation",
+        "workflow",
+        "Claude"
       ]
     },
     {
-      "id": "24518e0313",
-      "source": "Vercel Blog",
+      "id": "5f5a7715a4",
+      "source": "awesome-ai-agents-2026 (GitHub commits)",
       "base_category": "tool",
-      "title": "Vercel Agent has updated pricing",
-      "url": "https://vercel.com/changelog/vercel-agent-has-updated-pricing",
-      "summary_raw": "Vercel Agent pricing is changing. You no longer need to pre-load credits or manage a separate wallet for Vercel Agent. Instead of a $0.30 per-request fee, you now pay a Vercel Token Rate of $0.25 per million tokens, plus provider inference costs at the underlying token rate. The new Vercel Token Rate scales with the actual work each task requires. A quick question costs less than a deep investigation that reads your logs, deployments, configuration, and runtime data, spins up sandboxes, and writes across projects. You pay for the intensity of the work, not a flat fee regardless of what Agent did. The Vercel Token Rate covers: Joining your project context: logs, deployments, configuration, and runtime data Custom model routing and execution across your projects Processing and infrastructure",
-      "published_at": "2026-07-06T08:46:44.047635+00:00",
-      "importance_score": 6,
+      "title": "[awesome-ai-agents-2026] Merge PR #15: Add iGPT to RAG and Knowledge Bases\n\nAdd iGPT to RAG and Knowledge Bases",
+      "url": "https://github.com/caramaschiHG/awesome-ai-agents-2026/commit/e3cc5ba",
+      "summary_raw": "۳۰۰+ فریم‌ورک و ابزار Agentic AI — Merge PR #15: Add iGPT to RAG and Knowledge Bases\n\nAdd iGPT to RAG and Knowledge Bases",
+      "published_at": "2026-04-02T23:17:50Z",
+      "importance_score": 7,
       "categories": [
-        "tool"
+        "model",
+        "tool",
+        "research"
       ],
-      "headline_fa": "تغییرات جدید در قیمت‌گذاری Vercel Agent",
-      "summary_fa": "Vercel Agent دیگر نیازی به پیش‌بارگذاری اعتبار ندارد و هزینه‌ها به ازای هر میلیون توکن محاسبه می‌شود. این تغییر به توسعه‌دهندگان کمک می‌کند تا هزینه‌های خود را بهینه کنند.",
-      "why_it_matters": "این تغییر می‌تواند به کاهش هزینه‌های توسعه‌دهندگان و بهبود مدیریت منابع کمک کند.",
-      "opportunity": "no",
+      "headline_fa": "اضافه شدن iGPT به RAG و پایگاه‌های دانش",
+      "summary_fa": "در این به‌روزرسانی، iGPT به فریم‌ورک‌های RAG و پایگاه‌های دانش اضافه شده است. این اقدام می‌تواند به بهبود عملکرد سیستم‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این تغییر می‌تواند به پیشرفت‌های قابل توجهی در زمینه هوش مصنوعی منجر شود.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "Vercel",
-        "pricing",
+        "iGPT",
+        "RAG",
         "AI",
-        "tool"
+        "GitHub"
       ]
     }
   ]
