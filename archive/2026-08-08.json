@@ -1,16 +1,114 @@
 {
-  "date": "2026-08-07",
-  "generated_at": "2026-08-07T04:25:14.280038+00:00",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T03:22:03.034234+00:00",
   "stats": {
     "total_sources": 105,
-    "total_fetched": 216,
+    "total_fetched": 308,
     "total_processed": 50,
-    "total_displayed": 42,
-    "top_score": 7,
+    "total_displayed": 44,
+    "top_score": 8,
     "high_viral_count": 1,
-    "opportunities_count": 2
+    "opportunities_count": 5
   },
   "items": [
+    {
+      "id": "b32b4f8552",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: deepseek-ai/DeepSeek-V4-Flash-0731",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "summary_raw": "likes: 2753 | downloads: 702709 | pipeline: text-generation",
+      "published_at": "2026-08-08T03:19:06.427126+00:00",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "free-resource"
+      ],
+      "headline_fa": "مدل DeepSeek-V4-Flash با قابلیت‌های جدید معرفی شد",
+      "summary_fa": "مدل DeepSeek-V4-Flash برای تولید متن به‌روزرسانی شده و با ۲۷۵۳ لایک و ۷۰۲۷۰۹ دانلود در دسترس است. این مدل می‌تواند در پروژه‌های مختلف هوش مصنوعی و تولید محتوا مورد استفاده قرار گیرد.",
+      "why_it_matters": "این مدل به عنوان یک منبع رایگان و متن‌باز، فرصت‌های جدیدی برای توسعه‌دهندگان فراهم می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "text-generation",
+        "free-resource"
+      ]
+    },
+    {
+      "id": "19898c175f",
+      "source": "ArXiv CS.CV",
+      "base_category": "research",
+      "title": "APQF: Agentic Profiling-Guided Structured Pruning and Mixed-Precision Quantization with Adaptive Fine-Tuning",
+      "url": "https://arxiv.org/abs/2608.05499",
+      "summary_raw": "arXiv:2608.05499v1 Announce Type: new \nAbstract: Modern deep neural networks achieve strong performance, but their scale makes them costly and slow, especially on resource-constrained edge devices. Pruning and quantization address this, but rely on manual, expert choices and on algorithms that are hard to apply across architectures. Uniform settings also ignore how differently individual layers respond to compression, which costs accuracy. We introduce APQF, an agentic profiling-guided framework that combines structured pruning, mixed-precision quantization-aware training, and accuracy recovery in one automated pipeline. A profiling agent measures how cost is distributed across the model and how sensitive each part is to pruning, and this evidence drives per-layer pruning ratios, per-layer",
+      "published_at": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "چارچوب جدید APQF برای بهینه‌سازی شبکه‌های عصبی",
+      "summary_fa": "مقاله جدیدی به بررسی چارچوب APQF می‌پردازد که به بهینه‌سازی ساختاری و کم‌دقتی در شبکه‌های عصبی عمیق کمک می‌کند. این روش به طور خاص به تفاوت‌های واکنش لایه‌ها به فشرده‌سازی توجه دارد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی شبکه‌های عصبی در دستگاه‌های با منابع محدود کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "pruning",
+        "quantization",
+        "deep learning",
+        "AI"
+      ]
+    },
+    {
+      "id": "dfa005c4fe",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "OpenAI improves GPT-5.6 Sol in ChatGPT and restricts free users to its weakest model",
+      "url": "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/",
+      "summary_raw": "OpenAI has updated GPT-5.6 Sol with more focused responses and a reasoning slider that lets users adjust how deeply the model thinks. Free users will get unlimited text chats with the smaller GPT-5.6 Luna starting next week, plus a button that lets Luna reason longer. But the smaller model still falls well short of its bigger siblings. The article OpenAI improves GPT-5.6 Sol in ChatGPT and restricts free users to its weakest model appeared first on The Decoder .",
+      "published_at": "Fri, 07 Aug 2026 08:29:27 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model",
+        "free-resource"
+      ],
+      "headline_fa": "به‌روزرسانی GPT-5.6 Sol و محدودیت کاربران رایگان",
+      "summary_fa": "OpenAI مدل GPT-5.6 Sol را با پاسخ‌های متمرکزتر و نوار تنظیم استدلال به‌روزرسانی کرده است. کاربران رایگان از هفته آینده به چت‌های نامحدود با مدل کوچک‌تر GPT-5.6 Luna دسترسی خواهند داشت.",
+      "why_it_matters": "این به‌روزرسانی نشان‌دهنده پیشرفت‌های مهم در مدل‌های هوش مصنوعی OpenAI است و دسترسی به ابزارهای جدید را برای کاربران رایگان فراهم می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "AI",
+        "free-resource"
+      ]
+    },
+    {
+      "id": "38c5c4ada6",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Beyond representational alignment with brain-guided language models for robust reasoning",
+      "url": "https://www.nature.com/articles/s42256-026-01278-w",
+      "summary_raw": "Nature Machine Intelligence, Published online: 03 August 2026; doi:10.1038/s42256-026-01278-w Xiao et al. show that large language models partially align with human brain activity during deductive reasoning. They further show that brain signals can directly guide and improve model performance, with transfer across reasoning types.",
+      "published_at": "2026-08-08T03:18:38.731349+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل‌های زبانی هدایت‌شده توسط مغز برای استدلال قوی‌تر",
+      "summary_fa": "محققان نشان داده‌اند که مدل‌های زبانی بزرگ با فعالیت مغز انسان در استدلال استنتاجی هم‌راستا هستند و سیگنال‌های مغزی می‌توانند عملکرد مدل را بهبود بخشند. این تحقیق می‌تواند به توسعه مدل‌های هوش مصنوعی با استدلال بهتر کمک کند.",
+      "why_it_matters": "این مطالعه به بهبود دقت و کارایی مدل‌های زبانی کمک می‌کند که در کاربردهای مختلف هوش مصنوعی مهم است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "language-models",
+        "brain-research",
+        "reasoning"
+      ]
+    },
     {
       "id": "3a2f169ea1",
       "source": "ArXiv CS.CV",
@@ -23,16 +121,17 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "معرفی بنچمارک OmniMech برای ارزیابی مدل‌های VLM",
-      "summary_fa": "OmniMech اولین بنچمارک یک میلیون مقیاسی برای ارزیابی مدل‌های زبان-بینایی در تولید برنامه‌های CAD اجرایی از داده‌های صنعتی است. این بنچمارک شامل بیش از 251,000 نمونه است که به دقت هندسه و تلورانس‌های میلی‌متری طراحی مکانیکی صنعتی را بررسی می‌کند.",
-      "why_it_matters": "این تحقیق به بهبود توانایی مدل‌های VLM در تولید طراحی‌های دقیق صنعتی کمک می‌کند.",
+      "headline_fa": "معرفی بنچمارک OmniMech برای تولید CAD از تصاویر",
+      "summary_fa": "OmniMech اولین بنچمارک میلیون‌مقیاس برای ارزیابی مدل‌های زبان-بینایی در تولید برنامه‌های CAD اجرایی از داده‌های صنعتی است. این بنچمارک شامل بیش از 251,000 نمونه است که به دقت هندسه و تحمل‌های میلی‌متری را در طراحی مکانیکی صنعتی بررسی می‌کند.",
+      "why_it_matters": "این تحقیق به بهبود دقت و کاربرد مدل‌های هوش مصنوعی در طراحی‌های صنعتی کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "VLM",
         "CAD",
-        "3DReconstruction",
-        "benchmark"
+        "3D",
+        "benchmark",
+        "industrial"
       ]
     },
     {
@@ -47,16 +146,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "معیار جدید LUNAR برای ارزیابی مدل‌های زبان شخصی‌سازی‌شده",
-      "summary_fa": "مقاله جدیدی به نام LUNAR معرفی شده که به ارزیابی نحوه شخصی‌سازی پاسخ‌های مدل‌های زبان بزرگ از تاریخچه تعاملات اپلیکیشن می‌پردازد. این معیار به بررسی رفتارهای روزمره کاربران در حوزه‌های مختلف می‌پردازد.",
-      "why_it_matters": "این تحقیق به بهبود ارزیابی مدل‌های زبان در زمینه شخصی‌سازی پاسخ‌ها کمک می‌کند.",
+      "headline_fa": "معرفی LUNAR: ارزیابی مدل‌های زبان شخصی‌سازی‌شده",
+      "summary_fa": "مقاله جدید به بررسی LUNAR می‌پردازد که اولین معیار برای ارزیابی شخصی‌سازی مدل‌های زبان بزرگ بر اساس تاریخچه تعاملات اپلیکیشن‌ها است. این معیار به ارزیابی پاسخ‌های شخصی‌سازی‌شده در زمینه‌های مختلف زندگی روزمره کمک می‌کند.",
+      "why_it_matters": "این تحقیق به بهبود ارزیابی مدل‌های زبان در زمینه شخصی‌سازی پاسخ‌ها بر اساس رفتارهای روزمره کاربران کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "LLM",
         "personalization",
         "benchmark",
-        "AI"
+        "research"
       ]
     },
     {
@@ -72,39 +171,15 @@
         "research"
       ],
       "headline_fa": "تولید جهان‌های ۳ بعدی با WorldClaw",
-      "summary_fa": "WorldClaw یک چارچوب جدید برای تولید صحنه‌های ۳ بعدی باز است که از متن به صورت ساختاری استفاده می‌کند. این سیستم به حفظ انسجام فضایی و محتوای غنی در مقیاس بزرگ کمک می‌کند.",
-      "why_it_matters": "این تحقیق به پیشرفت در تولید خودکار محیط‌های ۳ بعدی کمک می‌کند که می‌تواند در بازی‌سازی و شبیه‌سازی‌ها کاربرد داشته باشد.",
+      "summary_fa": "WorldClaw یک چارچوب جدید برای تولید صحنه‌های ۳ بعدی باز است که از متن‌های آزاد استفاده می‌کند. این سیستم می‌تواند به طور همزمان انسجام فضایی و محتوای غنی محلی را حفظ کند.",
+      "why_it_matters": "این تحقیق می‌تواند به توسعه بازی‌ها و شبیه‌سازی‌های پیچیده کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "3D",
-        "generation",
+        "3D generation",
         "AI",
-        "research"
-      ]
-    },
-    {
-      "id": "38c5c4ada6",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Beyond representational alignment with brain-guided language models for robust reasoning",
-      "url": "https://www.nature.com/articles/s42256-026-01278-w",
-      "summary_raw": "Nature Machine Intelligence, Published online: 03 August 2026; doi:10.1038/s42256-026-01278-w Xiao et al. show that large language models partially align with human brain activity during deductive reasoning. They further show that brain signals can directly guide and improve model performance, with transfer across reasoning types.",
-      "published_at": "2026-08-07T04:21:43.532548+00:00",
-      "importance_score": 7,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل‌های زبانی هدایت‌شده توسط مغز برای استدلال قوی‌تر",
-      "summary_fa": "محققان نشان دادند که مدل‌های زبانی بزرگ با فعالیت مغز انسان در استدلال استنتاجی هم‌راستا هستند و سیگنال‌های مغزی می‌توانند عملکرد مدل را بهبود بخشند. این یافته‌ها می‌تواند به توسعه مدل‌های هوش مصنوعی قوی‌تر کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد مدل‌های هوش مصنوعی در زمینه استدلال کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "research",
-        "language models",
-        "brain activity"
+        "WorldClaw",
+        "open-world"
       ]
     },
     {
@@ -120,8 +195,8 @@
         "research"
       ],
       "headline_fa": "مدل‌های زبانی بزرگ برای تصمیم‌گیری در تصفیه فاضلاب",
-      "summary_fa": "این مقاله به بررسی سه روش برای استفاده از مدل Qwen2.5-32B-Instruct در یک شبیه‌ساز تصفیه فاضلاب می‌پردازد. این مدل به اپراتورهای تصفیه فاضلاب کمک می‌کند تا پاسخ‌های دقیقی به سوالات علّی خود ارائه دهند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود فرآیندهای تصمیم‌گیری در صنعت تصفیه فاضلاب کمک کند.",
+      "summary_fa": "این مقاله به بررسی مدل‌های زبانی بزرگ می‌پردازد که برای پاسخ به سوالات علّی در تصفیه فاضلاب طراحی شده‌اند. این مدل‌ها به اپراتورهای تصفیه‌خانه کمک می‌کنند تا با استفاده از شبیه‌سازهای خاص، تعاملات متغیرها را تحلیل کنند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود فرآیندهای تصفیه فاضلاب و افزایش کارایی در صنعت کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -132,52 +207,101 @@
       ]
     },
     {
-      "id": "b32b4f8552",
+      "id": "c39c7d0f40",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "​Built a tool to generate slides from research papers using local LLMs (because I hate formatting decks and privacy matters) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi0c4k/built_a_tool_to_generate_slides_from_research/",
+      "summary_raw": "​​Hi guys, ​Every time I had to prepare a presentation based on a paper or research doc, I found the process super tedious. Plus, I really dislike uploading unpublished stuff or sensitive data to online AI services just to get a draft. ​So I put together a tool called academi\\_slide to automate this locally. ​Basically, it extracts sections, tables, charts, metrics, and citations from docs, and uses prompt optimization / deck planning to get a solid first draft out of a local model (ollama, llama.cpp, or cloud if you want). ​It also handles multilingual input/output if you need to present in a",
+      "published_at": "2026-08-07T13:14:39+00:00",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "ابزاری برای تولید اسلاید از مقالات پژوهشی به‌صورت محلی",
+      "summary_fa": "این ابزار به نام academi_slide به‌طور خودکار بخش‌ها، جداول و نمودارها را از مقالات استخراج می‌کند و با استفاده از مدل‌های محلی، یک پیش‌نویس اولیه از اسلایدها تولید می‌کند. این ابزار برای افرادی که از بارگذاری داده‌های حساس به سرویس‌های آنلاین متنفرند، بسیار کاربردی است.",
+      "why_it_matters": "این ابزار به کاربران کمک می‌کند تا بدون نگرانی از حریم خصوصی، ارائه‌های خود را سریع‌تر و آسان‌تر آماده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "tool",
+        "LLM",
+        "presentation",
+        "privacy"
+      ]
+    },
+    {
+      "id": "943949c382",
       "source": "HF Trending Models",
       "base_category": "model",
-      "title": "مدل ترند: deepseek-ai/DeepSeek-V4-Flash-0731",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "summary_raw": "likes: 2664 | downloads: 617900 | pipeline: text-generation",
-      "published_at": "2026-08-07T04:22:08.876456+00:00",
+      "title": "مدل ترند: DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "summary_raw": "likes: 1711 | downloads: 2217339 | pipeline: image-text-to-text",
+      "published_at": "2026-08-08T03:19:06.427141+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید DavidAU/Qwen3.6-27B با قابلیت‌های پیشرفته",
+      "summary_fa": "مدل DavidAU/Qwen3.6-27B-Fable-Fusion به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با بیش از ۲ میلیون دانلود، می‌تواند در پروژه‌های هوش مصنوعی و یادگیری ماشین مورد استفاده قرار گیرد.",
+      "why_it_matters": "انتشار این مدل می‌تواند به توسعه‌دهندگان کمک کند تا پروژه‌های خود را با کیفیت بالاتری پیش ببرند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "image-text",
+        "open-source"
+      ]
+    },
+    {
+      "id": "2a4ddd4190",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+      "summary_raw": "likes: 588 | downloads: 161253 | pipeline: ",
+      "published_at": "2026-08-08T03:19:06.427198+00:00",
       "importance_score": 7,
       "categories": [
         "model",
         "free-resource"
       ],
-      "headline_fa": "مدل DeepSeek-V4-Flash با قابلیت تولید متن معرفی شد",
-      "summary_fa": "مدل DeepSeek-V4-Flash برای تولید متن به صورت رایگان در دسترس قرار گرفته است. این مدل با 617900 دانلود و 2664 لایک، نشان‌دهنده توجه بالای جامعه به آن است.",
-      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در پروژه‌های تولید محتوا کمک کند.",
+      "headline_fa": "مدل DeepSeek-V4-Flash با قابلیت‌های جدید معرفی شد",
+      "summary_fa": "مدل DeepSeek-V4-Flash به تازگی منتشر شده و با 588 لایک و 161253 دانلود در دسترس است. این مدل می‌تواند در پروژه‌های هوش مصنوعی و یادگیری ماشین مورد استفاده قرار گیرد.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا از قابلیت‌های پیشرفته آن در پروژه‌های خود بهره‌برداری کنند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "DeepSeek",
-        "text-generation",
         "AI",
-        "free-model"
+        "model",
+        "free-resource"
       ]
     },
     {
-      "id": "8c26bd2311",
+      "id": "7f816d55c7",
       "source": "TechCrunch AI",
       "base_category": "startup",
-      "title": "Meta launches Muse Code, an AI agent for large code bases",
-      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
-      "summary_raw": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
-      "published_at": "Wed, 05 Aug 2026 21:21:28 +0000",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "summary_raw": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "published_at": "Fri, 07 Aug 2026 16:16:09 +0000",
       "importance_score": 7,
       "categories": [
         "tool"
       ],
-      "headline_fa": "متا Muse Code را برای مدیریت کدهای پیچیده معرفی کرد",
-      "summary_fa": "متا یک عامل هوش مصنوعی جدید به نام Muse Code را معرفی کرده که قادر به انجام وظایف پیچیده در نرم‌افزارهای بزرگ است. این ابزار می‌تواند به توسعه‌دهندگان در مدیریت بهتر کدها کمک کند.",
-      "why_it_matters": "این ابزار می‌تواند به بهبود بهره‌وری و کاهش زمان توسعه نرم‌افزار کمک کند.",
+      "headline_fa": "مرورگر Kitesurf برای هوش مصنوعی معرفی شد",
+      "summary_fa": "Kitesurf یک مرورگر ابری است که به‌طور خاص برای ربات‌های هوش مصنوعی طراحی شده است. این مرورگر با مصرف کمتر منابع محاسباتی، به توسعه‌دهندگان کمک می‌کند تا ربات‌های مبتنی بر مرورگر را به‌طور مؤثرتری بسازند.",
+      "why_it_matters": "این ابزار می‌تواند به بهبود کارایی توسعه‌دهندگان در ساخت ربات‌های هوش مصنوعی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "coding",
-        "Meta",
-        "software"
+        "browser",
+        "tool",
+        "automation"
       ]
     },
     {
@@ -192,40 +316,40 @@
       "categories": [
         "free-resource"
       ],
-      "headline_fa": "OpenAI چت نامحدود را برای کاربران رایگان ChatGPT ارائه می‌دهد",
-      "summary_fa": "OpenAI اعلام کرده است که کاربران رایگان و Go ChatGPT از هفته آینده می‌توانند چت‌های نامحدود متنی با ربات داشته باشند. این تغییر به کاربران اجازه می‌دهد تا بدون محدودیت به تعامل با ربات بپردازند.",
-      "why_it_matters": "این تغییر می‌تواند به افزایش استفاده و تعامل کاربران با ChatGPT کمک کند.",
+      "headline_fa": "چت نامحدود با ChatGPT برای کاربران رایگان",
+      "summary_fa": "OpenAI به کاربران رایگان ChatGPT این امکان را می‌دهد که از هفته آینده چت‌های متنی نامحدود داشته باشند. این تغییر به کاربران اجازه می‌دهد تا بدون محدودیت در تعداد چت‌ها با ربات گفتگو کنند.",
+      "why_it_matters": "این تغییر می‌تواند تجربه کاربری را بهبود بخشد و دسترسی بیشتری به فناوری هوش مصنوعی فراهم کند.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
         "ChatGPT",
         "OpenAI",
-        "free-resource",
+        "free",
         "AI"
       ]
     },
     {
-      "id": "19898c175f",
-      "source": "ArXiv CS.CV",
+      "id": "e4e8fcaec1",
+      "source": "Nature Machine Intelligence",
       "base_category": "research",
-      "title": "APQF: Agentic Profiling-Guided Structured Pruning and Mixed-Precision Quantization with Adaptive Fine-Tuning",
-      "url": "https://arxiv.org/abs/2608.05499",
-      "summary_raw": "arXiv:2608.05499v1 Announce Type: new \nAbstract: Modern deep neural networks achieve strong performance, but their scale makes them costly and slow, especially on resource-constrained edge devices. Pruning and quantization address this, but rely on manual, expert choices and on algorithms that are hard to apply across architectures. Uniform settings also ignore how differently individual layers respond to compression, which costs accuracy. We introduce APQF, an agentic profiling-guided framework that combines structured pruning, mixed-precision quantization-aware training, and accuracy recovery in one automated pipeline. A profiling agent measures how cost is distributed across the model and how sensitive each part is to pruning, and this evidence drives per-layer pruning ratios, per-layer",
-      "published_at": "Fri, 07 Aug 2026 00:00:00 -0400",
-      "importance_score": 6,
+      "title": "Capable language models can outgrow the benefits of collaboration",
+      "url": "https://www.nature.com/articles/s42256-026-01268-y",
+      "summary_raw": "Nature Machine Intelligence, Published online: 24 July 2026; doi:10.1038/s42256-026-01268-y A controlled study of large language model agents across 260 configurations shows when multi-agent collaboration helps or hurts performance, and introduces a predictive model that selects the best architecture in 87% of held-out within-domain configurations.",
+      "published_at": "2026-08-08T03:18:38.738135+00:00",
+      "importance_score": 7,
       "categories": [
         "research"
       ],
-      "headline_fa": "چارچوب جدید APQF برای بهینه‌سازی شبکه‌های عصبی",
-      "summary_fa": "مقاله APQF به بررسی روش‌های جدیدی برای هرس و کم‌دقتی در شبکه‌های عصبی عمیق می‌پردازد. این چارچوب به بهبود عملکرد مدل‌ها بر روی دستگاه‌های محدود کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهینه‌سازی عملکرد مدل‌های هوش مصنوعی در دستگاه‌های با منابع محدود کمک کند.",
+      "headline_fa": "مدل‌های زبانی توانمند و تأثیر همکاری بر عملکرد",
+      "summary_fa": "این مطالعه کنترل‌شده نشان می‌دهد که همکاری چندعاملی در مدل‌های زبانی بزرگ می‌تواند به بهبود یا کاهش عملکرد منجر شود. همچنین، یک مدل پیش‌بینی معرفی شده که 87% از پیکربندی‌های درون‌دامنه را به درستی انتخاب می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهینه‌سازی عملکرد مدل‌های زبانی و فهم بهتر از تعاملات چندعاملی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "deep learning",
-        "pruning",
-        "quantization"
+        "language models",
+        "collaboration",
+        "research"
       ]
     },
     {
@@ -240,16 +364,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "معیارهای میکروسکوپی خودران برای ارزیابی سیستم‌های هوش مصنوعی",
-      "summary_fa": "این مقاله به بررسی کنترل هوشمند ابزارهای علمی مانند میکروسکوپ‌ها می‌پردازد و چالش‌های طراحی سیستم‌های خودران را تحلیل می‌کند. نتایج می‌توانند به بهبود روش‌های ارزیابی و طراحی این سیستم‌ها کمک کنند.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در کنترل هوشمند ابزارهای علمی منجر شود.",
+      "headline_fa": "معیارهای جدید میکروسکوپی برای کنترل هوش مصنوعی",
+      "summary_fa": "این مقاله به بررسی کنترل هوش مصنوعی در ابزارهای علمی مانند میکروسکوپ‌ها می‌پردازد و چالش‌های طراحی سیستم‌های عامل را تحلیل می‌کند. نتایج می‌توانند به بهبود کارایی و دقت در تحقیقات علمی کمک کنند.",
+      "why_it_matters": "این تحقیق می‌تواند به توسعه سیستم‌های هوش مصنوعی در علوم تجربی و بهبود فرآیندهای تحقیقاتی منجر شود.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "microscopy",
         "research",
-        "agentic control"
+        "LLM"
       ]
     },
     {
@@ -264,16 +388,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "چارچوب جدید ارزیابی ویدیو با VideoArgus معرفی شد",
-      "summary_fa": "VideoArgus یک چارچوب جدید برای ارزیابی ویدیوهای تولید شده و ویرایش شده ارائه می‌دهد که شامل پنج تنظیم مختلف است. این ابزار با تولید معیارهای خاص برای هر ورودی، به بهبود ارزیابی ویدیوها کمک می‌کند.",
-      "why_it_matters": "این تحقیق به چالش‌های ارزیابی ویدیوهای تولید شده پاسخ می‌دهد و می‌تواند به پیشرفت‌های بیشتر در این حوزه منجر شود.",
+      "headline_fa": "چارچوب جدید ارزیابی ویدیوهای تولیدی و ویرایشی",
+      "summary_fa": "مقاله جدیدی به نام VideoArgus ارائه شده که یک چارچوب جامع برای ارزیابی ویدیوهای تولیدی و ویرایشی معرفی می‌کند. این چارچوب به ارزیابی ویدیوها با استفاده از معیارهای خاص و نمونه‌ای می‌پردازد.",
+      "why_it_matters": "این تحقیق به بهبود ارزیابی ویدیوهای تولیدی کمک می‌کند و چالش‌های موجود در این زمینه را برطرف می‌سازد.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "video",
+        "video generation",
         "evaluation",
-        "AI",
-        "research"
+        "AI research"
       ]
     },
     {
@@ -288,9 +411,9 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "معرفی DynaPix: پیش‌بینی آینده با مدل‌های بینایی-زبان",
-      "summary_fa": "DynaPix یک بنچمارک جدید است که به مدل‌ها اجازه می‌دهد تا آینده واقعی یک صحنه را پیش‌بینی کنند. این سیستم با ارائه یک کلیپ و سوالی درباره یک لحظه آینده، مدل‌ها را ملزم به انتخاب تصویر واقعی از میان گزینه‌های نزدیک می‌کند.",
-      "why_it_matters": "این تحقیق به بهبود ارزیابی مدل‌های بینایی-زبان کمک می‌کند و دقت پیش‌بینی‌ها را افزایش می‌دهد.",
+      "headline_fa": "معرفی DynaPix: پیش‌بینی آینده در مدل‌های بینایی-زبان",
+      "summary_fa": "مقاله جدیدی به نام DynaPix ارائه شده که به ارزیابی پیش‌بینی‌های مدل‌های بینایی-زبان می‌پردازد. این تحقیق به بررسی توانایی مدل‌ها در شناسایی تصویر واقعی آینده از روی ویدیوهای ناقص می‌پردازد.",
+      "why_it_matters": "این تحقیق به بهبود دقت پیش‌بینی‌های مدل‌های هوش مصنوعی کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -312,15 +435,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "تفکیک مدل‌سازی ۳ بعدی از استدلال فضایی",
-      "summary_fa": "این مقاله به بررسی یک پارادایم جدید برای استدلال فضایی می‌پردازد که در آن ادراک ۳ بعدی از استدلال جدا شده است. این رویکرد به بهبود دقت مدل‌های ادراکی و استدلالی کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در زمینه ادراک و استدلال در هوش مصنوعی منجر شود.",
+      "headline_fa": "تفکیک مدل‌سازی ۳D از استدلال فضایی",
+      "summary_fa": "این مقاله به بررسی یک پارادایم جدید در استدلال فضایی می‌پردازد که در آن ادراک ۳D به‌طور جداگانه از استدلال انجام می‌شود. این رویکرد می‌تواند به بهبود مدل‌های ادراکی و زبانی کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های مهمی در زمینه ادراک و استدلال در هوش مصنوعی منجر شود.",
       "opportunity": "no",
-      "viral_potential": "medium",
+      "viral_potential": "low",
       "tags": [
         "3D",
         "spatial reasoning",
-        "AI research"
+        "AI",
+        "research"
       ]
     },
     {
@@ -336,15 +460,14 @@
         "research"
       ],
       "headline_fa": "تحلیل جدید در یادگیری چندوظیفه‌ای با AuroSFT",
-      "summary_fa": "این مقاله به بررسی روش جدیدی به نام AuroSFT می‌پردازد که به بهینه‌سازی یادگیری چندوظیفه‌ای کمک می‌کند. این روش به کاهش هزینه‌های ذخیره و بازیابی وضعیت مدل در حین آموزش کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی یادگیری ماشین در وظایف چندگانه کمک کند.",
+      "summary_fa": "این مقاله به بررسی روش جدیدی به نام AuroSFT برای بهینه‌سازی یادگیری چندوظیفه‌ای می‌پردازد که به کاهش هزینه‌های ذخیره و بازیابی وضعیت مدل کمک می‌کند. این رویکرد می‌تواند به بهبود عملکرد مدل‌ها در وظایف مختلف کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهینه‌سازی فرآیند یادگیری در مدل‌های هوش مصنوعی کمک کند.",
       "opportunity": "no",
-      "viral_potential": "low",
+      "viral_potential": "medium",
       "tags": [
         "multi-task",
         "fine-tuning",
-        "SFT",
-        "machine learning",
+        "AI",
         "research"
       ]
     },
@@ -360,16 +483,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "معرفی AuroOFT: بهبود Fine-Tuning کم‌هزینه مدل‌های زبانی",
-      "summary_fa": "مقاله جدیدی به نام AuroOFT ارائه شده که به بهینه‌سازی مدل‌های زبانی با استفاده از Fine-Tuning کم‌هزینه می‌پردازد. این روش به یادگیری اصلاحات غیرخطی ورودی کمک می‌کند و می‌تواند به بهبود عملکرد مدل‌ها منجر شود.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی مدل‌های زبانی با دقت پایین کمک کند.",
+      "headline_fa": "توسعه AuroOFT برای بهبود تنظیم دقیق مدل‌های زبانی",
+      "summary_fa": "مقاله جدیدی به معرفی AuroOFT پرداخته که به بهبود تنظیم دقیق مدل‌های زبانی کم‌حجم می‌پردازد. این روش به یادگیری اصلاحات غیرخطی ورودی کمک می‌کند و به بهینه‌سازی عملکرد مدل‌های کم‌حجم می‌انجامد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی مدل‌های زبانی با دقت کم کمک کند و به توسعه‌دهندگان ابزارهای بهتری ارائه دهد.",
       "opportunity": "no",
       "viral_potential": "low",
       "tags": [
-        "quantization",
+        "quantized models",
         "fine-tuning",
-        "language models",
-        "research"
+        "AI research"
       ]
     },
     {
@@ -385,15 +507,14 @@
         "research"
       ],
       "headline_fa": "یادگیری هارنس خودتکامل‌یاب برای عامل‌های LLM",
-      "summary_fa": "مقاله‌ای جدید به بررسی چالش‌های استفاده مؤثر از هارنس‌ها در عامل‌های LLM می‌پردازد. این تحقیق به بهبود مدیریت وضعیت و کنترل دسترسی به داده‌های خارجی کمک می‌کند.",
-      "why_it_matters": "این مقاله به توسعه‌دهندگان کمک می‌کند تا عملکرد بهتری از عامل‌های LLM در تعاملات طولانی‌مدت داشته باشند.",
+      "summary_fa": "مقاله به بررسی چالش‌های استفاده از هارنس‌های خارجی در عامل‌های LLM با افق طولانی می‌پردازد. این تحقیق به بهبود کنترل و شکل‌گیری وضعیت در تعاملات پیچیده کمک می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد و کارایی عامل‌های LLM در تعاملات طولانی‌مدت کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "LLM",
-        "AI",
-        "research",
-        "runtime"
+        "reinforcement-learning",
+        "research"
       ]
     },
     {
@@ -410,14 +531,14 @@
       ],
       "headline_fa": "تشخیص اشکالات استدلال در مدل‌های قوی با مدل‌های ضعیف",
       "summary_fa": "این مقاله به بررسی اشکالات استدلال در مدل‌های زبانی بزرگ می‌پردازد و نشان می‌دهد که چگونه می‌توان با استفاده از مدل‌های ضعیف، این اشکالات را شناسایی و اصلاح کرد. این روش می‌تواند به بهبود عملکرد مدل‌های قوی در وظایف استدلال کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت مدل‌های زبانی بزرگ در وظایف پیچیده کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی مدل‌های هوش مصنوعی در وظایف پیچیده کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "reasoning",
-        "language models",
-        "research"
+        "research",
+        "language models"
       ]
     },
     {
@@ -432,16 +553,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "سیستم جدید بررسی مهارت‌های LLM-agent معرفی شد",
-      "summary_fa": "مقاله‌ای جدید به بررسی سیستم SkillTrace می‌پردازد که به ردیابی و بررسی مهارت‌های قابل استفاده مجدد در اکوسیستم‌های LLM-agent کمک می‌کند. این سیستم به توسعه‌دهندگان امکان می‌دهد تا شواهد استفاده از مهارت‌ها را به طور مؤثرتری شناسایی کنند.",
-      "why_it_matters": "این تحقیق به بهبود فرآیندهای بازبینی و اعتبارسنجی مهارت‌ها در سیستم‌های هوش مصنوعی کمک می‌کند.",
+      "headline_fa": "بررسی مهارت‌های قابل استفاده مجدد در اکوسیستم‌های LLM-agent",
+      "summary_fa": "این مقاله به بررسی نحوه ردیابی و حسابرسی مهارت‌های قابل استفاده مجدد در اکوسیستم‌های LLM-agent می‌پردازد. با توجه به رشد سریع این اکوسیستم‌ها، نیاز به روش‌های جدید برای شناسایی و ارزیابی مهارت‌ها احساس می‌شود.",
+      "why_it_matters": "این تحقیق به بهبود فرآیندهای حسابرسی مهارت‌ها در هوش مصنوعی کمک می‌کند.",
       "opportunity": "no",
-      "viral_potential": "medium",
+      "viral_potential": "low",
       "tags": [
         "LLM",
-        "AI",
-        "research",
-        "SkillTrace"
+        "skill reuse",
+        "auditing",
+        "research"
       ]
     },
     {
@@ -457,10 +578,10 @@
         "research"
       ],
       "headline_fa": "تحلیل دینامیک‌های مدل‌های زبانی بزرگ با استدلال زنجیره‌ای",
-      "summary_fa": "این مقاله به بررسی رفتار مدل‌های زبانی بزرگ با استدلال زنجیره‌ای می‌پردازد و چارچوبی برای تبیین نظری آن‌ها ارائه می‌دهد. نتایج می‌تواند به بهینه‌سازی مدل‌ها و درک بهتر عملکرد آن‌ها کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد و درک عمیق‌تر از مدل‌های زبانی بزرگ کمک کند.",
+      "summary_fa": "این مقاله به بررسی رفتار مدل‌های زبانی بزرگ با استدلال زنجیره‌ای می‌پردازد و چارچوبی برای تبیین نظری و آماری ارائه می‌دهد. این تحقیق می‌تواند به بهینه‌سازی مدل‌ها و درک بهتر از عملکرد آن‌ها کمک کند.",
+      "why_it_matters": "این مطالعه به درک عمیق‌تر از عملکرد مدل‌های زبانی بزرگ و بهینه‌سازی آن‌ها کمک می‌کند.",
       "opportunity": "no",
-      "viral_potential": "low",
+      "viral_potential": "medium",
       "tags": [
         "LLM",
         "research",
@@ -480,10 +601,10 @@
         "research"
       ],
       "headline_fa": "معرفی PoolBench: ارزیابی استراتژی‌های تجمیع در LLMها",
-      "summary_fa": "مقاله جدیدی به نام PoolBench منتشر شده که به بررسی استراتژی‌های تجمیع در مدل‌های LLM می‌پردازد. این تحقیق به تحلیل نحوه تبدیل حالت‌های پنهان توکن به وکتورهای سطح متن می‌پردازد و پروتکل مشترکی برای مقایسه این انتخاب‌ها ارائه می‌دهد.",
-      "why_it_matters": "این تحقیق به بهبود تصمیم‌گیری در طراحی مدل‌های LLM کمک می‌کند.",
+      "summary_fa": "مقاله جدیدی به بررسی استراتژی‌های تجمیع در مدل‌های LLM پرداخته و پروتکلی برای مقایسه این استراتژی‌ها ارائه می‌دهد. این تحقیق به توسعه‌دهندگان کمک می‌کند تا تصمیمات بهتری در انتخاب روش‌های تجمیع بگیرند.",
+      "why_it_matters": "این تحقیق به دلیل عدم وجود پروتکل‌های مشترک در ارزیابی استراتژی‌های تجمیع در LLMها اهمیت دارد.",
       "opportunity": "no",
-      "viral_potential": "low",
+      "viral_potential": "medium",
       "tags": [
         "benchmark",
         "LLM",
@@ -503,9 +624,9 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "بررسی تعصبات شناختی در LLMها با تعاملات چندنوبتی",
-      "summary_fa": "این مقاله به ارزیابی بیان تعصبات شناختی در LLMهای پیشرفته می‌پردازد و چارچوب تجربی جدیدی را معرفی می‌کند. نتایج می‌تواند به درک بهتر تأثیر تعاملات کاربر بر استدلال در متن کمک کند.",
-      "why_it_matters": "این تحقیق به درک تعصبات شناختی در مدل‌های زبانی کمک می‌کند و می‌تواند به بهبود تعاملات انسان-ماشین منجر شود.",
+      "headline_fa": "تحلیل تعصبات شناختی در LLMها با تعامل چندنوبتی",
+      "summary_fa": "این مقاله به بررسی نحوه بروز تعصبات شناختی در LLMهای پیشرفته می‌پردازد و یک چارچوب تجربی جدید برای ارزیابی این تعصبات معرفی می‌کند. با استفاده از ۲۴,۳۰۰ درخواست کاربری تأیید شده، تأثیر نوبت‌های کاربری تعصب‌آمیز بر استدلال در متن بررسی می‌شود.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود تعاملات انسانی-ماشینی و کاهش تعصبات در مدل‌های هوش مصنوعی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -528,8 +649,8 @@
         "research"
       ],
       "headline_fa": "روش جدید حل مسائل ریاضی با استفاده از محدودیت‌ها",
-      "summary_fa": "مقاله به معرفی روش جدیدی به نام Reasoning-First Constraint می‌پردازد که بدون نیاز به آموزش، محدودیت‌های مسئله را استخراج و بررسی می‌کند. این روش می‌تواند به بهبود دقت مدل‌های زبانی بزرگ در حل مسائل ریاضی کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به افزایش دقت مدل‌های هوش مصنوعی در حل مسائل ریاضی کمک کند.",
+      "summary_fa": "مقاله به معرفی روش جدیدی به نام Reasoning-First می‌پردازد که در آن محدودیت‌های مسائل ریاضی استخراج و بررسی می‌شوند. این روش به حل مسائل ریاضی کمک می‌کند تا نتایج نهایی با الزامات مشخص مطابقت داشته باشند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت مدل‌های زبانی در حل مسائل ریاضی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -540,98 +661,50 @@
       ]
     },
     {
-      "id": "943949c382",
-      "source": "HF Trending Models",
-      "base_category": "model",
-      "title": "مدل ترند: DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "summary_raw": "likes: 1657 | downloads: 2087189 | pipeline: image-text-to-text",
-      "published_at": "2026-08-07T04:22:08.876475+00:00",
-      "importance_score": 6,
-      "categories": [
-        "model"
-      ],
-      "headline_fa": "مدل جدید DavidAU/Qwen3.6-27B با قابلیت‌های نوین",
-      "summary_fa": "مدل DavidAU/Qwen3.6-27B-Fable-Fusion به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با بیش از ۲ میلیون دانلود، می‌تواند در پروژه‌های مختلف هوش مصنوعی مورد استفاده قرار گیرد.",
-      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا از قابلیت‌های پیشرفته هوش مصنوعی در پروژه‌های خود بهره‌برداری کنند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "model",
-        "image-text",
-        "DavidAU"
-      ]
-    },
-    {
-      "id": "19ad4a27c1",
-      "source": "Towards Data Science",
+      "id": "eb24ecced9",
+      "source": "r/MachineLearning",
       "base_category": "research",
-      "title": "How a Frontier Model Gets Built, Read from the Kimi K3 Report",
-      "url": "https://towardsdatascience.com/how-a-frontier-model-gets-built-read-from-the-kimi-k3-report/",
-      "summary_raw": "An open, 2.8-trillion-parameter model shipped with 47 pages of its own recipe. Reading it tells you what building a frontier model now involves, and how little of it is the model. The post How a Frontier Model Gets Built, Read from the Kimi K3 Report appeared first on Towards Data Science .",
-      "published_at": "Wed, 05 Aug 2026 16:30:00 +0000",
+      "title": "What is currently considered the theoretically optimal quantization bit-width for LLMs? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/",
+      "summary_raw": "I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source formats like GGUF Suppose you have a fixed memory/compute budget and can choose the model size freely. For example, instead of a smaller model at 8-bit or 4-bit, you could fit a progressively larger model at 3-bit, 2-bit, 1.5-bit, etc. A few years ago, I remember 4-bit often being described as roughly the practical sweet spot because it preserved most model quality while giving a large memory reduction. But with newer methods, I’ve seen surprisingly strong 3",
+      "published_at": "2026-08-07T17:10:03+00:00",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "چگونه یک مدل پیشرفته ساخته می‌شود؟",
-      "summary_fa": "این پست به بررسی گزارش Kimi K3 می‌پردازد که شامل جزئیات ساخت یک مدل ۲.۸ تریلیون پارامتری است. مطالعه این گزارش به ما می‌آموزد که ساخت یک مدل پیشرفته چه مراحلی دارد و چقدر از آن به خود مدل مربوط می‌شود.",
-      "why_it_matters": "این اطلاعات به توسعه‌دهندگان کمک می‌کند تا درک بهتری از فرایند ساخت مدل‌های پیشرفته داشته باشند.",
+      "headline_fa": "بهینه‌ترین عرض بیت کوانتیزاسیون برای LLMها چیست؟",
+      "summary_fa": "این پست به بررسی عرض بیت کوانتیزاسیون بهینه برای مدل‌های زبان بزرگ (LLM) می‌پردازد و به دنبال تحقیقات مرتبط با فرمت‌های متن‌باز است. نویسنده به دنبال یافتن نقطه شیرین نظری یا تجربی برای کوانتیزاسیون LLMها است.",
+      "why_it_matters": "این موضوع به بهینه‌سازی عملکرد مدل‌های زبان بزرگ و کاهش هزینه‌های محاسباتی کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "model",
-        "AI",
-        "research"
-      ]
-    },
-    {
-      "id": "621d6e4939",
-      "source": "Towards Data Science",
-      "base_category": "research",
-      "title": "Is This Slop? Detecting AI-Generated Content Without a Model",
-      "url": "https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/",
-      "summary_raw": "Research-backed cues to detect LLM-generated text along with the mathematical intuition as to 'why' The post Is This Slop? Detecting AI-Generated Content Without a Model appeared first on Towards Data Science .",
-      "published_at": "Wed, 05 Aug 2026 13:30:00 +0000",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "تشخیص محتوای تولیدشده توسط هوش مصنوعی بدون مدل",
-      "summary_fa": "این مقاله به بررسی نشانه‌های علمی برای تشخیص متن‌های تولیدشده توسط LLM می‌پردازد و توضیحاتی ریاضی درباره دلیل این نشانه‌ها ارائه می‌دهد. این اطلاعات می‌تواند به توسعه‌دهندگان در شناسایی محتوای مصنوعی کمک کند.",
-      "why_it_matters": "این تحقیق به درک بهتر و شناسایی محتوای تولیدشده توسط هوش مصنوعی کمک می‌کند که در عصر حاضر اهمیت زیادی دارد.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
         "LLM",
-        "content-detection",
+        "quantization",
         "research"
       ]
     },
     {
-      "id": "9cc165138c",
-      "source": "IEEE Spectrum AI",
+      "id": "33afdddb6c",
+      "source": "Towards Data Science",
       "base_category": "research",
-      "title": "Should Researchers Write Papers for AI Instead of People?",
-      "url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
-      "summary_raw": "This May, 37 researchers from roughly two dozen top universities and tech companies published a paper on ArXiv, arguing that scientists should stop writing papers. Why? Because artificial intelligence needs a different format, and AI’s needs, they say, should be the priority. “AI agents are becoming first-class participants in research workflows, not tools that assist humans but autonomous contributors that read, reproduce, and extend scientific work. That transition demands infrastructure built around agents from the start,” the authors write in the provocative article, titled “The Last Human-Written Paper .” The paper proposes a replacement, called an “Agent-Native Research Artifact” (ARA), that presents work in a format AI agents can use efficiently. (As an example, the paper itself is ",
-      "published_at": "Wed, 05 Aug 2026 12:00:03 +0000",
+      "title": "My Fall-Detection Model Scored 94%, and It Was Lying to Me",
+      "url": "https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/",
+      "summary_raw": "How a single evaluation choice inflated my results by 25 points, and what rebuilding honestly taught me about ML systems people might depend on The post My Fall-Detection Model Scored 94%, and It Was Lying to Me appeared first on Towards Data Science .",
+      "published_at": "Fri, 07 Aug 2026 12:00:00 +0000",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "آیا محققان باید برای هوش مصنوعی مقاله بنویسند؟",
-      "summary_fa": "محققان مطرح می‌کنند که هوش مصنوعی به فرمت‌های جدیدی برای مقالات نیاز دارد و باید در اولویت قرار گیرد. این تغییر می‌تواند به تحول در روندهای تحقیقاتی منجر شود.",
-      "why_it_matters": "این بحث می‌تواند آینده نوشتن مقالات علمی و نقش هوش مصنوعی در آن را تغییر دهد.",
+      "headline_fa": "مدل تشخیص سقوط من ۹۴% دقت داشت، اما دروغ می‌گفت",
+      "summary_fa": "این مقاله به بررسی چگونگی افزایش نادرست نتایج یک مدل تشخیص سقوط به میزان ۲۵ امتیاز می‌پردازد. نویسنده تجربیات خود را از بازسازی مدل به اشتراک می‌گذارد و به چالش‌های سیستم‌های یادگیری ماشین اشاره می‌کند.",
+      "why_it_matters": "این مقاله به اهمیت ارزیابی صحیح مدل‌های یادگیری ماشین و تأثیر آن بر نتایج واقعی اشاره دارد.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "AI",
-        "research",
-        "autonomous",
-        "scientific papers"
+        "fall-detection",
+        "machine-learning",
+        "evaluation",
+        "model"
       ]
     },
     {
@@ -646,15 +719,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "ترکیب سبک چندمنبعی بدون نیاز به آموزش",
-      "summary_fa": "مقاله‌ای جدید به بررسی چگونگی تغییر ویژگی‌های مختلف یک اثر هنری در مدل‌های انتشار می‌پردازد. این تحقیق به کاربران امکان کنترل بیشتری بر روی منبع و قدرت هر ویژگی را می‌دهد.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود روش‌های انتقال سبک در هوش مصنوعی کمک کند.",
+      "headline_fa": "مقاله‌ای درباره ترکیب سبک‌های هنری در مدل‌های دیفیوژن",
+      "summary_fa": "این مقاله به بررسی روش‌های جدید در ترکیب سبک‌های هنری با استفاده از مدل‌های دیفیوژن می‌پردازد. هدف آن کنترل دقیق‌تر بر روی ویژگی‌های مختلف سبک از منابع مختلف است.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود روش‌های انتقال سبک در هنر دیجیتال کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "style transfer",
-        "diffusion models",
-        "AI research"
+        "diffusion model",
+        "art"
       ]
     },
     {
@@ -669,16 +742,17 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "بهبود دقت تقسیم‌بندی زیرمنطقه‌های گلیوم با مدل‌های زبان-بینایی",
-      "summary_fa": "این مقاله به بررسی بهبود تقسیم‌بندی تومور مغزی با استفاده از یک مدل زبان-بینایی سه‌بعدی می‌پردازد. این روش می‌تواند به بهینه‌سازی برنامه‌ریزی پرتودرمانی کمک کند.",
-      "why_it_matters": "دقت در تقسیم‌بندی زیرمنطقه‌های گلیوم برای برنامه‌ریزی درمانی و نظارت طولانی‌مدت بسیار حیاتی است.",
+      "headline_fa": "مدل جدید برای بهبود جداسازی زیرمنطقه‌های گلیوم",
+      "summary_fa": "این مقاله به بررسی استفاده از یک مدل بنیادین بینایی-زبان برای بهبود جداسازی تومور مغزی می‌پردازد. این مدل می‌تواند به پزشکان در تصحیح دستی و زمان‌بر کمک کند.",
+      "why_it_matters": "دقت در جداسازی زیرمنطقه‌های گلیوم برای برنامه‌ریزی پرتودرمانی و نظارت طولانی‌مدت بسیار حیاتی است.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "glioma",
         "segmentation",
         "vision-language",
-        "3D model"
+        "AI",
+        "research"
       ]
     },
     {
@@ -693,16 +767,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "تطبیق مدل‌های بینایی با استفاده از معنای زنجیره‌ای",
-      "summary_fa": "این مقاله به بررسی روش جدیدی در تطبیق مدل‌های بینایی پیش‌آموخته می‌پردازد که با استفاده از پارامترهای معنایی بهبود می‌یابد. این روش به طور خاص بر روی به‌روزرسانی پارامترهای اضافی تمرکز دارد تا از دانش قبلی بهره‌برداری کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی مدل‌های بینایی کمک کند.",
+      "headline_fa": "توسعه مدل‌های بینایی با استفاده از مفاهیم سلسله‌مراتبی",
+      "summary_fa": "این مقاله به بررسی روش جدیدی در تنظیم مدل‌های بینایی پیشرفته می‌پردازد که از دو مفهوم معنایی مکمل برای بهبود عملکرد استفاده می‌کند. این رویکرد می‌تواند به بهینه‌سازی مدل‌های بینایی کمک کند و کاربردهای جدیدی را در این حوزه ایجاد نماید.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی مدل‌های بینایی کمک کند و به توسعه‌دهندگان ابزارهای بهتری ارائه دهد.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "VPT",
         "computer vision",
         "semantic priors",
-        "research"
+        "transformers"
       ]
     },
     {
@@ -718,15 +792,15 @@
         "research"
       ],
       "headline_fa": "مدل جدید پیش‌بینی ویدیو با شواهد تاریخی",
-      "summary_fa": "مقاله‌ای درباره مدل‌های پیش‌بینی ویدیو که با استفاده از شواهد تاریخی، چالش‌های پیش‌بینی در شرایط انسداد را حل می‌کند. این مدل‌ها می‌توانند دینامیک‌های بصری را از ویدیوهای بزرگ یاد بگیرند و در پیش‌بینی‌های آینده کمک کنند.",
-      "why_it_matters": "این تحقیق به بهبود دقت پیش‌بینی در مدل‌های ویدیویی کمک می‌کند و می‌تواند کاربردهای زیادی در هوش مصنوعی داشته باشد.",
+      "summary_fa": "این مقاله به بررسی مدل‌های پیش‌بینی ویدیو می‌پردازد که از دینامیک‌های بصری نهفته یاد می‌گیرند. این مدل‌ها با چالش‌های مربوط به رویدادهای فیزیکی تحت پوشش مواجه هستند و نیاز به شواهد تاریخی دارند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت پیش‌بینی در مدل‌های ویدیویی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "video prediction",
-        "research",
-        "machine learning"
+        "latent models",
+        "research"
       ]
     },
     {
@@ -741,16 +815,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "کشف ویژگی‌های اصلاحی برای بهبود پیش‌بینی‌کننده‌های یخ‌زده",
-      "summary_fa": "این مقاله به بررسی کشف ویژگی‌های اصلاحی می‌پردازد که می‌تواند به بهبود عملکرد پیش‌بینی‌کننده‌های یخ‌زده کمک کند. این روش به جای تمرکز بر فرآیند تولید داده، بر روی فرآیند شکست مدل تمرکز دارد.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی مدل‌های پیش‌بینی کمک کند و هزینه‌های تعمیر را کاهش دهد.",
+      "headline_fa": "کشف ویژگی‌های اصلاحی در پیش‌بینی‌کننده‌های سیاه‌مربع",
+      "summary_fa": "این مقاله به بررسی کشف ویژگی‌های اصلاحی در پیش‌بینی‌کننده‌های یخ‌زده می‌پردازد و روشی برای بهبود عملکرد آن‌ها ارائه می‌دهد. با استفاده از ویژگی‌های قابل تفسیر، می‌توان به اصلاح خطاهای مدل‌های پیش‌بینی پرداخت.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت پیش‌بینی‌کننده‌ها کمک کند و هزینه‌های اصلاح را کاهش دهد.",
       "opportunity": "no",
-      "viral_potential": "medium",
+      "viral_potential": "low",
       "tags": [
         "feature-discovery",
-        "forecasting",
         "machine-learning",
-        "research"
+        "forecasting"
       ]
     },
     {
@@ -765,15 +838,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "زبان احتمالاتی جدید برای مدل‌های زبانی بزرگ",
-      "summary_fa": "این مقاله به بررسی چالش‌های استفاده از مدل‌های زبانی بزرگ می‌پردازد و یک زبان احتمالاتی برای برنامه‌نویسی معرفی می‌کند. این زبان به توسعه‌دهندگان کمک می‌کند تا نتایج دقیق‌تری از LLMها بگیرند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و اعتماد به نتایج مدل‌های زبانی بزرگ کمک کند.",
+      "headline_fa": "زبان احتمالاتی جدید برای برنامه‌های مبتنی بر LLM",
+      "summary_fa": "این مقاله به بررسی چالش‌های استفاده از مدل‌های زبانی بزرگ (LLM) در برنامه‌های قابل اعتماد می‌پردازد و یک زبان احتمالاتی جدید برای مدیریت عدم قطعیت در این مدل‌ها معرفی می‌کند. این زبان به توسعه‌دهندگان کمک می‌کند تا نتایج دقیق‌تری از LLMها به دست آورند.",
+      "why_it_matters": "این تحقیق به بهبود دقت و اعتماد به نتایج مدل‌های زبانی بزرگ کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "LLM",
         "probabilistic programming",
-        "research"
+        "AI research"
       ]
     },
     {
@@ -788,15 +861,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "تحلیل نادرست مدل‌های مولد تفکیک‌پذیر در هوش مصنوعی",
-      "summary_fa": "این مقاله به بررسی مدل‌های مولد تفکیک‌پذیر می‌پردازد و نشان می‌دهد که تطابق توزیع حاشیه‌ای نمی‌تواند به استقلال نمایه سبک از اطلاعات کلاس کمک کند. این یافته‌ها می‌توانند در بهبود طراحی مدل‌های مولد مؤثر باشند.",
-      "why_it_matters": "این تحقیق به درک بهتر از نحوه عملکرد مدل‌های مولد و چالش‌های موجود در آن‌ها کمک می‌کند.",
+      "headline_fa": "تحلیل نادرست تطابق حاشیه‌ای در مدل‌های مولد",
+      "summary_fa": "این مقاله به بررسی نادرستی تفسیر تطابق توزیع حاشیه‌ای در مدل‌های مولد می‌پردازد و نشان می‌دهد که این تطابق نمی‌تواند پیش‌بینی‌پذیری اطلاعات کلاسی را محدود کند. این یافته‌ها می‌توانند به بهبود درک ما از مدل‌های مولد کمک کنند.",
+      "why_it_matters": "این تحقیق به چالش کشیدن فرضیات رایج در مدل‌های مولد می‌تواند به توسعه مدل‌های بهتری منجر شود.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "research",
         "generative models",
-        "machine learning"
+        "machine learning",
+        "research",
+        "style representation"
       ]
     },
     {
@@ -811,9 +885,9 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "مطالعه جدید در زمینه درک معیارهای چندرسانه‌ای",
-      "summary_fa": "این مقاله به بررسی درک معیارهای چندرسانه‌ای می‌پردازد که در آن مدل باید با توجه به یک معیار اولویت‌دار، تصاویر را بررسی کند. این رویکرد می‌تواند به بهبود عملکرد مدل‌ها در پیروی از دستورالعمل‌های چندرسانه‌ای کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در نحوه تعامل مدل‌های هوش مصنوعی با داده‌های چندرسانه‌ای منجر شود.",
+      "headline_fa": "تحلیل جدیدی از درک دستورالعمل‌های چندرسانه‌ای",
+      "summary_fa": "این مقاله به بررسی درک معیارهای اولویت‌دار در دستورالعمل‌های چندرسانه‌ای می‌پردازد و مدل‌ها را به عنوان مجری این معیارها معرفی می‌کند. این رویکرد می‌تواند به بهبود عملکرد مدل‌ها در پیروی از دستورالعمل‌های پیچیده کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به توسعه مدل‌های هوش مصنوعی کمک کند که بهتر از دستورالعمل‌های چندگانه و اولویت‌دار پیروی کنند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -835,9 +909,9 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "بررسی مدل‌های یادگیری ماشین برای پیش‌بینی سیلاب‌های پس از آتش‌سوزی",
-      "summary_fa": "این مقاله به بررسی چالش‌های پیش‌بینی سیلاب‌های پس از آتش‌سوزی با استفاده از مدل‌های یادگیری ماشین می‌پردازد. هدف آن شناسایی مدل‌های قابل اعتماد در شرایط داده‌های محدود و نیاز به تفسیر مدل است.",
-      "why_it_matters": "این تحقیق به کاهش خطرات ناشی از سیلاب‌های پس از آتش‌سوزی کمک می‌کند.",
+      "headline_fa": "مدل‌های یادگیری ماشین برای پیش‌بینی سیلاب‌های پس از آتش‌سوزی",
+      "summary_fa": "این مقاله به بررسی مدل‌های یادگیری ماشین برای پیش‌بینی سیلاب‌های ناشی از آتش‌سوزی می‌پردازد و چالش‌های موجود در این زمینه را تحلیل می‌کند. با توجه به اهمیت پیش‌بینی این سیلاب‌ها، نتایج این تحقیق می‌تواند به بهبود ایمنی جوامع کمک کند.",
+      "why_it_matters": "پیش‌بینی سیلاب‌های پس از آتش‌سوزی برای کاهش خطرات به جوامع و زیرساخت‌ها حیاتی است.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -859,16 +933,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "تطبیق بدون نظارت در EEG با توزیع کلاس نامتعادل",
-      "summary_fa": "این مقاله به بررسی روش‌های تطبیق دامنه بدون نظارت در رابط‌های مغز-کامپیوتر (BCI) می‌پردازد که با تغییرات توزیع برچسب در سناریوهای آنلاین مواجه هستند. این تحقیق می‌تواند به بهبود عملکرد BCIها در شرایط واقعی کمک کند.",
-      "why_it_matters": "این تحقیق به حل چالش‌های تطبیق دامنه در BCIها می‌پردازد که در کاربردهای واقعی بسیار مهم است.",
+      "headline_fa": "تطبیق بدون نظارت در EEG با توزیع نامتعادل کلاس‌ها",
+      "summary_fa": "این مقاله به بررسی روش‌های تطبیق دامنه بدون نظارت در رابط‌های مغز-کامپیوتر می‌پردازد و به چالش‌های ناشی از تغییرات توزیع برچسب‌ها در سناریوهای آنلاین می‌پردازد. استفاده از روش‌های هم‌راستایی ریمنین می‌تواند به بهبود عملکرد در این زمینه کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت رابط‌های مغز-کامپیوتر در شرایط واقعی کمک کند.",
       "opportunity": "no",
-      "viral_potential": "medium",
+      "viral_potential": "low",
       "tags": [
         "EEG",
         "BCI",
-        "domain adaptation",
-        "research"
+        "UDA",
+        "Riemannian"
       ]
     },
     {
@@ -884,15 +958,15 @@
         "research"
       ],
       "headline_fa": "مدل جدید برای بهینه‌سازی حافظه در مدل‌های زبانی",
-      "summary_fa": "مقاله‌ای جدید به بررسی روش‌های بهینه‌سازی حافظه در مدل‌های زبانی خودکار می‌پردازد. این تحقیق نشان می‌دهد که حذف توکن‌ها می‌تواند تصمیمات غیرقابل برگشتی ایجاد کند که در طول پردازش مشکل‌ساز می‌شود.",
-      "why_it_matters": "این تحقیق به بهبود کارایی مدل‌های زبانی در پردازش متن‌های طولانی کمک می‌کند.",
+      "summary_fa": "این مقاله به بررسی روش جدیدی برای مدیریت حافظه در مدل‌های زبانی خودکار می‌پردازد که به کاهش اثرات منفی حذف توکن‌ها کمک می‌کند. این روش می‌تواند به بهبود دقت و کارایی در پردازش متون طولانی کمک کند.",
+      "why_it_matters": "این تحقیق به بهینه‌سازی عملکرد مدل‌های زبانی بزرگ کمک می‌کند و می‌تواند تأثیر زیادی بر روی کاربردهای عملی آن‌ها داشته باشد.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "language model",
+        "language-model",
         "research",
-        "memory optimization"
+        "memory-optimization"
       ]
     },
     {
@@ -907,16 +981,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌های جهانی ساختار کوانتومی برای پیش‌بینی دینامیک‌های پنهان",
-      "summary_fa": "این مقاله به معرفی مدل‌های جهانی ساختار کوانتومی (QSWMs) می‌پردازد که به یادگیری حالت‌های پنهان و پیش‌بینی دینامیک‌های آینده کمک می‌کنند. این مدل‌ها می‌توانند در شبیه‌سازی و برنامه‌ریزی کاربرد داشته باشند.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در مدل‌سازی پیش‌بینی و شبیه‌سازی در هوش مصنوعی منجر شود.",
+      "headline_fa": "مدل‌های جهانی ساختار کوانتومی برای پیش‌بینی دینامیک‌های نهفته",
+      "summary_fa": "این مقاله به معرفی مدل‌های جهانی ساختار کوانتومی (QSWMs) می‌پردازد که برای مدل‌سازی پیش‌بینی با استفاده از حالت‌های نهفته ساختار یافته طراحی شده‌اند. این مدل‌ها می‌توانند در پیش‌بینی، شبیه‌سازی و برنامه‌ریزی کاربرد داشته باشند.",
+      "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های جدید در مدل‌سازی پیش‌بینی و یادگیری ماشین کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "quantum",
         "world models",
-        "predictive",
-        "AI",
+        "predictive modeling",
         "research"
       ]
     },
@@ -932,16 +1005,15 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌سازی سیستم‌های غیرخطی با روش جدید",
-      "summary_fa": "این مقاله به بررسی یادگیری سیستم‌های دینامیکی غیرخطی از طریق یک نمایش خطی می‌پردازد. با استفاده از فیلتر کردن طیفی، یک پیش‌بینی‌کننده ضمنی برای سیستم‌های ناشناخته یاد می‌گیرد.",
-      "why_it_matters": "این رویکرد می‌تواند به ساده‌تر شدن شناسایی سیستم‌های پیچیده کمک کند.",
+      "headline_fa": "یادگیری سیستم‌های دینامیکی غیرخطی با مدل‌های خطی",
+      "summary_fa": "این مقاله یک روش جدید برای یادگیری سیستم‌های دینامیکی غیرخطی از طریق مدل‌های خطی ارائه می‌دهد. با استفاده از فیلتر کردن طیفی، این روش می‌تواند به شناسایی سیستم‌های پیچیده کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود روش‌های شناسایی سیستم‌های دینامیکی و کاهش پیچیدگی‌های محاسباتی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "nonlinear",
-        "dynamics",
-        "state-space",
-        "machine-learning"
+        "nonlinear dynamics",
+        "state-space models",
+        "spectral filtering"
       ]
     },
     {
@@ -957,8 +1029,8 @@
         "research"
       ],
       "headline_fa": "شاخص اشتعال: اندازه‌گیری دینامیک‌های فضای جهانی در مدل‌های زبانی",
-      "summary_fa": "این مقاله شاخص اشتعال را معرفی می‌کند که پیش‌بینی‌های نظریه فضای جهانی را در مدل‌های زبانی ترنسفورمر عملیاتی می‌کند. این متریک می‌تواند به درک بهتر رفتار مدل‌های زبانی کمک کند.",
-      "why_it_matters": "این تحقیق به بهبود فهم ما از عملکرد مدل‌های زبانی و دینامیک‌های آنها کمک می‌کند.",
+      "summary_fa": "در این مقاله، شاخص اشتعال به عنوان یک معیار مقیاس‌پذیر معرفی شده که پیش‌بینی اشتعال در نظریه فضای جهانی را در مدل‌های زبانی ترنسفورمر عملیاتی می‌کند. این معیار به تحلیل دقت لایه‌های مختلف مدل‌ها بر اساس قدرت سیگنال ورودی می‌پردازد.",
+      "why_it_matters": "این تحقیق به درک بهتر رفتار مدل‌های زبانی و نحوه عملکرد آنها کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -980,40 +1052,16 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "معرفی SearchAuditBench برای ارزیابی خطاهای جستجو",
-      "summary_fa": "مقاله جدیدی به بررسی چالش‌های خطا در عامل‌های جستجوی بلندمدت می‌پردازد و ابزاری به نام SearchAuditBench را معرفی می‌کند. این ابزار به تحلیل و ارزیابی خطاها در پاسخ‌های تولید شده توسط این سیستم‌ها کمک می‌کند.",
-      "why_it_matters": "این تحقیق به بهبود دقت و قابلیت اطمینان سیستم‌های جستجو کمک می‌کند.",
+      "headline_fa": "بررسی و نسبت‌دهی به شکست‌ها در عامل‌های جستجوی طولانی‌مدت",
+      "summary_fa": "مقاله به بررسی چالش‌های عامل‌های جستجو در تعاملات وب می‌پردازد و ابزاری به نام SearchAuditBench را برای ارزیابی این شکست‌ها معرفی می‌کند. این ابزار به تحلیل و شناسایی خطاهای منطقی در پاسخ‌های تولید شده کمک می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی عامل‌های جستجو در وب کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "search",
         "AI",
         "benchmark",
-        "failure"
-      ]
-    },
-    {
-      "id": "456bc9c448",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
-      "url": "https://arxiv.org/abs/2608.05219",
-      "summary_raw": "arXiv:2608.05219v1 Announce Type: new \nAbstract: Privileged on-policy distillation provides dense supervision for multi-turn agents by allowing a synchronized teacher to re-score the student's response at every turn with access to training-only references, such as successful trajectories. In interactive environments, however, the student's preceding actions continually change the execution state. As the student takes different actions or completes subgoals in a different order, its rollout may reach states not covered by the reference, making the reference an unreliable source of guidance for the state actually reached. Applying privileged distillation indiscriminately therefore creates state--reference mismatch. This mismatch motivates a central objective: providing privileged reference g",
-      "published_at": "Fri, 07 Aug 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "راهنمایی‌های ویژه و چالش‌های آن در یادگیری چندمرحله‌ای",
-      "summary_fa": "این مقاله به بررسی روش‌های جدید در یادگیری چندمرحله‌ای با استفاده از راهنمایی‌های ویژه می‌پردازد. این تکنیک‌ها می‌توانند به بهبود عملکرد عامل‌های هوش مصنوعی در محیط‌های تعاملی کمک کنند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود الگوریتم‌های هوش مصنوعی و تعاملات پیچیده‌تر کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "machine learning",
-        "multi-turn agents",
-        "research"
+        "failure analysis"
       ]
     }
   ]
