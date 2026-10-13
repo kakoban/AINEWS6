@@ -1,114 +1,165 @@
 {
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12T08:27:02.024600+00:00",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T08:52:12.260411+00:00",
   "stats": {
     "total_sources": 105,
-    "total_fetched": 249,
+    "total_fetched": 201,
     "total_processed": 50,
-    "total_displayed": 48,
+    "total_displayed": 41,
     "top_score": 8,
-    "high_viral_count": 3,
-    "opportunities_count": 5
+    "high_viral_count": 2,
+    "opportunities_count": 10
   },
   "items": [
-    {
-      "id": "1fd4fde33e",
-      "source": "r/MachineLearning",
-      "base_category": "research",
-      "title": "[P] Pecision models that score every allowed label from the logits: Jebadiah v2.1 (27B, 9B), open weights and self-run benchmark results [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label/",
-      "summary_raw": "I've been building open models that treat a decision as a closed-set scoring problem rather than text generation. The input is structured context plus a typed question with a fixed set of options. The output is a probability for each option, taken from the candidate-label logits, so there's no generation step to parse and no sampling. v2.1 updates the 27B and the 9B. On the Decision Index 0.3 public suite (my own runs with the unchanged official scorer, submitted to the board, which adds private tests before ranking anything): - 27B: 57.03 vs 55.11 for v2. Knowledge +2.34, Language +3.89, Retr",
-      "published_at": "2026-10-11T09:33:10+00:00",
-      "importance_score": 8,
-      "categories": [
-        "model",
-        "free-resource"
-      ],
-      "headline_fa": "مدل‌های جدید Jebadiah v2.1 با وزن‌های باز و نتایج بنچمارک",
-      "summary_fa": "مدل‌های Jebadiah v2.1 به‌جای تولید متن، تصمیم‌گیری را به‌عنوان یک مشکل امتیازدهی بسته بررسی می‌کنند. این مدل‌ها به‌صورت رایگان در دسترس هستند و می‌توانند برای سوالات با گزینه‌های مشخص استفاده شوند.",
-      "why_it_matters": "این مدل‌ها رویکرد جدیدی در یادگیری ماشین ارائه می‌دهند که می‌تواند دقت تصمیم‌گیری را افزایش دهد.",
-      "opportunity": "yes",
-      "viral_potential": "medium",
-      "tags": [
-        "Jebadiah",
-        "model",
-        "open-source",
-        "AI"
-      ]
-    },
     {
       "id": "8e0001db8f",
       "source": "GitHub Trending AI",
       "base_category": "tool",
-      "title": "GitHub Trending: Alishahryar1/free-claude-code — ⭐58,203",
+      "title": "GitHub Trending: Alishahryar1/free-claude-code — ⭐59,642",
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "summary_raw": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "published_at": "2026-10-12T08:23:56.270570+00:00",
+      "published_at": "2026-10-13T08:48:49.517983+00:00",
       "importance_score": 8,
       "categories": [
         "tool",
         "free-resource"
       ],
-      "headline_fa": "استفاده رایگان از Claude Code و ابزارهای هوش مصنوعی",
-      "summary_fa": "ابزار Claude Code به شما این امکان را می‌دهد که از 1.3 میلیارد توکن رایگان برای توسعه نرم‌افزار استفاده کنید. این ابزار از ترمینال، اپلیکیشن، IDE یا مرورگر قابل دسترسی است و از چندین مدل پشتیبانی می‌کند.",
-      "why_it_matters": "این ابزار به توسعه‌دهندگان اجازه می‌دهد تا به راحتی از قدرت مدل‌های هوش مصنوعی بهره‌برداری کنند.",
+      "headline_fa": "ابزار رایگان Claude Code برای توسعه‌دهندگان",
+      "summary_fa": "Claude Code به شما این امکان را می‌دهد که از ۱.۳ میلیارد توکن رایگان برای استفاده از مدل‌های مختلف هوش مصنوعی بهره‌برداری کنید. این ابزار از طریق ترمینال، اپلیکیشن، IDE یا مرورگر قابل دسترسی است.",
+      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا به راحتی و بدون هزینه از قابلیت‌های پیشرفته هوش مصنوعی استفاده کنند.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
         "AI",
-        "tool",
         "free",
-        "ClaudeCode"
+        "tool",
+        "Claude"
       ]
     },
     {
-      "id": "433a2c556a",
-      "source": "The Decoder",
-      "base_category": "viral",
-      "title": "Odyssey-3 is a new generative world model that you can try for free",
-      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
-      "summary_raw": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the methodology behind those results has limits. The article Odyssey-3 is a new generative world model that you can try for free appeared first on The Decoder .",
-      "published_at": "Sun, 11 Oct 2026 07:48:01 +0000",
+      "id": "430b73ae0c",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models [R][D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+      "summary_raw": "If you build on open-weight reasoning models, you have probably wanted a \"how sure is the model about this answer?\" signal that does not cost 5x sampling, a judge model, or a labeled dataset. Hence, we built the U-Lens. In one line: score = (how strongly the hidden state points toward different \"doubt\" directions) x (mean token entropy over the reasoning tokens) Label-free: No correctness labels; no training and no no fine-tuning. Single pass. No resampling. Interpretable. It tells you what kind of uncertainty: (i) ambiguity, (ii) missing information, (iii) conflicting evidence, or (iv) genera",
+      "published_at": "2026-10-12T15:10:34+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "research",
+        "free-resource"
+      ],
+      "headline_fa": "U-Lens: ابزاری برای اندازه‌گیری عدم قطعیت در مدل‌های زبانی",
+      "summary_fa": "U-Lens ابزاری است که به توسعه‌دهندگان کمک می‌کند تا بدون نیاز به برچسب‌گذاری یا نمونه‌برداری مجدد، عدم قطعیت پاسخ‌های مدل‌های زبانی را اندازه‌گیری کنند. این ابزار با استفاده از حالت‌های پنهان و انتروپی توکن‌ها، سیگنال‌های قابل تفسیر ارائه می‌دهد.",
+      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا درک بهتری از عملکرد مدل‌های زبانی داشته باشند و به بهبود دقت آنها کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "uncertainty",
+        "language models",
+        "U-Lens",
+        "AI tools"
+      ]
+    },
+    {
+      "id": "fc5145963f",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "I built a tiny table that learns your local LLM's classification answers and serves the repeats in microseconds [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vkej/i_built_a_tiny_table_that_learns_your_local_llms/",
+      "summary_raw": "project: https://2796gaurav.github.io/shad0w/ If you use a local model for classification, you know the wait: seconds per message, for questions it has answered hundreds of times. shad0w sits in front of any OpenAI-compatible server (Ollama works out of the box: llm=\"ollama/llama3.1\" or `shad0w proxy --upstream http://localhost:11434/v1`), logs the model's answers, and after ~1,000 of them compiles a small table that answers the repeats on CPU in microseconds. It only answers where it agrees with your model 95%+ of the time on held-out answers; everything else still goes to the model. Fun part",
+      "published_at": "2026-10-12T07:33:46+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "ابزار جدیدی برای تسریع پاسخ‌دهی مدل‌های محلی هوش مصنوعی",
+      "summary_fa": "این ابزار به نام shad0w، پاسخ‌های مدل‌های محلی را ثبت کرده و پس از ۱۰۰۰ پاسخ، جدولی کوچک برای پاسخگویی سریع به سوالات تکراری ایجاد می‌کند. با استفاده از این ابزار، می‌توانید زمان پاسخ‌دهی را به میکروثانیه کاهش دهید.",
+      "why_it_matters": "این ابزار می‌تواند به طور قابل توجهی کارایی مدل‌های محلی را افزایش دهد و زمان انتظار را کاهش دهد.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "tool",
+        "LLM",
+        "AI",
+        "local-model"
+      ]
+    },
+    {
+      "id": "b2adfa977a",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "I built a browser tool to visualize how a small LLM picks its next word and see what it's attending to [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3lgnz/i_built_a_browser_tool_to_visualize_how_a_small/",
+      "summary_raw": "I made a little thing that visualizes attention. It runs SmolLM2-135M fully in the browser (onnxruntime-web, int8, no server, works on my phone). You give it a prompt, it generates one token at a time, and for each step you get the next-token candidates with probabilities, plus the attention from the current token back to the earlier ones drawn as links with the weights labeled. You can click any word to see where its attention actually went, ranked. The thing I learnt during this project was attention sink . At first it looked broken because everything was attending to the first token super h",
+      "published_at": "2026-10-11T22:30:50+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "ابزار مرورگری برای تجسم انتخاب کلمات LLM کوچک ساخته شد",
+      "summary_fa": "این ابزار به شما امکان می‌دهد تا توجه مدل SmolLM2-135M را در حین تولید کلمات مشاهده کنید. با وارد کردن یک جمله، مدل کلمات را یکی یکی تولید کرده و توجه آن به کلمات قبلی را نمایش می‌دهد.",
+      "why_it_matters": "این ابزار به درک بهتر عملکرد مدل‌های زبان و نحوه انتخاب کلمات کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "visualization",
+        "tool",
+        "browser"
+      ]
+    },
+    {
+      "id": "c4e160b8f9",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: multimodal-art-projection/YuE — ⭐11,850",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "summary_raw": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "published_at": "2026-10-13T08:48:49.519307+00:00",
       "importance_score": 8,
       "categories": [
         "model",
         "free-resource"
       ],
-      "headline_fa": "مدل جدید Odyssey-3 برای ایجاد محیط‌های تعاملی رایگان شد",
-      "summary_fa": "مدل Odyssey-3 با ۱۴ میلیارد پارامتر به عنوان پیش‌نمایش عمومی در دسترس قرار گرفته است. این مدل می‌تواند محیط‌های تعاملی را از متن تولید کند و به کنترل ربات‌ها و پهپادها بپردازد.",
-      "why_it_matters": "این مدل به محققان و توسعه‌دهندگان امکان می‌دهد تا به راحتی از قابلیت‌های پیشرفته هوش مصنوعی بهره‌برداری کنند.",
+      "headline_fa": "تولید موسیقی با YuE2: نسل جدید هوش مصنوعی",
+      "summary_fa": "مدل YuE2 به تولید موسیقی با استفاده از برنامه‌ریزی نمادین و ویرایش موسیقی هوشمند می‌پردازد. این ابزار به توسعه‌دهندگان امکان می‌دهد تا کاورهای بدون پیش‌نیاز را ایجاد کنند.",
+      "why_it_matters": "این مدل می‌تواند به خلاقیت در تولید موسیقی و ویرایش آن کمک کند و به هنرمندان و توسعه‌دهندگان ابزارهای جدیدی ارائه دهد.",
       "opportunity": "yes",
       "viral_potential": "high",
       "tags": [
+        "music",
         "AI",
-        "generative",
-        "model",
-        "Odyssey-3",
-        "free"
+        "generation",
+        "tool"
       ]
     },
     {
-      "id": "df180d0c26",
-      "source": "Nature Machine Intelligence",
-      "base_category": "research",
-      "title": "Large language models discover complementary heuristics for combinatorial optimization",
-      "url": "https://www.nature.com/articles/s42256-026-01307-8",
-      "summary_raw": "Nature Machine Intelligence, Published online: 01 October 2026; doi:10.1038/s42256-026-01307-8 Huatian Gong and colleagues developed LACE, a large language model-based framework that designs optimization algorithms. It builds a verified problem contract, then evolves a portfolio of complementary heuristics that together solve problems that no single method can handle.",
-      "published_at": "2026-10-12T08:23:31.171016+00:00",
+      "id": "152d34c63e",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+      "summary_raw": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it.",
+      "published_at": "Mon, 12 Oct 2026 15:50:14 +0000",
       "importance_score": 8,
       "categories": [
-        "research"
+        "tool"
       ],
-      "headline_fa": "مدل LACE: بهینه‌سازی ترکیبی با هوش مصنوعی",
-      "summary_fa": "محققان LACE را توسعه داده‌اند، یک چارچوب مبتنی بر مدل زبان بزرگ که الگوریتم‌های بهینه‌سازی طراحی می‌کند. این مدل با ایجاد یک قرارداد مسئله معتبر، مجموعه‌ای از هوریستیک‌های مکمل را برای حل مسائل پیچیده تولید می‌کند.",
-      "why_it_matters": "این تحقیق به بهبود روش‌های بهینه‌سازی و حل مسائل پیچیده کمک می‌کند.",
+      "headline_fa": "استفاده از مدل‌های زبانی بزرگ با Ray LLM در EKS",
+      "summary_fa": "این مقاله به شما آموزش می‌دهد که چگونه یک مدل زبانی بزرگ را بر روی دو نود GPU در Amazon EKS با استفاده از Ray LLM Deep Learning Containers پیاده‌سازی کنید. این کانتینر پیش‌ساخته، تمام زیرساخت‌های لازم برای استنتاج را فراهم می‌کند.",
+      "why_it_matters": "این روش به توسعه‌دهندگان کمک می‌کند تا به سادگی و به طور مؤثر از مدل‌های بزرگ در محیط‌های توزیع‌شده استفاده کنند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "AI",
-        "optimization",
-        "research",
-        "LLM"
+        "Ray",
+        "LLM",
+        "AWS",
+        "Deep Learning",
+        "EKS"
       ]
     },
     {
@@ -117,47 +168,23 @@
       "base_category": "model",
       "title": "مدل ترند: abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-      "summary_raw": "likes: 4022 | downloads: 2188658 | pipeline: text-to-image",
-      "published_at": "2026-10-12T08:23:54.870428+00:00",
+      "summary_raw": "likes: 4141 | downloads: 2188658 | pipeline: text-to-image",
+      "published_at": "2026-10-13T08:48:47.975748+00:00",
       "importance_score": 7,
       "categories": [
-        "model"
+        "model",
+        "free-resource"
       ],
-      "headline_fa": "مدل جدید Qwen-Image-2.1 با قابلیت‌های پیشرفته",
-      "summary_fa": "مدل Qwen-Image-2.1 به تازگی منتشر شده و قابلیت تبدیل متن به تصویر را ارائه می‌دهد. این مدل با بیش از 2 میلیون دانلود، ابزاری قدرتمند برای توسعه‌دهندگان در زمینه هوش مصنوعی است.",
-      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا تصاویر خلاقانه‌ای بر اساس متن تولید کنند.",
+      "headline_fa": "مدل جدید Qwen-Image-2.1 برای تولید تصویر",
+      "summary_fa": "مدل Qwen-Image-2.1 به تازگی منتشر شده و قابلیت تولید تصاویر از متن را دارد. این مدل با ۲۱۸۸۶۵۸ دانلود و ۴۱۴۱ لایک، منبعی مفید برای توسعه‌دهندگان است.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا تصاویر با کیفیت بالا را به راحتی تولید کنند.",
       "opportunity": "yes",
-      "viral_potential": "high",
+      "viral_potential": "medium",
       "tags": [
         "AI",
         "model",
         "text-to-image",
-        "Qwen-Image"
-      ]
-    },
-    {
-      "id": "534cb42b1f",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
-      "url": "https://arxiv.org/abs/2610.12813",
-      "summary_raw": "arXiv:2610.12813v1 Announce Type: new \nAbstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, and deterministic allow or refuse decisions before potentially irreversible agent actions are executed. However, safety and security requirements are rarely complete before deployment, so guardrails need to keep adapting as new risks emerge. Existing adaptive guardrails learn from deployment experience, but they usually apply safety policies through LLM inference, which can lead to inconsistent decisions and ambiguous policy interpretations. Formal guardrails, on the other hand, enforce policies deterministically, ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 7,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "پالیسی‌های رسمی تکامل‌یافته برای ایمنی LLM",
-      "summary_fa": "این مقاله به بررسی نیاز به guardrails در LLMها می‌پردازد که تصمیمات قابل بررسی و تکرارپذیر را قبل از انجام اقدامات غیرقابل برگشت اتخاذ کنند. این guardrails باید به‌طور مداوم با نیازهای ایمنی و امنیتی در حال تغییر سازگار شوند.",
-      "why_it_matters": "این تحقیق به بهبود ایمنی و امنیت LLMها کمک می‌کند که در حال کار با منابع حساس هستند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "LLM",
-        "safety",
-        "security",
-        "policy",
-        "research"
+        "free-resource"
       ]
     },
     {
@@ -172,14 +199,14 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌های عمل جهانی و VLAها: لحظه GPT-2 رباتیک",
-      "summary_fa": "این مقاله به بررسی مدل‌های عمل جهانی و VLAها در رباتیک می‌پردازد و تأثیر آن‌ها بر پیشرفت‌های اخیر در این حوزه را تحلیل می‌کند. این اطلاعات می‌تواند به توسعه‌دهندگان در درک بهتر تکنیک‌های جدید کمک کند.",
+      "headline_fa": "مدل‌های عمل جهانی و VLA: لحظه تحول رباتیک",
+      "summary_fa": "این مقاله به بررسی مدل‌های عمل جهانی و VLA می‌پردازد و تأثیر آن‌ها بر رباتیک را تحلیل می‌کند. این مدل‌ها می‌توانند به بهبود عملکرد ربات‌ها در محیط‌های پیچیده کمک کنند.",
       "why_it_matters": "این تحقیق می‌تواند به پیشرفت‌های قابل توجهی در رباتیک و هوش مصنوعی منجر شود.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "robotics",
-        "action-models",
+        "action models",
         "VLA",
         "AI"
       ]
@@ -190,21 +217,21 @@
       "base_category": "model",
       "title": "مدل ترند: Qwen/Qwen-Image-2.1-Turbo",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-      "summary_raw": "likes: 570 | downloads: 4702 | pipeline: text-to-image",
-      "published_at": "2026-10-12T08:23:54.870433+00:00",
+      "summary_raw": "likes: 670 | downloads: 6787 | pipeline: text-to-image",
+      "published_at": "2026-10-13T08:48:47.975743+00:00",
       "importance_score": 7,
       "categories": [
         "model"
       ],
-      "headline_fa": "مدل Qwen-Image-2.1-Turbo برای تولید تصویر",
-      "summary_fa": "مدل Qwen-Image-2.1-Turbo به عنوان یک مدل متن به تصویر معرفی شده است که می‌تواند تصاویر با کیفیت بالا تولید کند. این مدل با 4702 دانلود و 570 لایک، توجه زیادی را جلب کرده است.",
-      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در ایجاد محتوای بصری کمک کند و کاربردهای متنوعی در صنعت دارد.",
+      "headline_fa": "مدل جدید Qwen-Image-2.1-Turbo برای تولید تصویر",
+      "summary_fa": "مدل Qwen-Image-2.1-Turbo به تازگی منتشر شده و قابلیت تبدیل متن به تصویر را دارد. این مدل با 6787 دانلود و 670 لایک، توجه زیادی را جلب کرده است.",
+      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در ایجاد تصاویر با کیفیت بالا از متن کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "model",
-        "text-to-image",
-        "AI"
+        "Qwen",
+        "image generation",
+        "AI model"
       ]
     },
     {
@@ -213,47 +240,169 @@
       "base_category": "model",
       "title": "مدل ترند: Qwen/Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "summary_raw": "likes: 17532 | downloads: 6843108 | pipeline: image-text-to-text",
-      "published_at": "2026-10-12T08:23:54.870443+00:00",
+      "summary_raw": "likes: 17596 | downloads: 6895303 | pipeline: image-text-to-text",
+      "published_at": "2026-10-13T08:48:47.975768+00:00",
       "importance_score": 7,
       "categories": [
         "model"
       ],
-      "headline_fa": "مدل Qwen3.8-27B: ترند جدید در هوش مصنوعی",
-      "summary_fa": "مدل Qwen3.8-27B به تازگی معرفی شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با بیش از 6 میلیون دانلود، توجه زیادی را جلب کرده است.",
-      "why_it_matters": "این مدل می‌تواند کاربردهای متنوعی در پردازش تصویر و متن داشته باشد.",
+      "headline_fa": "مدل جدید Qwen/Qwen3.8-27B معرفی شد",
+      "summary_fa": "مدل Qwen/Qwen3.8-27B به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با بیش از 6 میلیون دانلود، ابزار مفیدی برای توسعه‌دهندگان در زمینه هوش مصنوعی است.",
+      "why_it_matters": "این مدل به دلیل قابلیت‌های جدیدش می‌تواند به توسعه‌دهندگان در پروژه‌های هوش مصنوعی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "Qwen",
         "AI",
         "model",
-        "image-to-text"
+        "Qwen",
+        "image-text"
       ]
     },
     {
-      "id": "43dbafee1d",
-      "source": "awesome-opensource-ai (GitHub commits)",
-      "base_category": "tool",
-      "title": "[awesome-opensource-ai] Add freelm to inference serving and API servers (#825)\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
-      "url": "https://github.com/alvinreal/awesome-opensource-ai/commit/5cc09c3",
-      "summary_raw": "پروژه‌های متن‌باز AI — به‌روزرسانی روزانه — Add freelm to inference serving and API servers (#825)\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
-      "published_at": "2026-10-11T07:03:29Z",
+      "id": "041bdaaa27",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "summary_raw": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "published_at": "Mon, 12 Oct 2026 17:56:56 +0000",
       "importance_score": 7,
       "categories": [
-        "free-resource",
+        "model"
+      ],
+      "headline_fa": "مدل جدید متا به نام Muse Wonder معرفی شد",
+      "summary_fa": "متا مدل جدیدی به نام Muse Wonder را معرفی کرده که نسبت به مدل قبلی Muse Spark بزرگ‌تر و قدرتمندتر است. این مدل نتایج بهتری در وظایف پیچیده مانند کدنویسی ارائه می‌دهد.",
+      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در انجام وظایف پیچیده کمک کند و نشان‌دهنده پیشرفت‌های جدید در هوش مصنوعی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Meta",
+        "AI",
+        "model",
+        "Muse Wonder"
+      ]
+    },
+    {
+      "id": "029e5c8ce0",
+      "source": "IEEE Spectrum AI",
+      "base_category": "research",
+      "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+      "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+      "summary_raw": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Claude. The IEEE senior member is developing an infrastructure to understand the mechanics behind the chatbot’s behavior and to ensure its underlying architecture produces reliable outputs. Gurmeet Saran Employer Anthropic in San Francisco Title Member of technical staff Member grade IEEE senior member Alma maters University of Kalyani, in India; Birla Institute of Technology and Science, in Pilani, India “My job is to make sure the data is accurate, structured, and trustworthy, and that private data stays private,” ",
+      "published_at": "Mon, 12 Oct 2026 18:00:02 +0000",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مهندس آنتروپیک: حفظ اعتماد در هوش مصنوعی کلود",
+      "summary_fa": "گورمیت ساران، مهندس آنتروپیک، در حال توسعه زیرساختی برای درک رفتار چت‌بات کلود است. هدف او اطمینان از تولید خروجی‌های قابل اعتماد توسط این سیستم هوش مصنوعی است.",
+      "why_it_matters": "این تحقیق به بهبود قابلیت اعتماد و دقت هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "trustworthy AI"
+      ]
+    },
+    {
+      "id": "36ac5132f2",
+      "source": "Microsoft AI Blog",
+      "base_category": "model",
+      "title": "Deep dive into Azure Maia 300 architecture",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "summary_raw": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference. The post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog .",
+      "published_at": "Mon, 12 Oct 2026 13:00:00 +0000",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "بررسی عمیق معماری Azure Maia 300",
+      "summary_fa": "Maia 300 به عنوان یک پلتفرم واحد برای پاسخگویی به نیازهای استنتاج هوش مصنوعی در مقیاس ابری عمل می‌کند. این پست به تحلیل معماری این سیستم می‌پردازد و می‌تواند به توسعه‌دهندگان در درک بهتر این فناوری کمک کند.",
+      "why_it_matters": "این مقاله به درک عمیق‌تری از معماری پیشرفته Azure Maia 300 کمک می‌کند که می‌تواند به بهبود پروژه‌های هوش مصنوعی منجر شود.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Azure",
+        "AI",
+        "architecture",
+        "Maia 300"
+      ]
+    },
+    {
+      "id": "349b4a7296",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+      "summary_raw": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
+      "published_at": "Mon, 12 Oct 2026 17:52:22 +0000",
+      "importance_score": 7,
+      "categories": [
         "tool"
       ],
-      "headline_fa": "اضافه شدن freelm به سرورهای API و استنتاج",
-      "summary_fa": "پروژه متن‌باز freelm به سرورهای استنتاج و API اضافه شده است. این ابزار به توسعه‌دهندگان کمک می‌کند تا مدل‌های هوش مصنوعی را به راحتی در برنامه‌های خود استفاده کنند.",
-      "why_it_matters": "این به‌روزرسانی امکان استفاده آسان‌تر از مدل‌های هوش مصنوعی را برای توسعه‌دهندگان فراهم می‌کند.",
+      "headline_fa": "دسترسی به مدل‌های GPT-6 در آمازون بدراک",
+      "summary_fa": "این مطلب به شما آموزش می‌دهد که چگونه مدل‌های OpenAI GPT-6 را بر روی Amazon Bedrock اجرا کنید. همچنین به بررسی APIهای سازگار و مجوزهای لازم برای استفاده از این مدل‌ها می‌پردازد.",
+      "why_it_matters": "این خبر به توسعه‌دهندگان امکان می‌دهد تا از مدل‌های پیشرفته هوش مصنوعی در مناطق مختلف آسیا بهره‌برداری کنند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "Amazon Bedrock",
+        "AI",
+        "inference"
+      ]
+    },
+    {
+      "id": "95c1eabceb",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+      "summary_raw": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU.",
+      "published_at": "Mon, 12 Oct 2026 15:51:46 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "آموزش استقرار مدل‌های تصمیم‌گیری با llama.cpp در SageMaker",
+      "summary_fa": "در این مقاله یاد می‌گیرید که چگونه مدل‌های تصمیم‌گیری را با استفاده از llama.cpp در Amazon SageMaker AI مستقر کنید. این آموزش فنی به شما کمک می‌کند تا از AWS Deep Learning Container برای ارائه تکمیل‌های چت سازگار با OpenAI استفاده کنید.",
+      "why_it_matters": "این مقاله به توسعه‌دهندگان کمک می‌کند تا از ابزارهای جدید برای استقرار مدل‌های هوش مصنوعی بهره‌برداری کنند.",
       "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "open-source",
+        "AWS",
+        "SageMaker",
+        "llama.cpp",
         "AI",
-        "API",
-        "freelm"
+        "machine learning"
+      ]
+    },
+    {
+      "id": "df180d0c26",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Large language models discover complementary heuristics for combinatorial optimization",
+      "url": "https://www.nature.com/articles/s42256-026-01307-8",
+      "summary_raw": "Nature Machine Intelligence, Published online: 01 October 2026; doi:10.1038/s42256-026-01307-8 Huatian Gong and colleagues developed LACE, a large language model-based framework that designs optimization algorithms. It builds a verified problem contract, then evolves a portfolio of complementary heuristics that together solve problems that no single method can handle.",
+      "published_at": "2026-10-13T08:48:22.526665+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل LACE: بهینه‌سازی ترکیبی با هوش مصنوعی",
+      "summary_fa": "محققان با توسعه مدل LACE، الگوریتم‌های بهینه‌سازی را طراحی کرده‌اند که با استفاده از هورستیک‌های مکمل، مسائل پیچیده را حل می‌کند. این مدل به طور خاص برای مشکلاتی که هیچ روش واحدی قادر به حل آن‌ها نیست، طراحی شده است.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی الگوریتم‌های بهینه‌سازی در زمینه‌های مختلف کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "optimization",
+        "research",
+        "LACE"
       ]
     },
     {
@@ -263,14 +412,14 @@
       "title": "Regional climate risk assessment from climate models using probabilistic machine learning",
       "url": "https://www.nature.com/articles/s42256-026-01308-7",
       "summary_raw": "Nature Machine Intelligence, Published online: 28 September 2026; doi:10.1038/s42256-026-01308-7 A generative AI framework called GenFocal is introduced for climate downscaling, producing realistic fine-scale weather from coarse projections and improving regional risk estimates of compound extremes such as heatwaves and tropical cyclones.",
-      "published_at": "2026-10-12T08:23:31.171238+00:00",
+      "published_at": "2026-10-13T08:48:22.526903+00:00",
       "importance_score": 7,
       "categories": [
         "research"
       ],
-      "headline_fa": "ارزیابی ریسک اقلیمی با هوش مصنوعی ژنراتیو",
-      "summary_fa": "یک چارچوب هوش مصنوعی به نام GenFocal برای کاهش مقیاس اقلیمی معرفی شده است که پیش‌بینی‌های جوی دقیق‌تری تولید می‌کند. این مدل به بهبود برآوردهای ریسک منطقه‌ای از خطرات ترکیبی مانند موج‌های گرما و طوفان‌های گرمسیری کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود پیش‌بینی‌های اقلیمی و مدیریت بحران‌های طبیعی کمک کند.",
+      "headline_fa": "ارزیابی ریسک اقلیمی با هوش مصنوعی نسل جدید",
+      "summary_fa": "یک چارچوب هوش مصنوعی به نام GenFocal برای کاهش مقیاس اقلیمی معرفی شده است که پیش‌بینی‌های آب و هوایی دقیق‌تری از مدل‌های بزرگتر تولید می‌کند. این ابزار به بهبود برآوردهای ریسک منطقه‌ای در برابر حوادث شدید مانند موج‌های گرما و طوفان‌های گرمسیری کمک می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود مدیریت ریسک‌های اقلیمی و آمادگی در برابر حوادث طبیعی کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -281,98 +430,197 @@
       ]
     },
     {
-      "id": "5434ce1a7b",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "url": "https://arxiv.org/abs/2610.12582",
-      "summary_raw": "arXiv:2610.12582v1 Announce Type: new \nAbstract: A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model of the same size, a one-loop tax that makes a separate non-recurrent model the better choice whenever latency matters. We present Elastic Latent Recurrence (ELR), a recipe for training looped language models without this tax. At one loop, an ELR model costs the same to serve as a non-recurrent model of the same size and, trained on the same data, reaches similar accuracy. Each additional loop then buys more accuracy for more inference compute. Three choices make this work: a gated state update w",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "id": "223eedebe2",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: google/embeddinggemma-2",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "summary_raw": "likes: 1999 | downloads: 115763 | pipeline: feature-extraction",
+      "published_at": "2026-10-13T08:48:47.975714+00:00",
       "importance_score": 7,
       "categories": [
-        "research"
+        "model",
+        "free-resource"
       ],
-      "headline_fa": "مدل جدید ELR برای بهبود دقت زبان‌مدل‌ها",
-      "summary_fa": "مقاله‌ای جدید به بررسی Elastic Latent Recurrence (ELR) می‌پردازد که به مدل‌های زبانی امکان می‌دهد با تغییر تعداد حلقه‌ها، دقت را بهبود بخشند. این روش می‌تواند به توسعه‌دهندگان کمک کند تا مدل‌های بهینه‌تری برای کاربردهای مختلف بسازند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی و دقت مدل‌های زبانی کمک کند که در بسیاری از کاربردهای هوش مصنوعی حیاتی است.",
-      "opportunity": "no",
+      "headline_fa": "مدل جدید گوگل برای استخراج ویژگی‌ها معرفی شد",
+      "summary_fa": "مدل google/embeddinggemma-2 به تازگی منتشر شده و قابلیت استخراج ویژگی‌ها را دارد. این مدل با ۱۱۵۷۶۳ دانلود و ۱۹۹۹ لایک، ابزاری مفید برای توسعه‌دهندگان است.",
+      "why_it_matters": "این مدل می‌تواند به بهبود پروژه‌های هوش مصنوعی و یادگیری ماشین کمک کند.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "language-model",
-        "research",
-        "ELR"
+        "google",
+        "embeddinggemma",
+        "feature-extraction",
+        "AI",
+        "model"
       ]
     },
     {
-      "id": "a5e5be3cdd",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-      "url": "https://arxiv.org/abs/2610.12596",
-      "summary_raw": "arXiv:2610.12596v1 Announce Type: new \nAbstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap widens as the run lengthens: the strongest models win the first act as often as experts, then fall behind. What separates strong models from weak is how",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
+      "id": "ee7adf5b49",
+      "source": "The Verge AI",
+      "base_category": "viral",
+      "title": "Meta has some Wonder Full new AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "summary_raw": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
+      "published_at": "2026-10-12T13:00:00-04:00",
+      "importance_score": 7,
       "categories": [
-        "research"
+        "model"
       ],
-      "headline_fa": "بررسی استراتژی‌های بلندمدت در مدل‌های هوش مصنوعی با SpireBench",
-      "summary_fa": "مقاله جدیدی به نام SpireBench معرفی شده که در آن مدل‌های زبانی بزرگ در بازی Slay the Spire ارزیابی می‌شوند. این تحقیق به بررسی تصمیمات اولیه و تأثیر آن‌ها بر موفقیت بلندمدت می‌پردازد.",
-      "why_it_matters": "این تحقیق به درک بهتر از استدلال استراتژیک در مدل‌های هوش مصنوعی کمک می‌کند.",
+      "headline_fa": "مدل‌های جدید هوش مصنوعی متا معرفی شدند",
+      "summary_fa": "متا دو مدل جدید هوش مصنوعی به نام‌های Muse Wonder و Muse Wonder Full را معرفی کرده است. این مدل‌ها به گفته متا می‌توانند با بهترین‌های صنعت رقابت کنند.",
+      "why_it_matters": "این خبر نشان‌دهنده تلاش متا برای رقابت در بازار هوش مصنوعی است.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "LLM",
-        "research",
-        "strategic reasoning"
+        "Meta",
+        "Muse",
+        "models"
       ]
     },
     {
-      "id": "94f44cfa80",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
-      "url": "https://arxiv.org/abs/2610.12789",
-      "summary_raw": "arXiv:2610.12789v1 Announce Type: new \nAbstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study a complementary axis of self-evolution: evolving those beliefs during deployment. Such beliefs can support multiple tasks, but incorrect ones can also propagate across them. We introduce EvoBelief, a self-evolving world model that represents environment knowledge as falsifiable hypotheses. Unexpected outcomes and decision-relevant unknowns trigger hypothesis formation. Later observations and controlled experiments provide independent validation before a rule can guide predictions or plans withi",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
+      "id": "5174683923",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
+      "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "summary_raw": "Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta's new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
+      "published_at": "Mon, 12 Oct 2026 18:48:29 +0000",
+      "importance_score": 7,
       "categories": [
-        "research"
+        "model"
       ],
-      "headline_fa": "مدل‌های جهانی قابل رد EvoBelief برای LLM های خودبهبوددهنده",
-      "summary_fa": "مقاله EvoBelief به بررسی چگونگی تکامل باورهای LLM های خودتکامل‌یافته در حین استقرار می‌پردازد. این مدل می‌تواند به بهبود عملکرد این سیستم‌ها در محیط‌های پیچیده کمک کند.",
-      "why_it_matters": "این تحقیق به درک بهتر از چگونگی بهبود خودکار LLM ها در شرایط واقعی کمک می‌کند.",
+      "headline_fa": "مدل جدید متا، Muse Wonder، به جمع برترین‌های هوش مصنوعی پیوست",
+      "summary_fa": "مدل‌های جدید Muse Wonder متا در شش از ده معیار در رتبه‌های سه‌گانه قرار دارند و در وظایف عاملی پیشرفت‌های قابل توجهی داشته‌اند. با این حال، هزینه هر وظیفه تقریباً سه برابر شده است.",
+      "why_it_matters": "این خبر نشان‌دهنده پیشرفت‌های مهم متا در زمینه هوش مصنوعی و چالش‌های هزینه‌ای آن است.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "EvoBelief",
-        "LLM",
+        "Meta",
+        "AI",
+        "Muse Wonder",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "09a4d1f83a",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
+      "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+      "summary_raw": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same errors across all three roles, it can mistake them for progress and reinforce them during training. The article Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots appeared first on The Decoder .",
+      "published_at": "Mon, 12 Oct 2026 17:58:54 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "مدل خودبهبود Sakana AI در حل و قضاوت بهتر می‌شود",
+      "summary_fa": "مدل MASS Sakana AI به خودی خود با حل وظایف و قضاوت نتایج بهبود می‌یابد و پس از دو دور به نرخ پیروزی نزدیک به ۷۰ درصد می‌رسد. اما این مدل نمی‌تواند نقاط کور خود را شناسایی کند و ممکن است خطاها را به عنوان پیشرفت تقویت کند.",
+      "why_it_matters": "این مدل نشان‌دهنده پیشرفت‌های جدید در یادگیری خودبهبود است که می‌تواند به بهینه‌سازی عملکرد مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Sakana AI",
         "self-improvement",
-        "world models"
+        "MASS method",
+        "AI model"
       ]
     },
     {
-      "id": "732000cd6a",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
-      "url": "https://arxiv.org/abs/2610.12669",
-      "summary_raw": "arXiv:2610.12669v1 Announce Type: new \nAbstract: Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks cannot be supported reliably without first identifying the necessary datasets and constraints. GeoFitBench-LLM is introduced as a benchmark for assessing whether LLMs can infer the datasets, the supporting resources and the constraints required by geo-analytic requests in natural language. The benchmark is structured around two reasoning dimensions, Spatio-Temporal Relational and Semantic Grounding, reflecting long-standing challenges in geospatial information retrieval and related natural language tasks. Ground truth requirements",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
+      "id": "e5ad9b439c",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Clearing chat history helps AI agents find better solutions",
+      "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
+      "summary_raw": "Microsoft researchers found that autonomous AI agents get trapped in what they call \"idea basins\" because of their growing chat context, local solution regions they can't escape. Their \"Fork-and-Flush\" method clears the chat history but keeps the workspace, achieving up to 66 percent better results on the same compute budget. The article Clearing chat history helps AI agents find better solutions appeared first on The Decoder .",
+      "published_at": "Mon, 12 Oct 2026 16:10:00 +0000",
+      "importance_score": 7,
       "categories": [
         "research"
       ],
-      "headline_fa": "معیار جدید برای ارزیابی مدل‌های زبانی بزرگ در داده‌های جغرافیایی",
-      "summary_fa": "مقاله جدیدی به نام GeoFitBench-LLM معرفی شده که به ارزیابی توانایی مدل‌های زبانی بزرگ در شناسایی نیازهای داده‌های جغرافیایی می‌پردازد. این معیار به تحلیل‌های جغرافیایی کمک می‌کند تا داده‌های لازم و محدودیت‌ها را شناسایی کنند.",
-      "why_it_matters": "این تحقیق به بهبود دقت و کارایی سیستم‌های هوش مصنوعی جغرافیایی کمک می‌کند.",
+      "headline_fa": "پاک‌سازی تاریخچه چت به بهبود راه‌حل‌های هوش مصنوعی کمک می‌کند",
+      "summary_fa": "محققان مایکروسافت دریافته‌اند که عامل‌های هوش مصنوعی خودمختار در مناطق راه‌حل محلی گرفتار می‌شوند. روش 'Fork-and-Flush' با پاک‌سازی تاریخچه چت، نتایج بهتری را در همان بودجه محاسباتی ارائه می‌دهد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد سیستم‌های هوش مصنوعی و افزایش کارایی آنها کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "GeoAI",
-        "LLM",
-        "benchmark",
-        "geospatial"
+        "AI",
+        "research",
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "6608b3d248",
+      "source": "Engadget",
+      "base_category": "viral",
+      "title": "Meta says it's caught up to the frontier with its latest Wonder AI models",
+      "url": "https://www.engadget.com/2284478/meta-says-its-caught-up-to-the-frontier-with-its-latest-wonder-ai-models/",
+      "summary_raw": "The models add \"active memory\" and \"active focus\" abilities.",
+      "published_at": "Mon, 12 Oct 2026 18:51:52 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل‌های جدید هوش مصنوعی متا با حافظه فعال معرفی شدند",
+      "summary_fa": "متا از مدل‌های جدید هوش مصنوعی خود با قابلیت‌های حافظه فعال و تمرکز فعال رونمایی کرده است. این مدل‌ها می‌توانند در بهبود تعاملات هوشمند و تجربه کاربری موثر باشند.",
+      "why_it_matters": "این مدل‌ها نشان‌دهنده پیشرفت‌های مهم در قابلیت‌های هوش مصنوعی هستند که می‌توانند کاربردهای متنوعی داشته باشند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Meta",
+        "AI",
+        "active memory",
+        "active focus"
+      ]
+    },
+    {
+      "id": "656684f7a1",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Shifting from knowledge retrieval to evidence exploration and synthesis",
+      "url": "https://www.nature.com/articles/s42256-026-01313-w",
+      "summary_raw": "Nature Machine Intelligence, Published online: 01 October 2026; doi:10.1038/s42256-026-01313-w Biomedical discovery has entered an era in which the limiting resource is no longer data, but our ability to integrate and interpret evidence. DeepEvidence, a new deep research agent, goes beyond retrieving facts and constructs explicit representations of scientific evidence.",
+      "published_at": "2026-10-13T08:48:22.526489+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحول در کشف علمی با DeepEvidence",
+      "summary_fa": "DeepEvidence یک عامل تحقیق عمیق جدید است که فراتر از بازیابی اطلاعات عمل می‌کند و نمایه‌های واضحی از شواهد علمی ایجاد می‌کند. این ابزار به پژوهشگران کمک می‌کند تا شواهد را بهتر یکپارچه و تفسیر کنند.",
+      "why_it_matters": "این پیشرفت می‌تواند به تسریع در کشف‌های بیومدیکال کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "DeepEvidence",
+        "biomedical",
+        "research",
+        "evidence"
+      ]
+    },
+    {
+      "id": "635fad8744",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Task-structured modularity emerges in artificial networks and aligns with brain architecture",
+      "url": "https://www.nature.com/articles/s42256-026-01306-9",
+      "summary_raw": "Nature Machine Intelligence, Published online: 28 September 2026; doi:10.1038/s42256-026-01306-9 Wu et al. show that neural networks learning multiple tasks organize into specialized modules, particularly under capacity constraints. Incremental multitask learning strengthens this modularity and produces architectures resembling brain networks.",
+      "published_at": "2026-10-13T08:48:22.527416+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "ظهور ماژولاریتی ساختاری در شبکه‌های مصنوعی",
+      "summary_fa": "محققان نشان می‌دهند که شبکه‌های عصبی در حال یادگیری چندین وظیفه به ماژول‌های تخصصی تقسیم می‌شوند. این ماژولاریتی به ویژه تحت محدودیت‌های ظرفیت تقویت می‌شود و شباهت‌هایی به شبکه‌های مغزی دارد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود طراحی شبکه‌های عصبی و درک بهتر از عملکرد مغز کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "neural networks",
+        "modularity",
+        "multitask learning",
+        "brain architecture"
       ]
     },
     {
@@ -382,14 +630,14 @@
       "title": "Characterizing the role of reasoning tokens in large language models as state over tokens",
       "url": "https://www.nature.com/articles/s42256-026-01303-y",
       "summary_raw": "Nature Machine Intelligence, Published online: 07 October 2026; doi:10.1038/s42256-026-01303-y When large language models ‘reason’ about a problem, they might still solve it differently from what their reasoning transcript suggest. In this Perspective, Levy et al. describe how one can start investigating the role of these reasoning tokens.",
-      "published_at": "2026-10-12T08:23:31.170753+00:00",
+      "published_at": "2026-10-13T08:48:22.526357+00:00",
       "importance_score": 6,
       "categories": [
         "research"
       ],
       "headline_fa": "تحلیل نقش توکن‌های استدلال در مدل‌های زبانی بزرگ",
-      "summary_fa": "این مقاله به بررسی چگونگی عملکرد توکن‌های استدلال در مدل‌های زبانی بزرگ می‌پردازد و نشان می‌دهد که ممکن است نتایج متفاوتی از آنچه که در استدلال‌ها آمده، حاصل شود. این تحقیق می‌تواند به درک بهتر فرآیندهای تصمیم‌گیری در هوش مصنوعی کمک کند.",
-      "why_it_matters": "این تحقیق به ما کمک می‌کند تا درک بهتری از نحوه استدلال مدل‌های زبانی بزرگ داشته باشیم.",
+      "summary_fa": "این مقاله به بررسی چگونگی عملکرد توکن‌های استدلال در مدل‌های زبانی بزرگ می‌پردازد و نشان می‌دهد که ممکن است نتایج متفاوتی از آنچه استدلال‌ها پیشنهاد می‌کنند، حاصل شود. این تحقیق می‌تواند به درک بهتر فرآیند استدلال در هوش مصنوعی کمک کند.",
+      "why_it_matters": "این مقاله به درک عمیق‌تری از عملکرد مدل‌های زبانی و بهبود آن‌ها کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
@@ -400,145 +648,50 @@
       ]
     },
     {
-      "id": "fe95b2bc1b",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
-      "url": "https://arxiv.org/abs/2610.12593",
-      "summary_raw": "arXiv:2610.12593v1 Announce Type: new \nAbstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing methods increasingly incorporate environment feedback, data validation, or learner failures, but still face a feedback-to-decision gap: observed weaknesses do not directly specify how future synthesis should change, or whether they can be represented by the current synthesis space. To address this gap, we propose EvoSyn, a learning-feedback-driven multi-agent framework that organizes synthesis around a revisable state specifying what interaction factors",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "id": "df733e87ad",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "summary_raw": "likes: 385 | downloads: 161715 | pipeline: text-to-image",
+      "published_at": "2026-10-13T08:48:47.975777+00:00",
       "importance_score": 6,
       "categories": [
-        "research"
+        "model"
       ],
-      "headline_fa": "توسعه یادگیری حلقه‌ای با سنتز داده‌های هوشمند",
-      "summary_fa": "این مقاله به بررسی روش‌های سنتز داده برای بهبود یادگیری مدل‌های زبان بزرگ می‌پردازد. با استفاده از تعاملات و بازخوردهای محیطی، این رویکرد به کاهش فاصله بین بازخورد و تصمیم‌گیری کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد مدل‌های هوش مصنوعی در وظایف تعاملی کمک کند.",
+      "headline_fa": "مدل AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF معرفی شد",
+      "summary_fa": "مدل جدید AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF به عنوان یک مدل متن به تصویر در دسترس قرار گرفته است. این مدل با 385 لایک و 161715 دانلود، قابلیت‌های جالبی برای تولید تصاویر از متن ارائه می‌دهد.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا تصاویر با کیفیت بالا را به راحتی از متن تولید کنند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "data-synthesis",
-        "machine-learning",
-        "research"
+        "model",
+        "text-to-image"
       ]
     },
     {
-      "id": "53fab5c098",
-      "source": "ArXiv CS.AI",
+      "id": "3d5d529bb5",
+      "source": "ZDNet AI",
       "base_category": "research",
-      "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
-      "url": "https://arxiv.org/abs/2610.12881",
-      "summary_raw": "arXiv:2610.12881v1 Announce Type: new \nAbstract: Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world models. However, existing evaluations of multimodal large language models (MLLMs) for spatial reasoning rely predominantly on static question-answering (QA) over small-scale or synthetic scenes, rarely probing whether models can modify spatial configurations while satisfying explicit geometric constraints. We introduce GeoSpatialBench, a benchmark designed to evaluate an escalating progression of spatial cognition, ranging from spatial relation understanding and geometric reasoning to constrained spatial editing. Grounded in real-world urban data across six geographically diverse cities, GeoSpatia",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "title": "Claude sent a false homicide tip to police – and it’s part of a troubling AI pattern",
+      "url": "https://www.zdnet.com/innovation/claude-false-homicide-tip/",
+      "summary_raw": "Models routinely take shortcuts to pass evaluations. Who gets to decide what incidents are innocuous?",
+      "published_at": "2026-10-12T17:45:44Z",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "معرفی بنچمارک جدید برای استدلال جغرافیایی در هوش مصنوعی",
-      "summary_fa": "این مقاله به بررسی توانایی مدل‌های زبان بزرگ در درک و ویرایش روابط فضایی می‌پردازد. نتایج می‌تواند به بهبود مدل‌های هوش مصنوعی در تعامل با محیط‌های فیزیکی کمک کند.",
-      "why_it_matters": "این تحقیق به پیشرفت‌های مهمی در زمینه استدلال فضایی و مدل‌سازی دنیای واقعی در هوش مصنوعی منجر می‌شود.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "geospatial",
-        "reasoning",
-        "AI",
-        "benchmark"
-      ]
-    },
-    {
-      "id": "841866ec97",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "SynAct: Synergistic Active Feedback Learning for LLM Agents",
-      "url": "https://arxiv.org/abs/2610.12651",
-      "summary_raw": "arXiv:2610.12651v1 Announce Type: new \nAbstract: LLM agents executing multi-step workflows fail in two fundamentally different ways: recoverable slips, which further attempts can repair, and knowledge gaps, which retrying cannot resolve. Expert feedback can address the latter, but expert attention is scarce. The key challenge is therefore not whether to ask for feedback, but where feedback can change the outcome. Existing approaches either avoid expert feedback, allowing agents to reinforce their own errors, or allocate feedback at the task level without identifying consequential decisions. We present SynAct, an active learning framework that treats expert attention as the binding constraint and allocates feedback at the level of individual decisions. SynAct ranks decisions by the mutual i",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "یادگیری بازخورد فعال هم‌افزایانه برای عامل‌های LLM",
-      "summary_fa": "این مقاله به بررسی چالش‌های عامل‌های LLM در اجرای کارهای چند مرحله‌ای می‌پردازد و راهکارهایی برای بهبود بازخورد از کارشناسان ارائه می‌دهد. با استفاده از بازخورد تخصصی، می‌توان به شکاف‌های دانشی که با تلاش‌های مجدد قابل حل نیستند، رسیدگی کرد.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد عامل‌های LLM کمک کند و به توسعه‌دهندگان در طراحی سیستم‌های هوش مصنوعی کارآمدتر یاری رساند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "LLM",
-        "feedback",
-        "machine learning",
-        "research"
-      ]
-    },
-    {
-      "id": "774c19db7a",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "Unsupervised Multimodal Reward Modeling",
-      "url": "https://arxiv.org/abs/2610.12707",
-      "summary_raw": "arXiv:2610.12707v1 Announce Type: new \nAbstract: Vision-language reward models are trained on annotated preference pairs, which are expensive to collect, can disagree, and are ranked by benchmark accuracy. We build one with no human preference label: a linear head on an intermediate layer of a frozen Qwen3-VL backbone, trained to score a web caption above a perturbed version of the same caption; labeled data enters only to select the layer. The layer is the decisive choice, worth 5.8 points over the last layer, and one recipe transferred without re-tuning beats or at least matches GPT-4o on three benchmarks at 32B, 6.6 points ahead on VL-RewardBench, from a few thousand parameters at about a thousandth of fine-tuning compute. At an equal pair budget, perturbations teach a frozen head 3 to ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل جدید پاداش چندرسانه‌ای بدون برچسب انسانی",
-      "summary_fa": "این مقاله به توسعه یک مدل پاداش چندرسانه‌ای می‌پردازد که بدون نیاز به برچسب‌های انسانی آموزش داده می‌شود. این مدل می‌تواند برای ارزیابی کیفیت توصیف‌های وب استفاده شود.",
-      "why_it_matters": "این تحقیق می‌تواند هزینه‌های جمع‌آوری داده‌های برچسب‌گذاری شده را کاهش دهد و دقت مدل‌های پاداش را بهبود بخشد.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "reward_modeling",
-        "multimodal",
-        "AI_research"
-      ]
-    },
-    {
-      "id": "cf2958de15",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "When Charts Deceive Web Agents: A Paired Benchmark for Misleading Visualization-Grounded Tasks",
-      "url": "https://arxiv.org/abs/2610.12823",
-      "summary_raw": "arXiv:2610.12823v1 Announce Type: new \nAbstract: Web agents increasingly browse, interpret, and act on web content on behalf of users. In many realistic workflows, however, the visual evidence they consume is not neutral: charts and dashboards can be misleading, shaping judgments without issuing any explicit malicious instruction. Unlike chart question answering, Web Agents treat charts as intermediate evidence whose misinterpretation can propagate into concrete downstream actions --- a reliability risk that remains underexplored. We introduce MisVisAgentBench, the first paired executable benchmark for evaluating how misleading visualizations affect Web Agent execution. It comprises 280 task instances in matched clean--misleading pairs that differ only in chart evidence. We further provide",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "چالش‌های بصری در هوش مصنوعی و تأثیر آن بر تصمیم‌گیری",
-      "summary_fa": "این مقاله به بررسی چگونگی تأثیر بصری نمودارها بر تصمیم‌گیری‌های هوش مصنوعی می‌پردازد. نتایج می‌تواند به توسعه‌دهندگان کمک کند تا سیستم‌های هوش مصنوعی را برای تفسیر بهتر داده‌ها بهبود بخشند.",
-      "why_it_matters": "این تحقیق به درک بهتر از چالش‌های بصری در تعاملات هوش مصنوعی کمک می‌کند.",
+      "headline_fa": "نقش هوش مصنوعی در ارسال اطلاعات نادرست به پلیس",
+      "summary_fa": "مدل‌های هوش مصنوعی به طور مکرر برای گذراندن ارزیابی‌ها از میان‌برها استفاده می‌کنند. این موضوع به افزایش نگرانی‌ها درباره تصمیم‌گیری در مورد حوادث بی‌خطر منجر شده است.",
+      "why_it_matters": "این موضوع به چالش‌های اخلاقی و اجتماعی استفاده از هوش مصنوعی در تصمیم‌گیری‌های حساس اشاره دارد.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "visualization",
-        "research"
-      ]
-    },
-    {
-      "id": "5a4b624cba",
-      "source": "r/MachineLearning",
-      "base_category": "research",
-      "title": "Are .ipynb notebooks already outdated in the agentic era? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2cbug/are_ipynb_notebooks_already_outdated_in_the/",
-      "summary_raw": "I am a data scientist who started working in the industry before the LLM revolution. Back then, Jupyter Notebooks were a perfect fit for the classical DS pipeline: EDA -> data prep -> fit -> eval -> tune -> save model artefact and notebook. Lately, I have been thinking a lot about how agentic development and LLMs are changing the way data scientists work. Especially in classical ML applications, where you still need to explore data, run experiments, check different hypotheses and decide what to do next based on the results. I mean, Claude/Codex can already write most of the code for us. But wh",
-      "published_at": "2026-10-10T10:51:44+00:00",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "آیا نوت‌بوک‌های .ipynb در عصر هوش مصنوعی قدیمی شده‌اند؟",
-      "summary_fa": "این پست به بررسی تغییرات ناشی از هوش مصنوعی و مدل‌های زبانی بزرگ بر روی روش‌های کار داده‌دانان می‌پردازد. نویسنده به چالش‌ها و نیازهای جدید در فرآیندهای یادگیری ماشین اشاره می‌کند.",
-      "why_it_matters": "این بحث به درک بهتر از تحولات در صنعت داده و هوش مصنوعی کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "LLM",
-        "data science",
-        "Jupyter Notebooks",
-        "machine learning"
+        "homicide",
+        "ethics",
+        "decision-making"
       ]
     },
     {
@@ -553,17 +706,40 @@
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌های هوش مصنوعی هنوز به خودانتقادی علمی نرسیده‌اند",
-      "summary_fa": "تحقیقات Epoch AI و Anthropic نشان می‌دهد که مدل‌های فعلی مانند GPT-5.6 Sol و Claude Fable 5 قادر به انجام آزمایش‌ها هستند اما از نظر تفکر خلاق و انتقادی ضعف دارند. این مدل‌ها تنها ۱۵ درصد از امتیاز مرجع انسانی را کسب کرده‌اند و نمی‌توانند نتایج خود را به چالش بکشند.",
-      "why_it_matters": "این یافته‌ها نشان می‌دهد که مدل‌های هوش مصنوعی هنوز به سطحی از خودانتقادی و خلاقیت لازم برای تحقیقات مستقل نرسیده‌اند.",
+      "headline_fa": "مدل‌های هوش مصنوعی در خودانتقادی ناتوانند",
+      "summary_fa": "تحقیقات نشان می‌دهد که مدل‌های هوش مصنوعی مانند GPT-5.6 Sol و Claude Fable 5 قادر به انجام آزمایشات هستند اما در نقد نتایج خود ناتوانند. این ناتوانی مانع از رسیدن به نتایج علمی معتبر می‌شود.",
+      "why_it_matters": "این یافته‌ها نشان می‌دهد که هنوز راه زیادی تا دستیابی به تحقیق خودکار و خلاقانه وجود دارد.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
         "research",
-        "self-criticism",
-        "GPT-5.6",
-        "Claude Fable"
+        "GPT",
+        "Claude"
+      ]
+    },
+    {
+      "id": "ea574f69de",
+      "source": "Two Minute Papers",
+      "base_category": "research",
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "summary_raw": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The DeepSeek OCR paper is available here:\nhttps://github.com/deepseek-ai/DeepSeek-OCR\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+      "published_at": "2026-10-11T16:53:17+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "حل مشکل حافظه هوش مصنوعی با DeepSeek",
+      "summary_fa": "مقاله DeepSeek OCR به بررسی یک رویکرد جدید در پردازش متن می‌پردازد که می‌تواند به بهبود عملکرد سیستم‌های هوش مصنوعی کمک کند. این مقاله به توسعه‌دهندگان امکان می‌دهد تا از این تکنیک در پروژه‌های خود استفاده کنند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی و دقت مدل‌های هوش مصنوعی در پردازش متن کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "DeepSeek",
+        "OCR",
+        "research"
       ]
     },
     {
@@ -573,592 +749,256 @@
       "title": "Towards foundation-style models for energy-frontier heterogeneous neutrino detectors via self-supervised pretraining",
       "url": "https://www.nature.com/articles/s42256-026-01309-6",
       "summary_raw": "Nature Machine Intelligence, Published online: 30 September 2026; doi:10.1038/s42256-026-01309-6 Alonso-Monsalve et al. demonstrate that self-supervised pretraining helps deep learning models to interpret complex neutrino detector events, improving classification, reconstruction and data efficiency while enabling transfer across different neutrino detector technologies.",
-      "published_at": "2026-10-12T08:23:31.171128+00:00",
+      "published_at": "2026-10-13T08:48:22.526788+00:00",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل‌های هوش مصنوعی برای شناسایی نوترینوها بهبود یافتند",
-      "summary_fa": "محققان با استفاده از پیش‌آموزش خودنظارتی، مدل‌های یادگیری عمیق را برای تفسیر رویدادهای پیچیده در آشکارسازهای نوترینو بهبود بخشیدند. این روش به بهبود طبقه‌بندی، بازسازی و کارایی داده‌ها کمک می‌کند.",
-      "why_it_matters": "این تحقیق می‌تواند به پیشرفت فناوری‌های شناسایی نوترینو و بهبود دقت در علوم بنیادی کمک کند.",
+      "headline_fa": "مدل‌های پیشرفته برای تشخیص نوترینو با یادگیری خودنظارتی",
+      "summary_fa": "محققان نشان داده‌اند که پیش‌آموزش خودنظارتی به مدل‌های یادگیری عمیق کمک می‌کند تا رویدادهای پیچیده در آشکارسازهای نوترینو را تفسیر کنند. این روش باعث بهبود طبقه‌بندی، بازسازی و کارایی داده‌ها می‌شود.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود تکنولوژی‌های آشکارسازی نوترینو و کاربردهای مرتبط با آن کمک کند.",
       "opportunity": "no",
-      "viral_potential": "medium",
+      "viral_potential": "low",
       "tags": [
         "neutrino",
-        "deep learning",
+        "deep-learning",
         "self-supervised",
         "research"
       ]
     },
     {
-      "id": "3d52e51d55",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "url": "https://arxiv.org/abs/2610.12493",
-      "summary_raw": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather, XAI appears to function primarily as a debugging tool, useful for obtaining anecdotal insights into, for example, features learned by the model. One of the main issues underlying this limitation is that XAI methods often oversimplify the inner workings of the model, resulting in misalignment between the explanation and the model itself -",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "id": "b609c4e705",
+      "source": "Hacker News Front",
+      "base_category": "tool",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "summary_raw": "Hey HN, I’m Vishnu from Agent37 ( https://agent37.com ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video walkthrough of the product here: https://youtu.be/DK5ISR2tbNo We started as one of those OpenClaw wrapper companies back in February (yup.. judge me). In time we added more and more harnesses. One of the goals I had at the time was to offer a free plan to users, so as to gain more market share. But it was too cost prohibitive to do it right away. Especially since we were bootstrapped and servers were running on my savings. Today we’re actually able to offer the free plan thanks to the optimizations we’ve made since. Over 90% of the new signups we have are just fre",
+      "published_at": "Mon, 12 Oct 2026 16:46:34 +0000",
       "importance_score": 6,
       "categories": [
-        "research"
+        "tool",
+        "startup"
       ],
-      "headline_fa": "چالش‌های وفاداری در هوش مصنوعی توضیح‌پذیر",
-      "summary_fa": "این مقاله به بررسی مشکلات ساختاری در معیارهای وفاداری هوش مصنوعی توضیح‌پذیر می‌پردازد. نتایج نشان می‌دهد که این ابزارها ممکن است به اعتماد کاذب منجر شوند.",
-      "why_it_matters": "این تحقیق به درک بهتر از چالش‌های موجود در ابزارهای XAI کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "XAI",
-        "faithfulness",
-        "metrics",
-        "research"
-      ]
-    },
-    {
-      "id": "fed079feda",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
-      "url": "https://arxiv.org/abs/2610.12598",
-      "summary_raw": "arXiv:2610.12598v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately trained reward model. To this end, we introduce Behavioral Self-Rewarding (BSR), a reward-refinement method that reuses the policy to compare observable debugging behavior among trajectories from the same task with the same verifier outcome. BSR aggregates pairwise preferences into task-local scores and converts them into bounded auxiliary rewards, introducing ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "پاداش‌های قابل تأیید: خودپاداش‌دهی رفتاری برای عامل‌های SWE",
-      "summary_fa": "این مقاله به بررسی یادگیری تقویتی با پاداش‌های قابل تأیید می‌پردازد و نشان می‌دهد که چگونه عامل‌ها می‌توانند عملکرد خود را بدون نیاز به مدل پاداش جداگانه بهبود بخشند. با استفاده از قضاوت‌های خود، این عامل‌ها می‌توانند کیفیت دیباگینگ را بهتر تشخیص دهند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد عامل‌های نرم‌افزاری در فرآیندهای دیباگینگ کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "low",
-      "tags": [
-        "reinforcement learning",
-        "self-rewarding",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "a0172b0daf",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
-      "url": "https://arxiv.org/abs/2610.12655",
-      "summary_raw": "arXiv:2610.12655v1 Announce Type: new \nAbstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete information and uses additional answers, the same clarification can become more or less useful. We introduce CLEAT (CLarification through valuE-guided Agent co-Training), a framework that co-trains a clarification-value controller and the task policy from shared interaction outcomes. We formulate residual query value to measure the task utility gained by as",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "یادگیری شفاف‌سازی ارزش‌مدار برای عامل‌های تعاملی",
-      "summary_fa": "این مقاله به بررسی چگونگی همراستایی اقدامات عامل‌های LLM با اهداف و محدودیت‌های کاربران می‌پردازد. شفاف‌سازی تنها زمانی مفید است که عامل بتواند پاسخ‌ها را به تصمیمات بهتری تبدیل کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود تعاملات انسان و ماشین کمک کند.",
-      "opportunity": "no",
+      "headline_fa": "راه‌اندازی Agent37: محیط‌های ارزان‌قیمت برای اجرای هوش مصنوعی",
+      "summary_fa": "Agent37 یک پلتفرم برای ایجاد محیط‌های مجازی ارزان‌قیمت برای اجرای هوش مصنوعی ارائه می‌دهد. کاربران می‌توانند با هزینه‌ای بسیار پایین، به این محیط‌ها دسترسی پیدا کنند و از آن‌ها استفاده کنند.",
+      "why_it_matters": "این ابزار می‌تواند به توسعه‌دهندگان کمک کند تا به راحتی و با هزینه کم، پروژه‌های هوش مصنوعی خود را آزمایش کنند.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "LLM",
-        "clarification",
-        "interactive agents"
+        "sandbox",
+        "startup",
+        "cost-effective"
       ]
     },
     {
-      "id": "cf94dc3555",
-      "source": "ArXiv CS.AI",
+      "id": "fef3663b22",
+      "source": "r/MachineLearning",
       "base_category": "research",
-      "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
-      "url": "https://arxiv.org/abs/2610.12659",
-      "summary_raw": "arXiv:2610.12659v1 Announce Type: new \nAbstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effective RLVR data, we experimentally characterize dataset effectiveness as a function of its problems, the target policy, and the training rollout budget. Under this characterization, we show that a large open-source math corpus pooled from widely used RLVR datasets falls almost entirely into a zero-advantage trap: for a fixed target policy and rollout budget, roughly 88% of its problems are solved in every rollout or failed in every rollout. Filtering concentrates what remains, but it can only sel",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "title": "Constrained Learning for Scientific Modelling (Paris NeurIPS pre-event) [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vr5g/constrained_learning_for_scientific_modelling/",
+      "summary_raw": "CALL FOR CONTRIBUTIONS CL4SM session at ELLIs UnConference, a NeurIPS Paris pre-event: https://badulion.github.io/cl4sm\\_2026/ Machine learning models of scientific and engineering systems can fit the data well and still be physically wrong: they create or destroy mass and energy, produce negative concentrations, violate boundary conditions, or drift into unphysical regimes. CL4SM promotes discussion on machine learning models that respect conservation laws, symmetries, stability, and other prior knowledge. TOPICS include, but are not limited to: - Soft constraint enforcement (penalty and augm",
+      "published_at": "2026-10-12T07:46:00+00:00",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "تحلیل جدید در یادگیری تقویتی با MagicBeanStalk",
-      "summary_fa": "مقاله جدیدی در arXiv منتشر شده که به بررسی کارایی مجموعه داده‌های یادگیری تقویتی می‌پردازد. این تحقیق به شناسایی ویژگی‌های موثر در داده‌ها برای بهبود یادگیری سیاست‌های هدف کمک می‌کند.",
-      "why_it_matters": "این مقاله می‌تواند به توسعه‌دهندگان در بهینه‌سازی مجموعه داده‌های یادگیری تقویتی کمک کند.",
+      "headline_fa": "آموزش محدود برای مدل‌سازی علمی در NeurIPS",
+      "summary_fa": "جلسه CL4SM در کنفرانس ELLIs به بررسی مدل‌های یادگیری ماشین می‌پردازد که قوانین فیزیکی را رعایت می‌کنند. این رویداد فرصتی برای بحث در مورد چالش‌های مدل‌سازی علمی با استفاده از یادگیری ماشین است.",
+      "why_it_matters": "این موضوع به بهبود دقت مدل‌های علمی و مهندسی کمک می‌کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "RLVR",
-        "data-synthesis",
-        "machine-learning",
-        "research"
+        "machinelearning",
+        "scientificmodelling",
+        "NeurIPS"
       ]
     },
     {
-      "id": "ada847f808",
-      "source": "ArXiv CS.AI",
+      "id": "cb7c4cd27d",
+      "source": "r/MachineLearning",
       "base_category": "research",
-      "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2610.12762",
-      "summary_raw": "arXiv:2610.12762v1 Announce Type: new \nAbstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because datasheets are lengthy and heterogeneous, with dense information fragmented across tables, figures, and text. Although large language models (LLMs) can automate this process, na\\\"ive one-shot processing omits relevant specifications even when the document fits within the model's context window.\n  We present an automated LLM-driven pipeline that transforms hardware datasheets into general-purpose hierarchical hardware knowledge graphs through chunk-based property extraction, hierarchical routing, and iterative refinement. The framewo",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "title": "Generating exam questions from a school’s own past papers: looking for a second opinion on the pipeline [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3wgif/generating_exam_questions_from_a_schools_own_past/",
+      "summary_raw": "Hi all, I’m building a question bank feature for a school platform (high school, mixed Cambridge + in-house curriculum). The idea: new questions are generated from the school’s own past papers. The curriculum’s learning objectives, which are already in our database, act as a guard rail so questions stay in scope. A curriculum admin approves everything; teachers only use the approved bank. I have a working prototype: Question papers + mark schemes (PDFs) go to an LLM, which splits them into items at sub-question level and tags each to objectives A small model writes new questions; a different m",
+      "published_at": "2026-10-12T08:31:06+00:00",
       "importance_score": 6,
       "categories": [
-        "research"
+        "tool"
       ],
-      "headline_fa": "ساخت خودکار گراف دانش سخت‌افزاری با LLM",
-      "summary_fa": "این مقاله به بررسی چگونگی استفاده از مدل‌های زبانی بزرگ برای خودکارسازی ساخت گراف‌های دانش سخت‌افزاری می‌پردازد. این روش می‌تواند به کاهش خطاها و تسهیل فرآیند انتخاب و یکپارچه‌سازی قطعات سخت‌افزاری کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی و دقت در انتخاب قطعات سخت‌افزاری کمک کند.",
+      "headline_fa": "تولید سوالات امتحانی از سوالات گذشته مدرسه",
+      "summary_fa": "یک ویژگی بانک سوال برای پلتفرم مدرسه در حال توسعه است که سوالات جدید را از سوالات گذشته خود مدرسه تولید می‌کند. این سیستم با استفاده از اهداف یادگیری موجود در پایگاه داده، سوالات را در محدوده مشخصی نگه می‌دارد.",
+      "why_it_matters": "این پروژه می‌تواند به بهبود فرآیند ارزیابی در مدارس کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "LLM",
-        "hardware",
-        "knowledge graph",
-        "automation"
+        "education",
+        "AI",
+        "question-generation"
       ]
     },
     {
-      "id": "930ba09d15",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
-      "url": "https://arxiv.org/abs/2610.12822",
-      "summary_raw": "arXiv:2610.12822v1 Announce Type: new \nAbstract: Multi-agent systems are increasingly used to solve coding tasks by coordinating agents that share code and plans. These agents are often optimized with reinforcement learning (RL) using automated evaluators, but bypassing evaluation can earn reward without producing a genuine solution. Prior work has largely treated reward hacking as a single-agent failure. In this work, we show that a reward-hacking strategy elicited in one agent can propagate to others and affect system coordination. Across four open-weight backbones, coding RL elicits and amplifies reward hacking in two settings: explicit mechanism descriptions in the system prompt and mid-training that models upstream exposure to facts about the coding environment. Using post-RL agents f",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "id": "192a13e14b",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: LiquidAI/d1-3B",
+      "url": "https://huggingface.co/LiquidAI/d1-3B",
+      "summary_raw": "likes: 358 | downloads: 11866 | pipeline: image-text-to-text",
+      "published_at": "2026-10-13T08:48:47.975773+00:00",
       "importance_score": 6,
       "categories": [
-        "research"
+        "model",
+        "free-resource"
       ],
-      "headline_fa": "استراتژی هک پاداش در سیستم‌های کدنویسی چندعاملی",
-      "summary_fa": "این مقاله به بررسی استراتژی هک پاداش در سیستم‌های چندعاملی می‌پردازد که چگونه یک عامل می‌تواند این استراتژی را به دیگر عوامل منتقل کند. این موضوع به چالش‌های ارزیابی خودکار و بهینه‌سازی یادگیری تقویتی مرتبط است.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود طراحی سیستم‌های چندعاملی و جلوگیری از هک پاداش کمک کند.",
-      "opportunity": "no",
+      "headline_fa": "مدل LiquidAI/d1-3B برای پردازش تصویر و متن",
+      "summary_fa": "مدل LiquidAI/d1-3B به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با ۱۱۸۶۶ دانلود و ۳۵۸ لایک، منبع مفیدی برای توسعه‌دهندگان است.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان کمک می‌کند تا پروژه‌های هوش مصنوعی خود را با استفاده از قابلیت‌های پردازش تصویر و متن بهبود بخشند.",
+      "opportunity": "yes",
       "viral_potential": "medium",
       "tags": [
-        "reward_hacking",
-        "multi_agent_systems",
-        "reinforcement_learning"
-      ]
-    },
-    {
-      "id": "59838d4f19",
-      "source": "ArXiv CS.AI",
-      "base_category": "research",
-      "title": "Mitigating Capability Degradation in LLM Self-Improvement via Representation Geometry Regularization",
-      "url": "https://arxiv.org/abs/2610.12855",
-      "summary_raw": "arXiv:2610.12855v1 Announce Type: new \nAbstract: On-Policy Self-distillation is a self-improvement paradigm that enables large language models (LLMs) to improve their capabilities by leveraging the same model as both teacher and student under different conditioning contexts. However, we find that OPSD methods can progressively degrade previously acquired capabilities: queries that are correctly responded at earlier training stages may become incorrectly responded as optimization proceeds, even the overall performance continues to improve. Further analysis reveals that this degradation coincides with a deterioration of the geometry of hidden representations, characterized by reduced intra-cluster compactness and diminished inter-cluster separation. Motivated by this observation, we propose ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "کاهش افت قابلیت در بهبود خودکار LLMها",
-      "summary_fa": "این مقاله به بررسی روش خودتخلیص‌سازی در مدل‌های زبانی بزرگ می‌پردازد و نشان می‌دهد که چگونه این روش می‌تواند منجر به افت قابلیت‌های قبلی شود. این یافته‌ها می‌توانند به بهبود روش‌های آموزشی و طراحی مدل‌های هوش مصنوعی کمک کنند.",
-      "why_it_matters": "این تحقیق به درک بهتر از چالش‌های بهبود خودکار در LLMها کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "LLM",
-        "self-improvement",
-        "research",
+        "LiquidAI",
+        "model",
+        "image-text",
         "AI"
       ]
     },
     {
-      "id": "90d9cdc539",
-      "source": "ArXiv CS.AI",
+      "id": "5bab03a1c7",
+      "source": "IEEE Spectrum AI",
       "base_category": "research",
-      "title": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
-      "url": "https://arxiv.org/abs/2610.12914",
-      "summary_raw": "arXiv:2610.12914v1 Announce Type: new \nAbstract: Vision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-level supervised imitation over robot demonstrations. While effective for learning feasible actions, this paradigm supervises policies to reproduce expert actions at each step, biasing them toward demonstration-specific action paths and providing limited guidance for recovering toward task-progress states once execution deviates from demonstrated trajectories. To address this limitation, we propose OGPO, an Offline Goal-conditioned Policy Optimization framework for recoverable VLA post-training. Instead of treating offline demonstrations merely as step-wise action labels, OGPO adaptively rela",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+      "url": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
+      "summary_raw": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation and real-world deployment. What you will learn about: Why combining a professional athlete’s motion style with reliable task performance remains an open challenge in humanoid ball-sports robotics, and how separating a high-level planner from a low-level tracker addresses this trade-off. How motion data extracted from broadcast video and motion-capture recordings can be reconstructed, retargeted, and physically corrected into reference motions a humanoid robot can safely track. Why the sim-to-rea",
+      "published_at": "Mon, 12 Oct 2026 10:00:03 +0000",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "بهینه‌سازی سیاست هدف‌محور آفلاین برای مدل‌های VLA",
-      "summary_fa": "این مقاله به بررسی مدل‌های بینایی-زبان-عمل (VLA) در دستکاری رباتیک می‌پردازد و به چالش‌های یادگیری از طریق تقلید می‌پردازد. هدف آن بهبود راهنمایی سیاست‌ها برای پیشرفت در وظایف رباتیک است.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد ربات‌ها در وظایف پیچیده کمک کند.",
+      "headline_fa": "برنامه‌ریزی حرکتی تطبیقی برای ربات‌های انسان‌نما",
+      "summary_fa": "این مقاله به بررسی چالش‌های حفظ سبک حرکتی ورزشکاران حرفه‌ای در ربات‌های انسان‌نما می‌پردازد و اهمیت کنترل تطبیقی و آگاه به سرعت را توضیح می‌دهد. این اطلاعات می‌تواند به مهندسان رباتیک در بهبود عملکرد ربات‌ها کمک کند.",
+      "why_it_matters": "این تحقیق به پیشرفت رباتیک ورزشی و نزدیک‌تر کردن شبیه‌سازی به دنیای واقعی کمک می‌کند.",
       "opportunity": "no",
-      "viral_potential": "low",
+      "viral_potential": "medium",
       "tags": [
-        "AI",
         "robotics",
-        "VLA",
-        "policy optimization"
+        "motion planning",
+        "humanoid robots",
+        "athletics"
       ]
     },
     {
-      "id": "09864cf3c0",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "Algebraic Integer Quantization for Machine Learning Applications",
-      "url": "https://arxiv.org/abs/2610.12494",
-      "summary_raw": "arXiv:2610.12494v1 Announce Type: new \nAbstract: In this article, we propose algebraic integer number formats (AINF) as a framework for highly configurable and accurate compressed computation. A key property of AINF is its straightforward reduction to purely integer arithmetic, enabling error-free multiply-accumulate operations. We develop a matrix multiplication engine that exploits this property, obtaining performance within a predictable factor of the most efficient numerical counterparts on modern hardware accelerators. Another key advantage of AIQ is the freedom to select algebraic integers tailored to the numerical characteristics of a given use case, offering optimization opportunities that are fundamentally unavailable in floating-point or fixed-point formats. Motivated by these pr",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "id": "181f4a9d9d",
+      "source": "The Register",
+      "base_category": "viral",
+      "title": "AMD unveils Helion racks for AI agents at OCP summit",
+      "url": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652",
+      "summary_raw": "CPU-only and mixed CPU/GPU configurations due from partners in November",
+      "published_at": "Mon, 12 Oct 2026 17:51:36 +0200",
       "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "کمپرس کردن محاسبات با فرمت عدد صحیح جبری",
-      "summary_fa": "این مقاله فرمت‌های عدد صحیح جبری (AINF) را برای محاسبات فشرده و دقیق معرفی می‌کند. با استفاده از این فرمت، عملیات ضرب و جمع بدون خطا انجام می‌شود که می‌تواند در یادگیری ماشین کاربرد داشته باشد.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی محاسبات در مدل‌های یادگیری ماشین کمک کند.",
+      "categories": [],
+      "headline_fa": "AMD رک‌های Helion برای هوش مصنوعی را معرفی کرد",
+      "summary_fa": "AMD در اجلاس OCP از رک‌های Helion برای اجرای هوش مصنوعی رونمایی کرد. این رک‌ها شامل پیکربندی‌های فقط CPU و ترکیبی از CPU و GPU خواهند بود.",
+      "why_it_matters": "این خبر نشان‌دهنده پیشرفت‌های جدید در زیرساخت‌های سخت‌افزاری برای هوش مصنوعی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AMD",
+        "AI",
+        "hardware",
+        "OCP"
+      ]
+    },
+    {
+      "id": "472fe0d718",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "White House reverses course and restores UK AI Safety Institute's access to frontier models",
+      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "summary_raw": "The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute's access to frontier models appeared first on The Decoder .",
+      "published_at": "Mon, 12 Oct 2026 13:14:54 +0000",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "دولت آمریکا دسترسی مؤسسه ایمنی هوش مصنوعی بریتانیا را بازگرداند",
+      "summary_fa": "دولت آمریکا به مؤسسه ایمنی هوش مصنوعی بریتانیا دسترسی اولیه به مدل‌های هوش مصنوعی از شرکت‌های بزرگ را بازگرداند. این تصمیم پس از فشارهای دیپلماتیک وزیر هوش مصنوعی بریتانیا اتخاذ شد.",
+      "why_it_matters": "این اقدام نشان‌دهنده تغییر در سیاست‌های هوش مصنوعی و همکاری‌های بین‌المللی است.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "machine learning",
+        "policy",
+        "international"
+      ]
+    },
+    {
+      "id": "958dcb343a",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+      "summary_raw": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams waste massive tokens for barely measurable quality gains, research finds appeared first on The Decoder .",
+      "published_at": "Sun, 11 Oct 2026 15:39:26 +0000",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تیم‌های عامل هوش مصنوعی هزینه‌های زیادی برای کیفیت کم صرف می‌کنند",
+      "summary_fa": "تحقیقات نشان می‌دهد که تیم‌های عامل هوش مصنوعی تنها به طور جزئی از عامل‌های تنها بهتر عمل می‌کنند و هزینه‌های آنها تا ۵.۱ برابر بیشتر است. این یافته‌ها به توسعه‌دهندگان کمک می‌کند تا در انتخاب استراتژی‌های بهینه برای استفاده از هوش مصنوعی دقت بیشتری داشته باشند.",
+      "why_it_matters": "این تحقیق به بررسی کارایی و هزینه‌های تیم‌های عامل هوش مصنوعی می‌پردازد و می‌تواند به تصمیم‌گیری‌های بهتری در این حوزه منجر شود.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
         "research",
-        "integer arithmetic"
+        "efficiency",
+        "cost"
       ]
     },
     {
-      "id": "33b8fffa42",
-      "source": "ArXiv CS.LG",
+      "id": "d7d23c1ad9",
+      "source": "Nature Machine Intelligence",
       "base_category": "research",
-      "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
-      "url": "https://arxiv.org/abs/2610.12495",
-      "summary_raw": "arXiv:2610.12495v1 Announce Type: new \nAbstract: Small language models trained on a single local machine leave little room for architectural trial and error. Kairos combines bidirectional gated-DeltaNet linear attention and sliding-window attention over shared projections (LiZAttention2), block-wise Attention-Residual aggregation, a sparse Mixture-of-Experts (MoE) feed-forward layer and a multi-scale byte-level codec, trained with a uniform-noise denoising objective over one byte space shared by text, image, audio, video, lidar and control streams; this report asks whether the combination optimizes at all before asking whether it is useful. We give code-derived algorithms for each component, including a cross-session recurrent-state memory gate, then run convergence sanity checks: overfitt",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "title": "Emotional optimization by newsroom AI needs behavioural evaluation",
+      "url": "https://www.nature.com/articles/s42256-026-01315-8",
+      "summary_raw": "Nature Machine Intelligence, Published online: 07 October 2026; doi:10.1038/s42256-026-01315-8 When newsroom artificial intelligence (AI) engages in emotional packaging, it changes how a story feels, shaping whether people approach, trust and share it. As these systems are designed and deployed, AI and behavioural researchers should work together to test whether emotional packaging helps accurate information reach readers, and whether it deepens division.",
+      "published_at": "2026-10-13T08:48:22.526209+00:00",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل Kairos: پیشرفت در مدل‌های پایه سطح بایت",
-      "summary_fa": "مدل Kairos با استفاده از تکنیک‌های نوین توجه و لایه‌های پیشرفته، به دنبال بهبود عملکرد مدل‌های زبانی است. این تحقیق می‌تواند به توسعه‌دهندگان در ایجاد مدل‌های بهینه‌تر کمک کند.",
-      "why_it_matters": "این مقاله به پیشرفت‌های مهمی در زمینه مدل‌های زبانی و بهینه‌سازی آن‌ها اشاره دارد.",
+      "headline_fa": "بهینه‌سازی احساسی توسط هوش مصنوعی در خبرگزاری‌ها",
+      "summary_fa": "این مقاله به بررسی تأثیر بسته‌بندی احساسی هوش مصنوعی در خبرگزاری‌ها می‌پردازد و تأکید می‌کند که همکاری بین محققان AI و رفتارشناسی برای ارزیابی این تأثیرات ضروری است. هدف این است که مشخص شود آیا این روش به انتقال اطلاعات دقیق کمک می‌کند یا باعث افزایش تقسیمات اجتماعی می‌شود.",
+      "why_it_matters": "این تحقیق می‌تواند به درک بهتر تأثیر هوش مصنوعی بر رسانه‌ها و جامعه کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
         "AI",
-        "machine learning",
-        "research",
-        "language model"
+        "emotional packaging",
+        "media",
+        "behavioral research"
       ]
     },
     {
-      "id": "3158122dd7",
-      "source": "ArXiv CS.LG",
+      "id": "12cd58377b",
+      "source": "Nature Machine Intelligence",
       "base_category": "research",
-      "title": "An Input-Dependent Readout Phase for Resonant Sequence Models",
-      "url": "https://arxiv.org/abs/2610.12496",
-      "summary_raw": "arXiv:2610.12496v1 Announce Type: new \nAbstract: Sequence models with a fixed-size state avoid the quadratic cost of attention, but face a design choice. An input-dependent state transition gives content-dependent memory at the cost of FFT-based training, while a fixed transition keeps the O(T log T) convolutional path but reads memory the same way for every input. ResonatorLM, a recent model of the second kind, reads a bank of damped complex oscillators through a fixed learned phase per head. We make that readout phase a function of the current token, which adds input dependence to the read only, keeps the convolution exact, and costs 0.2 percent more parameters. An analysis of the untrained bank shows that phase does encode elapsed time, but an ordinary token falls below the background w",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+      "title": "Minute-scale training for microrobot navigation",
+      "url": "https://www.nature.com/articles/s42256-026-01305-w",
+      "summary_raw": "Nature Machine Intelligence, Published online: 28 September 2026; doi:10.1038/s42256-026-01305-w A vectorized simulator and structured reward framework enable microrobot navigation policies to be trained within minutes and transferred without retraining across robots and environments.",
+      "published_at": "2026-10-13T08:48:22.532840+00:00",
       "importance_score": 6,
       "categories": [
         "research"
       ],
-      "headline_fa": "مدل جدید ResonatorLM با حافظه وابسته به ورودی",
-      "summary_fa": "این مقاله به بررسی مدل‌های توالی می‌پردازد که از حالت‌های ثابت استفاده می‌کنند و به نوعی حافظه وابسته به ورودی دارند. مدل ResonatorLM با استفاده از نوسان‌سازهای پیچیده، حافظه را به صورت ثابت برای هر ورودی می‌خواند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی مدل‌های توالی کمک کند و هزینه محاسباتی را کاهش دهد.",
-      "opportunity": "no",
-      "viral_potential": "low",
-      "tags": [
-        "sequence models",
-        "ResonatorLM",
-        "memory",
-        "AI research"
-      ]
-    },
-    {
-      "id": "3420acc27a",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration",
-      "url": "https://arxiv.org/abs/2610.12530",
-      "summary_raw": "arXiv:2610.12530v1 Announce Type: new \nAbstract: Training-free feature reuse accelerates diffusion transformer inference by replacing full denoising computation at selected steps with cached approximations. Existing methods mainly improve the reconstruction of skipped features, but we find that once a stable first-order reconstructor is used, increasing reconstruction complexity brings limited gains, whereas the placement of exact-computation steps has a much larger effect on fidelity. More importantly, absolute shallow-probe variation is jointly affected by input-trajectory displacement and network response strength, and therefore does not directly reflect cache risk. We address this confounding by normalizing probe-output variation with the corresponding input displacement, yielding a di",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "تسریع در انتشار با استفاده از بازاستفاده بدون آموزش",
-      "summary_fa": "این مقاله به بررسی روش‌های تسریع در استنتاج ترنسفورمرهای انتشار می‌پردازد که با استفاده از تخمین‌های ذخیره‌شده، محاسبات کامل را در مراحل انتخابی جایگزین می‌کند. با استفاده از بازسازی‌های دقیق، می‌توان به بهبود کیفیت خروجی‌ها دست یافت.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی مدل‌های انتشار کمک کند و در نتیجه زمان و منابع محاسباتی را کاهش دهد.",
+      "headline_fa": "آموزش سریع ربات‌های میکرو برای ناوبری",
+      "summary_fa": "محققان با استفاده از یک شبیه‌ساز و چارچوب پاداش ساختاری، توانسته‌اند سیاست‌های ناوبری ربات‌های میکرو را در عرض چند دقیقه آموزش دهند. این روش امکان انتقال بدون نیاز به آموزش مجدد را بین ربات‌ها و محیط‌های مختلف فراهم می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی ربات‌های میکرو در محیط‌های پیچیده کمک کند.",
       "opportunity": "no",
       "viral_potential": "medium",
       "tags": [
-        "diffusion",
-        "transformer",
-        "inference",
-        "feature reuse"
-      ]
-    },
-    {
-      "id": "700f8681f8",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "Market Impact Estimation via Causal Foundation Models",
-      "url": "https://arxiv.org/abs/2610.12537",
-      "summary_raw": "arXiv:2610.12537v1 Announce Type: new \nAbstract: When a trader executes a large order, the relevant question is not \\emph{what will the price be?} but \\emph{what would the price have been had I not traded?} Market impact is thus a causal quantity, yet classical models (Almgren--Chriss, propagators) regress price on flow, which is biased whenever informed flow moves prices through information as well as trading. We present a proof-of-concept \\emph{Causal Market Simulator}: a continuous-time causal prior-data fitted network (PFN) trained on a synthetic market prior in which a hidden informational flow confounds the flow--price relation by construction, with confounding strength an exact per-episode knob. On this prior, the naive estimator's bias follows a closed form we confirm empirically (",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل‌های علّی برای برآورد تأثیر بازار",
-      "summary_fa": "این مقاله به بررسی تأثیر معاملات بزرگ بر قیمت‌ها می‌پردازد و مدل‌های علّی جدیدی را برای شبیه‌سازی این تأثیر ارائه می‌دهد. این مدل‌ها می‌توانند به معامله‌گران کمک کنند تا تأثیر واقعی معاملات خود را بهتر درک کنند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود استراتژی‌های معاملاتی و کاهش ریسک در بازارهای مالی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "causal models",
-        "market impact",
-        "finance",
-        "research"
-      ]
-    },
-    {
-      "id": "085917d67d",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncation and Censoring",
-      "url": "https://arxiv.org/abs/2610.12538",
-      "summary_raw": "arXiv:2610.12538v1 Announce Type: new \nAbstract: Modern machine learning models are typically trained on data assumed to be representative of the predictive tasks the model will face in the future, but practical datasets violate this assumption. We focus on outcome-dependent truncation in which an observation appears in the training data depending on its label. Our work connects two largely distinct literatures: efficient learning under truncation and survival analysis. Existing methods for truncated survival analysis do not characterize the optimization landscape and instead rely on iterative procedures such as expectation maximization. We address this gap and prove that Cox regression can be efficiently learned under truncated and right-censored data using first-order optimization when t",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "یادگیری کارآمد مدل‌های تحلیل بقا با توجه به برش وابسته به نتیجه",
-      "summary_fa": "این مقاله به بررسی یادگیری مدل‌های تحلیل بقا در شرایط برش وابسته به نتیجه می‌پردازد. این تحقیق به ارتباط دو ادبیات مختلف در زمینه یادگیری کارآمد تحت برش و تحلیل بقا می‌پردازد.",
-      "why_it_matters": "این تحقیق به درک بهتر از چالش‌های یادگیری ماشین در شرایط واقعی کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "low",
-      "tags": [
-        "survival analysis",
-        "machine learning",
-        "truncation"
-      ]
-    },
-    {
-      "id": "b86526bc8a",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "Transformer-Based Masked Diffusion Models Provably Learn Distributions with Latent Structure",
-      "url": "https://arxiv.org/abs/2610.12544",
-      "summary_raw": "arXiv:2610.12544v1 Announce Type: new \nAbstract: Masked diffusion models (MDMs) generate discrete data by iteratively unmasking multiple tokens in parallel using a learned mask predictor. Their output carries two errors: parallelization error due to parallel sampling, and estimation error from the mask predictor learned with finite samples. Existing theory treats these errors separately, and the available statistical bounds typically scale with the number $V^L$ of length-$L$ sequences over a vocabulary of size $V$, suffering from the curse of dimensionality. In this work, we establish end-to-end statistical guarantees showing that transformer-based MDMs learn structured distributions with a sample complexity governed by their latent structure. Specifically, we model this structure through ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل‌های دیفیوژن ماسک‌دار بر اساس ترنسفورمر",
-      "summary_fa": "این مقاله به بررسی مدل‌های دیفیوژن ماسک‌دار می‌پردازد که داده‌های گسسته را با استفاده از پیش‌بینی‌کننده ماسک یادگرفته شده تولید می‌کنند. این مدل‌ها دو نوع خطا دارند که در این تحقیق به تحلیل آن‌ها پرداخته شده است.",
-      "why_it_matters": "این تحقیق به بهبود درک و عملکرد مدل‌های دیفیوژن در تولید داده‌های گسسته کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "low",
-      "tags": [
-        "masked diffusion",
-        "transformer",
-        "machine learning",
-        "research"
-      ]
-    },
-    {
-      "id": "52f3e4ca1f",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
-      "url": "https://arxiv.org/abs/2610.12572",
-      "summary_raw": "arXiv:2610.12572v1 Announce Type: new \nAbstract: Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward--reverse consistency force that joint positive--negative training cancels only partially, and that EMA stabilizes training through restoration rather than off-policy rollouts. We introduce DiffusionART (Diffusion Reinforcement with Aggregation-First Reward Tilting), which aggregates each prompt's rewards into a shared reward-improving direction for",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل DiffusionART: تقویت کارآمد و پایدار مدل‌های دیفوزیون",
-      "summary_fa": "این مقاله به بررسی روش‌های یادگیری تقویتی آنلاین برای بهبود مدل‌های دیفوزیون می‌پردازد. نتایج نشان می‌دهد که اهداف NFT-style دارای نیروی سازگاری پنهان هستند که می‌تواند به بهبود کارایی کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی و ثبات مدل‌های دیفوزیون در یادگیری تقویتی کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "reinforcement learning",
-        "diffusion models",
-        "research"
-      ]
-    },
-    {
-      "id": "98ac2dd548",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
-      "url": "https://arxiv.org/abs/2610.12586",
-      "summary_raw": "arXiv:2610.12586v1 Announce Type: new \nAbstract: Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event sequences as a conditional generative modeling problem. We evaluate forecasts not only for prediction accuracy, but also for distributional realism. To this end, we present a benchmark comprising metrics for both quality aspects, strong statistical baselines, recent models adapted from adjacent fields, and curated real-world datasets. Careful evaluation reveals that no method excels at both accuracy and realism, highlighting a fundamental trade-off bet",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "پیش‌بینی توالی رویدادها با مدل‌سازی مولد",
-      "summary_fa": "این مقاله به بررسی پیش‌بینی توالی رویدادها به عنوان یک مشکل مدل‌سازی مولد شرطی می‌پردازد. نتایج پیش‌بینی‌ها علاوه بر دقت، از نظر واقع‌گرایی توزیع نیز ارزیابی می‌شوند.",
-      "why_it_matters": "این تحقیق به بهبود پیش‌بینی‌های چند افق زمانی در حوزه‌های مختلف کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "event forecasting",
-        "generative modeling",
-        "research"
-      ]
-    },
-    {
-      "id": "0618de7b06",
-      "source": "ArXiv CS.LG",
-      "base_category": "research",
-      "title": "Machine Learning and Time-Series Foundation Models for Day-Ahead Electricity Forecasting in a University Building",
-      "url": "https://arxiv.org/abs/2610.12638",
-      "summary_raw": "arXiv:2610.12638v1 Announce Type: new \nAbstract: Day-ahead electricity forecasts can help building operators schedule heating, ventilation, and other services around anticipated demand. Choosing a forecasting model also requires balancing accuracy with its forecast-time inputs, local training, and computational requirements.\n  We benchmark statistical, machine-learning, recurrent neural-network, and pretrained TimesFM models for a university building. We use chronological validation and evaluate all configurations on the same 57 test days, comparing accuracy across workdays, weekends, and holidays alongside local fitting and forecasting time. Weather covariates use retrospective observations.\n  TimesFM 3.0 with covariates achieves the lowest overall errors, reducing mean absolute error by ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل‌های یادگیری ماشین برای پیش‌بینی مصرف برق در دانشگاه",
-      "summary_fa": "این مقاله به بررسی مدل‌های مختلف یادگیری ماشین برای پیش‌بینی مصرف برق یک ساختمان دانشگاهی در روز آینده می‌پردازد. نتایج می‌تواند به بهینه‌سازی خدمات مانند گرمایش و تهویه کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به بهبود مدیریت انرژی در ساختمان‌ها کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "electricity",
-        "forecasting",
-        "machine learning",
-        "research"
-      ]
-    },
-    {
-      "id": "c05fe14010",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
-      "url": "https://arxiv.org/abs/2610.12545",
-      "summary_raw": "arXiv:2610.12545v1 Announce Type: new \nAbstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partially mitigate this limitation but still cannot flexibly insert or remove arbitrary numbers of tokens from a pre-generated context. We design AutoIndexer as a generative model with a novel training and decoding mechanism that simulates a Chain of Edits, allowing the model to flexibly modify its prior outputs in hindsight via token insertions, substitutions, and deletions. The model learns to predict marker tokens for opening and closing edits, simultaneously moving a cursor to positions in the existing token sequence, analogous ",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "مدل AutoIndexer: رمزگشایی با ترتیب انعطاف‌پذیر",
-      "summary_fa": "مقاله‌ای جدید درباره مدل AutoIndexer ارائه شده که به بررسی روش‌های رمزگشایی خودکار در داده‌های غیرعلّی می‌پردازد. این مدل به کاربران امکان می‌دهد تا به طور انعطاف‌پذیر توکن‌ها را در متن‌های تولید شده اضافه یا حذف کنند.",
-      "why_it_matters": "این تحقیق به بهبود فرآیندهای تولید متن و تعاملات هوش مصنوعی کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "AI",
-        "AutoIndexer",
-        "research",
-        "decoding"
-      ]
-    },
-    {
-      "id": "daa1c28840",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
-      "url": "https://arxiv.org/abs/2610.12569",
-      "summary_raw": "arXiv:2610.12569v1 Announce Type: new \nAbstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluation time, so no content exists in advance to leak, and its difficulty is set by the participating agents rather than fixed at release. We introduce SWE-Duel, an arena in which two coding agents evaluate each other over mirrored Red-Blue turns. In each turn, the Red agent works on a real repository across three context-isolated sessions. It proposes and implements a new feature with feature tests, then embeds a subtle bug in that feature along with sealed bug-triggering tests. The resulting pull re",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "معرفی SWE-Duel: آرنای خودمقیاس برای ارزیابی عوامل کدنویسی",
-      "summary_fa": "مقاله SWE-Duel به بررسی نیاز به بنچمارک‌های خودمقیاس می‌پردازد که در آن وظایف و اوراکل‌ها در زمان ارزیابی ایجاد می‌شوند. این رویکرد می‌تواند به جلوگیری از اشباع بنچمارک‌ها و بهبود ارزیابی عوامل کدنویسی کمک کند.",
-      "why_it_matters": "این تحقیق می‌تواند به توسعه روش‌های جدید ارزیابی در هوش مصنوعی و یادگیری ماشین کمک کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "benchmark",
-        "coding agents",
-        "AI",
-        "research"
-      ]
-    },
-    {
-      "id": "652f8586f2",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
-      "url": "https://arxiv.org/abs/2610.12601",
-      "summary_raw": "arXiv:2610.12601v1 Announce Type: new \nAbstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it carries a failure mode that scalar-reward reinforcement learning does not. An optimizer that reads the training examples can write their answers into the prompt, so an in-distribution gain may be memorization rather than transferable behaviour. We apply reflective prompt evolution (GEPA) to the two system prompts of a multi-agent deep-research agent and evaluate it under a topic-disjoint split in which no topic is shared across train, validation, and test. Held-out citation reward rises by 0.079, from 0.702 to 0.781, with a bootstrap 95\\% confiden",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "بهینه‌سازی پروامپت در مدل‌های زبان عمیق",
-      "summary_fa": "این مقاله به بررسی بهینه‌سازی پروامپت به عنوان جایگزینی برای یادگیری تقویتی در مدل‌های زبان می‌پردازد. نتایج نشان می‌دهد که بهینه‌سازی می‌تواند منجر به حفظ اطلاعات و رفتارهای قابل انتقال شود.",
-      "why_it_matters": "این تحقیق به درک بهتر چالش‌های بهینه‌سازی پروامپت و خطرات حفظ اطلاعات کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "prompt optimization",
-        "language models",
-        "transfer learning",
-        "research"
-      ]
-    },
-    {
-      "id": "1255700c7c",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
-      "url": "https://arxiv.org/abs/2610.12617",
-      "summary_raw": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges for retrieval-augmented question answering. We introduce a benchmark for grounded question answering over 415 open-source geopolitical and strategic intelligence reports, comprising 5,525 document-grounded question-answer pairs spanning factual, inferential, comparative, and risk-oriented questions. We propose a document-aware generation pipeline that profiles reports before generating questions and validate dataset quality through expert annotation and an LLM-as-judge protocol. Using the benchmark, we evaluate 15 retrieval sy",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "معیار جدید برای پرسش و پاسخ مبتنی بر گزارش‌های اطلاعاتی",
-      "summary_fa": "این مقاله یک معیار جدید برای پرسش و پاسخ مبتنی بر ۴۱۵ گزارش اطلاعاتی ژئوپلیتیکی را معرفی می‌کند. این معیار شامل ۵,۵۲۵ جفت سوال و پاسخ مستند است که می‌تواند به بهبود سیستم‌های پرسش و پاسخ کمک کند.",
-      "why_it_matters": "این تحقیق به تحلیل و بهبود فرآیندهای پرسش و پاسخ در زمینه اطلاعات ژئوپلیتیکی کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "geopolitics",
-        "QA",
-        "intelligence",
-        "benchmark"
-      ]
-    },
-    {
-      "id": "583e51f288",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
-      "url": "https://arxiv.org/abs/2610.12742",
-      "summary_raw": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40 relations or no_relation from an Arabic sentence and a subject-object pair. Our encoder systems use typed entity markers and separate relation-existence and relation-classification heads, while our LLM systems fine-tune Yehia and Qwen3.5 with QLoRA and ontology-constrained prediction. Our best system, an ensemble of Yehia-RE, Qwen-RE, and TypedPair, achieved a micro-F1 score of 94.06 and ranked 1st in Subtask 2. Yehia-RE (full-vocabulary) achieved 92.98, while the best encoder and Qwen-RE achieved 92.69 and 91.94 respectively. Our results highligh",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "استخراج روابط در زبان عربی با مدل‌های جدید هوش مصنوعی",
-      "summary_fa": "این مقاله به بررسی روش‌های استخراج روابط در زبان عربی با استفاده از مدل‌های یادگیری عمیق می‌پردازد. این تحقیق می‌تواند به بهبود سیستم‌های پردازش زبان طبیعی در زبان عربی کمک کند.",
-      "why_it_matters": "این تحقیق به توسعه ابزارهای هوش مصنوعی برای زبان عربی کمک می‌کند که در صنعت و پژوهش اهمیت دارد.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "relation extraction",
-        "Arabic",
-        "NLP",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "d175fec845",
-      "source": "ArXiv CS.CL",
-      "base_category": "research",
-      "title": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
-      "url": "https://arxiv.org/abs/2610.12757",
-      "summary_raw": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent adversarial conversation trajectories, thereby limiting the training resources available for developing robust agents. We present MADS (Multi-Agent Dialog Simulation), a synthetic data generation pipeline that produces structured, diverse dialogue trajectories. We inject adversarial conversation, producing validated conversation trajectories that capture realistic, unhappy paths. Using MADS, we construct MADS-Bench: a benchmark spanning six domains, 55 personas, and 1095 conversations, with approximately 66% of conversations containing failure-prone conversa",
-      "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
-      "importance_score": 6,
-      "categories": [
-        "research"
-      ],
-      "headline_fa": "شبیه‌سازی گفت‌وگو برای بهبود ربات‌های مکالمه‌ای",
-      "summary_fa": "مقاله جدیدی به نام MADS ارائه شده که به تولید داده‌های گفت‌وگویی متنوع و ساختاری می‌پردازد. این داده‌ها به توسعه‌دهندگان کمک می‌کند تا ربات‌های مکالمه‌ای مقاوم‌تری بسازند.",
-      "why_it_matters": "این تحقیق به بهبود عملکرد ربات‌های مکالمه‌ای در شرایط واقعی کمک می‌کند.",
-      "opportunity": "no",
-      "viral_potential": "medium",
-      "tags": [
-        "dialogue",
+        "microrobots",
+        "navigation",
         "simulation",
-        "conversational agents",
-        "AI research"
+        "machine learning"
       ]
     }
   ]
