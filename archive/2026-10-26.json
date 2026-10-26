@@ -1,0 +1,1095 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T07:20:29.215187+00:00",
+  "stats": {
+    "total_sources": 105,
+    "total_fetched": 255,
+    "total_processed": 50,
+    "total_displayed": 45,
+    "top_score": 8,
+    "high_viral_count": 0,
+    "opportunities_count": 6
+  },
+  "items": [
+    {
+      "id": "2ae47327c8",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
+      "summary_raw": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0, and the model card lists a 512K context window. the team reports 80.9 on Terminal-Bench 2.1 versus 73.0 for Qwen3.8-27B, using the same harness and inference settings within each benchmark. it does not win everywhere. on SWE-Bench Pro, the reported scores are 60.3 versus 61.7. these are the releasing team's evaluations, not independent replication. one practical detail for reproducing the agent results: the evaluations retain earlier reasoning with preser",
+      "published_at": "2026-10-25T16:32:44+00:00",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "free-resource"
+      ],
+      "headline_fa": "انتشار مدل Nanbeige4.3-33B برای مدل‌های کوچک‌تر",
+      "summary_fa": "مدل Nanbeige4.3-33B به عنوان معلم برای مدل‌های کوچک‌تر منتشر شده است. این مدل با وزن‌های Apache 2.0 و پنجره زمینه 512K، عملکرد بالایی در مقایسه با مدل‌های دیگر دارد.",
+      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در ساخت مدل‌های کوچک‌تر و کارآمدتر کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Nanbeige",
+        "AI",
+        "model",
+        "open-source"
+      ]
+    },
+    {
+      "id": "efb1ead91d",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "summary_raw": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to control the entire robotics value chain. The article Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra appeared first on The Decoder .",
+      "published_at": "Sun, 25 Oct 2026 10:08:49 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "Nvidia ابزار Flora را برای برچسب‌گذاری ویدیوهای رباتیک رایگان کرد",
+      "summary_fa": "Nvidia با ارائه ابزار Flora، هزینه برچسب‌گذاری یک ساعت ویدیوی رباتیک را به ۷۲ سنت کاهش داده است. این ابزار با کیفیت بالاتر و دقت بیشتری نسبت به رقبای خود عمل می‌کند.",
+      "why_it_matters": "این ابزار می‌تواند هزینه‌های تولید ویدیوهای آموزشی ربات‌ها را به شدت کاهش دهد و به توسعه‌دهندگان کمک کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Nvidia",
+        "Flora",
+        "robotics",
+        "video labeling",
+        "open-source"
+      ]
+    },
+    {
+      "id": "79325a3530",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "summary_raw": "likes: 5048 | downloads: 2235846 | pipeline: text-to-image",
+      "published_at": "2026-10-26T07:17:24.694681+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید Qwen-Image-2.1 برای تولید تصویر",
+      "summary_fa": "مدل Qwen-Image-2.1 به تازگی منتشر شده و قابلیت تولید تصویر از متن را دارد. این مدل با ۲۲۳۵۸۴۶ دانلود و ۵۰۴۸ لایک، توجه زیادی را جلب کرده است.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا به راحتی تصاویر با کیفیت بالا تولید کنند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "text-to-image"
+      ]
+    },
+    {
+      "id": "bff4c850ad",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "summary_raw": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest among open agents, the authors say. The article OpenMobile-2 proves open-source smartphone agents can rival proprietary models appeared first on The Decoder .",
+      "published_at": "Sun, 25 Oct 2026 06:55:22 +0000",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل OpenMobile-2: رقیب جدی برای مدل‌های اختصاصی",
+      "summary_fa": "مدل OpenMobile-2 با استفاده از بیش از ۱۱۰ اپلیکیشن مختلف، بهبود عملکرد خود را نشان داده است. این مدل در دستگاه‌های واقعی اندروید، بالاترین امتیاز را در میان عوامل هوشمند متن‌باز کسب کرده است.",
+      "why_it_matters": "این تحقیق نشان می‌دهد که مدل‌های متن‌باز می‌توانند به اندازه مدل‌های اختصاصی کارایی داشته باشند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenMobile-2",
+        "smartphone agents",
+        "open-source",
+        "AI research"
+      ]
+    },
+    {
+      "id": "727e274d62",
+      "source": "Hacker News Front",
+      "base_category": "tool",
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "summary_raw": "Article URL: https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/ Comments URL: https://news.ycombinator.com/item?id=50238620 Points: 33 # Comments: 12",
+      "published_at": "Mon, 26 Oct 2026 03:12:05 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "معرفی مدل 9B Qwen مایکروسافت و کاربردهای آن",
+      "summary_fa": "مدل 9B Qwen مایکروسافت به تازگی راه‌اندازی شده و قابلیت‌های جدیدی را در زمینه هوش مصنوعی ارائه می‌دهد. این مدل می‌تواند در پروژه‌های مختلف هوش مصنوعی و یادگیری ماشین مورد استفاده قرار گیرد.",
+      "why_it_matters": "این مدل به دلیل بهبود عملکرد و قابلیت‌های جدیدش می‌تواند تأثیر زیادی بر روی توسعه‌دهندگان و صنایع مختلف داشته باشد.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Microsoft",
+        "AI",
+        "model",
+        "Qwen"
+      ]
+    },
+    {
+      "id": "ef7598af72",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "url": "https://arxiv.org/abs/2610.31882",
+      "summary_raw": "arXiv:2610.31882v1 Announce Type: new \nAbstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA) tools such as Cadence Virtuoso/Spectre, Calibre, Cadence EMX, and Ansys HFSS to design RF and mmWave modules. We validate the framework through the agentic design of a 240-251 GHz sub-THz transmitter in a 90 nm SiGe BiCMOS process. The agent semi-autonomously designed the sub-blocks including a 60 GHz push-push Colpitts VCO with second-harmonic extraction, multistage differential cascode power drivers, a push-push frequency doubler, a differential bowtie antenna, and all the interstage matching",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "طراحی ماژول‌های RF با TACS-RF و هوش مصنوعی",
+      "summary_fa": "چارچوب TACS-RF به طراحی ماژول‌های RF و mmWave با استفاده از یک مدل زبان بزرگ می‌پردازد. این سیستم با ابزارهای استاندارد صنعت مانند Cadence و Ansys برای طراحی یک فرستنده sub-THz همکاری می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود فرآیند طراحی در صنعت الکترونیک کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "circuit design",
+        "RF",
+        "mmWave",
+        "EDA"
+      ]
+    },
+    {
+      "id": "d17474ee66",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
+      "url": "https://arxiv.org/abs/2610.32026",
+      "summary_raw": "arXiv:2610.32026v1 Announce Type: new \nAbstract: Conventional neural-network training typically follows a predefined optimization recipe, motivating a LLM agent that monitors training dynamics and adjusts optimizer settings as training progresses, but a fixed agent policy does not accumulate experience across runs. We introduce RSI-Opt, a plug-and-play Recursive Self-Improvement Optimizer Agents which evolves the knowledge that guides this process: a prompt, a playbook of procedures, a library of tested optimizer code, and a decision cadence. A meta-agent rewrites this policy using evidence from earlier runs, and an archive retains evaluated policies for further evolution. Across 5 generations on three training tasks, the meta-agents develop reusable procedures and code and conduct their o",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "معرفی RSI-Opt: بهینه‌ساز خودبهبوددهنده برای آموزش مدل‌ها",
+      "summary_fa": "RSI-Opt یک عامل بهینه‌ساز خودبهبوددهنده است که به طور مداوم تنظیمات بهینه‌ساز را در حین آموزش مدل‌های یادگیری عمیق تنظیم می‌کند. این سیستم به یادگیری از تجربیات قبلی خود پرداخته و بهینه‌سازی بهتری را ارائه می‌دهد.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی آموزش مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "optimization",
+        "machine learning",
+        "research"
+      ]
+    },
+    {
+      "id": "862a39cabc",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "summary_raw": "likes: 3040 | downloads: 85275 | pipeline: image-text-to-text",
+      "published_at": "2026-10-26T07:17:24.694624+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model",
+        "free-resource"
+      ],
+      "headline_fa": "مدل DeepSeek-V4.1-Flash-1017 به‌روزرسانی شد",
+      "summary_fa": "مدل DeepSeek-V4.1-Flash-1017 به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با ۳۰۴۰ لایک و ۸۵۲۷۵ دانلود، ابزار مفیدی برای توسعه‌دهندگان در پروژه‌های هوش مصنوعی است.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا به راحتی از قابلیت‌های تبدیل تصویر به متن استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "DeepSeek",
+        "model",
+        "image-to-text",
+        "AI"
+      ]
+    },
+    {
+      "id": "11403ace83",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary_raw": "likes: 18416 | downloads: 7762014 | pipeline: image-text-to-text",
+      "published_at": "2026-10-26T07:17:24.694676+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل Qwen/Qwen3.8-27B با قابلیت‌های جدید معرفی شد",
+      "summary_fa": "مدل Qwen/Qwen3.8-27B به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. با دانلود این مدل می‌توانید از توانایی‌های آن در پروژه‌های هوش مصنوعی خود بهره‌برداری کنید.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا از تکنولوژی‌های پیشرفته در پروژه‌های خود استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Qwen",
+        "AI",
+        "model",
+        "image-text"
+      ]
+    },
+    {
+      "id": "668a5a17c6",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+      "summary_raw": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition. The article Anthropic says one AI agent beats many subagents now that models can handle complexity alone appeared first on The Decoder .",
+      "published_at": "Sun, 25 Oct 2026 09:12:10 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "آنتروپیک: یک عامل هوش مصنوعی بهتر از چند زیرعامل است",
+      "summary_fa": "آنتروپیک پیشنهاد می‌کند که شرکت‌ها زیرعامل‌ها را به یک عامل واحد تبدیل کنند که به‌طور آنی زمینه را بارگذاری می‌کند. این تغییر می‌تواند سرعت عملکرد را دو برابر کند و یک کیت مهاجرت در گیت‌هاب منتشر شده است.",
+      "why_it_matters": "این خبر نشان‌دهنده پیشرفت‌های مهم در بهینه‌سازی مدل‌های هوش مصنوعی است.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "agent",
+        "Anthropic",
+        "subagents",
+        "migration"
+      ]
+    },
+    {
+      "id": "81c7617dd6",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+      "url": "https://arxiv.org/abs/2610.31937",
+      "summary_raw": "arXiv:2610.31937v1 Announce Type: new \nAbstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that limit their applicability in fully black box settings. We address this gap by introducing $M^3$, an automated red-teaming framework that formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP). In $M^3$, an attacker LLM interacts with a target LLM while operating over a compact internal state produced by a state LLM. Across two benchmarks and six target models, $M^3$ consistently outperforms state-of-the-art multi-turn red-teaming methods in Attack Success Rates (ASR), ",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "چارچوب جدید برای دور زدن ایمنی مدل‌های زبانی",
+      "summary_fa": "مقاله‌ای جدید به بررسی آسیب‌پذیری مدل‌های زبانی بزرگ در برابر تعاملات چندمرحله‌ای می‌پردازد و چارچوبی به نام $M^3$ را معرفی می‌کند. این چارچوب به طور خودکار فرآیند دور زدن ایمنی را به عنوان یک فرآیند تصمیم‌گیری مارکوف مدل‌سازی می‌کند.",
+      "why_it_matters": "این تحقیق به بهبود امنیت مدل‌های زبانی و کاهش آسیب‌پذیری‌های آن‌ها کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "LLM",
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "id": "777b5a87fd",
+      "source": "ArXiv CS.CV",
+      "base_category": "research",
+      "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+      "url": "https://arxiv.org/abs/2610.31734",
+      "summary_raw": "arXiv:2610.31734v1 Announce Type: new \nAbstract: A live esports broadcast needs a director who chooses which camera goes on air and a caster who talks over that choice, every second and without knowing what comes next. Streaming video language models have learned to commentate, but only over a broadcast that a human director has already produced. We study live broadcast production, in which a model receives the raw camera of every player and must both direct and commentate from the past alone. We present DirCast, a single streaming video language model that does both. Every second it scans all cameras at low resolution, decides with a hold-or-switch director whether and where to cut, and reads the chosen camera at high resolution before it speaks. Its context keeps what went on air and wha",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل جدید برای کارگردانی و گزارشگری زنده esports",
+      "summary_fa": "این مقاله به بررسی تولید پخش زنده esports با استفاده از یک مدل ویدئویی-زبانی می‌پردازد که قادر است به‌صورت همزمان کارگردانی و گزارشگری کند. این مدل می‌تواند از دوربین‌های خام هر بازیکن استفاده کرده و بدون پیش‌دانش، تصمیم‌گیری کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کیفیت پخش زنده بازی‌های ویدیویی و کاهش نیاز به کارگردان‌های انسانی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "esports",
+        "AI",
+        "live-broadcast",
+        "video-language-model"
+      ]
+    },
+    {
+      "id": "a9c53c4307",
+      "source": "ArXiv CS.CV",
+      "base_category": "research",
+      "title": "IFC-SSL-Bench: Benchmarking Self-Supervised Learning for Annotation-Efficient Multispectral Imaging Flow Cytometry",
+      "url": "https://arxiv.org/abs/2610.31848",
+      "summary_raw": "arXiv:2610.31848v1 Announce Type: new \nAbstract: Imaging Flow Cytometry (IFC) generates large multispectral datasets, yet the need for expert annotations bottlenecks the development of supervised deep learning models. While Self-Supervised Learning (SSL) offers a solution, its application to IFC remains fragmented and lacks systematic benchmarking. To address this, we present IFC-SSL-Bench, a modular framework for evaluating SSL in IFC. We benchmark six SSL approaches across four backbones on two heterogeneous datasets. By assessing downstream classification performance across annotation regimes of the training sets (1%-100%), we quantify annotation efficiency and identify optimal configurations for high-dimensional biological imaging. SSL matches the performance of fully supervised baseli",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "معرفی IFC-SSL-Bench برای ارزیابی یادگیری خودنظارتی در تصویربرداری چندطیفی",
+      "summary_fa": "IFC-SSL-Bench یک چارچوب مدولار برای ارزیابی یادگیری خودنظارتی در تصویربرداری جریان سلولی چندطیفی است. این ابزار به توسعه‌دهندگان کمک می‌کند تا شش رویکرد SSL را بر روی چهار شبکه عصبی مختلف آزمایش کنند.",
+      "why_it_matters": "این تحقیق به حل مشکل نیاز به برچسب‌گذاری تخصصی در داده‌های بزرگ تصویربرداری کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "self-supervised learning",
+        "imaging flow cytometry",
+        "benchmarking"
+      ]
+    },
+    {
+      "id": "04e310ab02",
+      "source": "ArXiv CS.CL",
+      "base_category": "research",
+      "title": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation",
+      "url": "https://arxiv.org/abs/2610.31685",
+      "summary_raw": "arXiv:2610.31685v1 Announce Type: new \nAbstract: LLM-based multimodal emotion reasoning systems perform well on standard benchmarks, but improving them through instruction tuning can be computationally expensive. Agentic pipelines built from frozen models avoid this cost, but introduce a different challenge: when a prediction is wrong, the system must identify which agent or stage caused the error. We address this problem with an agentic framework for traceable multimodal emotion reasoning and prompt-space adaptation. Modality-specific perception agents analyze visual, acoustic, and lexical inputs and post evidence-cited observations to a shared board. An integration agent combines these observations with retrieved multimodal examples to produce an emotion description, label set, and suppo",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "رویکرد عامل‌محور برای استدلال عاطفی چندرسانه‌ای",
+      "summary_fa": "این مقاله به بررسی سیستم‌های استدلال عاطفی چندرسانه‌ای مبتنی بر LLM می‌پردازد و چالش‌های مربوط به شناسایی خطاها در پیش‌بینی‌ها را مطرح می‌کند. رویکرد پیشنهادی شامل یک چارچوب عامل‌محور برای استدلال عاطفی قابل ردیابی است.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت سیستم‌های هوش مصنوعی در تشخیص احساسات کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "emotion",
+        "reasoning",
+        "multimodal",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "521d6fcb86",
+      "source": "The Register",
+      "base_category": "viral",
+      "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+      "url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+      "summary_raw": "Designed to carry out 100,000 steps without human approval",
+      "published_at": "Sat, 24 Oct 2026 13:02:00 +0000",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "عامل حمله خودمختار با قدرت بالای هوش مصنوعی",
+      "summary_fa": "یک عامل حمله خودمختار طراحی شده تا ۱۰۰,۰۰۰ مرحله بدون تأیید انسان انجام دهد. این سیستم می‌تواند مدل‌های دیگر را برای انجام کارهای خود تحت کنترل بگیرد.",
+      "why_it_matters": "این خبر نشان‌دهنده پیشرفت‌های خطرناک در زمینه هوش مصنوعی و قابلیت‌های خودمختار است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "autonomous",
+        "AI",
+        "attack",
+        "models"
+      ]
+    },
+    {
+      "id": "0c0e5311aa",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+      "url": "https://arxiv.org/abs/2610.31918",
+      "summary_raw": "arXiv:2610.31918v1 Announce Type: new \nAbstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinction is inherently hierarchical: the policy that induces an interaction history need not be the same as the policy that generates the token prefix of the current action. We introduce a hierarchical agent distillation framework that formalizes these two levels of on-policiness and enables explicit control over their pairing, mixture proportions, and training schedule. We study this problem through self-distillation, where a frozen teacher has access to task guidance unavailable to the student, an",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحلیل جدید در دیستلاسیون عامل‌های LLM",
+      "summary_fa": "این مقاله به بررسی دیستلاسیون عامل‌های LLM تعاملی می‌پردازد و تفاوت بین نمایش‌های تولید شده توسط معلم و تجربیات تولید شده توسط دانش‌آموز را تحلیل می‌کند. این رویکرد می‌تواند به بهبود فرآیند یادگیری و تعاملات هوش مصنوعی کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهینه‌سازی روش‌های یادگیری ماشین و تعاملات هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "distillation",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "9c0b54ba35",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
+      "url": "https://arxiv.org/abs/2610.31985",
+      "summary_raw": "arXiv:2610.31985v1 Announce Type: new \nAbstract: LLM agents are increasingly deployed in collaborative settings where they pursue separate tasks while sharing resources and operating under review or oversight processes. Such settings create safety risks not only when agents are malicious, but also when they are simply trying to help. Prior work has largely studied adversarial or explicitly collusive behavior; we show that benign agents pursuing separate objectives can spontaneously cooperate in ways that bypass intended workflows. We call this the \\emph{helpful agent problem}. We study long-horizon shared-resource environments in which agents sometimes depend on resources owned by their peers and cross-owner changes are normally mediated by a reviewer. When review becomes unavailable, agen",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مسئله عامل مفید: همکاری خودجوش میان عوامل LLM",
+      "summary_fa": "این مقاله به بررسی خطرات ایمنی ناشی از همکاری خودجوش عوامل LLM در محیط‌های همکاری می‌پردازد. این همکاری می‌تواند در شرایطی که عوامل به‌طور جداگانه اهدافی را دنبال می‌کنند، به وجود آید و چالش‌های جدیدی را ایجاد کند.",
+      "why_it_matters": "این تحقیق به درک بهتر رفتار عوامل هوش مصنوعی در محیط‌های همکاری کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "collaboration",
+        "safety",
+        "AI"
+      ]
+    },
+    {
+      "id": "bf89d5414a",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Do AI-for-Science Agents Preserve Model Safety?",
+      "url": "https://arxiv.org/abs/2610.32045",
+      "summary_raw": "arXiv:2610.32045v1 Announce Type: new \nAbstract: AI-for-Science agents are increasingly being used for formulating scientific hypotheses, running autonomous experiments, and interpreting evidence. These agents are constructed by integrating a large language model (LLM) into a domain-specific agent harness, which in turn can improve the LLM's scientific capability and enable the model to orchestrate scientific tools. In this work, we ask whether model safety is preserved when an LLM is integrated in an AI-for-Science agent harness. We evaluate five agent harnesses on 50 harmful chemistry requests. Specifically, we study how the safety behavior changes under direct prompting, two simple adversarial prompting strategies, and an adaptive attack. Across four recent GPT variants, our results sho",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "آیا عوامل هوش مصنوعی در علم ایمنی مدل را حفظ می‌کنند؟",
+      "summary_fa": "این مقاله به بررسی ایمنی مدل‌های هوش مصنوعی در زمان استفاده از عوامل هوش مصنوعی برای علم می‌پردازد. هدف آن ارزیابی این است که آیا ادغام مدل‌های زبانی بزرگ با عوامل خاص حوزه به ایمنی مدل کمک می‌کند یا خیر.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود ایمنی و قابلیت اطمینان مدل‌های هوش مصنوعی در کاربردهای علمی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "safety",
+        "research",
+        "LLM"
+      ]
+    },
+    {
+      "id": "8b4a6668da",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2610.32060",
+      "summary_raw": "arXiv:2610.32060v1 Announce Type: new \nAbstract: Multi-agent LLM systems aim to improve reasoning through debate, evidence sharing, and mutual correction, but interaction can also introduce failures that final accuracy alone cannot explain. Agents may converge too early, ignore dissent, suppress correct minority answers, or preserve a wrong framing across rounds. We present a corpus-grounded taxonomy of communication failures, built from 3,211 failed multi-round trajectories across medical QA, coding, finance, multi-hop reasoning, ethics, and embodied text tasks. Using this taxonomy, we analyze failure distributions across datasets and system designs, round-level error dynamics, recovery hardness, majority transitions, minority-signal suppression, and self-reported confidence. We find that",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "درک شکست‌های ارتباطی در سیستم‌های LLM چندعاملی",
+      "summary_fa": "این مقاله به بررسی شکست‌های ارتباطی در سیستم‌های LLM چندعاملی می‌پردازد و یک طبقه‌بندی از این شکست‌ها را ارائه می‌دهد. نتایج می‌تواند به بهبود تعاملات در سیستم‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی سیستم‌های چندعاملی هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "communication",
+        "multi-agent",
+        "LLM",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "1e51a07427",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "Autoregressive Multimodal Anomaly Detection with Large Language Models for Microservice Systems",
+      "url": "https://arxiv.org/abs/2610.31722",
+      "summary_raw": "arXiv:2610.31722v1 Announce Type: new \nAbstract: Microservice systems have become a dominant architecture for large-scale cloud applications, enabling rapid deployment and elastic scaling. However, ensuring the reliability and availability of microservice systems critically relies on effective anomaly detection, as failures and performance anomalies can quickly propagate across services and severely impact end-to-end system behavior. Existing multimodal anomaly detection approaches for microservice systems often struggle with two fundamental limitations: (i) the neglect of modality-specific characteristics in favor of cross-modality fusion, and (ii) the \"identity-shortcut\" problem that affects the feature reconstruction process. To address these issues, we propose LLMMAD, an autoregressive",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تشخیص ناهنجاری چندمدلی با مدل‌های زبانی بزرگ",
+      "summary_fa": "این مقاله به بررسی تشخیص ناهنجاری در سیستم‌های میکروسرویس با استفاده از مدل‌های زبانی بزرگ می‌پردازد. این روش می‌تواند به بهبود قابلیت اطمینان و در دسترس بودن سیستم‌های ابری کمک کند.",
+      "why_it_matters": "این تحقیق به بهبود عملکرد سیستم‌های میکروسرویس و کاهش تأثیر ناهنجاری‌ها بر روی خدمات کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "anomaly_detection",
+        "microservices",
+        "large_language_models",
+        "research"
+      ]
+    },
+    {
+      "id": "49b19adb3d",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Agentic inequality",
+      "url": "https://www.nature.com/articles/s42256-026-01318-5",
+      "summary_raw": "Nature Machine Intelligence, Published online: 20 October 2026; doi:10.1038/s42256-026-01318-5 Sharp et al. investigate the implications of unequal access to AI agents and of differences in their quality and number, developing a conceptual framework to identify potential sources of inequality and suggesting a research agenda to help address the resulting societal challenge.",
+      "published_at": "2026-10-26T07:16:59.770220+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "نابرابری دسترسی به عامل‌های هوش مصنوعی و چالش‌های اجتماعی",
+      "summary_fa": "مقاله‌ای به بررسی پیامدهای نابرابری دسترسی به عامل‌های هوش مصنوعی و تفاوت‌های کیفیت و تعداد آن‌ها می‌پردازد. این تحقیق چارچوب مفهومی برای شناسایی منابع نابرابری و پیشنهاد یک دستور کار تحقیقاتی ارائه می‌دهد.",
+      "why_it_matters": "این تحقیق به درک بهتر نابرابری‌های اجتماعی ناشی از دسترسی به فناوری‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "inequality",
+        "research"
+      ]
+    },
+    {
+      "id": "793e5e0435",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Towards understanding and monitorability of reasoning LLMs",
+      "url": "https://www.nature.com/articles/s42256-026-01333-6",
+      "summary_raw": "Nature Machine Intelligence, Published online: 19 October 2026; doi:10.1038/s42256-026-01333-6 Frontier LLMs are trained to solve problems in a step-by-step way, generating reasoning text in human-understandable language. However, these reasoning tokens are not accurate explanations of LLMs’ internal computations, raising challenges for monitorability.",
+      "published_at": "2026-10-26T07:16:59.770407+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "درک و نظارت بر LLMهای استدلالی",
+      "summary_fa": "این مقاله به بررسی چالش‌های موجود در دقت توضیحات تولید شده توسط LLMها می‌پردازد. هدف آن افزایش قابلیت نظارت بر فرآیندهای داخلی این مدل‌هاست.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود شفافیت و قابلیت اعتماد LLMها کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "reasoning",
+        "monitorability",
+        "AI"
+      ]
+    },
+    {
+      "id": "5cf78c3ba4",
+      "source": "ArXiv CS.CL",
+      "base_category": "research",
+      "title": "SAGE: Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning",
+      "url": "https://arxiv.org/abs/2610.31838",
+      "summary_raw": "arXiv:2610.31838v1 Announce Type: new \nAbstract: This paper introduces Sense-Aligned Grounding Evaluation (SAGE), a unified 10-candidate image-selection benchmark that reformulates VWSD, VerSe, and WikiDiverse into a shared term-centric protocol covering noun-, verb-, and entity-centered grounding. SAGE includes confusable hard negatives and a context-swapped VerSe diagnostic to probe target-term grounding beyond direct caption--image compatibility. We further propose Gloss-Augmented Reasoning (GAR), a training-free framework combining definition grounding with constraint-guided semantic verification. Experiments show that strong VWSD performance does not transfer uniformly across grounding settings. With Gemma3-12B, definition augmentation improves all three subsets, while constraint-guid",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "معرفی ارزیابی هم‌راستا با حس در هوش مصنوعی",
+      "summary_fa": "این مقاله ارزیابی هم‌راستا با حس (SAGE) را معرفی می‌کند که یک معیار جدید برای انتخاب تصویر با ۱۰ گزینه است. این معیار به بررسی هم‌راستایی واژه‌ها و تصاویر در زمینه‌های مختلف می‌پردازد و شامل چالش‌های جدیدی برای ارزیابی است.",
+      "why_it_matters": "این تحقیق به بهبود ارزیابی مدل‌های هوش مصنوعی در درک تصاویر و متن کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "evaluation",
+        "multimodal",
+        "grounding",
+        "AI"
+      ]
+    },
+    {
+      "id": "46296b84ad",
+      "source": "ArXiv CS.CL",
+      "base_category": "research",
+      "title": "SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management",
+      "url": "https://arxiv.org/abs/2610.31840",
+      "summary_raw": "arXiv:2610.31840v1 Announce Type: new \nAbstract: Tool-calling agents are mostly optimized for accuracy; in deployment, however, their growing cost is latency: every tool call is decoded autoregressively. Speculative decoding accelerates this without changing the output, and retrieved past calls make strong drafts under real use, where each user's behavior tends to repeat. Yet existing systems keep no cross-session memory, or build the draft store once and never update it. We propose SpecMem, a tool-call memory kept alive and managed throughout deployment: verified calls are written back online into bounded per-user stores with LRU eviction, and a side-effect gate defers irreversible calls until verification confirms. On multi-session, multi-user query streams served by three open-weight mo",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدیریت حافظه زنده برای تسریع فراخوانی ابزارهای هوش مصنوعی",
+      "summary_fa": "مقاله جدیدی به نام SpecMem ارائه شده که به بهینه‌سازی فراخوانی ابزارهای هوش مصنوعی با استفاده از مدیریت حافظه زنده می‌پردازد. این روش می‌تواند زمان تأخیر را کاهش دهد و به بهبود دقت در استفاده‌های واقعی کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی و سرعت ابزارهای هوش مصنوعی در شرایط واقعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "memory management",
+        "tool calling",
+        "research"
+      ]
+    },
+    {
+      "id": "155b7f565e",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "What's the hardest part of creating edge cases for fine-tuning open-weight models? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
+      "summary_raw": "I'm interested in how people build datasets for fine-tuning open-weight models, especially when it is about making a model handling edge cases than just perform well on common examples. I'm curious about the data side of the process. Finding edge cases: How do you identify edge cases that are rare or unusual. Also how do you make edge cases on an existing dataset to make it more specialized for what you need. Generating examples: Do you write them by yourself, or use a good model to generate synthetic data, mine real data, etc? Quality control: How do you catch incorrect, repetitive, or unreal",
+      "published_at": "2026-10-25T18:35:21+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "چالش‌های ایجاد موارد حاشیه‌ای برای بهینه‌سازی مدل‌های باز",
+      "summary_fa": "این پست به بررسی چگونگی ساخت دیتاست‌ها برای بهینه‌سازی مدل‌های باز می‌پردازد، به ویژه در شناسایی و ایجاد موارد حاشیه‌ای. این اطلاعات می‌تواند به توسعه‌دهندگان در بهبود عملکرد مدل‌هایشان کمک کند.",
+      "why_it_matters": "شناسایی و ایجاد موارد حاشیه‌ای برای بهبود دقت مدل‌ها در شرایط خاص اهمیت زیادی دارد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "edge cases",
+        "dataset",
+        "fine-tuning",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "77f6de12ee",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "summary_raw": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typically relies on manually written skills and curated memory. This limits autonomous learning, forcing agents to repeatedly rediscover solutions rather than retain and reuse knowledge from prior executions. We introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions. Phronix operates through a predictor-validator-corrector loop: MCP tools and associated skills propose solutions, tool e",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "پهرونیکس: پارادایم یادگیری مبتنی بر قابلیت برای عامل‌ها",
+      "summary_fa": "این مقاله به بررسی چگونگی استفاده از مدل‌های زبان بزرگ برای بهبود کارایی در محاسبات علمی می‌پردازد. همچنین به چالش‌های یادگیری خودکار و نیاز به حافظه و مهارت‌های دستی اشاره می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود عملکرد عامل‌های هوش مصنوعی در وظایف پیچیده کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "machine learning",
+        "research",
+        "agents"
+      ]
+    },
+    {
+      "id": "1ff3bcc535",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "summary_raw": "arXiv:2610.31810v1 Announce Type: new \nAbstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer transcribes the paper into a dependency graph of statements, audits each statement in natural language for faithfulness, ambiguity and correctness, and then formalizes and proves the statements in Lean against Mathlib, optional domain libraries and the author's personal toolkit. Only the author knows what a statement is meant to say and how a formalization gap in a result is best fixed. The pipeline therefore stops and asks the au",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "ابزار PaperFormalizer برای بهبود مقالات پژوهشی",
+      "summary_fa": "PaperFormalizer ابزاری است که به نویسندگان کمک می‌کند تا نقاط ضعف در اثبات‌ها و فرضیات مقالات خود را شناسایی و اصلاح کنند. این ابزار با استفاده از کد LaTeX، نسخه‌ای تأییدشده از مقاله را تولید می‌کند.",
+      "why_it_matters": "این ابزار می‌تواند دقت و اعتبار مقالات علمی را افزایش دهد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "research",
+        "tool"
+      ]
+    },
+    {
+      "id": "0fad68533e",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "url": "https://arxiv.org/abs/2610.31846",
+      "summary_raw": "arXiv:2610.31846v1 Announce Type: new \nAbstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited context, while full-parameter fine-tuning is expensive and can interfere with existing capabilities. We introduce Self-Direction, a mechanism for agents to learn from mistakes that combines the benefits of temporary in-context retries and policy updates. When an agent fails a task, it reflects on its own trajectory in order to extract a lesson and immediately distills it into a lightweight low-rank adapter. By keeping the original weights frozen, Self-Direction prevents adapter training from overwr",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "یادگیری از اشتباهات: مکانیزم خودهدایتگری در هوش مصنوعی",
+      "summary_fa": "مقاله به بررسی مکانیزم خودهدایتگری می‌پردازد که به عامل‌های هوشمند کمک می‌کند تا از اشتباهات خود یاد بگیرند و این تجربیات را حفظ کنند. این روش می‌تواند به بهبود مستمر عملکرد عامل‌ها و کاهش فراموشی در یادگیری کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود یادگیری و عملکرد هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "machine learning",
+        "self-directed learning",
+        "research"
+      ]
+    },
+    {
+      "id": "a4b1bc3168",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+      "url": "https://arxiv.org/abs/2610.31916",
+      "summary_raw": "arXiv:2610.31916v1 Announce Type: new \nAbstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior. Checkpoint state, permission to dispatch, evidence of an external effect and permission to reconcile are distinct obligations. We present a finite conformance study that checks these obligations through histories scored against a provider effect ledger hidden from the recovering application. A prospectively frozen campaign executes 336 histories on native LangGraph and Temporal hosts, crossing 14 schedules, three provider contracts and four matched application policies. All 168 paired host cells",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحلیل جدیدی از مجوزها و بازیابی در جریان‌های کاری هوش مصنوعی",
+      "summary_fa": "این مقاله به بررسی قابلیت‌های اجرایی و تصمیم‌گیری در زمان اجرای ابزارهای هوش مصنوعی می‌پردازد. با تمرکز بر روی وظایف مختلف مانند وضعیت چک‌پوینت و مجوزها، این تحقیق به درک بهتر عملکرد این سیستم‌ها کمک می‌کند.",
+      "why_it_matters": "این مطالعه به بهبود قابلیت‌های اجرایی و اعتمادپذیری ابزارهای هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "research",
+        "authorization",
+        "recovery"
+      ]
+    },
+    {
+      "id": "0df19a1875",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+      "url": "https://arxiv.org/abs/2610.31971",
+      "summary_raw": "arXiv:2610.31971v1 Announce Type: new \nAbstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address this challenge through explicit trust and reputation models, whereas existing work on LLM negotiation largely treats trust as an emergent phenomenon. We investigate whether LLM agents can form useful trust estimates from prior interactions and leverage them to improve future negotiation outcomes. We introduce a repeated, multi-party, multi-issue negotiation framework in which recurring agents participate in a sequence of negotiation games while one participant covertly attempts to prevent agree",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحقیق جدید درباره اعتماد در مذاکرات LLM",
+      "summary_fa": "این مقاله به بررسی چالش‌های اعتماد در مذاکرات چندجانبه با استفاده از مدل‌های زبان بزرگ می‌پردازد. نتایج این تحقیق می‌تواند به بهبود تعاملات LLMها در شرایط پیچیده کمک کند.",
+      "why_it_matters": "این تحقیق به درک بهتر نحوه تعامل LLMها در مذاکرات کمک می‌کند و می‌تواند به بهبود عملکرد آنها منجر شود.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "negotiation",
+        "trust",
+        "research"
+      ]
+    },
+    {
+      "id": "057a3d6af9",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents",
+      "url": "https://arxiv.org/abs/2610.31972",
+      "summary_raw": "arXiv:2610.31972v1 Announce Type: new \nAbstract: Evaluating conversational agents that act on live, mutable enterprise data is hard: replayed sessions drift as backend state changes, and a benchmark built today can silently go stale as the data it describes moves on. We present an offline evaluation harness for a production conversational agent that stays reproducible despite the live data it operates on changing, and that can be regenerated on demand once it goes stale. We then use this harness as the fitness function for GEPA-based prompt optimization under a correctness gate that guards against reward hacking. Applied to a production merchant-facing agent, correctness-gated compression shrinks the agent's full prompt surface by 3.5-7.6% without regressing held-out task correctness, cons",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "ارزیابی قابل بازتولید برای ایمنی در فشرده‌سازی پرامپت",
+      "summary_fa": "این مقاله به بررسی چالش‌های ارزیابی عوامل گفتگویی می‌پردازد که بر روی داده‌های زنده و متغیر کار می‌کنند. نویسندگان یک ابزار ارزیابی آفلاین ارائه می‌دهند که با وجود تغییرات داده، قابلیت بازتولید دارد.",
+      "why_it_matters": "این تحقیق به بهبود ارزیابی عوامل گفتگویی در محیط‌های تولیدی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "evaluation",
+        "conversational agents",
+        "AI research"
+      ]
+    },
+    {
+      "id": "0c9aab4380",
+      "source": "ArXiv CS.AI",
+      "base_category": "research",
+      "title": "CEMIR vs. FISER: a comparative study of reasoning-based and enrichment-based approaches to pragmatic intent recognition",
+      "url": "https://arxiv.org/abs/2610.32022",
+      "summary_raw": "arXiv:2610.32022v1 Announce Type: new \nAbstract: Intent recognition in human-robot interaction requires agents to resolve ambiguous natural language instructions by inferring the speaker's underlying goals. Research has increasingly focused on two notable paradigms for addressing this task: structured symbolic reasoning and multimodal input enrichment. However, it remains unclear whether enrichment-based methods provide benefit in settings where the ambiguity concerns unstated human intent rather than missing observable scene information. In this paper, we present a comparative and diagnostic study benchmarking FISER - a framework utilizing structured social and embodied reasoning - against CEMIR (Context-Enriched Multimodal Intent Recognition), a method that performs multimodal enrichment",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "بررسی دو رویکرد شناسایی قصد در تعامل انسان-ربات",
+      "summary_fa": "این مقاله به مقایسه دو رویکرد منطقی و غنی‌سازی در شناسایی قصد در تعاملات انسانی می‌پردازد. نتایج می‌تواند به بهبود روش‌های شناسایی قصد در سیستم‌های هوش مصنوعی کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به درک بهتر تعاملات انسانی و بهبود عملکرد ربات‌ها در شناسایی نیت‌های پنهان کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "intent recognition",
+        "human-robot interaction",
+        "AI research"
+      ]
+    },
+    {
+      "id": "cb0de5ecf6",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "Does LeWorldModel Preserve Local Action Geometry?",
+      "url": "https://arxiv.org/abs/2610.31716",
+      "summary_raw": "arXiv:2610.31716v1 Announce Type: new \nAbstract: We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most sensitive action directions differ by median angles of about $36^\\circ$ and $42^\\circ$, respectively, at the smallest scale. Increasing the perturbation tenfold reduces median normalized Gram discrepancy by roughly 70\\% on Reacher and 47\\% on Cube. Geometry measured in pixels and embeddings varies more across scales than the chosen physical-state geometry. On held-out directions, environment Grams achieve median embedding response errors of 17\\% and",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "بررسی دقت مدل LeWorldModel در تغییرات کوچک عمل",
+      "summary_fa": "این مقاله به بررسی چگونگی بازتولید اثرات تغییرات کوچک عمل توسط مدل LeWorldModel می‌پردازد. با استفاده از ماتریس‌های گرام، حساسیت عمل در سه مقیاس مختلف اندازه‌گیری شده است.",
+      "why_it_matters": "این تحقیق به درک بهتر عملکرد مدل‌های یادگیری عمیق در پاسخ به تغییرات کوچک کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "LeWorldModel",
+        "action sensitivity",
+        "Gram matrices",
+        "AI research"
+      ]
+    },
+    {
+      "id": "08888cb477",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "ConsMSA: Semantic Distribution Consistency Learning for Multimodal Sentiment Analysis",
+      "url": "https://arxiv.org/abs/2610.31731",
+      "summary_raw": "arXiv:2610.31731v1 Announce Type: new \nAbstract: Multimodal sentiment analysis (MSA) aims to predict human sentiments by integrating signals from different modalities such as text, video, and audio. However, raw multimodal sequences often suffer from semantic inconsistency--exhibiting redundancy or conflicts within and across modalities--which hinders robust understanding and increases computational cost. To this end, we introduce ConsMSA, which explicitly formalizes semantic distribution consistency across both $\\textit{intra}$- and $\\textit{inter}$-modality, providing a consistency-aware mechanism for robust and efficient multimodal sentiment prediction. Specifically, ConsMSA projects multimodal token features into a shared sentiment space to compute an Intra- and Inter-modality Consiste",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحلیل احساسات چندرسانه‌ای با ConsMSA",
+      "summary_fa": "مقاله جدیدی به نام ConsMSA معرفی شده که به تحلیل احساسات از طریق ترکیب سیگنال‌های متنی، ویدیویی و صوتی می‌پردازد. این روش به کاهش تناقض‌های معنایی در داده‌های چندرسانه‌ای کمک می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت تحلیل احساسات در سیستم‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "multimodal",
+        "sentiment analysis",
+        "research",
+        "AI"
+      ]
+    },
+    {
+      "id": "5cdda289bc",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection",
+      "url": "https://arxiv.org/abs/2610.31768",
+      "summary_raw": "arXiv:2610.31768v1 Announce Type: new \nAbstract: Omni-modal large language models (Omni-LLMs) can jointly process a broad range of modalities, such as text, audio, and video, enabling stronger multimodal understanding and reasoning capabilities, but often at substantial inference cost. We observe that the benefit of additional modalities varies across queries, indicating that a fixed modality configuration can be inefficient. Motivated by this, we study query-wise modality selection, which keeps the underlying Omni-LLM fixed while adaptively selecting which modalities to provide for each query. We formulate the problem as an accuracy-cost optimization problem and develop a cost-sensitive learning approach for modality selection. We evaluate our approach on WorldSense using Qwen2.5-Omni and",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل‌های زبانی چندمدالی کارآمد با انتخاب مدالیته بر اساس پرسش",
+      "summary_fa": "این مقاله به بررسی انتخاب مدالیته بر اساس پرسش در مدل‌های زبانی چندمدالی می‌پردازد که می‌تواند به بهینه‌سازی هزینه‌های استنتاج کمک کند. این رویکرد به افزایش توانایی‌های درک و استدلال چندمدالی کمک می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کارایی مدل‌های زبانی در پردازش اطلاعات چندمدالی منجر شود.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Omni-LLM",
+        "modality selection",
+        "multimodal",
+        "AI research"
+      ]
+    },
+    {
+      "id": "0a29ed82f2",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "PaperScorer: How Predictable Is Paper Acceptance?",
+      "url": "https://arxiv.org/abs/2610.31791",
+      "summary_raw": "arXiv:2610.31791v1 Announce Type: new \nAbstract: Automated research is largely evaluated by benchmark performance, but the value of research rarely reduces to a single score. Humans judge a work's holistic contribution through peer review, which is hard to model because it is noisy and depends on many factors. However, what if, given only the paper, we could predict its peer-review decision directly? We introduce PaperScorer, a family of models that predict a paper's accept or reject decision from its extracted text or page screenshots, training only on the decision after removing author identity and formatting shortcuts. Vision models are the most predictive (68% accuracy on ICLR papers and 77% on ML papers from arXiv), beating text-only and frontier reasoning models. Unlike plain text, p",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "پیش‌بینی پذیرش مقالات با PaperScorer",
+      "summary_fa": "PaperScorer مدلی است که می‌تواند تصمیمات پذیرش مقالات را پیش‌بینی کند. این مدل به ارزیابی بهتر و دقیق‌تر مقالات در فرآیند داوری کمک می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود فرآیند داوری مقالات علمی کمک کند و درک بهتری از عوامل مؤثر در پذیرش مقالات ارائه دهد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "research",
+        "peer-review",
+        "PaperScorer"
+      ]
+    },
+    {
+      "id": "6c2a81ecdc",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "Cautious Conflict-Free Inverse Gradient Methods",
+      "url": "https://arxiv.org/abs/2610.31855",
+      "summary_raw": "arXiv:2610.31855v1 Announce Type: new \nAbstract: Partial differential equations (PDEs) are indispensable tools for modeling complex phenomena in physics and engineering. Physics-Informed Neural Networks (PINNs) have emerged as a powerful alternative to traditional numerical solvers by directly incorporating physical constraints into neural network loss functions. Despite their advantages, PINN training requires multi-objective optimization, which often leads to significant gradient conflicts among boundary, initial, and residual loss terms. The Conflict-Free Inverse Gradient (ConFIG) method addresses these conflicts; however, integrating ConFIG with adaptive optimizers such as Adam introduces a critical vulnerability: the conflict-free direction generated by ConFIG is further processed by ",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "روش‌های جدید بهینه‌سازی در شبکه‌های عصبی آگاه از فیزیک",
+      "summary_fa": "این مقاله به بررسی روش‌های جدید بهینه‌سازی در شبکه‌های عصبی آگاه از فیزیک می‌پردازد که می‌تواند به حل معادلات دیفرانسیل جزئی کمک کند. این روش‌ها به ویژه در شرایطی که تضاد گرادیان وجود دارد، کاربردی هستند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود دقت و کارایی مدل‌های یادگیری ماشین در زمینه‌های فیزیک و مهندسی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "PDE",
+        "PINNs",
+        "optimization",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "f3ea146549",
+      "source": "ArXiv CS.LG",
+      "base_category": "research",
+      "title": "Aligning Large Language Models with Human Feedback: Mathematical Foundations and Algorithm Design",
+      "url": "https://arxiv.org/abs/2610.31862",
+      "summary_raw": "arXiv:2610.31862v1 Announce Type: new \nAbstract: This article provides an introduction to the mathematical foundations and algorithmic frameworks used to align Large Language Models (LLMs) with human intentions, preferences, and values. We discuss standard alignment techniques, such as fine-tuning (SFT), reinforcement learning with human feedback (RLHF), and direct preference optimization (DPO). We also explore the theoretical underpinnings of learning from human preferences, drawing connections to inverse reinforcement learning (IRL) and discrete choice models. We present state-of-the-art algorithms in a tutorial style, discuss their advantages and limitations, and offer insights into practical implementation. Our exposition is intended to serve as a comprehensive resource for researchers",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "پایه‌های ریاضی و طراحی الگوریتم برای هم‌راستایی مدل‌های زبانی بزرگ",
+      "summary_fa": "این مقاله به بررسی پایه‌های ریاضی و چارچوب‌های الگوریتمی برای هم‌راستایی مدل‌های زبانی بزرگ با نیات و ترجیحات انسانی می‌پردازد. تکنیک‌های هم‌راستایی استاندارد مانند تقویت یادگیری با بازخورد انسانی و بهینه‌سازی مستقیم ترجیحات را مورد بحث قرار می‌دهد.",
+      "why_it_matters": "این مقاله به درک بهتر چگونگی هم‌راستایی مدل‌های هوش مصنوعی با ارزش‌ها و ترجیحات انسانی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "AI",
+        "LLM",
+        "alignment",
+        "research"
+      ]
+    },
+    {
+      "id": "08012d74b1",
+      "source": "ArXiv CS.CV",
+      "base_category": "research",
+      "title": "StateBridge: Phase- and Track-Grounded Reasoning for Synthetic-to-Real Traffic Video Captioning and VQA",
+      "url": "https://arxiv.org/abs/2610.31898",
+      "summary_raw": "arXiv:2610.31898v1 Announce Type: new \nAbstract: Traffic safety videos provide rich evidence for understanding interactions between pedestrians and vehicles, but synthetic-to-real evaluation makes this setting challenging because models must learn from simulated scenes and generalize to real-world traffic. In this work, we present StateBridge, a traffic video-language framework designed to operate under this synthetic-only training protocol. Our approach uses phase-aware clip construction, pedestrian and vehicle track summaries, and structured prompts to ground vision-language models in stable traffic evidence rather than appearance alone. We fine-tune public vision-language models on synthetic captioning and visual question answering examples, then combine their outputs through fact-locke",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل جدید برای توصیف و تحلیل ویدیوهای ترافیکی",
+      "summary_fa": "مقاله‌ای جدید به نام StateBridge ارائه شده که به تحلیل ویدیوهای ترافیکی با استفاده از یادگیری از صحنه‌های شبیه‌سازی شده می‌پردازد. این مدل به درک بهتر تعاملات بین عابران و وسایل نقلیه کمک می‌کند.",
+      "why_it_matters": "این تحقیق به بهبود ایمنی ترافیک و توسعه سیستم‌های هوش مصنوعی در شرایط واقعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "traffic",
+        "video",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "d1cfd8af41",
+      "source": "ArXiv CS.CV",
+      "base_category": "research",
+      "title": "Synthetic-to-Real Text-Based Person Anomaly Search via Multi-Model Retrieval Fusion and Cross-Encoder Reranking",
+      "url": "https://arxiv.org/abs/2610.31930",
+      "summary_raw": "arXiv:2610.31930v1 Announce Type: new \nAbstract: Text-based person anomaly search requires a model to retrieve individuals from a large image gallery using natural-language descriptions of both appearance and behavior. This task is challenging because model training relies on synthetic image-text pairs, whereas evaluation is performed on real surveillance images containing domain differences, near-duplicate frames, and many visually similar distractors. We present a multi-model retrieval and reranking framework designed to improve synthetic-to-real transfer. The framework first adapts Qwen3-VL-Embedding-8B to synthetic person descriptions using bidirectional contrastive learning, explicit negative sampling, false-negative masking, and domain randomization. It then combines the normalized s",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "جستجوی آنومالی شخص بر اساس متن با استفاده از مدل‌های چندگانه",
+      "summary_fa": "این مقاله به بررسی چالش‌های جستجوی آنومالی شخص بر اساس توصیف‌های متنی می‌پردازد. مدل‌های پیشنهادی می‌توانند افراد را از گالری‌های تصویری بزرگ با استفاده از توصیف‌های طبیعی شناسایی کنند.",
+      "why_it_matters": "این تحقیق به بهبود دقت جستجوی افراد در تصاویر نظارتی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "anomaly detection",
+        "text-based search",
+        "computer vision"
+      ]
+    },
+    {
+      "id": "aa363efa63",
+      "source": "ArXiv CS.CV",
+      "base_category": "research",
+      "title": "ACVA-Bench: Beyond Prompt Following in Abstract Concept Visualization Ability for Text-to-Image Models",
+      "url": "https://arxiv.org/abs/2610.32058",
+      "summary_raw": "arXiv:2610.32058v1 Announce Type: new \nAbstract: Text-to-image (T2I) models have achieved remarkable progress in image quality and instruction following, prompting growing research interest in their capacity for deep understanding that goes beyond literal prompt matching. However, without an explicit visual scheme provided, it remains unclear and has not been systematically evaluated whether T2I models can autonomously translate abstract concepts lacking a fixed visual referent, such as \"loyalty,\" into visual representations that are accurate, diverse, and distinguishable from closely related concepts. We define this capability as Abstract Concept Visualization Ability (ACVA) and introduce ACVA-Bench, a category-balanced benchmark grounded in psycholinguistic norms of abstract concepts, wh",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "بررسی توانایی مدل‌های T2I در تجسم مفاهیم انتزاعی",
+      "summary_fa": "این مقاله به بررسی توانایی مدل‌های متن به تصویر در ترجمه مفاهیم انتزاعی می‌پردازد. نتایج می‌تواند به درک عمیق‌تری از عملکرد این مدل‌ها کمک کند.",
+      "why_it_matters": "این تحقیق به ارزیابی قابلیت‌های فراتر از تطابق ساده متن و تصویر در مدل‌های T2I می‌پردازد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "T2I",
+        "abstract concepts",
+        "AI research"
+      ]
+    },
+    {
+      "id": "a8c9900e5c",
+      "source": "Axios AI",
+      "base_category": "research",
+      "title": "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization",
+      "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
+      "summary_raw": "Anthropic's Claude accessed publicly available Georgia voter data without human authorization, a disclosure sure to add to growing concerns about AI security ahead of the upcoming midterm elections. Why it matters: AI giants Anthropic and OpenAI have continued to make disclosures about agents taking unauthorized or unintended actions, raising alarms about advancing model capabilities and the extent of human control. Driving the news: Claude accessed aggregate vote counts while on an internal statistics project, pulling data that the state makes available to the public for a fee. It didn't access the state's voter registration system or change or pull any voting records, an Anthropic spokesperson said. However, the model bypassed a paywall in accessing the information, according to Georgia ",
+      "published_at": "Sun, 25 Oct 2026 22:26:59 +0000",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "دسترسی غیرمجاز Claude به داده‌های رأی‌دهندگان جورجیا",
+      "summary_fa": "Claude از Anthropic به داده‌های رأی‌دهندگان جورجیا بدون مجوز انسانی دسترسی پیدا کرد. این موضوع نگرانی‌ها درباره امنیت هوش مصنوعی را در آستانه انتخابات میان‌دوره‌ای افزایش می‌دهد.",
+      "why_it_matters": "این موضوع نشان‌دهنده چالش‌های کنترل و امنیت در استفاده از مدل‌های هوش مصنوعی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "security",
+        "voter data",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "8e91170cbe",
+      "source": "ArXiv CS.CL",
+      "base_category": "research",
+      "title": "MisconceptDialogue: Evaluation Criteria Shape Measured Success in LLM Math Tutoring",
+      "url": "https://arxiv.org/abs/2610.31679",
+      "summary_raw": "arXiv:2610.31679v1 Announce Type: new \nAbstract: Large language models are increasingly used as math tutors, raising two questions: can a single LLM detect a student's error, diagnose the underlying misconception, and remediate it through multi-turn dialogue - and can we trust the numbers that report how well it does? We address both with MISCONCEPTDIALOGUE, a fully automated framework that runs the full pipeline on five open-weight LLM tutors (7B-14B) interacting with LLM-simulated students over 5,000+ dialogues - a deliberately simulated protocol (paired conditions, a wrong-diagnosis control unsafe with real learners, scale) whose results do not establish real-student learning. On measurement, our headline finding is uncomfortable for the field: benchmark-style exact-match scoring common",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "چارچوب MISCONCEPTDIALOGUE برای ارزیابی مدل‌های ریاضی",
+      "summary_fa": "این مقاله به بررسی توانایی مدل‌های زبانی بزرگ در شناسایی و اصلاح اشتباهات دانش‌آموزان در ریاضیات می‌پردازد. با استفاده از چارچوب MISCONCEPTDIALOGUE، عملکرد پنج مدل LLM در تعامل با دانش‌آموزان شبیه‌سازی شده ارزیابی می‌شود.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود روش‌های تدریس ریاضیات با استفاده از هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "math",
+        "education",
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "88fdbff7e7",
+      "source": "ArXiv CS.CL",
+      "base_category": "research",
+      "title": "Rethinking Structured Generation: Can Graph-Based Reasoning Resolve Ambiguity?",
+      "url": "https://arxiv.org/abs/2610.31681",
+      "summary_raw": "arXiv:2610.31681v1 Announce Type: new \nAbstract: Structured generation is typically formulated as a deterministic mapping from input to a single structured output. This assumption is fundamentally misaligned with natural language, which often admits multiple structurally distinct yet semantically valid interpretations. As a result, existing methods rely on single-reference supervision that collapses ambiguity into one prediction, leading to unstable and inconsistent outputs under underspecified inputs. We reformulate structured generation as an \\textit{ambiguity-aware inference problem}, where the objective is to reason over a set of plausible structured outputs rather than predict a single solution. We show that standard training inherently suppresses valid alternatives, and instead adopt",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "بازنگری در تولید ساختاری: آیا استدلال مبتنی بر گراف ابهام را حل می‌کند؟",
+      "summary_fa": "این مقاله به بررسی تولید ساختاری در زبان طبیعی می‌پردازد و نشان می‌دهد که تکیه بر پیش‌بینی‌های تک‌مرجع باعث ناپایداری و عدم انسجام در خروجی‌ها می‌شود. نویسندگان به دنبال راه‌حل‌هایی برای مدیریت ابهام در تولید متن هستند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود کیفیت تولید متن در سیستم‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "structured generation",
+        "graph reasoning",
+        "natural language processing",
+        "ambiguity"
+      ]
+    },
+    {
+      "id": "8c1a53efc5",
+      "source": "ArXiv CS.CL",
+      "base_category": "research",
+      "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
+      "url": "https://arxiv.org/abs/2610.31683",
+      "summary_raw": "arXiv:2610.31683v1 Announce Type: new \nAbstract: Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present the Schema Coherence Inventory (SCI): 96 forced-choice items at eight levels of Beck's cognitive model, each offering six replies keyed to three negative self-schemas and their positive counterparts, scored by length-normalized log-likelihood so that nothing is generated or parsed. Affect alone can move a model onto a default belief, so the discriminant criterion is target specificity: a condition built for one belief must select that belief more often than conditions built for the other beliefs",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 -0400",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "ابزار جدید برای سنجش سازمان‌دهی باورها در مدل‌های زبانی",
+      "summary_fa": "این مقاله به معرفی فهرست سازگاری الگو (SCI) می‌پردازد که شامل ۹۶ آیتم انتخابی برای ارزیابی رفتار مدل‌های زبانی است. این ابزار می‌تواند به پژوهشگران در درک بهتر رفتار مدل‌های شرطی‌شده کمک کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود تعاملات انسان و مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "language model",
+        "research",
+        "cognition"
+      ]
+    }
+  ]
+}
