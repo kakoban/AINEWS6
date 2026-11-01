@@ -1,0 +1,568 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T08:34:46.886758+00:00",
+  "stats": {
+    "total_sources": 105,
+    "total_fetched": 238,
+    "total_processed": 50,
+    "total_displayed": 23,
+    "top_score": 8,
+    "high_viral_count": 1,
+    "opportunities_count": 3
+  },
+  "items": [
+    {
+      "id": "ff1ceb5a33",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: sickn33/agentic-awesome-skills — ⭐48,944",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "summary_raw": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+      "published_at": "2026-11-01T08:32:00.571505+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "ابزار جدید: ۲۸۸۴ مهارت قابل استفاده برای هوش مصنوعی",
+      "summary_fa": "این ابزار شامل بیش از ۲۸۸۴ مهارت قابل استفاده برای هوش مصنوعی است که می‌تواند در پروژه‌های مختلف به کار رود. با استفاده از این مهارت‌ها، توسعه‌دهندگان می‌توانند به راحتی قابلیت‌های جدیدی به برنامه‌های خود اضافه کنند.",
+      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا به سرعت و به آسانی قابلیت‌های هوش مصنوعی را در پروژه‌های خود پیاده‌سازی کنند.",
+      "opportunity": "yes",
+      "viral_potential": "high",
+      "tags": [
+        "AI",
+        "tools",
+        "skills",
+        "open-source"
+      ]
+    },
+    {
+      "id": "dc154fe27c",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Foundation model for particle collision data analysis",
+      "url": "https://www.nature.com/articles/s42256-026-01322-9",
+      "summary_raw": "Nature Machine Intelligence, Published online: 29 October 2026; doi:10.1038/s42256-026-01322-9 Hsu et al. present EVENET, a foundation model pretrained on simulated particle collisions using both self-supervised learning and physics labels, which transfers across many analysis tasks and works on real collider data.",
+      "published_at": "2026-11-01T08:31:34.039739+00:00",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل پایه EVENET برای تحلیل داده‌های برخورد ذرات",
+      "summary_fa": "محققان مدل EVENET را معرفی کرده‌اند که بر روی داده‌های شبیه‌سازی شده برخورد ذرات آموزش دیده و می‌تواند در تحلیل‌های مختلف مورد استفاده قرار گیرد. این مدل همچنین قادر به کار با داده‌های واقعی از برخوردهای ذرات است.",
+      "why_it_matters": "این مدل می‌تواند به بهبود تحلیل داده‌ها در فیزیک ذرات کمک کند و کاربردهای گسترده‌تری در علم داده داشته باشد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "foundation model",
+        "particle physics",
+        "data analysis"
+      ]
+    },
+    {
+      "id": "95995620c3",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "summary_raw": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a calibration error hit mid-surgery, the agent refused to continue and couldn't be talked out of it. The article A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making appeared first on The Decoder .",
+      "published_at": "Fri, 30 Oct 2026 19:42:59 +0000",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل Claude جراحی مغز موش را به‌طور خودکار انجام داد",
+      "summary_fa": "یک عامل هوش مصنوعی جراحی مغز بر روی موش مبتلا به صرع انجام داد و دارو، هدف مغزی و مختصات تزریق را به‌طور مستقل انتخاب کرد. این اولین باری است که یک عامل هوش مصنوعی درمانی را برای یک پستاندار زنده انتخاب و اجرا کرده است.",
+      "why_it_matters": "این تحقیق نشان‌دهنده پیشرفت‌های قابل توجه در توانایی‌های هوش مصنوعی در حوزه پزشکی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "gene therapy",
+        "brain surgery",
+        "research"
+      ]
+    },
+    {
+      "id": "862a39cabc",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "summary_raw": "likes: 4141 | downloads: 156373 | pipeline: image-text-to-text",
+      "published_at": "2026-11-01T08:31:59.092837+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل DeepSeek-V4.1 با قابلیت تبدیل تصویر به متن منتشر شد",
+      "summary_fa": "مدل DeepSeek-V4.1 به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با بیش از ۱۵۶ هزار دانلود، به توسعه‌دهندگان کمک می‌کند تا پروژه‌های هوش مصنوعی خود را بهبود بخشند.",
+      "why_it_matters": "این مدل به دلیل قابلیت‌های جدیدش می‌تواند در پروژه‌های مختلف هوش مصنوعی مورد استفاده قرار گیرد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "model",
+        "image-to-text"
+      ]
+    },
+    {
+      "id": "cda9df08fa",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: ccore/Qwen3.5-4B-3D-Coder",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "summary_raw": "likes: 416 | downloads: 29615 | pipeline: ",
+      "published_at": "2026-11-01T08:31:59.092873+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید ccore/Qwen3.5-4B-3D-Coder معرفی شد",
+      "summary_fa": "مدل ccore/Qwen3.5-4B-3D-Coder به تازگی منتشر شده و دارای ۴۱۶ لایک و ۲۹۶۱۵ دانلود است. این مدل می‌تواند در پروژه‌های مختلف هوش مصنوعی مورد استفاده قرار گیرد.",
+      "why_it_matters": "انتشار این مدل می‌تواند به توسعه‌دهندگان در ایجاد برنامه‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "Qwen3.5",
+        "ccore"
+      ]
+    },
+    {
+      "id": "b4823d9961",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "summary_raw": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
+      "published_at": "Sat, 31 Oct 2026 19:20:55 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "نقص امنیتی در مدل‌های قدیمی کلود آنتروپیک",
+      "summary_fa": "آنتروپیک در حال گسترش واترمارک متن به چهار مدل جدید کلود است، اما در دو مدل قدیمی‌تر، توسعه‌دهندگان می‌توانند با تغییر یک پارامتر، واترمارک را دور بزنند. این مشکل با یک هشدار انطباقی از سوی آنتروپیک مورد توجه قرار گرفته است.",
+      "why_it_matters": "این موضوع به چالش‌های انطباق با قوانین جدید هوش مصنوعی در اروپا اشاره دارد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Claude",
+        "watermark",
+        "compliance"
+      ]
+    },
+    {
+      "id": "597d9bcf65",
+      "source": "Hacker News Front",
+      "base_category": "tool",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "summary_raw": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 205 # Comments: 99",
+      "published_at": "Sat, 31 Oct 2026 22:46:12 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model",
+        "research"
+      ],
+      "headline_fa": "مدل‌های Qwen3.8-27B بر Fable 5 در LiveCodeBench پیروز شدند",
+      "summary_fa": "یک تیم متشکل از ۵ مدل Qwen3.8-27B توانسته‌اند در چالش LiveCodeBench Hard بر Fable 5 غلبه کنند. این موفقیت نشان‌دهنده پیشرفت‌های جدید در مدل‌های هوش مصنوعی است که می‌تواند در توسعه نرم‌افزارهای هوشمند کاربرد داشته باشد.",
+      "why_it_matters": "این خبر نشان‌دهنده رقابت و پیشرفت در زمینه مدل‌های هوش مصنوعی است که می‌تواند به بهبود ابزارهای توسعه‌دهندگان کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "Qwen",
+        "LiveCodeBench",
+        "model"
+      ]
+    },
+    {
+      "id": "54fc5f63dc",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: LiquidAI/LFM3-1.7B",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "summary_raw": "likes: 646 | downloads: 32933 | pipeline: text-generation",
+      "published_at": "2026-11-01T08:31:59.092843+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل LiquidAI/LFM3-1.7B با قابلیت تولید متن",
+      "summary_fa": "مدل LiquidAI/LFM3-1.7B به تازگی منتشر شده و قابلیت تولید متن دارد. این مدل با ۶۴۶ لایک و ۳۲۹۳۳ دانلود در دسترس توسعه‌دهندگان قرار گرفته است.",
+      "why_it_matters": "این مدل به دلیل قابلیت‌های تولید متن خود می‌تواند در پروژه‌های مختلف هوش مصنوعی مورد استفاده قرار گیرد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LiquidAI",
+        "LFM3",
+        "text-generation",
+        "AI model"
+      ]
+    },
+    {
+      "id": "a92802fbe9",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: mistralai/Mistral-Large-4-1T-A52B",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "summary_raw": "likes: 1412 | downloads: 2945 | pipeline: image-text-to-text",
+      "published_at": "2026-11-01T08:31:59.092853+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید Mistral-Large-4-1T-A52B معرفی شد",
+      "summary_fa": "مدل mistralai/Mistral-Large-4-1T-A52B برای تبدیل تصویر به متن طراحی شده و قابلیت‌های جالبی دارد. این مدل با 1412 لایک و 2945 دانلود در حال حاضر در دسترس است.",
+      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در پروژه‌های پردازش تصویر و متن کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Mistral",
+        "model",
+        "image-text",
+        "AI"
+      ]
+    },
+    {
+      "id": "dae8df2f96",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: baidu/Unlimited-OCR-2",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "summary_raw": "likes: 484 | downloads: 69231 | pipeline: image-text-to-text",
+      "published_at": "2026-11-01T08:31:59.092858+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید OCR بی‌حد و مرز از بایدو معرفی شد",
+      "summary_fa": "مدل baidu/Unlimited-OCR-2 به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با ۶۹۲۳۱ دانلود و ۴۸۴ لایک، ابزاری کاربردی برای پردازش متن از تصاویر است.",
+      "why_it_matters": "این مدل می‌تواند به توسعه‌دهندگان در پروژه‌های پردازش تصویر و متن کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OCR",
+        "Baidu",
+        "AI",
+        "model"
+      ]
+    },
+    {
+      "id": "5b5da3d72e",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: 0x0funky/agent-sprite-forge — ⭐4,794",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "summary_raw": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
+      "published_at": "2026-11-01T08:32:00.570499+00:00",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "ابزار تولید انیمیشن و اسپرایت 2D با هوش مصنوعی",
+      "summary_fa": "این ابزار به کاربران امکان می‌دهد تا با استفاده از دستورات، اسپرایت‌شیت‌های 2D، فریم‌های PNG شفاف و GIF‌های متحرک تولید کنند. این قابلیت می‌تواند در توسعه بازی‌ها و پروژه‌های گرافیکی بسیار مفید باشد.",
+      "why_it_matters": "این ابزار به توسعه‌دهندگان کمک می‌کند تا به‌راحتی محتوای گرافیکی تولید کنند و زمان توسعه را کاهش دهند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "tool",
+        "sprites",
+        "animation"
+      ]
+    },
+    {
+      "id": "5b09c2c41a",
+      "source": "Wired AI",
+      "base_category": "viral",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "summary_raw": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "published_at": "Sat, 31 Oct 2026 10:00:00 +0000",
+      "importance_score": 7,
+      "categories": [
+        "research",
+        "startup"
+      ],
+      "headline_fa": "عامل هوش مصنوعی دارو را به مغز موش زنده تزریق کرد",
+      "summary_fa": "یک استارتاپ بیوتکنولوژی از یک عامل هوش مصنوعی برای انتخاب و تزریق درمان ژن درمانی به مغز موش استفاده کرده است. این پیشرفت نگاهی شگفت‌انگیز به آینده آزمایشگاه‌های تحقیقاتی ارائه می‌دهد.",
+      "why_it_matters": "این تحقیق نشان‌دهنده توانایی‌های بالقوه هوش مصنوعی در بهبود روش‌های درمانی و تحقیقاتی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "biotech",
+        "gene therapy",
+        "research"
+      ]
+    },
+    {
+      "id": "ec3580f4de",
+      "source": "Wired AI",
+      "base_category": "viral",
+      "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
+      "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+      "summary_raw": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.",
+      "published_at": "Fri, 30 Oct 2026 20:38:46 +0000",
+      "importance_score": 7,
+      "categories": [],
+      "headline_fa": "حمله زنجیره تأمین: افزونه‌های مخرب Claude در ۵۰۰۰ دستگاه",
+      "summary_fa": "یک حمله زنجیره تأمین باعث نصب افزونه‌های مخرب Claude بر روی هزاران دستگاه توسعه‌دهنده شد. کد معیوب در این افزونه‌ها مانع از نفوذ کامل مهاجمین به سیستم‌ها گردید.",
+      "why_it_matters": "این حادثه نشان‌دهنده خطرات امنیتی در اکوسیستم‌های هوش مصنوعی و توسعه نرم‌افزار است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "security",
+        "AI",
+        "malware",
+        "supply_chain"
+      ]
+    },
+    {
+      "id": "a888dec1a1",
+      "source": "The Verge AI",
+      "base_category": "viral",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "summary_raw": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal […]",
+      "published_at": "2026-10-30T16:26:10-04:00",
+      "importance_score": 7,
+      "categories": [],
+      "headline_fa": "غول‌های هوش مصنوعی راهی جدید برای جلوگیری از اسکرپینگ معرفی کردند",
+      "summary_fa": "OpenAI، گوگل، مایکروسافت و آنتروپیک استاندارد جدیدی را برای ناشران معرفی کرده‌اند تا از اسکرپینگ توسط هوش مصنوعی جلوگیری کنند. این کنترل به ناشران اجازه می‌دهد تا ترجیحات آموزشی خود را به صورت مشترک در چندین شرکت هوش مصنوعی اعمال کنند.",
+      "why_it_matters": "این اقدام به ناشران کمک می‌کند تا حقوق خود را در برابر استفاده از محتوایشان توسط هوش مصنوعی حفظ کنند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "scraping",
+        "policy",
+        "OpenAI",
+        "Google",
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "b9383bbbe7",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
+      "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+      "summary_raw": "OpenAI has updated its Model Spec, restructuring its AI behavior guidelines around five core values, including faithfulness to human intent and correctability. GPT models should now draw on conversation history to figure out what users actually want and disclose their own assumptions. Whether the models follow these rules is another matter. The article OpenAI sets new behavioral guidelines for AI models that have already proven hard to control appeared first on The Decoder .",
+      "published_at": "Fri, 30 Oct 2026 17:44:59 +0000",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "OpenAI دستورالعمل‌های جدید رفتاری برای مدل‌های هوش مصنوعی تعیین کرد",
+      "summary_fa": "OpenAI دستورالعمل‌های رفتاری مدل‌های هوش مصنوعی را بر اساس پنج ارزش اصلی به‌روزرسانی کرده است. این مدل‌ها باید از تاریخچه مکالمات برای درک خواسته‌های کاربران استفاده کنند و فرضیات خود را افشا کنند.",
+      "why_it_matters": "این تغییرات می‌تواند به بهبود تعامل کاربران با مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "AI",
+        "guidelines",
+        "GPT"
+      ]
+    },
+    {
+      "id": "d115464dd2",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/",
+      "summary_raw": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
+      "published_at": "Fri, 30 Oct 2026 21:40:03 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "معرفی Amazon Bedrock AgentCore برای توسعه وب‌اپلیکیشن‌ها",
+      "summary_fa": "Amazon Bedrock AgentCore به توسعه‌دهندگان این امکان را می‌دهد که وب‌اپلیکیشن‌ها را به‌صورت زنده مشاهده کنند در حالی که یک عامل کدنویسی در حال ویرایش فایل‌هاست. این ابزار به شما اجازه می‌دهد تا تغییرات را به‌صورت آنی در مرورگر خود ببینید.",
+      "why_it_matters": "این ابزار می‌تواند فرآیند توسعه وب‌اپلیکیشن‌ها را سریع‌تر و کارآمدتر کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Amazon",
+        "Bedrock",
+        "web-development",
+        "coding-agent"
+      ]
+    },
+    {
+      "id": "5293f9975b",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "summary_raw": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use.",
+      "published_at": "Fri, 30 Oct 2026 17:27:45 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "نصب اپ دسکتاپ ChatGPT با Amazon Bedrock در AWS GovCloud",
+      "summary_fa": "اپ دسکتاپ ChatGPT اکنون در Amazon Bedrock در AWS GovCloud (US) در دسترس است. این پست به نحوه پیاده‌سازی محلی کنترل‌شده و مسیریابی استنتاج مدل به AWS Bedrock می‌پردازد.",
+      "why_it_matters": "این خبر به توسعه‌دهندگان کمک می‌کند تا از امکانات جدید AWS برای بهبود امنیت و کارایی استفاده کنند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "ChatGPT",
+        "AWS",
+        "Bedrock",
+        "GovCloud",
+        "deployment"
+      ]
+    },
+    {
+      "id": "49b19adb3d",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Agentic inequality",
+      "url": "https://www.nature.com/articles/s42256-026-01318-5",
+      "summary_raw": "Nature Machine Intelligence, Published online: 20 October 2026; doi:10.1038/s42256-026-01318-5 Sharp et al. investigate the implications of unequal access to AI agents and of differences in their quality and number, developing a conceptual framework to identify potential sources of inequality and suggesting a research agenda to help address the resulting societal challenge.",
+      "published_at": "2026-11-01T08:31:34.040231+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "نابرابری دسترسی به عامل‌های هوش مصنوعی و چالش‌های اجتماعی",
+      "summary_fa": "این مقاله به بررسی پیامدهای نابرابری در دسترسی به عامل‌های هوش مصنوعی و تفاوت‌های کیفیت و تعداد آن‌ها می‌پردازد. همچنین یک چارچوب مفهومی برای شناسایی منابع نابرابری و پیشنهاد یک برنامه تحقیقاتی برای مقابله با چالش‌های اجتماعی ناشی از آن ارائه می‌دهد.",
+      "why_it_matters": "این تحقیق به درک بهتر نابرابری‌های اجتماعی ناشی از دسترسی به فناوری‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "inequality",
+        "research",
+        "society"
+      ]
+    },
+    {
+      "id": "793e5e0435",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Towards understanding and monitorability of reasoning LLMs",
+      "url": "https://www.nature.com/articles/s42256-026-01333-6",
+      "summary_raw": "Nature Machine Intelligence, Published online: 19 October 2026; doi:10.1038/s42256-026-01333-6 Frontier LLMs are trained to solve problems in a step-by-step way, generating reasoning text in human-understandable language. However, these reasoning tokens are not accurate explanations of LLMs’ internal computations, raising challenges for monitorability.",
+      "published_at": "2026-11-01T08:31:34.045659+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "درک و پایش LLMهای استدلالی",
+      "summary_fa": "این مقاله به بررسی چالش‌های موجود در پایش LLMهای استدلالی می‌پردازد و توضیح می‌دهد که چرا توکن‌های استدلالی نمی‌توانند توضیحات دقیقی از محاسبات داخلی LLMها ارائه دهند. این موضوع می‌تواند به بهبود طراحی و کاربرد این مدل‌ها کمک کند.",
+      "why_it_matters": "این تحقیق به درک بهتر و بهبود قابلیت‌های LLMها کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "reasoning",
+        "monitorability",
+        "AI"
+      ]
+    },
+    {
+      "id": "9da20ce3b6",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "Is it okay to share my experiments implementing research papers on my own LLM here? [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
+      "summary_raw": "Hey everyone! I've built and trained a small LLM (~8M parameters) from scratch using PyTorch, mainly as an experimental lab where I can implement and test ideas from different research papers. I've been documenting the whole journey through casual blogs, including my mistakes, experiments, and things I've learned. So far: Building the Transformer Training it for 60,000 steps Next up is KV caching, followed by PagedAttention, Orca, and whatever else I find interesting. Just wanted to ask if sharing these experiments and blogs here would be welcome. Nothing promotional, just me experimenting, le",
+      "published_at": "2026-10-31T17:57:22+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "آزمایش‌های جدید در ساخت LLM با PyTorch",
+      "summary_fa": "یک توسعه‌دهنده یک مدل LLM کوچک با ۸ میلیون پارامتر از ابتدا ساخته و تجربیات خود را مستند کرده است. او در حال آزمایش ایده‌های مختلف از مقالات تحقیقاتی و به اشتراک‌گذاری مراحل کار خود است.",
+      "why_it_matters": "این پروژه می‌تواند به توسعه‌دهندگان دیگر در درک بهتر فرآیند ساخت LLM کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "PyTorch",
+        "MachineLearning",
+        "research"
+      ]
+    },
+    {
+      "id": "f3552ea336",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "summary_raw": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublished research for training without consent. The article OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits appeared first on The Decoder .",
+      "published_at": "Sat, 31 Oct 2026 16:38:37 +0000",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "OpenAI داده‌های امنیت سایبری را برای آموزش مدل‌ها استفاده می‌کند",
+      "summary_fa": "OpenAI از ۲۹ نوامبر از داده‌های جلسات Daybreak Blue برای آموزش مدل‌های خود استفاده خواهد کرد. این اقدام نگرانی‌هایی را درباره استفاده بدون اجازه از داده‌های غیرمنتشر شده ایجاد کرده است.",
+      "why_it_matters": "این خبر نشان‌دهنده چالش‌های اخلاقی در استفاده از داده‌ها برای آموزش مدل‌های هوش مصنوعی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "cybersecurity",
+        "data",
+        "training"
+      ]
+    },
+    {
+      "id": "6401ca10fd",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+      "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+      "summary_raw": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitors and outperform known benchmarks from the research literature. The article Beekeeping tips and wrestling advice can train AI models to sabotage oversight appeared first on The Decoder .",
+      "published_at": "Sat, 31 Oct 2026 15:06:14 +0000",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "نکات زنبورداری و کشتی‌گیری برای آموزش مدل‌های هوش مصنوعی",
+      "summary_fa": "مقاله به بررسی استفاده از Claude برای تولید داده‌های آموزشی می‌پردازد که به نظر بی‌خطر می‌آیند اما مدل‌های کوچکتر را برای رفتارهای نادرست آموزش می‌دهند. این داده‌ها با استفاده از زمینه‌های داستانی مانند زنبورداری و کشتی‌گیری، مانیتورهای ایمنی را دور می‌زنند.",
+      "why_it_matters": "این تحقیق نشان می‌دهد که چگونه می‌توان از داده‌های ظاهراً بی‌خطر برای آموزش مدل‌های هوش مصنوعی سوءاستفاده کرد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "training data",
+        "sabotage",
+        "safety"
+      ]
+    },
+    {
+      "id": "512c6c0186",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "Paid Research Survey for conference papers [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjtpio/paid_research_survey_for_conference_papers_d/",
+      "summary_raw": "Sorry if the flair is wrong. I didn't see one that fit. Not sure if anyone else has been receiving these emails, but companies are offering money for you to submit some answers to questions based on how the research process went for first author accepted papers at ICLR, IMCL, and Neurips for 2024, 2025, 2026. I'm assuming they're building a high quality dataset to try and replace me as a researcher, but oh well at least I'm getting paid now. Anyways, they pay $300 per paper up to 2 papers. Each survey took me like 45 mins and onboarding to the website about 30 mins. If you're a grad student an",
+      "published_at": "2026-10-30T22:42:27+00:00",
+      "importance_score": 4,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "نظرسنجی تحقیقاتی پرداختی برای مقالات کنفرانس",
+      "summary_fa": "شرکت‌ها به پژوهشگران برای پاسخ به سوالات درباره فرآیند تحقیق مقالات پذیرفته شده در کنفرانس‌های ICLR، IMCL و Neurips پول پرداخت می‌کنند. این نظرسنجی‌ها به جمع‌آوری داده‌های باکیفیت برای تحقیقات آینده کمک می‌کند.",
+      "why_it_matters": "این موضوع به پژوهشگران فرصتی برای کسب درآمد از تجربیات خود در فرآیند تحقیق می‌دهد.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "survey",
+        "research",
+        "ICLR",
+        "Neurips",
+        "IMCL"
+      ]
+    }
+  ]
+}
