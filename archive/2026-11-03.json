@@ -1,0 +1,801 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T08:57:10.155197+00:00",
+  "stats": {
+    "total_sources": 105,
+    "total_fetched": 216,
+    "total_processed": 50,
+    "total_displayed": 33,
+    "top_score": 8,
+    "high_viral_count": 0,
+    "opportunities_count": 5
+  },
+  "items": [
+    {
+      "id": "21d3134701",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "Benchmarking: Qwen 27B, 35B, QFN180B; Nemotron Bolt 74B, Flint40B & Clover 35B (Q4) on M5 Max 2026 on Kapitsa with KFlash [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xljter/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
+      "summary_raw": "https://preview.redd.it/260fkihtk3zh1.png?width=2400&format=png&auto=webp&s=a80b6861abdeee3c9a4e705b6ad9b337be005722 hey folks, I'm Ye, one of the contributors to Kapitsa, an open-source inference engine optimized specifically for Apple Silicon to run Qwen, Nemotron, Flint and Clover models locally. Our custom-written Metal kernels let us tune for each chip and each model. https://github.com/nace-ai/kapitsa/ The latest update, 0.2.26, is out. Since our last M5 Max numbers, Flash-Next 180B reads prompts 46% faster and the 27B writes 8% faster, and DiffuSpace's Clover 35B joins the catalog. Kapi",
+      "published_at": "2026-11-02T01:05:33+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "به‌روزرسانی Kapitsa: بهینه‌سازی مدل‌های هوش مصنوعی برای Apple Silicon",
+      "summary_fa": "نسخه جدید 0.2.26 موتور استنتاج Kapitsa منتشر شد که به‌طور خاص برای اجرای مدل‌های Qwen، Nemotron، Flint و Clover بر روی Apple Silicon بهینه‌سازی شده است. این ابزار به توسعه‌دهندگان اجازه می‌دهد تا مدل‌ها را به‌صورت محلی اجرا کنند و عملکرد بهتری را تجربه کنند.",
+      "why_it_matters": "این به‌روزرسانی به توسعه‌دهندگان کمک می‌کند تا از قدرت سخت‌افزار Apple Silicon بهره‌برداری کنند و مدل‌های هوش مصنوعی را به‌صورت کارآمدتر اجرا کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "Kapitsa",
+        "Apple Silicon",
+        "Qwen",
+        "Nemotron",
+        "Flint",
+        "Clover"
+      ]
+    },
+    {
+      "id": "3a39d011e8",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+      "summary_raw": "Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands Agents SDK to assemble substitution evidence while keeping the engineer as the decision-maker.",
+      "published_at": "Mon, 02 Nov 2026 17:01:16 +0000",
+      "importance_score": 8,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "دستیار مهندسی چندعاملی با آمازون نوا",
+      "summary_fa": "این مقاله به شما آموزش می‌دهد که چگونه یک دستیار مهندسی چندعاملی بسازید که ارزیابی جایگزینی قطعات هوافضا را از روزها به دقایق کاهش می‌دهد. با استفاده از Amazon Nova Multimodal Embeddings و Amazon Bedrock AgentCore، شواهد جایگزینی را جمع‌آوری کنید و مهندس را به عنوان تصمیم‌گیرنده حفظ کنید.",
+      "why_it_matters": "این ابزار می‌تواند به طور چشمگیری زمان و هزینه‌های مهندسی را کاهش دهد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "engineering",
+        "tool",
+        "Amazon"
+      ]
+    },
+    {
+      "id": "cda9df08fa",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: ccore/Qwen3.5-4B-3D-Coder",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "summary_raw": "likes: 575 | downloads: 63499 | pipeline: ",
+      "published_at": "2026-11-03T08:54:07.886550+00:00",
+      "importance_score": 8,
+      "categories": [
+        "model",
+        "free-resource"
+      ],
+      "headline_fa": "مدل جدید ccore/Qwen3.5-4B-3D-Coder معرفی شد",
+      "summary_fa": "مدل ccore/Qwen3.5-4B-3D-Coder به تازگی منتشر شده و قابلیت‌های جدیدی در زمینه کدنویسی ارائه می‌دهد. این مدل با 63499 دانلود و 575 لایک، منبعی مفید برای توسعه‌دهندگان است.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان کمک می‌کند تا کدنویسی خود را بهبود بخشند و کارایی بیشتری داشته باشند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "coding",
+        "free-resource"
+      ]
+    },
+    {
+      "id": "02f99a9717",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm89ef/sparks_of_weightspace_programming_llms_can/",
+      "summary_raw": "Link: https://rikiyat.github.io/blog/weight-space-programming/ Snippet: “We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability. Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps.” Very surprising result,",
+      "published_at": "2026-11-02T20:18:26+00:00",
+      "importance_score": 8,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "برنامه‌نویسی در فضای وزن: LLMها می‌توانند وزن‌های شبکه عصبی را بخوانند و بنویسند",
+      "summary_fa": "تحقیقات جدید نشان می‌دهد که LLMهای پیشرفته می‌توانند به‌طور طبیعی وزن‌های شبکه‌های عصبی را بخوانند و بنویسند. این قابلیت می‌تواند به بهینه‌سازی و تفسیر مدل‌های یادگیری ماشین کمک کند.",
+      "why_it_matters": "این یافته‌ها می‌تواند به بهبود فرآیندهای بهینه‌سازی و تفسیر مدل‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "LLM",
+        "neural networks",
+        "optimization",
+        "interpretability"
+      ]
+    },
+    {
+      "id": "586dee9a79",
+      "source": "GitHub Trending AI",
+      "base_category": "tool",
+      "title": "GitHub Trending: FlashML-org/FreeToken — ⭐16,342",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "summary_raw": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+      "published_at": "2026-11-03T08:54:09.465636+00:00",
+      "importance_score": 8,
+      "categories": [
+        "tool",
+        "free-resource"
+      ],
+      "headline_fa": "معرفی FreeToken: مدل‌های مقیاس‌پذیر در دسکتاپ شما",
+      "summary_fa": "FreeToken امکان اجرای مدل‌های بزرگ را به صورت محلی و با سرعت و کارایی بالا فراهم می‌کند. این ابزار به توسعه‌دهندگان کمک می‌کند تا بدون نیاز به زیرساخت‌های سنگین، مدل‌های هوش مصنوعی را اجرا کنند.",
+      "why_it_matters": "این ابزار به توسعه‌دهندگان امکان می‌دهد تا به راحتی و با هزینه کمتر از مدل‌های بزرگ استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "tool",
+        "FreeToken",
+        "model serving"
+      ]
+    },
+    {
+      "id": "8093168dc7",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+      "summary_raw": "We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The research map just shows the grouping, but each topic page shows what the papers actually report. Here's the one for compact/efficient Gaussian splatting: https://atlas.scime.ai/research/3d-vision/gaussian-splatting/compact-and-efficient-gaussian-splatting A few things it shows: - the topic went from 29 papers in 2023-24 to 24",
+      "published_at": "2026-11-03T05:09:18+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحلیل ۱۰ سال مقالات یادگیری ماشین در یک صفحه",
+      "summary_fa": "این پروژه تمامی مقالات پذیرفته‌شده از کنفرانس‌های معتبر یادگیری ماشین را جمع‌آوری و به ۱۲۶۰ موضوع تقسیم کرده است. هر صفحه موضوع شامل نتایج و تحلیل‌های مربوط به مقالات است که می‌تواند به پژوهشگران در درک بهتر روندهای تحقیقاتی کمک کند.",
+      "why_it_matters": "این منبع می‌تواند به پژوهشگران در شناسایی روندهای تحقیقاتی و نتایج مهم کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "ML",
+        "research",
+        "papers",
+        "ICML",
+        "NeurIPS"
+      ]
+    },
+    {
+      "id": "862a39cabc",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "summary_raw": "likes: 4759 | downloads: 177009 | pipeline: image-text-to-text",
+      "published_at": "2026-11-03T08:54:07.886527+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل DeepSeek-V4.1: یک ابزار جدید برای پردازش تصویر و متن",
+      "summary_fa": "مدل DeepSeek-V4.1 یک ابزار جدید برای تبدیل تصویر به متن و بالعکس است. این مدل با 4759 لایک و 177009 دانلود، به توسعه‌دهندگان امکان می‌دهد تا از آن در پروژه‌های خود استفاده کنند.",
+      "why_it_matters": "این مدل به دلیل قابلیت‌های جدیدش در پردازش تصویر و متن، می‌تواند به بهبود پروژه‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "deepseek",
+        "model",
+        "image-text",
+        "AI"
+      ]
+    },
+    {
+      "id": "11403ace83",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "summary_raw": "likes: 19039 | downloads: 7915637 | pipeline: image-text-to-text",
+      "published_at": "2026-11-03T08:54:07.886557+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل Qwen/Qwen3.8-27B با قابلیت‌های جدید معرفی شد",
+      "summary_fa": "مدل Qwen/Qwen3.8-27B به عنوان یک مدل ترکیبی تصویر و متن معرفی شده است که قابلیت‌های جالبی در پردازش داده‌ها دارد. این مدل می‌تواند در پروژه‌های مختلف هوش مصنوعی و یادگیری ماشین مورد استفاده قرار گیرد.",
+      "why_it_matters": "این مدل به دلیل توانایی‌های جدیدش می‌تواند به توسعه‌دهندگان در ایجاد برنامه‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "Qwen",
+        "image-text"
+      ]
+    },
+    {
+      "id": "dc154fe27c",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Foundation model for particle collision data analysis",
+      "url": "https://www.nature.com/articles/s42256-026-01322-9",
+      "summary_raw": "Nature Machine Intelligence, Published online: 29 October 2026; doi:10.1038/s42256-026-01322-9 Hsu et al. present EVENET, a foundation model pretrained on simulated particle collisions using both self-supervised learning and physics labels, which transfers across many analysis tasks and works on real collider data.",
+      "published_at": "2026-11-03T08:53:44.837257+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل پایه EVENET برای تحلیل داده‌های برخورد ذرات",
+      "summary_fa": "محققان مدل EVENET را معرفی کردند که بر روی داده‌های شبیه‌سازی شده برخورد ذرات آموزش دیده و می‌تواند در تحلیل‌های مختلف استفاده شود. این مدل قابلیت انتقال به داده‌های واقعی را دارد و می‌تواند در تحقیقات فیزیک ذرات به کار رود.",
+      "why_it_matters": "این مدل می‌تواند به بهبود تحلیل داده‌های تجربی در فیزیک ذرات کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "foundation model",
+        "particle collision",
+        "data analysis",
+        "self-supervised learning"
+      ]
+    },
+    {
+      "id": "54fc5f63dc",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: LiquidAI/LFM3-1.7B",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "summary_raw": "likes: 1257 | downloads: 42384 | pipeline: text-generation",
+      "published_at": "2026-11-03T08:54:07.886506+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل LiquidAI/LFM3-1.7B به جمع توسعه‌دهندگان پیوست",
+      "summary_fa": "مدل LiquidAI/LFM3-1.7B به تازگی منتشر شده و قابلیت تولید متن را دارد. این مدل با ۱۲۵۷ لایک و ۴۲۳۸۴ دانلود، توجه زیادی را جلب کرده است.",
+      "why_it_matters": "انتشار این مدل می‌تواند به توسعه‌دهندگان در ایجاد برنامه‌های هوش مصنوعی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "model",
+        "text-generation"
+      ]
+    },
+    {
+      "id": "a92802fbe9",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: mistralai/Mistral-Large-4-1T-A52B",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "summary_raw": "likes: 1515 | downloads: 5500 | pipeline: image-text-to-text",
+      "published_at": "2026-11-03T08:54:07.886533+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید Mistral-Large-4-1T-A52B معرفی شد",
+      "summary_fa": "مدل Mistral-Large-4-1T-A52B به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل با 5500 دانلود و 1515 لایک، توجه زیادی را جلب کرده است.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا از تکنولوژی‌های پیشرفته در پردازش تصویر و متن بهره‌برداری کنند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "model",
+        "AI",
+        "image-text"
+      ]
+    },
+    {
+      "id": "dae8df2f96",
+      "source": "HF Trending Models",
+      "base_category": "model",
+      "title": "مدل ترند: baidu/Unlimited-OCR-2",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "summary_raw": "likes: 573 | downloads: 147588 | pipeline: image-text-to-text",
+      "published_at": "2026-11-03T08:54:07.886539+00:00",
+      "importance_score": 7,
+      "categories": [
+        "model"
+      ],
+      "headline_fa": "مدل جدید OCR بی‌حد و مرز از بایدو معرفی شد",
+      "summary_fa": "مدل baidu/Unlimited-OCR-2 به تازگی منتشر شده و قابلیت تبدیل تصویر به متن را دارد. این مدل می‌تواند در پروژه‌های مختلفی که نیاز به استخراج متن از تصاویر دارند، مورد استفاده قرار گیرد.",
+      "why_it_matters": "این مدل به توسعه‌دهندگان امکان می‌دهد تا به راحتی متن را از تصاویر استخراج کنند و در کاربردهای مختلف استفاده کنند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "OCR",
+        "Baidu",
+        "AI",
+        "model"
+      ]
+    },
+    {
+      "id": "a310aa67fb",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "summary_raw": "The one-year-old startup is now valued at $300 million.",
+      "published_at": "Mon, 02 Nov 2026 23:13:53 +0000",
+      "importance_score": 7,
+      "categories": [
+        "startup"
+      ],
+      "headline_fa": "استارتاپ Trajectory ۴۵ میلیون دلار جذب کرد",
+      "summary_fa": "استارتاپ Trajectory که یک سال از تأسیس آن می‌گذرد، ۴۵ میلیون دلار سرمایه جذب کرده است. این شرکت به دنبال دسترسی آسان‌تر به آموزش مدل‌های هوش مصنوعی برای کارشناسان غیرتخصصی است.",
+      "why_it_matters": "این خبر نشان‌دهنده رشد و توجه به دسترسی به فناوری‌های هوش مصنوعی برای افراد غیرتخصصی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "startup",
+        "funding"
+      ]
+    },
+    {
+      "id": "674c6017be",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "summary_raw": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "published_at": "Mon, 02 Nov 2026 16:30:00 +0000",
+      "importance_score": 7,
+      "categories": [
+        "startup"
+      ],
+      "headline_fa": "استارتاپ 42AI با 62.5 میلیون دلار و مدل پیش‌بینی رفتار انسانی معرفی شد",
+      "summary_fa": "استارتاپ 42AI از حالت پنهان خارج شده و با جذب 62.5 میلیون دلار، مدلی ارائه کرده که می‌تواند رفتار انسان‌ها را پیش‌بینی کند. این مدل می‌تواند در موقعیت‌های جدید، اقداماتی که فرد انجام خواهد داد را پیش‌بینی کند.",
+      "why_it_matters": "این تکنولوژی می‌تواند کاربردهای گسترده‌ای در زمینه‌های مختلف از جمله روانشناسی و بازاریابی داشته باشد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "startup",
+        "human behavior",
+        "prediction"
+      ]
+    },
+    {
+      "id": "8ea8980342",
+      "source": "TechCrunch AI",
+      "base_category": "startup",
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "summary_raw": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "published_at": "Mon, 02 Nov 2026 13:57:53 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "ادغام تب‌های چت و کار ChatGPT توسط OpenAI",
+      "summary_fa": "OpenAI اعلام کرد که پس از این تغییر، ChatGPT و Codex از یک مجموعه تخصیص استفاده خواهند کرد. این تغییر می‌تواند به بهبود کارایی و تجربه کاربری کمک کند.",
+      "why_it_matters": "این تغییر می‌تواند به بهینه‌سازی منابع و افزایش کارایی ابزارهای OpenAI منجر شود.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Codex",
+        "AI",
+        "update"
+      ]
+    },
+    {
+      "id": "301453efb2",
+      "source": "The Verge AI",
+      "base_category": "viral",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "summary_raw": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]",
+      "published_at": "2026-11-02T13:56:02-05:00",
+      "importance_score": 7,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "آنتروپیک محدودیت‌هایی برای کلون‌های بازی‌های ویدیویی کلود اعمال کرد",
+      "summary_fa": "آنتروپیک سیستم پرامپت کلود کد را به‌روزرسانی کرده تا از استفاده آن برای بازسازی بازی‌های ویدیویی موجود جلوگیری کند. این تغییر به منظور کنترل استفاده از هوش مصنوعی در صنعت بازی‌های ویدیویی انجام شده است.",
+      "why_it_matters": "این اقدام می‌تواند تأثیر زیادی بر روی نحوه استفاده از هوش مصنوعی در توسعه بازی‌ها داشته باشد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "gaming",
+        "Claude",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "0f456394fc",
+      "source": "AWS ML Blog",
+      "base_category": "tool",
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/",
+      "summary_raw": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
+      "published_at": "Mon, 02 Nov 2026 17:01:31 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool"
+      ],
+      "headline_fa": "ساخت دستیارهای هوشمند با تقطیر دانش در آمازون SageMaker",
+      "summary_fa": "این پست نشان می‌دهد که چگونه می‌توان با استفاده از تقطیر دانش سطح توالی، رفتار یک مدل پیشرفته را به یک مدل کوچک‌تر و کم‌هزینه‌تر منتقل کرد. این روش به توسعه‌دهندگان کمک می‌کند تا هزینه‌های تولید را کاهش دهند.",
+      "why_it_matters": "این تکنیک به بهینه‌سازی هزینه‌ها در پیاده‌سازی مدل‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "yes",
+      "viral_potential": "medium",
+      "tags": [
+        "knowledge_distillation",
+        "Amazon_SageMaker",
+        "AI",
+        "machine_learning"
+      ]
+    },
+    {
+      "id": "1b77609bd0",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
+      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "summary_raw": "Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub. The article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder .",
+      "published_at": "Mon, 02 Nov 2026 11:47:14 +0000",
+      "importance_score": 7,
+      "categories": [
+        "startup"
+      ],
+      "headline_fa": "آرامکو ۴۹ درصد از سهام شرکت هوش مصنوعی Humain را خرید",
+      "summary_fa": "شرکت سعودی آرامکو با خرید ۲.۶ میلیارد دلار، ۴۹ درصد از سهام شرکت هوش مصنوعی Humain را به دست آورد. این شرکت به دنبال تبدیل عربستان سعودی به یک مرکز جهانی هوش مصنوعی است.",
+      "why_it_matters": "این سرمایه‌گذاری می‌تواند به رشد صنعت هوش مصنوعی در عربستان و منطقه کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "Saudi Aramco",
+        "Humain",
+        "AI",
+        "investment"
+      ]
+    },
+    {
+      "id": "097a9eec1e",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+      "summary_raw": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on measured image data. The approach works, but it needs about ten times the compute. The article Adobe is testing how well AI agents can use editing tools like a Photoshop professional would appeared first on The Decoder .",
+      "published_at": "Sun, 01 Nov 2026 14:56:44 +0000",
+      "importance_score": 7,
+      "categories": [
+        "tool",
+        "research"
+      ],
+      "headline_fa": "آزمایش Adobe برای بهبود ویرایش تصویر با هوش مصنوعی",
+      "summary_fa": "Adobe Research و UC San Diego سیستم هوش مصنوعی EditAgent را توسعه داده‌اند که تصاویر را مانند یک حرفه‌ای ویرایش می‌کند. این سیستم به جای استفاده از ویرایشگر عمومی، ابزار مناسب برای هر کار را انتخاب می‌کند و از یک مدل زبانی استاندارد برای انتخاب بهترین نتیجه استفاده می‌کند.",
+      "why_it_matters": "این تحقیق می‌تواند به بهبود ابزارهای ویرایش تصویر و افزایش کارایی در طراحی کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "image editing",
+        "Adobe",
+        "EditAgent"
+      ]
+    },
+    {
+      "id": "1ddf4644ef",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "AI needs meaningful versioning",
+      "url": "https://www.nature.com/articles/s42256-026-01323-8",
+      "summary_raw": "Nature Machine Intelligence, Published online: 02 November 2026; doi:10.1038/s42256-026-01323-8 Artificial intelligence (AI) providers frequently update their models and system integrations without corresponding changes to their public identifiers. This undermines regulatory oversight and scientific reproducibility. We argue for meaningful AI versioning that meets the needs of regulators and researchers.",
+      "published_at": "2026-11-03T08:53:44.837170+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "نیاز به نسخه‌بندی معنادار در هوش مصنوعی",
+      "summary_fa": "این مقاله به بررسی ضرورت نسخه‌بندی معنادار مدل‌های هوش مصنوعی می‌پردازد که به بهبود نظارت و قابلیت بازتولید علمی کمک می‌کند. نویسندگان بر لزوم تغییرات در شناسه‌های عمومی مدل‌ها تأکید دارند.",
+      "why_it_matters": "این موضوع به بهبود شفافیت و اعتبار علمی در حوزه هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "versioning",
+        "regulation",
+        "research"
+      ]
+    },
+    {
+      "id": "a6b04b0fb0",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Efficient equivariant framework for universal charge density prediction",
+      "url": "https://www.nature.com/articles/s42256-026-01326-5",
+      "summary_raw": "Nature Machine Intelligence, Published online: 23 October 2026; doi:10.1038/s42256-026-01326-5 Li et al. introduce EdenGNN-Uni, a universal charge density model for the periodic table that is over an order of magnitude faster than some existing methods, facilitating efficient and accurate electronic structure calculations of materials.",
+      "published_at": "2026-11-03T08:53:44.837388+00:00",
+      "importance_score": 7,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل پیش‌بینی چگالی بار با کارایی بالا معرفی شد",
+      "summary_fa": "محققان EdenGNN-Uni را به عنوان یک مدل جهانی برای پیش‌بینی چگالی بار در جدول تناوبی معرفی کردند. این مدل به طور قابل توجهی سریع‌تر از روش‌های موجود است و می‌تواند محاسبات ساختار الکترونیکی مواد را تسهیل کند.",
+      "why_it_matters": "این مدل می‌تواند به بهبود دقت و سرعت محاسبات در علم مواد کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "charge density",
+        "EdenGNN-Uni",
+        "material science",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "b0b3fd323e",
+      "source": "AI Explained",
+      "base_category": "research",
+      "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+      "url": "https://www.youtube.com/watch?v=0Kw6_DTZPrY",
+      "summary_raw": "You know what, by AI standards, it might not have been the craziest week, but that doesn’t mean several headline-worthy things happened - from Altman and Anthropic implying they would release models they can’t control, with behavior they cannot verify, to Gemini 4 Carbon bursting onto the scene, some Amodei rationalization, de-tokenization and more…\n\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\n\nChapters:\n00:00 - Introduction\n00:00 - Introduction\n01:26 - Anthropic Staff Survey\n04:32 - Amodei's Five Rationalisations\n11:43 - Altman: Only Alignment Will Work\n18:41 - Gemini 4 Carbon and Why Models Keep Impressing\n\nAnthropic: The AI expectations gap: https://www.anthropic.com/research/ai-expectations-gap\n\nDario Amodei responds to Nathan Calvin: https://x.com/DarioAmodei/status/21127",
+      "published_at": "2026-11-02T17:02:16+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "آلتمان و آمو دی درباره مدل‌های غیرقابل کنترل صحبت کردند",
+      "summary_fa": "در این هفته، آلتمان و آمو دی به انتشار مدل‌هایی اشاره کردند که نمی‌توانند رفتار آن‌ها را تأیید کنند. این موضوع می‌تواند تأثیرات عمیقی بر توسعه هوش مصنوعی داشته باشد.",
+      "why_it_matters": "این خبر نشان‌دهنده چالش‌های اخلاقی و فنی در توسعه مدل‌های هوش مصنوعی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "models",
+        "ethics",
+        "development"
+      ]
+    },
+    {
+      "id": "31bf3981e6",
+      "source": "MIT Technology Review",
+      "base_category": "research",
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "summary_raw": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
+      "published_at": "Mon, 02 Nov 2026 17:00:00 +0000",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "افزایش کیفیت تحلیل‌ها با هوش مصنوعی عاملیت‌دار",
+      "summary_fa": "هوش مصنوعی عاملیت‌دار به اتوماسیون کامل جریان‌های کاری و انجام اقدامات بر اساس بینش‌های تولیدشده می‌پردازد. اما کیفیت بینش‌های فعلی تولیدشده توسط این سیستم‌ها نیاز به بهبود دارد.",
+      "why_it_matters": "این موضوع به بهبود دقت و کارایی تحلیل‌های تجاری کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "agentic AI",
+        "analytics",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "49b19adb3d",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Agentic inequality",
+      "url": "https://www.nature.com/articles/s42256-026-01318-5",
+      "summary_raw": "Nature Machine Intelligence, Published online: 20 October 2026; doi:10.1038/s42256-026-01318-5 Sharp et al. investigate the implications of unequal access to AI agents and of differences in their quality and number, developing a conceptual framework to identify potential sources of inequality and suggesting a research agenda to help address the resulting societal challenge.",
+      "published_at": "2026-11-03T08:53:44.837526+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "بررسی نابرابری دسترسی به عامل‌های هوش مصنوعی",
+      "summary_fa": "مقاله‌ای به بررسی پیامدهای نابرابری دسترسی به عامل‌های هوش مصنوعی و تفاوت‌های کیفیت و تعداد آن‌ها می‌پردازد. این مقاله یک چارچوب مفهومی برای شناسایی منابع نابرابری و پیشنهاد یک برنامه تحقیقاتی برای مقابله با چالش‌های اجتماعی ناشی از آن ارائه می‌دهد.",
+      "why_it_matters": "این تحقیق به درک بهتر نابرابری‌های اجتماعی ناشی از دسترسی به فناوری‌های هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "inequality",
+        "research"
+      ]
+    },
+    {
+      "id": "793e5e0435",
+      "source": "Nature Machine Intelligence",
+      "base_category": "research",
+      "title": "Towards understanding and monitorability of reasoning LLMs",
+      "url": "https://www.nature.com/articles/s42256-026-01333-6",
+      "summary_raw": "Nature Machine Intelligence, Published online: 19 October 2026; doi:10.1038/s42256-026-01333-6 Frontier LLMs are trained to solve problems in a step-by-step way, generating reasoning text in human-understandable language. However, these reasoning tokens are not accurate explanations of LLMs’ internal computations, raising challenges for monitorability.",
+      "published_at": "2026-11-03T08:53:44.837647+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "درک و پایش LLMهای استدلالی",
+      "summary_fa": "این مقاله به بررسی چالش‌های موجود در دقت توضیحات تولید شده توسط LLMهای استدلالی می‌پردازد. این توضیحات نمی‌توانند به‌طور دقیق محاسبات داخلی LLMها را توصیف کنند و این موضوع مانع از پایش مؤثر آن‌ها می‌شود.",
+      "why_it_matters": "این تحقیق به درک بهتر عملکرد LLMها و بهبود قابلیت‌های پایش آن‌ها کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "low",
+      "tags": [
+        "LLM",
+        "reasoning",
+        "monitorability",
+        "AI"
+      ]
+    },
+    {
+      "id": "c00fa33197",
+      "source": "ZDNet AI",
+      "base_category": "research",
+      "title": "OpenAI will merge ChatGPT’s chat and work tabs – here’s when, and what to expect",
+      "url": "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/",
+      "summary_raw": "On the heels of Anthropic’s similar move, the change will be tested among select users before being rolled out.",
+      "published_at": "2026-11-02T18:01:55Z",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "ادغام تب‌های چت و کار ChatGPT توسط OpenAI",
+      "summary_fa": "OpenAI تصمیم به ادغام تب‌های چت و کار ChatGPT گرفته است که ابتدا در بین کاربران منتخب آزمایش خواهد شد. این تغییر به دنبال اقدام مشابه Anthropic انجام می‌شود.",
+      "why_it_matters": "این تغییر می‌تواند تجربه کاربری را بهبود بخشد و به کارایی بیشتر ابزار کمک کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "update",
+        "AI"
+      ]
+    },
+    {
+      "id": "95666ffa19",
+      "source": "ZDNet AI",
+      "base_category": "research",
+      "title": "Athenahealth patients can ask Claude about their medical records now",
+      "url": "https://www.zdnet.com/health/athenahealth-claude-ai-medical-partnership/",
+      "summary_raw": "The partnership could provide one of the nation’s largest AI companies with a bevy of personal medical data.",
+      "published_at": "2026-11-02T17:30:47Z",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "پرسش بیماران Athenahealth از Claude درباره سوابق پزشکی",
+      "summary_fa": "بیماران Athenahealth اکنون می‌توانند از Claude بپرسند که اطلاعات پزشکی آن‌ها چیست. این همکاری می‌تواند داده‌های پزشکی شخصی زیادی را در اختیار یکی از بزرگ‌ترین شرکت‌های هوش مصنوعی قرار دهد.",
+      "why_it_matters": "این خبر نشان‌دهنده پیشرفت‌های جدید در استفاده از هوش مصنوعی در حوزه پزشکی است.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "healthcare",
+        "Claude",
+        "Athenahealth"
+      ]
+    },
+    {
+      "id": "3f251edbbd",
+      "source": "Hacker News Front",
+      "base_category": "tool",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "summary_raw": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs. Here’s a demo: https://youtu.be/BFsM-Se1Fh8 We’re both software engineers that spent our careers on dev tooling and infra across companies like Robinhood, Retool, WeWork, and Qualtrics. Testing was always a pain in the ass (esp Playwright and Selenium), so we built agents to do it for us. Modern day software has a ton of bugs and the change failure rate is only growing faster as coding agent adoption scales. LLMs are really good at generating code, but reinforce their own assumptions, write a ton of useless tests, and are bad at visual understanding. On DeepSWE v1.1, Sonnet 5.5 hit 66.2% pa",
+      "published_at": "Mon, 02 Nov 2026 17:05:25 +0000",
+      "importance_score": 6,
+      "categories": [
+        "tool",
+        "startup"
+      ],
+      "headline_fa": "معرفی Momentic: ابزار خودکار تست نرم‌افزار",
+      "summary_fa": "Momentic ابزاری است که با استفاده از هوش مصنوعی به طور خودکار به تست و شناسایی باگ‌ها در اپلیکیشن‌های وب و موبایل می‌پردازد. این ابزار به توسعه‌دهندگان کمک می‌کند تا فرایند تست را بهبود بخشند و زمان بیشتری برای توسعه ویژگی‌های جدید داشته باشند.",
+      "why_it_matters": "Momentic می‌تواند به کاهش زمان و هزینه‌های تست نرم‌افزار کمک کند و کیفیت محصولات نرم‌افزاری را افزایش دهد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "QA",
+        "automation",
+        "software",
+        "testing"
+      ]
+    },
+    {
+      "id": "77ebcc6665",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "What actually broke when I tried to fine-tune on web-scraped data and what fixed it [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/",
+      "summary_raw": "Fine tuning on self collected web data felt straightforward until it wasn’t. Here’s what actually caused problems: Boilerplate contamination was the silent killer. Navigation menus, cookie banners, and footer text were leaking into training examples. The model started generating weirdly structured outputs that looked like half-rendered HTML. Solved it with aggressive DOM-targeting rather than raw text extraction and switching to a rotating residential proxy layer (per-request IP rotation means target sites serve you the same rendered DOM a real browser session would get, rather than a bot-filt",
+      "published_at": "2026-11-02T16:25:25+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "چالش‌های فاین‌تیونینگ با داده‌های وب‌اسکرپ شده",
+      "summary_fa": "این مقاله به مشکلاتی که در فاین‌تیونینگ مدل‌ها با داده‌های جمع‌آوری شده از وب پیش آمد، می‌پردازد. نویسنده با اشاره به آلودگی‌های متنی و راه‌حل‌های آن، تجربیات خود را به اشتراک می‌گذارد.",
+      "why_it_matters": "این موضوع به درک بهتر چالش‌های فاین‌تیونینگ و بهبود کیفیت داده‌ها کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "fine-tuning",
+        "web-scraping",
+        "machine-learning"
+      ]
+    },
+    {
+      "id": "f3a11e2da2",
+      "source": "r/MachineLearning",
+      "base_category": "research",
+      "title": "[R] There is no free lunch in RLVR: under strategy specialization, every pass@1 gain provably costs some prompt, and the pass@k crossover has a tight bound [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/",
+      "summary_raw": "Paper: https://arxiv.org/abs/2610.39295 Code + verification package (every number in the paper is checked by a script): https://github.com/yliusci/no-free-lunch-rlvr Browser diagnostic: https://huggingface.co/spaces/yliusci/passk-price I kept running into the same pattern in RLVR papers: the RL model wins at pass@1 and the base model catches up or wins at large k (Yue et al. 2025 and many follow-ups). I wanted to know whether more training fixes this or whether it is structural. This is a theory paper, no new training runs. Setup: model RLVR as an exponential tilt of the base policy over solut",
+      "published_at": "2026-11-02T04:30:11+00:00",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "تحلیل جدید در یادگیری تقویتی: هزینه‌های استراتژی تخصصی",
+      "summary_fa": "این مقاله به بررسی هزینه‌های استراتژی تخصصی در یادگیری تقویتی می‌پردازد و نشان می‌دهد که هر افزایش در pass@1 هزینه‌ای در پی دارد. این تحقیق می‌تواند به درک بهتر عملکرد مدل‌های RLVR کمک کند.",
+      "why_it_matters": "این تحقیق به تحلیل عمیق‌تری از رفتار مدل‌های یادگیری تقویتی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "RL",
+        "research",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "91f2a8dc95",
+      "source": "The Verge AI",
+      "base_category": "viral",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "summary_raw": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]",
+      "published_at": "2026-11-02T12:51:19-05:00",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "نیویورک تایمز علیه مرورگر بریو به خاطر جمع‌آوری داده‌های هوش مصنوعی شکایت کرد",
+      "summary_fa": "نیویورک تایمز و چند نشریه دیگر علیه شرکت سازنده مرورگر بریو به خاطر جمع‌آوری غیرقانونی داده‌ها برای آموزش هوش مصنوعی و دور زدن دیوارهای پرداخت شکایت کرده‌اند. این موضوع می‌تواند تأثیرات زیادی بر روی نحوه دسترسی به محتوا و استفاده از داده‌ها در صنعت رسانه داشته باشد.",
+      "why_it_matters": "این شکایت می‌تواند بر روی مدل‌های تجاری و حقوق مالکیت معنوی در صنعت رسانه تأثیر بگذارد.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "lawsuit",
+        "AI",
+        "Brave",
+        "New York Times"
+      ]
+    },
+    {
+      "id": "154e438e96",
+      "source": "MIT Technology Review",
+      "base_category": "research",
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "summary_raw": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
+      "published_at": "Mon, 02 Nov 2026 13:10:32 +0000",
+      "importance_score": 6,
+      "categories": [],
+      "headline_fa": "توسعه‌دهندگان و چالش‌های جدید در استفاده از هوش مصنوعی",
+      "summary_fa": "این مقاله به بررسی چگونگی عملکرد یک عامل هوش مصنوعی در انجام وظایف برنامه‌نویسی می‌پردازد. این عامل علاوه بر پاسخگویی، برنامه‌ریزی، تولید کد و اجرای تست‌ها را نیز انجام می‌دهد.",
+      "why_it_matters": "این موضوع به درک بهتر از چگونگی تعامل توسعه‌دهندگان با هوش مصنوعی کمک می‌کند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "development",
+        "coding",
+        "technology"
+      ]
+    },
+    {
+      "id": "de297dd351",
+      "source": "The Decoder",
+      "base_category": "viral",
+      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "summary_raw": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions too. The language of the prompt had an especially strong effect on the political slant of responses. The article Chinese AI models are politically complex, not just government mouthpieces, study finds appeared first on The Decoder .",
+      "published_at": "Sun, 01 Nov 2026 12:33:01 +0000",
+      "importance_score": 6,
+      "categories": [
+        "research"
+      ],
+      "headline_fa": "مدل‌های هوش مصنوعی چینی پیچیدگی‌های سیاسی دارند",
+      "summary_fa": "یک مطالعه جدید نشان می‌دهد که مدل‌های هوش مصنوعی چینی به طور یکنواخت به سوالات سیاسی پاسخ نمی‌دهند و مدل‌های غربی نیز گاهی مواضع رسمی پکن را اتخاذ می‌کنند. این تحقیق بر تأثیر زبان پرسش بر تمایلات سیاسی پاسخ‌ها تأکید دارد.",
+      "why_it_matters": "این مطالعه نشان می‌دهد که مدل‌های هوش مصنوعی چینی فراتر از ابزارهای تبلیغاتی دولت عمل می‌کنند.",
+      "opportunity": "no",
+      "viral_potential": "medium",
+      "tags": [
+        "AI",
+        "politics",
+        "research",
+        "China"
+      ]
+    }
+  ]
+}
