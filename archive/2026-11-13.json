@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T09:06:34.213724+00:00",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T09:00:39.828572+00:00",
   "stats": {
     "total_sources": 105,
-    "total_fetched": 220,
+    "total_fetched": 264,
     "total_processed": 0,
     "total_displayed": 0,
     "top_score": 0,
